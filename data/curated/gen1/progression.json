@@ -1,0 +1,312 @@
+{
+  "source": {
+    "note": "Hand-assigned by Claude, NOT derived from game data. `stage` = number of badges you typically hold when you first arrive (0-8), 9 = after the Elite Four. HM and key-item gating (Cut, Surf, Strength, Flash, Poke Flute, bike, Silph Scope) is folded into these numbers using the typical story order, so sequence-breaking can reach areas earlier. Review before relying on it. Stone shop and pickup locations are verified against pret/pokered at commit 171e2c204f9c1ff8e577ca387a4bbb009e130843 (data/items/marts.asm, data/maps/objects/*.asm). Method gating: Old Rod from the Vermilion City fisherman, Good Rod from the Fuchsia City fisherman, Super Rod from the Route 12 house, Surf (HM03 from the Safari Zone secret house) is usable with the Soul Badge. Exclusive gifts: starters verified in pokered/scripts/OaksLab.asm; the fossil and Fighting Dojo choices follow the games (take one, the other is gone) and are not re-verified in the source. Moon Stone quantity (3) counted from pokered map objects: Mt. Moon 1F, Route 2, Rocket Hideout B2F. The other evolution stones are sold in Celadon, so unlimited. Corrections to PokeAPI encounters, verified in pret/pokered scripts/MtMoonPokecenter.asm: the Magikarp salesman sells one level 5 Magikarp for 500 yen in the Mt. Moon Pokemon Center (PokeAPI calls it a gift in 'Route 4 Pokemon Center' and lists a second one in 'Route 3 Pokemon Center', which does not exist in the game data)."
+  },
+  "badgeOrder": [
+    "Boulder",
+    "Cascade",
+    "Thunder",
+    "Rainbow",
+    "Soul",
+    "Marsh",
+    "Volcano",
+    "Earth"
+  ],
+  "methods": {
+    "old-rod": 2,
+    "good-rod": 4,
+    "super-rod": 4,
+    "surf": 5
+  },
+  "exclusiveGroups": [
+    {
+      "id": "starter",
+      "reason": "Oak's Lab: you take one starter",
+      "species": [
+        "bulbasaur",
+        "charmander",
+        "squirtle"
+      ]
+    },
+    {
+      "id": "fossil",
+      "reason": "Mt. Moon: one fossil only (Helix or Dome); Old Amber is separate",
+      "species": [
+        "omanyte",
+        "kabuto"
+      ]
+    },
+    {
+      "id": "dojo",
+      "reason": "Fighting Dojo (Saffron): Hitmonlee or Hitmonchan, not both",
+      "species": [
+        "hitmonlee",
+        "hitmonchan"
+      ]
+    }
+  ],
+  "corrections": {
+    "purchases": [
+      {
+        "species": "magikarp",
+        "area": "kanto-route-4-pokemon-center",
+        "price": 500,
+        "where": "Mt. Moon Pokémon Center (Route 4 side)"
+      }
+    ],
+    "removedSources": [
+      {
+        "species": "magikarp",
+        "area": "kanto-route-3-pokemon-center",
+        "reason": "Not in pokered; the only Magikarp salesman is in the Mt. Moon Pokémon Center"
+      }
+    ]
+  },
+  "areas": {
+    "kanto-route-1-area": {
+      "stage": 0
+    },
+    "kanto-route-2-north-towards-pewter-city": {
+      "stage": 0
+    },
+    "kanto-route-2-south-towards-viridian-city": {
+      "stage": 0
+    },
+    "kanto-route-22-area": {
+      "stage": 0
+    },
+    "pallet-town-area": {
+      "stage": 0
+    },
+    "viridian-city-area": {
+      "stage": 0
+    },
+    "viridian-forest-area": {
+      "stage": 0
+    },
+    "cerulean-city-area": {
+      "stage": 1
+    },
+    "kanto-route-24-area": {
+      "stage": 1
+    },
+    "kanto-route-25-area": {
+      "stage": 1
+    },
+    "kanto-route-3-area": {
+      "stage": 1
+    },
+    "kanto-route-3-pokemon-center": {
+      "stage": 1
+    },
+    "kanto-route-4-area": {
+      "stage": 1
+    },
+    "kanto-route-4-pokemon-center": {
+      "stage": 1
+    },
+    "mt-moon-1f": {
+      "stage": 1
+    },
+    "mt-moon-b1f": {
+      "stage": 1
+    },
+    "mt-moon-b2f": {
+      "stage": 1
+    },
+    "digletts-cave-area": {
+      "stage": 2
+    },
+    "kanto-route-11-area": {
+      "stage": 2
+    },
+    "kanto-route-5-area": {
+      "stage": 2
+    },
+    "kanto-route-6-area": {
+      "stage": 2
+    },
+    "kanto-underground-path-area": {
+      "stage": 2
+    },
+    "vermilion-city-area": {
+      "stage": 2
+    },
+    "vermilion-city-ss-anne-dock": {
+      "stage": 2
+    },
+    "celadon-city-area": {
+      "stage": 3
+    },
+    "celadon-city-celadon-mansion": {
+      "stage": 3
+    },
+    "celadon-city-prize-corner": {
+      "stage": 3
+    },
+    "kanto-route-10-area": {
+      "stage": 3
+    },
+    "kanto-route-7-area": {
+      "stage": 3
+    },
+    "kanto-route-8-area": {
+      "stage": 3
+    },
+    "kanto-route-9-area": {
+      "stage": 3
+    },
+    "rock-tunnel-b1f": {
+      "stage": 3
+    },
+    "rock-tunnel-b2f": {
+      "stage": 3
+    },
+    "fuchsia-city-area": {
+      "stage": 4
+    },
+    "kanto-route-12-area": {
+      "stage": 4
+    },
+    "kanto-route-13-area": {
+      "stage": 4
+    },
+    "kanto-route-14-area": {
+      "stage": 4
+    },
+    "kanto-route-15-area": {
+      "stage": 4
+    },
+    "kanto-route-16-area": {
+      "stage": 4
+    },
+    "kanto-route-17-area": {
+      "stage": 4
+    },
+    "kanto-route-18-area": {
+      "stage": 4
+    },
+    "kanto-safari-zone-area-1-east": {
+      "stage": 4
+    },
+    "kanto-safari-zone-area-2-north": {
+      "stage": 4
+    },
+    "kanto-safari-zone-area-3-west": {
+      "stage": 4
+    },
+    "kanto-safari-zone-middle": {
+      "stage": 4
+    },
+    "pokemon-tower-3f": {
+      "stage": 4
+    },
+    "pokemon-tower-4f": {
+      "stage": 4
+    },
+    "pokemon-tower-5f": {
+      "stage": 4
+    },
+    "pokemon-tower-6f": {
+      "stage": 4
+    },
+    "pokemon-tower-7f": {
+      "stage": 4
+    },
+    "kanto-power-plant-area": {
+      "stage": 5
+    },
+    "saffron-city-fighting-dojo": {
+      "stage": 5
+    },
+    "saffron-city-silph-co-7f": {
+      "stage": 5
+    },
+    "cinnabar-island-area": {
+      "stage": 6
+    },
+    "cinnabar-island-cinnabar-lab": {
+      "stage": 6
+    },
+    "kanto-sea-route-19-area": {
+      "stage": 6
+    },
+    "kanto-sea-route-20-area": {
+      "stage": 6
+    },
+    "kanto-sea-route-21-area": {
+      "stage": 6
+    },
+    "pokemon-mansion-1f": {
+      "stage": 6
+    },
+    "pokemon-mansion-2f": {
+      "stage": 6
+    },
+    "pokemon-mansion-3f": {
+      "stage": 6
+    },
+    "pokemon-mansion-b1f": {
+      "stage": 6
+    },
+    "seafoam-islands-1f": {
+      "stage": 6
+    },
+    "seafoam-islands-b1f": {
+      "stage": 6
+    },
+    "seafoam-islands-b2f": {
+      "stage": 6
+    },
+    "seafoam-islands-b3f": {
+      "stage": 6
+    },
+    "seafoam-islands-b4f": {
+      "stage": 6
+    },
+    "kanto-route-23-area": {
+      "stage": 8
+    },
+    "kanto-victory-road-2-1f": {
+      "stage": 8
+    },
+    "kanto-victory-road-2-2f": {
+      "stage": 8
+    },
+    "kanto-victory-road-2-3f": {
+      "stage": 8
+    },
+    "cerulean-cave-1f": {
+      "stage": 9
+    },
+    "cerulean-cave-2f": {
+      "stage": 9
+    },
+    "cerulean-cave-b1f": {
+      "stage": 9
+    }
+  },
+  "items": {
+    "moonstone": {
+      "stage": 1,
+      "source": "Mt. Moon 1F (also Route 2 and Rocket Hideout B2F)",
+      "quantity": 3
+    },
+    "firestone": {
+      "stage": 3,
+      "source": "Celadon Dept. Store 4F"
+    },
+    "thunderstone": {
+      "stage": 3,
+      "source": "Celadon Dept. Store 4F"
+    },
+    "waterstone": {
+      "stage": 3,
+      "source": "Celadon Dept. Store 4F"
+    },
+    "leafstone": {
+      "stage": 3,
+      "source": "Celadon Dept. Store 4F"
+    }
+  }
+}

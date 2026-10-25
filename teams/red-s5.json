@@ -1,0 +1,4340 @@
+{
+  "id": "red-s5",
+  "kind": "ingame",
+  "target": "red",
+  "seed": 5,
+  "members": [
+    {
+      "set": {
+        "species": "dugtrio",
+        "level": 56,
+        "moves": [
+          "earthquake",
+          "rest",
+          "slash",
+          "hyperbeam"
+        ]
+      },
+      "roles": [
+        "recovery",
+        "fast"
+      ],
+      "acquisition": {
+        "stage": 3,
+        "steps": [
+          {
+            "species": "dugtrio",
+            "how": "wild",
+            "where": "Digletts Cave (grass/cave)",
+            "minLevel": 29,
+            "maxLevel": 31,
+            "stage": 2,
+            "place": "Digletts Cave"
+          }
+        ],
+        "moves": [
+          {
+            "move": "earthquake",
+            "source": {
+              "kind": "level",
+              "level": 47,
+              "from": "dugtrio"
+            },
+            "stage": 0
+          },
+          {
+            "move": "rest",
+            "source": {
+              "kind": "tm",
+              "number": 44,
+              "location": "S.S. Anne B1F rooms"
+            },
+            "stage": 2
+          },
+          {
+            "move": "slash",
+            "source": {
+              "kind": "level",
+              "level": 35,
+              "from": "dugtrio"
+            },
+            "stage": 0
+          },
+          {
+            "move": "hyperbeam",
+            "source": {
+              "kind": "tm",
+              "number": 15,
+              "location": "Celadon Game Corner prize counter"
+            },
+            "stage": 3
+          }
+        ],
+        "notes": []
+      }
+    },
+    {
+      "set": {
+        "species": "venomoth",
+        "level": 56,
+        "moves": [
+          "doubleedge",
+          "sleeppowder",
+          "psychic",
+          "takedown"
+        ]
+      },
+      "roles": [
+        "sleep"
+      ],
+      "acquisition": {
+        "stage": 4,
+        "steps": [
+          {
+            "species": "venomoth",
+            "how": "wild",
+            "where": "Safari Zone 2 North (grass/cave)",
+            "minLevel": 32,
+            "maxLevel": 32,
+            "stage": 4,
+            "place": "Safari Zone 2 North"
+          }
+        ],
+        "moves": [
+          {
+            "move": "doubleedge",
+            "source": {
+              "kind": "tm",
+              "number": 10,
+              "location": "Rocket Hideout B3F"
+            },
+            "stage": 4
+          },
+          {
+            "move": "sleeppowder",
+            "source": {
+              "kind": "level",
+              "level": 43,
+              "from": "venomoth"
+            },
+            "stage": 0
+          },
+          {
+            "move": "psychic",
+            "source": {
+              "kind": "level",
+              "level": 50,
+              "from": "venomoth"
+            },
+            "stage": 0
+          },
+          {
+            "move": "takedown",
+            "source": {
+              "kind": "tm",
+              "number": 9,
+              "location": "Celadon Dept. Store 2F"
+            },
+            "stage": 3
+          }
+        ],
+        "notes": []
+      }
+    },
+    {
+      "set": {
+        "species": "omastar",
+        "level": 56,
+        "moves": [
+          "hydropump",
+          "submission",
+          "surf",
+          "hornattack"
+        ]
+      },
+      "roles": [],
+      "acquisition": {
+        "stage": 6,
+        "steps": [
+          {
+            "species": "omanyte",
+            "how": "fossil",
+            "where": "Revive at Cinnabar Island Cinnabar Lab (helix fossil)",
+            "minLevel": 30,
+            "maxLevel": 30,
+            "stage": 6,
+            "place": "Cinnabar Island Cinnabar Lab"
+          },
+          {
+            "species": "omastar",
+            "how": "evolution",
+            "where": "Evolves from Omanyte at level 40",
+            "stage": 6,
+            "evolution": {
+              "how": "level",
+              "level": 40
+            }
+          }
+        ],
+        "moves": [
+          {
+            "move": "hydropump",
+            "source": {
+              "kind": "level",
+              "level": 49,
+              "from": "omastar"
+            },
+            "stage": 0
+          },
+          {
+            "move": "submission",
+            "source": {
+              "kind": "tm",
+              "number": 17,
+              "location": "Celadon Dept. Store 2F"
+            },
+            "stage": 3
+          },
+          {
+            "move": "surf",
+            "source": {
+              "kind": "hm",
+              "number": 3,
+              "location": "Safari Zone secret house"
+            },
+            "stage": 4
+          },
+          {
+            "move": "hornattack",
+            "source": {
+              "kind": "level",
+              "level": 34,
+              "from": "omanyte"
+            },
+            "stage": 0
+          }
+        ],
+        "notes": []
+      }
+    },
+    {
+      "set": {
+        "species": "pidgeot",
+        "level": 56,
+        "moves": [
+          "takedown",
+          "skyattack",
+          "gust",
+          "quickattack"
+        ]
+      },
+      "roles": [],
+      "acquisition": {
+        "stage": 8,
+        "steps": [
+          {
+            "species": "pidgey",
+            "how": "wild",
+            "where": "Route 1 (grass/cave)",
+            "minLevel": 2,
+            "maxLevel": 5,
+            "stage": 0,
+            "place": "Route 1"
+          },
+          {
+            "species": "pidgeotto",
+            "how": "evolution",
+            "where": "Evolves from Pidgey at level 18",
+            "stage": 0,
+            "evolution": {
+              "how": "level",
+              "level": 18
+            }
+          },
+          {
+            "species": "pidgeot",
+            "how": "evolution",
+            "where": "Evolves from Pidgeotto at level 36",
+            "stage": 0,
+            "evolution": {
+              "how": "level",
+              "level": 36
+            }
+          }
+        ],
+        "moves": [
+          {
+            "move": "takedown",
+            "source": {
+              "kind": "tm",
+              "number": 9,
+              "location": "Celadon Dept. Store 2F"
+            },
+            "stage": 3
+          },
+          {
+            "move": "skyattack",
+            "source": {
+              "kind": "tm",
+              "number": 43,
+              "location": "Victory Road 1F"
+            },
+            "stage": 8
+          },
+          {
+            "move": "gust",
+            "source": {
+              "kind": "start",
+              "from": "pidgey"
+            },
+            "stage": 0
+          },
+          {
+            "move": "quickattack",
+            "source": {
+              "kind": "level",
+              "level": 12,
+              "from": "pidgey"
+            },
+            "stage": 0
+          }
+        ],
+        "notes": []
+      }
+    },
+    {
+      "set": {
+        "species": "raichu",
+        "level": 56,
+        "moves": [
+          "thunderbolt",
+          "thunderwave",
+          "submission",
+          "thunder"
+        ]
+      },
+      "roles": [
+        "paralysis",
+        "fast"
+      ],
+      "acquisition": {
+        "stage": 3,
+        "steps": [
+          {
+            "species": "pikachu",
+            "how": "wild",
+            "where": "Viridian Forest (grass/cave)",
+            "minLevel": 3,
+            "maxLevel": 5,
+            "stage": 0,
+            "place": "Viridian Forest"
+          },
+          {
+            "species": "raichu",
+            "how": "evolution",
+            "where": "Evolve Pikachu with a Thunder Stone (Celadon Dept. Store 4F)",
+            "stage": 3,
+            "evolution": {
+              "how": "stone",
+              "item": "Thunder Stone"
+            }
+          }
+        ],
+        "moves": [
+          {
+            "move": "thunderbolt",
+            "source": {
+              "kind": "tm",
+              "number": 24,
+              "location": "Vermilion Gym (Lt. Surge)"
+            },
+            "stage": 3
+          },
+          {
+            "move": "thunderwave",
+            "source": {
+              "kind": "level",
+              "level": 9,
+              "from": "pikachu"
+            },
+            "stage": 0
+          },
+          {
+            "move": "submission",
+            "source": {
+              "kind": "tm",
+              "number": 17,
+              "location": "Celadon Dept. Store 2F"
+            },
+            "stage": 3
+          },
+          {
+            "move": "thunder",
+            "source": {
+              "kind": "level",
+              "level": 43,
+              "from": "pikachu"
+            },
+            "stage": 0
+          }
+        ],
+        "notes": [
+          "Hold off evolving Pikachu until level 43 to learn Thunder; Raichu can't learn it."
+        ]
+      }
+    },
+    {
+      "set": {
+        "species": "hypno",
+        "level": 56,
+        "moves": [
+          "psychic",
+          "submission",
+          "megakick",
+          "confusion"
+        ]
+      },
+      "roles": [],
+      "acquisition": {
+        "stage": 3,
+        "steps": [
+          {
+            "species": "drowzee",
+            "how": "wild",
+            "where": "Route 11 (grass/cave)",
+            "minLevel": 9,
+            "maxLevel": 15,
+            "stage": 2,
+            "place": "Route 11"
+          },
+          {
+            "species": "hypno",
+            "how": "evolution",
+            "where": "Evolves from Drowzee at level 26",
+            "stage": 2,
+            "evolution": {
+              "how": "level",
+              "level": 26
+            }
+          }
+        ],
+        "moves": [
+          {
+            "move": "psychic",
+            "source": {
+              "kind": "level",
+              "level": 37,
+              "from": "hypno"
+            },
+            "stage": 0
+          },
+          {
+            "move": "submission",
+            "source": {
+              "kind": "tm",
+              "number": 17,
+              "location": "Celadon Dept. Store 2F"
+            },
+            "stage": 3
+          },
+          {
+            "move": "megakick",
+            "source": {
+              "kind": "tm",
+              "number": 5,
+              "location": "Celadon Dept. Store 2F"
+            },
+            "stage": 3
+          },
+          {
+            "move": "confusion",
+            "source": {
+              "kind": "level",
+              "level": 17,
+              "from": "drowzee"
+            },
+            "stage": 0
+          }
+        ],
+        "notes": []
+      }
+    }
+  ],
+  "analysis": {
+    "plannedLevel": 56,
+    "constraints": {
+      "must": [],
+      "ban": [],
+      "noTrades": false,
+      "noLegendaries": false,
+      "nuzlocke": false
+    },
+    "sharedWeaknesses": [],
+    "synergy": {
+      "holes": [],
+      "severe": [],
+      "uncovered": [
+        "Ghost",
+        "Psychic",
+        "Dragon"
+      ],
+      "duplicatePrimary": 0,
+      "normalMembers": 1,
+      "distinctTypes": 9,
+      "score": 1.2600000000000002
+    },
+    "teamDefense": {
+      "Bug": {
+        "weak": 2,
+        "resist": 1,
+        "immune": 0,
+        "neutral": 3
+      },
+      "Fire": {
+        "weak": 1,
+        "resist": 1,
+        "immune": 0,
+        "neutral": 4
+      },
+      "Ghost": {
+        "weak": 0,
+        "resist": 0,
+        "immune": 2,
+        "neutral": 4
+      },
+      "Ice": {
+        "weak": 2,
+        "resist": 1,
+        "immune": 0,
+        "neutral": 3
+      },
+      "Poison": {
+        "weak": 0,
+        "resist": 2,
+        "immune": 0,
+        "neutral": 4
+      },
+      "Psychic": {
+        "weak": 1,
+        "resist": 1,
+        "immune": 0,
+        "neutral": 4
+      },
+      "Electric": {
+        "weak": 2,
+        "resist": 1,
+        "immune": 1,
+        "neutral": 2
+      },
+      "Grass": {
+        "weak": 2,
+        "resist": 2,
+        "immune": 0,
+        "neutral": 2
+      },
+      "Dragon": {
+        "weak": 0,
+        "resist": 0,
+        "immune": 0,
+        "neutral": 6
+      },
+      "Fighting": {
+        "weak": 1,
+        "resist": 2,
+        "immune": 0,
+        "neutral": 3
+      },
+      "Flying": {
+        "weak": 1,
+        "resist": 2,
+        "immune": 0,
+        "neutral": 3
+      },
+      "Ground": {
+        "weak": 2,
+        "resist": 0,
+        "immune": 1,
+        "neutral": 3
+      },
+      "Normal": {
+        "weak": 0,
+        "resist": 1,
+        "immune": 0,
+        "neutral": 5
+      },
+      "Rock": {
+        "weak": 2,
+        "resist": 1,
+        "immune": 0,
+        "neutral": 3
+      },
+      "Water": {
+        "weak": 1,
+        "resist": 0,
+        "immune": 0,
+        "neutral": 5
+      }
+    },
+    "starter": {
+      "player": "bulbasaur",
+      "rival": "charmander",
+      "onTeam": false
+    },
+    "bosses": [
+      {
+        "boss": "rival-route22-early",
+        "name": "Rival",
+        "location": "Route 22",
+        "stage": 0,
+        "level": 9,
+        "rivalStarter": "charmander",
+        "usable": [
+          {
+            "member": "pidgeot",
+            "form": "pidgey",
+            "moves": [
+              "gust"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "pikachu",
+            "moves": [
+              "thundershock",
+              "thunderwave"
+            ]
+          }
+        ],
+        "notYet": [
+          "dugtrio",
+          "venomoth",
+          "omastar",
+          "hypno"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgey",
+              "level": 9,
+              "moves": [
+                "gust",
+                "sandattack"
+              ]
+            },
+            "answer": {
+              "move": "thundershock",
+              "member": "raichu",
+              "form": "pikachu",
+              "minPercent": 55.6,
+              "maxPercent": 66.7,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 9 Pikachu Thunder Shock vs. Lvl 9 Pidgey: 15-18 (45.4 - 54.5%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "gust",
+              "minPercent": 28,
+              "maxPercent": 36,
+              "ko": "4.2% chance to 3HKO",
+              "description": "Lvl 9 Pidgey Gust vs. Lvl 9 Pikachu: 7-9 (23.3 - 30%) -- 4.2% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charmander",
+              "level": 8,
+              "moves": [
+                "scratch",
+                "growl"
+              ]
+            },
+            "answer": {
+              "move": "gust",
+              "member": "pidgeot",
+              "form": "pidgey",
+              "minPercent": 28,
+              "maxPercent": 36,
+              "ko": "4.2% chance to 3HKO",
+              "description": "Lvl 9 Pidgey Gust vs. Lvl 8 Charmander: 7-9 (23.3 - 30%) -- 4.2% chance to 3HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "scratch",
+              "minPercent": 19.2,
+              "maxPercent": 23.1,
+              "ko": "possible 5HKO",
+              "description": "Lvl 8 Charmander Scratch vs. Lvl 9 Pidgey: 5-6 (16.1 - 19.3%) -- possible 5HKO"
+            }
+          }
+        ],
+        "lead": "pikachu",
+        "warnings": [
+          "Weak against Charmander: best is Lvl 9 Pidgey Gust vs. Lvl 8 Charmander: 7-9 (23.3 - 30%) -- 4.2% chance to 3HKO."
+        ]
+      },
+      {
+        "boss": "rival-cerulean",
+        "name": "Rival",
+        "location": "Cerulean City",
+        "stage": 0,
+        "level": 18,
+        "rivalStarter": "charmander",
+        "usable": [
+          {
+            "member": "pidgeot",
+            "form": "pidgeotto",
+            "moves": [
+              "gust",
+              "quickattack"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "pikachu",
+            "moves": [
+              "thundershock",
+              "thunderwave",
+              "quickattack"
+            ]
+          }
+        ],
+        "notYet": [
+          "dugtrio",
+          "venomoth",
+          "omastar",
+          "hypno"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeotto",
+              "level": 18,
+              "moves": [
+                "gust",
+                "sandattack",
+                "quickattack"
+              ]
+            },
+            "answer": {
+              "move": "thundershock",
+              "member": "raichu",
+              "form": "pikachu",
+              "minPercent": 41.5,
+              "maxPercent": 49.1,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 18 Pikachu Thunder Shock vs. Lvl 18 Pidgeotto: 22-26 (34.3 - 40.6%) -- guaranteed 3HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "gust",
+              "minPercent": 32.5,
+              "maxPercent": 40,
+              "ko": "99.4% chance to 3HKO",
+              "description": "Lvl 18 Pidgeotto Gust vs. Lvl 18 Pikachu: 13-16 (25.4 - 31.3%) -- 99.4% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "abra",
+              "level": 15,
+              "moves": [
+                "teleport"
+              ]
+            },
+            "answer": {
+              "move": "gust",
+              "member": "pidgeot",
+              "form": "pidgeotto",
+              "minPercent": 52.9,
+              "maxPercent": 64.7,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 18 Pidgeotto Gust vs. Lvl 15 Abra: 18-22 (40.9 - 50%) -- guaranteed 2HKO",
+              "outspeeds": false
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rattata",
+              "level": 15,
+              "moves": [
+                "tackle",
+                "tailwhip",
+                "quickattack",
+                "hyperfang"
+              ]
+            },
+            "answer": {
+              "move": "thundershock",
+              "member": "raichu",
+              "form": "pikachu",
+              "minPercent": 44.4,
+              "maxPercent": 52.8,
+              "ko": "14.6% chance to 2HKO",
+              "description": "Lvl 18 Pikachu Thunder Shock vs. Lvl 15 Rattata: 16-19 (35.5 - 42.2%) -- 14.6% chance to 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hyperfang",
+              "minPercent": 50,
+              "maxPercent": 60,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 15 Rattata Hyper Fang vs. Lvl 18 Pikachu: 20-24 (39.2 - 47%) -- guaranteed 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charmander",
+              "level": 17,
+              "moves": [
+                "scratch",
+                "growl",
+                "ember",
+                "leer"
+              ]
+            },
+            "answer": {
+              "move": "gust",
+              "member": "pidgeot",
+              "form": "pidgeotto",
+              "minPercent": 28.6,
+              "maxPercent": 35.7,
+              "ko": "12.9% chance to 3HKO",
+              "description": "Lvl 18 Pidgeotto Gust vs. Lvl 17 Charmander: 12-15 (22.6 - 28.3%) -- 12.9% chance to 3HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "ember",
+              "minPercent": 20,
+              "maxPercent": 24,
+              "ko": "guaranteed 5HKO",
+              "description": "Lvl 17 Charmander Ember vs. Lvl 18 Pidgeotto: 10-12 (16.1 - 19.3%) -- guaranteed 5HKO"
+            }
+          }
+        ],
+        "lead": "pikachu",
+        "warnings": [
+          "Weak against Pidgeotto: best is Lvl 18 Pikachu Thunder Shock vs. Lvl 18 Pidgeotto: 22-26 (34.3 - 40.6%) -- guaranteed 3HKO.",
+          "Weak against Charmander: best is Lvl 18 Pidgeotto Gust vs. Lvl 17 Charmander: 12-15 (22.6 - 28.3%) -- 12.9% chance to 3HKO."
+        ]
+      },
+      {
+        "boss": "brock",
+        "name": "Brock",
+        "location": "Pewter City",
+        "stage": 0,
+        "level": 14,
+        "usable": [
+          {
+            "member": "pidgeot",
+            "form": "pidgey",
+            "moves": [
+              "gust",
+              "quickattack"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "pikachu",
+            "moves": [
+              "thundershock",
+              "thunderwave"
+            ]
+          }
+        ],
+        "notYet": [
+          "dugtrio",
+          "venomoth",
+          "omastar",
+          "hypno"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "geodude",
+              "level": 12,
+              "moves": [
+                "tackle",
+                "defensecurl"
+              ]
+            },
+            "answer": {
+              "move": "gust",
+              "member": "pidgeot",
+              "form": "pidgey",
+              "minPercent": 9.1,
+              "maxPercent": 12.1,
+              "ko": "possible 9HKO",
+              "description": "Lvl 14 Pidgey Gust vs. Lvl 12 Geodude: 3-4 (7.3 - 9.7%) -- possible 9HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "tackle",
+              "minPercent": 14.3,
+              "maxPercent": 20,
+              "ko": "possible 5HKO",
+              "description": "Lvl 12 Geodude Tackle vs. Lvl 14 Pidgey: 5-7 (11.3 - 15.9%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "onix",
+              "level": 14,
+              "moves": [
+                "tackle",
+                "screech",
+                "bide"
+              ]
+            },
+            "answer": {
+              "move": "gust",
+              "member": "pidgeot",
+              "form": "pidgey",
+              "minPercent": 5.6,
+              "maxPercent": 8.3,
+              "ko": "",
+              "description": "Lvl 14 Pidgey Gust vs. Lvl 14 Onix: 2-3 (4.5 - 6.8%)",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "tackle",
+              "minPercent": 14.3,
+              "maxPercent": 20,
+              "ko": "possible 5HKO",
+              "description": "Lvl 14 Onix Tackle vs. Lvl 14 Pidgey: 5-7 (11.3 - 15.9%) -- possible 5HKO"
+            }
+          }
+        ],
+        "lead": "pidgey",
+        "warnings": [
+          "Weak against Geodude: best is Lvl 14 Pidgey Gust vs. Lvl 12 Geodude: 3-4 (7.3 - 9.7%) -- possible 9HKO.",
+          "Weak against Onix: best is Lvl 14 Pidgey Gust vs. Lvl 14 Onix: 2-3 (4.5 - 6.8%)."
+        ]
+      },
+      {
+        "boss": "misty",
+        "name": "Misty",
+        "location": "Cerulean City",
+        "stage": 1,
+        "level": 21,
+        "usable": [
+          {
+            "member": "pidgeot",
+            "form": "pidgeotto",
+            "moves": [
+              "gust",
+              "quickattack"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "pikachu",
+            "moves": [
+              "thundershock",
+              "thunderwave",
+              "megapunch",
+              "quickattack"
+            ]
+          }
+        ],
+        "notYet": [
+          "dugtrio",
+          "venomoth",
+          "omastar",
+          "hypno"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "staryu",
+              "level": 18,
+              "moves": [
+                "tackle",
+                "watergun"
+              ]
+            },
+            "answer": {
+              "move": "thundershock",
+              "member": "raichu",
+              "form": "pikachu",
+              "minPercent": 53.7,
+              "maxPercent": 63.4,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 21 Pikachu Thunder Shock vs. Lvl 18 Staryu: 22-26 (41.5 - 49%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "watergun",
+              "minPercent": 24.4,
+              "maxPercent": 28.9,
+              "ko": "94.4% chance to 4HKO",
+              "description": "Lvl 18 Staryu Water Gun vs. Lvl 21 Pikachu: 11-13 (18.9 - 22.4%) -- 94.4% chance to 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "starmie",
+              "level": 21,
+              "moves": [
+                "tackle",
+                "watergun",
+                "bubblebeam"
+              ]
+            },
+            "answer": {
+              "move": "thundershock",
+              "member": "raichu",
+              "form": "pikachu",
+              "minPercent": 28.8,
+              "maxPercent": 33.9,
+              "ko": "0.1% chance to 3HKO",
+              "description": "Lvl 21 Pikachu Thunder Shock vs. Lvl 21 Starmie: 17-20 (23.6 - 27.7%) -- 0.1% chance to 3HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "bubblebeam",
+              "minPercent": 57.8,
+              "maxPercent": 68.9,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 21 Starmie Bubble Beam vs. Lvl 21 Pikachu: 26-31 (44.8 - 53.4%) -- guaranteed 2HKO"
+            }
+          }
+        ],
+        "lead": "pikachu",
+        "warnings": [
+          "Weak against Starmie: best is Lvl 21 Pikachu Thunder Shock vs. Lvl 21 Starmie: 17-20 (23.6 - 27.7%) -- 0.1% chance to 3HKO."
+        ]
+      },
+      {
+        "boss": "rival-ssanne",
+        "name": "Rival",
+        "location": "SS Anne 2F",
+        "stage": 2,
+        "level": 20,
+        "rivalStarter": "charmander",
+        "usable": [
+          {
+            "member": "dugtrio",
+            "form": "dugtrio",
+            "moves": [
+              "dig",
+              "rest",
+              "scratch"
+            ]
+          },
+          {
+            "member": "pidgeot",
+            "form": "pidgeotto",
+            "moves": [
+              "gust",
+              "quickattack"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "pikachu",
+            "moves": [
+              "thundershock",
+              "thunderwave",
+              "megapunch",
+              "quickattack"
+            ]
+          },
+          {
+            "member": "hypno",
+            "form": "drowzee",
+            "moves": [
+              "confusion",
+              "hypnosis",
+              "megapunch",
+              "pound"
+            ]
+          }
+        ],
+        "notYet": [
+          "venomoth",
+          "omastar"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeotto",
+              "level": 19,
+              "moves": [
+                "gust",
+                "sandattack",
+                "quickattack"
+              ]
+            },
+            "answer": {
+              "move": "thundershock",
+              "member": "raichu",
+              "form": "pikachu",
+              "minPercent": 45.5,
+              "maxPercent": 54.5,
+              "ko": "51.4% chance to 2HKO",
+              "description": "Lvl 20 Pikachu Thunder Shock vs. Lvl 19 Pidgeotto: 25-30 (37.3 - 44.7%) -- 51.4% chance to 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "gust",
+              "minPercent": 29.5,
+              "maxPercent": 36.4,
+              "ko": "30% chance to 3HKO",
+              "description": "Lvl 19 Pidgeotto Gust vs. Lvl 20 Pikachu: 13-16 (23.2 - 28.5%) -- 30% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "raticate",
+              "level": 16,
+              "moves": [
+                "tackle",
+                "tailwhip",
+                "quickattack",
+                "hyperfang"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "dugtrio",
+              "form": "dugtrio",
+              "minPercent": 82.6,
+              "maxPercent": 97.8,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 20 Dugtrio Dig vs. Lvl 16 Raticate: 38-45 (67.8 - 80.3%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hyperfang",
+              "minPercent": 40.9,
+              "maxPercent": 50,
+              "ko": "0.1% chance to 2HKO",
+              "description": "Lvl 16 Raticate Hyper Fang vs. Lvl 20 Dugtrio: 18-22 (32.1 - 39.2%) -- 0.1% chance to 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "kadabra",
+              "level": 18,
+              "moves": [
+                "teleport",
+                "confusion",
+                "disable"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "dugtrio",
+              "form": "dugtrio",
+              "minPercent": 100,
+              "maxPercent": 120,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 20 Dugtrio Dig vs. Lvl 18 Kadabra: 45-54 (80.3 - 96.4%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "confusion",
+              "minPercent": 36.4,
+              "maxPercent": 43.2,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 18 Kadabra Confusion vs. Lvl 20 Dugtrio: 16-19 (28.5 - 33.9%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charmeleon",
+              "level": 20,
+              "moves": [
+                "scratch",
+                "growl",
+                "ember",
+                "leer"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "dugtrio",
+              "form": "dugtrio",
+              "minPercent": 110.7,
+              "maxPercent": 132.1,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 20 Dugtrio Dig vs. Lvl 20 Charmeleon: 62-74 (89.8 - 107.2%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "ember",
+              "minPercent": 25,
+              "maxPercent": 29.5,
+              "ko": "guaranteed 4HKO",
+              "description": "Lvl 20 Charmeleon Ember vs. Lvl 20 Dugtrio: 11-13 (19.6 - 23.2%) -- guaranteed 4HKO"
+            }
+          }
+        ],
+        "lead": "pikachu",
+        "warnings": []
+      },
+      {
+        "boss": "ltsurge",
+        "name": "Lt. Surge",
+        "location": "Vermilion City",
+        "stage": 2,
+        "level": 24,
+        "usable": [
+          {
+            "member": "dugtrio",
+            "form": "dugtrio",
+            "moves": [
+              "dig",
+              "rest",
+              "scratch"
+            ]
+          },
+          {
+            "member": "pidgeot",
+            "form": "pidgeotto",
+            "moves": [
+              "gust",
+              "quickattack"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "pikachu",
+            "moves": [
+              "thundershock",
+              "thunderwave",
+              "megapunch",
+              "quickattack"
+            ]
+          },
+          {
+            "member": "hypno",
+            "form": "drowzee",
+            "moves": [
+              "confusion",
+              "hypnosis",
+              "headbutt",
+              "megapunch"
+            ]
+          }
+        ],
+        "notYet": [
+          "venomoth",
+          "omastar"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "voltorb",
+              "level": 21,
+              "moves": [
+                "tackle",
+                "screech",
+                "sonicboom"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "dugtrio",
+              "form": "dugtrio",
+              "minPercent": 168.6,
+              "maxPercent": 200,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 24 Dugtrio Dig vs. Lvl 21 Voltorb: 86-102 (134.3 - 159.3%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "tackle",
+              "minPercent": 10,
+              "maxPercent": 14,
+              "ko": "possible 8HKO",
+              "description": "Lvl 21 Voltorb Tackle vs. Lvl 24 Dugtrio: 5-7 (7.6 - 10.7%) -- possible 8HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "pikachu",
+              "level": 18,
+              "moves": [
+                "thundershock",
+                "growl",
+                "thunderwave",
+                "quickattack"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "dugtrio",
+              "form": "dugtrio",
+              "minPercent": 276.7,
+              "maxPercent": 325.6,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 24 Dugtrio Dig vs. Lvl 18 Pikachu: 119-140 (220.3 - 259.2%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "quickattack",
+              "minPercent": 10,
+              "maxPercent": 14,
+              "ko": "possible 8HKO",
+              "description": "Lvl 18 Pikachu Quick Attack vs. Lvl 24 Dugtrio: 5-7 (7.6 - 10.7%) -- possible 8HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "raichu",
+              "level": 24,
+              "moves": [
+                "thundershock",
+                "growl",
+                "thunderbolt"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "dugtrio",
+              "form": "dugtrio",
+              "minPercent": 110.6,
+              "maxPercent": 130.3,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 24 Dugtrio Dig vs. Lvl 24 Raichu: 73-86 (90.1 - 106.1%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "thundershock",
+              "minPercent": 0,
+              "maxPercent": 0,
+              "ko": "does no damage",
+              "description": "Raichu Thunder Shock vs. Dugtrio: 0-0 (0 - 0%) -- does no damage"
+            }
+          }
+        ],
+        "lead": "dugtrio",
+        "warnings": []
+      },
+      {
+        "boss": "rival-pokemontower",
+        "name": "Rival",
+        "location": "Pokémon Tower 2F",
+        "stage": 3,
+        "level": 25,
+        "rivalStarter": "charmander",
+        "usable": [
+          {
+            "member": "dugtrio",
+            "form": "dugtrio",
+            "moves": [
+              "dig",
+              "rest",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "pidgeot",
+            "form": "pidgeotto",
+            "moves": [
+              "takedown",
+              "gust",
+              "quickattack",
+              "razorwind"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "raichu",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "hypno",
+            "form": "drowzee",
+            "moves": [
+              "confusion",
+              "hypnosis",
+              "submission",
+              "megakick"
+            ]
+          }
+        ],
+        "notYet": [
+          "venomoth",
+          "omastar"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeotto",
+              "level": 25,
+              "moves": [
+                "gust",
+                "sandattack",
+                "quickattack",
+                "whirlwind"
+              ]
+            },
+            "answer": {
+              "move": "thunderbolt",
+              "member": "raichu",
+              "form": "raichu",
+              "minPercent": 122.9,
+              "maxPercent": 145.7,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 25 Raichu Thunderbolt vs. Lvl 25 Pidgeotto: 86-102 (100 - 118.6%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "gust",
+              "minPercent": 23.1,
+              "maxPercent": 27.7,
+              "ko": "52.9% chance to 4HKO",
+              "description": "Lvl 25 Pidgeotto Gust vs. Lvl 25 Raichu: 15-18 (18.7 - 22.5%) -- 52.9% chance to 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "exeggcute",
+              "level": 23,
+              "moves": [
+                "barrage",
+                "hypnosis"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "dugtrio",
+              "form": "dugtrio",
+              "minPercent": 53.1,
+              "maxPercent": 64.1,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 25 Dugtrio Hyper Beam vs. Lvl 23 Exeggcute: 34-41 (43.5 - 52.5%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "barrage",
+              "minPercent": 17.3,
+              "maxPercent": 23.1,
+              "ko": "approx. possible 5HKO",
+              "description": "Lvl 23 Exeggcute Barrage (3 hits) vs. Lvl 25 Dugtrio: 9-12 (13.2 - 17.6%) -- approx. possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "gyarados",
+              "level": 22,
+              "moves": [
+                "bite",
+                "dragonrage",
+                "leer",
+                "hydropump"
+              ]
+            },
+            "answer": {
+              "move": "thunderbolt",
+              "member": "raichu",
+              "form": "raichu",
+              "minPercent": 162.3,
+              "maxPercent": 192.2,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 25 Raichu Thunderbolt vs. Lvl 22 Gyarados: 125-148 (137.3 - 162.6%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hydropump",
+              "minPercent": 46.2,
+              "maxPercent": 55.4,
+              "ko": "69% chance to 2HKO",
+              "description": "Lvl 22 Gyarados Hydro Pump vs. Lvl 25 Raichu: 30-36 (37.5 - 45%) -- 69% chance to 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "kadabra",
+              "level": 20,
+              "moves": [
+                "teleport",
+                "confusion",
+                "disable"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "dugtrio",
+              "form": "dugtrio",
+              "minPercent": 128.6,
+              "maxPercent": 153.1,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 25 Dugtrio Dig vs. Lvl 20 Kadabra: 63-75 (103.2 - 122.9%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "confusion",
+              "minPercent": 30.8,
+              "maxPercent": 36.5,
+              "ko": "43% chance to 3HKO",
+              "description": "Lvl 20 Kadabra Confusion vs. Lvl 25 Dugtrio: 16-19 (23.5 - 27.9%) -- 43% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charmeleon",
+              "level": 25,
+              "moves": [
+                "growl",
+                "ember",
+                "leer",
+                "rage"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "dugtrio",
+              "form": "dugtrio",
+              "minPercent": 111.8,
+              "maxPercent": 132.4,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 25 Dugtrio Dig vs. Lvl 25 Charmeleon: 76-90 (91.5 - 108.4%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "ember",
+              "minPercent": 25,
+              "maxPercent": 30.8,
+              "ko": "guaranteed 4HKO",
+              "description": "Lvl 25 Charmeleon Ember vs. Lvl 25 Dugtrio: 13-16 (19.1 - 23.5%) -- guaranteed 4HKO"
+            }
+          }
+        ],
+        "lead": "raichu",
+        "warnings": []
+      },
+      {
+        "boss": "erika",
+        "name": "Erika",
+        "location": "Celadon City",
+        "stage": 3,
+        "level": 29,
+        "usable": [
+          {
+            "member": "dugtrio",
+            "form": "dugtrio",
+            "moves": [
+              "dig",
+              "rest",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "pidgeot",
+            "form": "pidgeotto",
+            "moves": [
+              "takedown",
+              "gust",
+              "quickattack",
+              "razorwind"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "raichu",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "hypno",
+            "form": "hypno",
+            "moves": [
+              "confusion",
+              "hypnosis",
+              "submission",
+              "megakick"
+            ]
+          }
+        ],
+        "notYet": [
+          "venomoth",
+          "omastar"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "victreebel",
+              "level": 29,
+              "moves": [
+                "razorleaf",
+                "wrap",
+                "poisonpowder",
+                "sleeppowder"
+              ]
+            },
+            "answer": {
+              "move": "confusion",
+              "member": "hypno",
+              "form": "hypno",
+              "minPercent": 44.4,
+              "maxPercent": 53.3,
+              "ko": "30.1% chance to 2HKO",
+              "description": "Lvl 29 Hypno Confusion vs. Lvl 29 Victreebel: 40-48 (37 - 44.4%) -- 30.1% chance to 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "razorleaf",
+              "minPercent": 37.5,
+              "maxPercent": 44.3,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 29 Victreebel Razor Leaf vs. Lvl 29 Hypno on a critical hit: 33-39 (31.1 - 36.7%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "tangela",
+              "level": 24,
+              "moves": [
+                "constrict",
+                "bind"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "dugtrio",
+              "form": "dugtrio",
+              "minPercent": 46.4,
+              "maxPercent": 55.1,
+              "ko": "63.1% chance to 2HKO",
+              "description": "Lvl 29 Dugtrio Hyper Beam vs. Lvl 24 Tangela: 32-38 (38 - 45.2%) -- 63.1% chance to 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "bind",
+              "minPercent": 5.1,
+              "maxPercent": 6.8,
+              "ko": "possible 8HKO after trapping damage",
+              "description": "Lvl 24 Tangela Bind vs. Lvl 29 Dugtrio: 3-4 (3.8 - 5.1%) -- possible 8HKO after trapping damage"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "vileplume",
+              "level": 29,
+              "moves": [
+                "petaldance",
+                "poisonpowder",
+                "megadrain",
+                "sleeppowder"
+              ]
+            },
+            "answer": {
+              "move": "confusion",
+              "member": "hypno",
+              "form": "hypno",
+              "minPercent": 46,
+              "maxPercent": 55.2,
+              "ko": "66.3% chance to 2HKO",
+              "description": "Lvl 29 Hypno Confusion vs. Lvl 29 Vileplume: 40-48 (38 - 45.7%) -- 66.3% chance to 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "petaldance",
+              "minPercent": 25,
+              "maxPercent": 30.7,
+              "ko": "guaranteed 4HKO",
+              "description": "Lvl 29 Vileplume Petal Dance vs. Lvl 29 Hypno: 22-27 (20.7 - 25.4%) -- guaranteed 4HKO"
+            }
+          }
+        ],
+        "lead": "hypno",
+        "warnings": []
+      },
+      {
+        "boss": "giovanni-hideout",
+        "name": "Giovanni",
+        "location": "Rocket Hideout B4F",
+        "stage": 4,
+        "level": 29,
+        "usable": [
+          {
+            "member": "dugtrio",
+            "form": "dugtrio",
+            "moves": [
+              "dig",
+              "rest",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "venomoth",
+            "form": "venomoth",
+            "moves": [
+              "doubleedge",
+              "stunspore",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "pidgeot",
+            "form": "pidgeotto",
+            "moves": [
+              "takedown",
+              "fly",
+              "gust",
+              "quickattack"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "raichu",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "hypno",
+            "form": "hypno",
+            "moves": [
+              "confusion",
+              "hypnosis",
+              "submission",
+              "megakick"
+            ]
+          }
+        ],
+        "notYet": [
+          "omastar"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "onix",
+              "level": 25,
+              "moves": [
+                "screech",
+                "bind",
+                "rockthrow",
+                "rage"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "dugtrio",
+              "form": "dugtrio",
+              "minPercent": 91.1,
+              "maxPercent": 107.1,
+              "ko": "46.2% chance to OHKO",
+              "description": "Lvl 29 Dugtrio Dig vs. Lvl 25 Onix: 51-60 (70.8 - 83.3%) -- 46.2% chance to OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "rockthrow",
+              "minPercent": 11.9,
+              "maxPercent": 15.3,
+              "ko": "possible 7HKO",
+              "description": "Lvl 25 Onix Rock Throw vs. Lvl 29 Dugtrio: 7-9 (9 - 11.6%) -- possible 7HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rhyhorn",
+              "level": 24,
+              "moves": [
+                "hornattack"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "dugtrio",
+              "form": "dugtrio",
+              "minPercent": 96.1,
+              "maxPercent": 113.2,
+              "ko": "76.9% chance to OHKO",
+              "description": "Lvl 29 Dugtrio Dig vs. Lvl 24 Rhyhorn: 73-86 (80.2 - 94.5%) -- 76.9% chance to OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hornattack",
+              "minPercent": 25.4,
+              "maxPercent": 30.5,
+              "ko": "guaranteed 4HKO",
+              "description": "Lvl 24 Rhyhorn Horn Attack vs. Lvl 29 Dugtrio: 15-18 (19.4 - 23.3%) -- guaranteed 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "kangaskhan",
+              "level": 29,
+              "moves": [
+                "cometpunch",
+                "rage",
+                "bite"
+              ]
+            },
+            "answer": {
+              "move": "thunderbolt",
+              "member": "raichu",
+              "form": "raichu",
+              "minPercent": 49,
+              "maxPercent": 57.7,
+              "ko": "96.3% chance to 2HKO",
+              "description": "Lvl 29 Raichu Thunderbolt vs. Lvl 29 Kangaskhan: 51-60 (41.8 - 49.1%) -- 96.3% chance to 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "cometpunch",
+              "minPercent": 41.1,
+              "maxPercent": 49.3,
+              "ko": "approx. 3HKO",
+              "description": "Lvl 29 Kangaskhan Comet Punch (3 hits) vs. Lvl 29 Raichu: 30-36 (32.6 - 39.1%) -- approx. 3HKO"
+            }
+          }
+        ],
+        "lead": "dugtrio",
+        "warnings": []
+      },
+      {
+        "boss": "koga",
+        "name": "Koga",
+        "location": "Fuchsia City",
+        "stage": 4,
+        "level": 43,
+        "usable": [
+          {
+            "member": "dugtrio",
+            "form": "dugtrio",
+            "moves": [
+              "dig",
+              "rest",
+              "slash",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "venomoth",
+            "form": "venomoth",
+            "moves": [
+              "doubleedge",
+              "sleeppowder",
+              "psybeam",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "pidgeot",
+            "form": "pidgeot",
+            "moves": [
+              "hyperbeam",
+              "wingattack",
+              "takedown",
+              "gust"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "raichu",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "submission",
+              "thunder"
+            ]
+          },
+          {
+            "member": "hypno",
+            "form": "hypno",
+            "moves": [
+              "psychic",
+              "hypnosis",
+              "submission",
+              "megakick"
+            ]
+          }
+        ],
+        "notYet": [
+          "omastar"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "koffing",
+              "level": 37,
+              "moves": [
+                "tackle",
+                "smog",
+                "sludge",
+                "smokescreen"
+              ]
+            },
+            "answer": {
+              "move": "psychic",
+              "member": "hypno",
+              "form": "hypno",
+              "minPercent": 192.7,
+              "maxPercent": 226.8,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 43 Hypno Psychic vs. Lvl 37 Koffing: 158-186 (150.4 - 177.1%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "sludge",
+              "minPercent": 18.3,
+              "maxPercent": 22.2,
+              "ko": "possible 5HKO",
+              "description": "Lvl 37 Koffing Sludge vs. Lvl 43 Hypno: 23-28 (15 - 18.3%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "muk",
+              "level": 39,
+              "moves": [
+                "disable",
+                "poisongas",
+                "minimize",
+                "sludge"
+              ]
+            },
+            "answer": {
+              "move": "psychic",
+              "member": "hypno",
+              "form": "hypno",
+              "minPercent": 103.6,
+              "maxPercent": 122.6,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 43 Hypno Psychic vs. Lvl 39 Muk: 142-168 (88.1 - 104.3%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "sludge",
+              "minPercent": 27.8,
+              "maxPercent": 33.3,
+              "ko": "0.1% chance to 3HKO",
+              "description": "Lvl 39 Muk Sludge vs. Lvl 43 Hypno: 35-42 (22.8 - 27.4%) -- 0.1% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "koffing",
+              "level": 37,
+              "moves": [
+                "tackle",
+                "smog",
+                "sludge",
+                "smokescreen"
+              ]
+            },
+            "answer": {
+              "move": "psychic",
+              "member": "hypno",
+              "form": "hypno",
+              "minPercent": 192.7,
+              "maxPercent": 226.8,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 43 Hypno Psychic vs. Lvl 37 Koffing: 158-186 (150.4 - 177.1%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "sludge",
+              "minPercent": 18.3,
+              "maxPercent": 22.2,
+              "ko": "possible 5HKO",
+              "description": "Lvl 37 Koffing Sludge vs. Lvl 43 Hypno: 23-28 (15 - 18.3%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "weezing",
+              "level": 43,
+              "moves": [
+                "smog",
+                "sludge",
+                "toxic",
+                "selfdestruct"
+              ]
+            },
+            "answer": {
+              "move": "psychic",
+              "member": "hypno",
+              "form": "hypno",
+              "minPercent": 93.9,
+              "maxPercent": 111.3,
+              "ko": "66.7% chance to OHKO",
+              "description": "Lvl 43 Hypno Psychic vs. Lvl 43 Weezing: 108-128 (76 - 90.1%) -- 66.7% chance to OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "selfdestruct",
+              "minPercent": 80.2,
+              "maxPercent": 94.4,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 43 Weezing Self-Destruct vs. Lvl 43 Hypno: 101-119 (66 - 77.7%) -- guaranteed 2HKO"
+            }
+          }
+        ],
+        "lead": "hypno",
+        "warnings": []
+      },
+      {
+        "boss": "rival-silph",
+        "name": "Rival",
+        "location": "Silph Co. 7F",
+        "stage": 5,
+        "level": 40,
+        "rivalStarter": "charmander",
+        "usable": [
+          {
+            "member": "dugtrio",
+            "form": "dugtrio",
+            "moves": [
+              "earthquake",
+              "rest",
+              "slash",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "venomoth",
+            "form": "venomoth",
+            "moves": [
+              "doubleedge",
+              "stunspore",
+              "psybeam",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "pidgeot",
+            "form": "pidgeot",
+            "moves": [
+              "hyperbeam",
+              "wingattack",
+              "takedown",
+              "gust"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "raichu",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "hypno",
+            "form": "hypno",
+            "moves": [
+              "psychic",
+              "hypnosis",
+              "submission",
+              "megakick"
+            ]
+          }
+        ],
+        "notYet": [
+          "omastar"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeot",
+              "level": 37,
+              "moves": [
+                "sandattack",
+                "quickattack",
+                "whirlwind",
+                "wingattack"
+              ]
+            },
+            "answer": {
+              "move": "thunderbolt",
+              "member": "raichu",
+              "form": "raichu",
+              "minPercent": 98.2,
+              "maxPercent": 115.8,
+              "ko": "89.7% chance to OHKO",
+              "description": "Lvl 40 Raichu Thunderbolt vs. Lvl 37 Pidgeot: 112-132 (81.7 - 96.3%) -- 89.7% chance to OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "quickattack",
+              "minPercent": 21.4,
+              "maxPercent": 25.5,
+              "ko": "0.1% chance to 4HKO",
+              "description": "Lvl 37 Pidgeot Quick Attack vs. Lvl 40 Raichu: 21-25 (17 - 20.3%) -- 0.1% chance to 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "exeggcute",
+              "level": 38,
+              "moves": [
+                "reflect",
+                "leechseed",
+                "stunspore",
+                "poisonpowder"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "pidgeot",
+              "form": "pidgeot",
+              "minPercent": 74.7,
+              "maxPercent": 87.9,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 40 Pidgeot Hyper Beam vs. Lvl 38 Exeggcute: 74-87 (60.1 - 70.7%) -- guaranteed 2HKO",
+              "outspeeds": true
+            }
+          },
+          {
+            "bossMon": {
+              "species": "gyarados",
+              "level": 35,
+              "moves": [
+                "bite",
+                "dragonrage",
+                "leer",
+                "hydropump"
+              ]
+            },
+            "answer": {
+              "move": "thunderbolt",
+              "member": "raichu",
+              "form": "raichu",
+              "minPercent": 165.8,
+              "maxPercent": 194.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 40 Raichu Thunderbolt vs. Lvl 35 Gyarados: 194-228 (139.5 - 164%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hydropump",
+              "minPercent": 49,
+              "maxPercent": 58.2,
+              "ko": "97.8% chance to 2HKO",
+              "description": "Lvl 35 Gyarados Hydro Pump vs. Lvl 40 Raichu: 48-57 (39 - 46.3%) -- 97.8% chance to 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "alakazam",
+              "level": 35,
+              "moves": [
+                "confusion",
+                "disable",
+                "psybeam",
+                "recover"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "pidgeot",
+              "form": "pidgeot",
+              "minPercent": 122.5,
+              "maxPercent": 144.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 40 Pidgeot Hyper Beam vs. Lvl 35 Alakazam: 109-129 (98.1 - 116.2%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "psybeam",
+              "minPercent": 32.8,
+              "maxPercent": 38.8,
+              "ko": "99.4% chance to 3HKO",
+              "description": "Lvl 35 Alakazam Psybeam vs. Lvl 40 Pidgeot: 38-45 (26.9 - 31.9%) -- 99.4% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charizard",
+              "level": 40,
+              "moves": [
+                "ember",
+                "leer",
+                "rage",
+                "slash"
+              ]
+            },
+            "answer": {
+              "move": "thunderbolt",
+              "member": "raichu",
+              "form": "raichu",
+              "minPercent": 78.8,
+              "maxPercent": 93.2,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 40 Raichu Thunderbolt vs. Lvl 40 Charizard: 93-110 (64.5 - 76.3%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "slash",
+              "minPercent": 54.1,
+              "maxPercent": 64.3,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 40 Charizard Slash vs. Lvl 40 Raichu on a critical hit: 53-63 (43 - 51.2%) -- guaranteed 2HKO"
+            }
+          }
+        ],
+        "lead": "raichu",
+        "warnings": []
+      },
+      {
+        "boss": "giovanni-silph",
+        "name": "Giovanni",
+        "location": "Silph Co. 11F",
+        "stage": 5,
+        "level": 41,
+        "usable": [
+          {
+            "member": "dugtrio",
+            "form": "dugtrio",
+            "moves": [
+              "earthquake",
+              "rest",
+              "slash",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "venomoth",
+            "form": "venomoth",
+            "moves": [
+              "doubleedge",
+              "stunspore",
+              "psybeam",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "pidgeot",
+            "form": "pidgeot",
+            "moves": [
+              "hyperbeam",
+              "wingattack",
+              "takedown",
+              "gust"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "raichu",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "hypno",
+            "form": "hypno",
+            "moves": [
+              "psychic",
+              "hypnosis",
+              "submission",
+              "megakick"
+            ]
+          }
+        ],
+        "notYet": [
+          "omastar"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "nidorino",
+              "level": 37,
+              "moves": [
+                "hornattack",
+                "poisonsting",
+                "focusenergy",
+                "furyattack"
+              ]
+            },
+            "answer": {
+              "move": "psychic",
+              "member": "hypno",
+              "form": "hypno",
+              "minPercent": 152,
+              "maxPercent": 179.6,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 41 Hypno Psychic vs. Lvl 37 Nidorino: 149-176 (123.1 - 145.4%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hornattack",
+              "minPercent": 14.2,
+              "maxPercent": 17.5,
+              "ko": "possible 6HKO",
+              "description": "Lvl 37 Nidorino Horn Attack vs. Lvl 41 Hypno: 17-21 (11.6 - 14.3%) -- possible 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "kangaskhan",
+              "level": 35,
+              "moves": [
+                "cometpunch",
+                "rage",
+                "bite",
+                "tailwhip"
+              ]
+            },
+            "answer": {
+              "move": "psychic",
+              "member": "hypno",
+              "form": "hypno",
+              "minPercent": 73.4,
+              "maxPercent": 87.1,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 41 Hypno Psychic vs. Lvl 35 Kangaskhan: 91-108 (62.3 - 73.9%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "cometpunch",
+              "minPercent": 25,
+              "maxPercent": 30,
+              "ko": "approx. 4HKO",
+              "description": "Lvl 35 Kangaskhan Comet Punch (3 hits) vs. Lvl 41 Hypno: 30-36 (20.5 - 24.6%) -- approx. 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rhyhorn",
+              "level": 37,
+              "moves": [
+                "hornattack",
+                "stomp",
+                "tailwhip"
+              ]
+            },
+            "answer": {
+              "move": "psychic",
+              "member": "hypno",
+              "form": "hypno",
+              "minPercent": 86.6,
+              "maxPercent": 102.7,
+              "ko": "17.9% chance to OHKO",
+              "description": "Lvl 41 Hypno Psychic vs. Lvl 37 Rhyhorn: 97-115 (71.8 - 85.1%) -- 17.9% chance to OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hornattack",
+              "minPercent": 15.8,
+              "maxPercent": 19.2,
+              "ko": "possible 6HKO",
+              "description": "Lvl 37 Rhyhorn Horn Attack vs. Lvl 41 Hypno: 19-23 (13 - 15.7%) -- possible 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "nidoqueen",
+              "level": 41,
+              "moves": [
+                "scratch",
+                "tailwhip",
+                "bodyslam",
+                "poisonsting"
+              ]
+            },
+            "answer": {
+              "move": "psychic",
+              "member": "hypno",
+              "form": "hypno",
+              "minPercent": 87,
+              "maxPercent": 102.3,
+              "ko": "15.4% chance to OHKO",
+              "description": "Lvl 41 Hypno Psychic vs. Lvl 41 Nidoqueen: 114-134 (72.6 - 85.3%) -- 15.4% chance to OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "bodyslam",
+              "minPercent": 25,
+              "maxPercent": 30,
+              "ko": "guaranteed 4HKO",
+              "description": "Lvl 41 Nidoqueen Body Slam vs. Lvl 41 Hypno: 30-36 (20.5 - 24.6%) -- guaranteed 4HKO"
+            }
+          }
+        ],
+        "lead": "hypno",
+        "warnings": []
+      },
+      {
+        "boss": "sabrina",
+        "name": "Sabrina",
+        "location": "Saffron City",
+        "stage": 5,
+        "level": 43,
+        "usable": [
+          {
+            "member": "dugtrio",
+            "form": "dugtrio",
+            "moves": [
+              "earthquake",
+              "rest",
+              "slash",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "venomoth",
+            "form": "venomoth",
+            "moves": [
+              "doubleedge",
+              "sleeppowder",
+              "psybeam",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "pidgeot",
+            "form": "pidgeot",
+            "moves": [
+              "hyperbeam",
+              "wingattack",
+              "takedown",
+              "gust"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "raichu",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "submission",
+              "thunder"
+            ]
+          },
+          {
+            "member": "hypno",
+            "form": "hypno",
+            "moves": [
+              "psychic",
+              "hypnosis",
+              "submission",
+              "megakick"
+            ]
+          }
+        ],
+        "notYet": [
+          "omastar"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "kadabra",
+              "level": 38,
+              "moves": [
+                "disable",
+                "psybeam",
+                "recover",
+                "psychic"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "pidgeot",
+              "form": "pidgeot",
+              "minPercent": 164.3,
+              "maxPercent": 194,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 43 Pidgeot Hyper Beam vs. Lvl 38 Kadabra: 138-163 (127.7 - 150.9%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "psychic",
+              "minPercent": 41.1,
+              "maxPercent": 48.4,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 38 Kadabra Psychic vs. Lvl 43 Pidgeot: 51-60 (33.7 - 39.7%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "mrmime",
+              "level": 37,
+              "moves": [
+                "confusion",
+                "barrier",
+                "lightscreen",
+                "doubleslap"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "pidgeot",
+              "form": "pidgeot",
+              "minPercent": 118.3,
+              "maxPercent": 139,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 43 Pidgeot Hyper Beam vs. Lvl 37 Mr. Mime: 97-114 (92.3 - 108.5%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "confusion",
+              "minPercent": 18.5,
+              "maxPercent": 22.6,
+              "ko": "possible 5HKO",
+              "description": "Lvl 37 Mr. Mime Confusion vs. Lvl 43 Pidgeot: 23-28 (15.2 - 18.5%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "venomoth",
+              "level": 38,
+              "moves": [
+                "poisonpowder",
+                "leechlife",
+                "stunspore",
+                "psybeam"
+              ]
+            },
+            "answer": {
+              "move": "psychic",
+              "member": "hypno",
+              "form": "hypno",
+              "minPercent": 111.2,
+              "maxPercent": 130.8,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 43 Hypno Psychic vs. Lvl 38 Venomoth: 119-140 (90.8 - 106.8%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "leechlife",
+              "minPercent": 13.5,
+              "maxPercent": 15.9,
+              "ko": "possible 7HKO",
+              "description": "Lvl 38 Venomoth Leech Life vs. Lvl 43 Hypno: 17-20 (11.1 - 13%) -- possible 7HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "alakazam",
+              "level": 43,
+              "moves": [
+                "psybeam",
+                "recover",
+                "psywave",
+                "reflect"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "pidgeot",
+              "form": "pidgeot",
+              "minPercent": 95.3,
+              "maxPercent": 113.1,
+              "ko": "76.9% chance to OHKO",
+              "description": "Lvl 43 Pidgeot Hyper Beam vs. Lvl 43 Alakazam: 102-121 (76.1 - 90.2%) -- 76.9% chance to OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "psybeam",
+              "minPercent": 41.1,
+              "maxPercent": 48.4,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 43 Alakazam Psybeam vs. Lvl 43 Pidgeot: 51-60 (33.7 - 39.7%) -- guaranteed 3HKO"
+            }
+          }
+        ],
+        "lead": "pidgeot",
+        "warnings": []
+      },
+      {
+        "boss": "blaine",
+        "name": "Blaine",
+        "location": "Cinnabar Island",
+        "stage": 6,
+        "level": 47,
+        "usable": [
+          {
+            "member": "dugtrio",
+            "form": "dugtrio",
+            "moves": [
+              "earthquake",
+              "rest",
+              "slash",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "venomoth",
+            "form": "venomoth",
+            "moves": [
+              "doubleedge",
+              "sleeppowder",
+              "psybeam",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "omastar",
+            "form": "omastar",
+            "moves": [
+              "surf",
+              "submission",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "pidgeot",
+            "form": "pidgeot",
+            "moves": [
+              "hyperbeam",
+              "wingattack",
+              "takedown",
+              "gust"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "raichu",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "submission",
+              "thunder"
+            ]
+          },
+          {
+            "member": "hypno",
+            "form": "hypno",
+            "moves": [
+              "psychic",
+              "hypnosis",
+              "submission",
+              "megakick"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "growlithe",
+              "level": 42,
+              "moves": [
+                "ember",
+                "leer",
+                "takedown",
+                "agility"
+              ]
+            },
+            "answer": {
+              "move": "surf",
+              "member": "omastar",
+              "form": "omastar",
+              "minPercent": 177.9,
+              "maxPercent": 209.6,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 47 Omastar Surf vs. Lvl 42 Growlithe: 185-218 (141.2 - 166.4%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "takedown",
+              "minPercent": 6.6,
+              "maxPercent": 8.2,
+              "ko": "",
+              "description": "Lvl 42 Growlithe Take Down vs. Lvl 47 Omastar: 8-10 (5.2 - 6.5%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "ponyta",
+              "level": 40,
+              "moves": [
+                "tailwhip",
+                "stomp",
+                "growl",
+                "firespin"
+              ]
+            },
+            "answer": {
+              "move": "surf",
+              "member": "omastar",
+              "form": "omastar",
+              "minPercent": 175,
+              "maxPercent": 206.3,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 47 Omastar Surf vs. Lvl 40 Ponyta: 168-198 (138.8 - 163.6%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 4.9,
+              "maxPercent": 6.6,
+              "ko": "",
+              "description": "Lvl 40 Ponyta Stomp vs. Lvl 47 Omastar: 6-8 (3.9 - 5.2%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rapidash",
+              "level": 42,
+              "moves": [
+                "tailwhip",
+                "stomp",
+                "growl",
+                "firespin"
+              ]
+            },
+            "answer": {
+              "move": "surf",
+              "member": "omastar",
+              "form": "omastar",
+              "minPercent": 125.7,
+              "maxPercent": 148.7,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 47 Omastar Surf vs. Lvl 42 Rapidash: 142-168 (102.1 - 120.8%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 6.6,
+              "maxPercent": 8.2,
+              "ko": "",
+              "description": "Lvl 42 Rapidash Stomp vs. Lvl 47 Omastar: 8-10 (5.2 - 6.5%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "arcanine",
+              "level": 47,
+              "moves": [
+                "roar",
+                "ember",
+                "fireblast",
+                "takedown"
+              ]
+            },
+            "answer": {
+              "move": "surf",
+              "member": "omastar",
+              "form": "omastar",
+              "minPercent": 85.2,
+              "maxPercent": 100.7,
+              "ko": "5.1% chance to OHKO",
+              "description": "Lvl 47 Omastar Surf vs. Lvl 47 Arcanine: 127-150 (71.3 - 84.2%) -- 5.1% chance to OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "takedown",
+              "minPercent": 11.5,
+              "maxPercent": 13.9,
+              "ko": "possible 8HKO",
+              "description": "Lvl 47 Arcanine Take Down vs. Lvl 47 Omastar: 14-17 (9.2 - 11.1%) -- possible 8HKO"
+            }
+          }
+        ],
+        "lead": "omastar",
+        "warnings": []
+      },
+      {
+        "boss": "giovanni-gym",
+        "name": "Giovanni",
+        "location": "Viridian City",
+        "stage": 7,
+        "level": 50,
+        "usable": [
+          {
+            "member": "dugtrio",
+            "form": "dugtrio",
+            "moves": [
+              "earthquake",
+              "rest",
+              "slash",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "venomoth",
+            "form": "venomoth",
+            "moves": [
+              "doubleedge",
+              "sleeppowder",
+              "psychic",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "omastar",
+            "form": "omastar",
+            "moves": [
+              "hydropump",
+              "submission",
+              "surf",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "pidgeot",
+            "form": "pidgeot",
+            "moves": [
+              "hyperbeam",
+              "wingattack",
+              "takedown",
+              "gust"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "raichu",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "submission",
+              "thunder"
+            ]
+          },
+          {
+            "member": "hypno",
+            "form": "hypno",
+            "moves": [
+              "psychic",
+              "hypnosis",
+              "submission",
+              "megakick"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "rhyhorn",
+              "level": 45,
+              "moves": [
+                "stomp",
+                "tailwhip",
+                "furyattack",
+                "horndrill"
+              ]
+            },
+            "answer": {
+              "move": "hydropump",
+              "member": "omastar",
+              "form": "omastar",
+              "minPercent": 482.1,
+              "maxPercent": 567.2,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 50 Omastar Hydro Pump vs. Lvl 45 Rhyhorn: 646-760 (398.7 - 469.1%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 6.2,
+              "maxPercent": 7.7,
+              "ko": "",
+              "description": "Lvl 45 Rhyhorn Stomp vs. Lvl 50 Omastar: 8-10 (4.9 - 6.2%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "dugtrio",
+              "level": 42,
+              "moves": [
+                "growl",
+                "dig",
+                "sandattack",
+                "slash"
+              ]
+            },
+            "answer": {
+              "move": "hydropump",
+              "member": "omastar",
+              "form": "omastar",
+              "minPercent": 256.8,
+              "maxPercent": 302.3,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 50 Omastar Hydro Pump vs. Lvl 42 Dugtrio: 226-266 (198.2 - 233.3%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "dig",
+              "minPercent": 46.9,
+              "maxPercent": 55.4,
+              "ko": "72% chance to 2HKO",
+              "description": "Lvl 42 Dugtrio Dig vs. Lvl 50 Omastar: 61-72 (37.8 - 44.7%) -- 72% chance to 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "nidoqueen",
+              "level": 44,
+              "moves": [
+                "scratch",
+                "tailwhip",
+                "bodyslam",
+                "poisonsting"
+              ]
+            },
+            "answer": {
+              "move": "hydropump",
+              "member": "omastar",
+              "form": "omastar",
+              "minPercent": 146.4,
+              "maxPercent": 172.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 50 Omastar Hydro Pump vs. Lvl 44 Nidoqueen: 205-242 (122.7 - 144.9%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "bodyslam",
+              "minPercent": 6.9,
+              "maxPercent": 8.5,
+              "ko": "",
+              "description": "Lvl 44 Nidoqueen Body Slam vs. Lvl 50 Omastar: 9-11 (5.5 - 6.8%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "nidoking",
+              "level": 45,
+              "moves": [
+                "tackle",
+                "hornattack",
+                "poisonsting",
+                "thrash"
+              ]
+            },
+            "answer": {
+              "move": "hydropump",
+              "member": "omastar",
+              "form": "omastar",
+              "minPercent": 148.1,
+              "maxPercent": 174.8,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 50 Omastar Hydro Pump vs. Lvl 45 Nidoking: 200-236 (122.6 - 144.7%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "thrash",
+              "minPercent": 8.5,
+              "maxPercent": 10.8,
+              "ko": "",
+              "description": "Lvl 45 Nidoking Thrash vs. Lvl 50 Omastar: 11-14 (6.8 - 8.6%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rhydon",
+              "level": 50,
+              "moves": [
+                "stomp",
+                "tailwhip",
+                "fissure",
+                "horndrill"
+              ]
+            },
+            "answer": {
+              "move": "hydropump",
+              "member": "omastar",
+              "form": "omastar",
+              "minPercent": 283.2,
+              "maxPercent": 332.9,
+              "ko": "guaranteed OHKO",
+              "description": "Omastar Hydro Pump vs. Rhydon: 490-576 (240.1 - 282.3%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 9.2,
+              "maxPercent": 11.5,
+              "ko": "possible 9HKO",
+              "description": "Rhydon Stomp vs. Omastar: 12-15 (7.4 - 9.3%) -- possible 9HKO"
+            }
+          }
+        ],
+        "lead": "omastar",
+        "warnings": []
+      },
+      {
+        "boss": "rival-route22-late",
+        "name": "Rival",
+        "location": "Route 22",
+        "stage": 8,
+        "level": 53,
+        "rivalStarter": "charmander",
+        "usable": [
+          {
+            "member": "dugtrio",
+            "form": "dugtrio",
+            "moves": [
+              "earthquake",
+              "rest",
+              "slash",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "venomoth",
+            "form": "venomoth",
+            "moves": [
+              "doubleedge",
+              "sleeppowder",
+              "psychic",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "omastar",
+            "form": "omastar",
+            "moves": [
+              "hydropump",
+              "submission",
+              "surf",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "pidgeot",
+            "form": "pidgeot",
+            "moves": [
+              "hyperbeam",
+              "skyattack",
+              "takedown",
+              "gust"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "raichu",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "submission",
+              "thunder"
+            ]
+          },
+          {
+            "member": "hypno",
+            "form": "hypno",
+            "moves": [
+              "psychic",
+              "hypnosis",
+              "submission",
+              "megakick"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeot",
+              "level": 47,
+              "moves": [
+                "quickattack",
+                "whirlwind",
+                "wingattack",
+                "agility"
+              ]
+            },
+            "answer": {
+              "move": "thunder",
+              "member": "raichu",
+              "form": "raichu",
+              "minPercent": 133.8,
+              "maxPercent": 157.7,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 53 Raichu Thunder vs. Lvl 47 Pidgeot: 190-224 (110.4 - 130.2%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "quickattack",
+              "minPercent": 18.3,
+              "maxPercent": 22.2,
+              "ko": "possible 5HKO",
+              "description": "Lvl 47 Pidgeot Quick Attack vs. Lvl 53 Raichu: 23-28 (14.4 - 17.6%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rhyhorn",
+              "level": 45,
+              "moves": [
+                "stomp",
+                "tailwhip",
+                "furyattack",
+                "horndrill"
+              ]
+            },
+            "answer": {
+              "move": "hydropump",
+              "member": "omastar",
+              "form": "omastar",
+              "minPercent": 532.8,
+              "maxPercent": 626.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 53 Omastar Hydro Pump vs. Lvl 45 Rhyhorn: 714-840 (440.7 - 518.5%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 5.1,
+              "maxPercent": 6.6,
+              "ko": "",
+              "description": "Lvl 45 Rhyhorn Stomp vs. Lvl 53 Omastar: 7-9 (4.1 - 5.2%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "exeggcute",
+              "level": 45,
+              "moves": [
+                "leechseed",
+                "stunspore",
+                "poisonpowder",
+                "solarbeam"
+              ]
+            },
+            "answer": {
+              "move": "skyattack",
+              "member": "pidgeot",
+              "form": "pidgeot",
+              "minPercent": 168.1,
+              "maxPercent": 198.3,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 53 Pidgeot Sky Attack vs. Lvl 45 Exeggcute: 195-230 (135.4 - 159.7%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "solarbeam",
+              "minPercent": 16,
+              "maxPercent": 19.3,
+              "ko": "possible 6HKO",
+              "description": "Lvl 45 Exeggcute Solar Beam vs. Lvl 53 Pidgeot: 24-29 (13 - 15.7%) -- possible 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "gyarados",
+              "level": 47,
+              "moves": [
+                "bite",
+                "dragonrage",
+                "leer",
+                "hydropump"
+              ]
+            },
+            "answer": {
+              "move": "thunder",
+              "member": "raichu",
+              "form": "raichu",
+              "minPercent": 195.4,
+              "maxPercent": 230.1,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 53 Raichu Thunder vs. Lvl 47 Gyarados: 299-352 (163.3 - 192.3%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hydropump",
+              "minPercent": 46.8,
+              "maxPercent": 55.6,
+              "ko": "74.3% chance to 2HKO",
+              "description": "Lvl 47 Gyarados Hydro Pump vs. Lvl 53 Raichu: 59-70 (37.1 - 44%) -- 74.3% chance to 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "alakazam",
+              "level": 50,
+              "moves": [
+                "psybeam",
+                "recover",
+                "psychic",
+                "reflect"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "pidgeot",
+              "form": "pidgeot",
+              "minPercent": 106.5,
+              "maxPercent": 125.2,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 53 Pidgeot Hyper Beam vs. Lvl 50 Alakazam: 131-154 (85 - 100%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "psychic",
+              "minPercent": 50.7,
+              "maxPercent": 60,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 50 Alakazam Psychic vs. Lvl 53 Pidgeot: 76-90 (41.3 - 48.9%) -- guaranteed 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charizard",
+              "level": 53,
+              "moves": [
+                "leer",
+                "rage",
+                "slash",
+                "flamethrower"
+              ]
+            },
+            "answer": {
+              "move": "hydropump",
+              "member": "omastar",
+              "form": "omastar",
+              "minPercent": 115.6,
+              "maxPercent": 136.4,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 53 Omastar Hydro Pump vs. Lvl 53 Charizard: 178-210 (95.1 - 112.2%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "slash",
+              "minPercent": 14.6,
+              "maxPercent": 17.5,
+              "ko": "possible 6HKO",
+              "description": "Lvl 53 Charizard Slash vs. Lvl 53 Omastar on a critical hit: 20-24 (11.7 - 14.1%) -- possible 6HKO"
+            }
+          }
+        ],
+        "lead": "raichu",
+        "warnings": []
+      },
+      {
+        "boss": "lorelei",
+        "name": "Lorelei",
+        "location": "Indigo Plateau",
+        "stage": 8,
+        "level": 56,
+        "usable": [
+          {
+            "member": "dugtrio",
+            "form": "dugtrio",
+            "moves": [
+              "earthquake",
+              "rest",
+              "slash",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "venomoth",
+            "form": "venomoth",
+            "moves": [
+              "doubleedge",
+              "sleeppowder",
+              "psychic",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "omastar",
+            "form": "omastar",
+            "moves": [
+              "hydropump",
+              "submission",
+              "surf",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "pidgeot",
+            "form": "pidgeot",
+            "moves": [
+              "hyperbeam",
+              "skyattack",
+              "takedown",
+              "gust"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "raichu",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "submission",
+              "thunder"
+            ]
+          },
+          {
+            "member": "hypno",
+            "form": "hypno",
+            "moves": [
+              "psychic",
+              "hypnosis",
+              "submission",
+              "megakick"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "dewgong",
+              "level": 54,
+              "moves": [
+                "growl",
+                "aurorabeam",
+                "rest",
+                "takedown"
+              ]
+            },
+            "answer": {
+              "move": "thunder",
+              "member": "raichu",
+              "form": "raichu",
+              "minPercent": 88.2,
+              "maxPercent": 104.1,
+              "ko": "28.2% chance to OHKO",
+              "description": "Lvl 56 Raichu Thunder vs. Lvl 54 Dewgong: 149-176 (73.3 - 86.6%) -- 28.2% chance to OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "takedown",
+              "minPercent": 30.1,
+              "maxPercent": 36.1,
+              "ko": "42.5% chance to 3HKO",
+              "description": "Lvl 54 Dewgong Take Down vs. Lvl 56 Raichu: 40-48 (23.8 - 28.5%) -- 42.5% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "cloyster",
+              "level": 53,
+              "moves": [
+                "supersonic",
+                "clamp",
+                "aurorabeam",
+                "spikecannon"
+              ]
+            },
+            "answer": {
+              "move": "thunder",
+              "member": "raichu",
+              "form": "raichu",
+              "minPercent": 133.1,
+              "maxPercent": 156.5,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 56 Raichu Thunder vs. Lvl 53 Cloyster: 165-194 (105 - 123.5%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "aurorabeam",
+              "minPercent": 27.1,
+              "maxPercent": 32.3,
+              "ko": "guaranteed 4HKO",
+              "description": "Lvl 53 Cloyster Aurora Beam vs. Lvl 56 Raichu: 36-43 (21.4 - 25.5%) -- guaranteed 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "slowbro",
+              "level": 54,
+              "moves": [
+                "growl",
+                "watergun",
+                "withdraw",
+                "amnesia"
+              ]
+            },
+            "answer": {
+              "move": "thunder",
+              "member": "raichu",
+              "form": "raichu",
+              "minPercent": 96,
+              "maxPercent": 113.1,
+              "ko": "76.9% chance to OHKO",
+              "description": "Lvl 56 Raichu Thunder vs. Lvl 54 Slowbro: 168-198 (80.3 - 94.7%) -- 76.9% chance to OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "watergun",
+              "minPercent": 16.5,
+              "maxPercent": 20.3,
+              "ko": "possible 5HKO",
+              "description": "Lvl 54 Slowbro Water Gun vs. Lvl 56 Raichu: 22-27 (13 - 16%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "jynx",
+              "level": 56,
+              "moves": [
+                "doubleslap",
+                "icepunch",
+                "bodyslam",
+                "thrash"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "pidgeot",
+              "form": "pidgeot",
+              "minPercent": 98.6,
+              "maxPercent": 116.3,
+              "ko": "92.3% chance to OHKO",
+              "description": "Lvl 56 Pidgeot Hyper Beam vs. Lvl 56 Jynx: 145-171 (79.2 - 93.4%) -- 92.3% chance to OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "icepunch",
+              "minPercent": 72.2,
+              "maxPercent": 84.8,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 56 Jynx Ice Punch vs. Lvl 56 Pidgeot: 114-134 (58.7 - 69%) -- guaranteed 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "lapras",
+              "level": 56,
+              "moves": [
+                "bodyslam",
+                "confuseray",
+                "blizzard",
+                "hydropump"
+              ]
+            },
+            "answer": {
+              "move": "thunder",
+              "member": "raichu",
+              "form": "raichu",
+              "minPercent": 65.5,
+              "maxPercent": 77.3,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 56 Raichu Thunder vs. Lvl 56 Lapras: 144-170 (56.4 - 66.6%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "blizzard",
+              "minPercent": 57.9,
+              "maxPercent": 68.4,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 56 Lapras Blizzard vs. Lvl 56 Raichu: 77-91 (45.8 - 54.1%) -- guaranteed 2HKO"
+            }
+          }
+        ],
+        "lead": "raichu",
+        "warnings": []
+      },
+      {
+        "boss": "bruno",
+        "name": "Bruno",
+        "location": "Indigo Plateau",
+        "stage": 8,
+        "level": 58,
+        "usable": [
+          {
+            "member": "dugtrio",
+            "form": "dugtrio",
+            "moves": [
+              "earthquake",
+              "rest",
+              "slash",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "venomoth",
+            "form": "venomoth",
+            "moves": [
+              "doubleedge",
+              "sleeppowder",
+              "psychic",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "omastar",
+            "form": "omastar",
+            "moves": [
+              "hydropump",
+              "submission",
+              "surf",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "pidgeot",
+            "form": "pidgeot",
+            "moves": [
+              "hyperbeam",
+              "skyattack",
+              "takedown",
+              "gust"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "raichu",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "submission",
+              "thunder"
+            ]
+          },
+          {
+            "member": "hypno",
+            "form": "hypno",
+            "moves": [
+              "psychic",
+              "hypnosis",
+              "submission",
+              "megakick"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "onix",
+              "level": 53,
+              "moves": [
+                "rockthrow",
+                "rage",
+                "slam",
+                "harden"
+              ]
+            },
+            "answer": {
+              "move": "hydropump",
+              "member": "omastar",
+              "form": "omastar",
+              "minPercent": 674.1,
+              "maxPercent": 792.6,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 58 Omastar Hydro Pump vs. Lvl 53 Onix: 728-856 (516.3 - 607%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "rockthrow",
+              "minPercent": 10.7,
+              "maxPercent": 12.8,
+              "ko": "possible 8HKO",
+              "description": "Lvl 53 Onix Rock Throw vs. Lvl 58 Omastar: 16-19 (8.6 - 10.2%) -- possible 8HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "hitmonchan",
+              "level": 55,
+              "moves": [
+                "icepunch",
+                "thunderpunch",
+                "megapunch",
+                "counter"
+              ]
+            },
+            "answer": {
+              "move": "psychic",
+              "member": "hypno",
+              "form": "hypno",
+              "minPercent": 195.3,
+              "maxPercent": 229.7,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 58 Hypno Psychic vs. Lvl 55 Hitmonchan: 250-294 (153.3 - 180.3%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "megapunch",
+              "minPercent": 25.3,
+              "maxPercent": 30.1,
+              "ko": "guaranteed 4HKO",
+              "description": "Lvl 55 Hitmonchan Mega Punch vs. Lvl 58 Hypno: 42-50 (20.6 - 24.6%) -- guaranteed 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "hitmonlee",
+              "level": 55,
+              "moves": [
+                "jumpkick",
+                "focusenergy",
+                "highjumpkick",
+                "megakick"
+              ]
+            },
+            "answer": {
+              "move": "psychic",
+              "member": "hypno",
+              "form": "hypno",
+              "minPercent": 195.3,
+              "maxPercent": 229.7,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 58 Hypno Psychic vs. Lvl 55 Hitmonlee: 250-294 (153.3 - 180.3%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "megakick",
+              "minPercent": 41,
+              "maxPercent": 48.2,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 55 Hitmonlee Mega Kick vs. Lvl 58 Hypno: 68-80 (33.4 - 39.4%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "onix",
+              "level": 56,
+              "moves": [
+                "rockthrow",
+                "rage",
+                "slam",
+                "harden"
+              ]
+            },
+            "answer": {
+              "move": "hydropump",
+              "member": "omastar",
+              "form": "omastar",
+              "minPercent": 608.8,
+              "maxPercent": 715.8,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 58 Omastar Hydro Pump vs. Lvl 56 Onix: 694-816 (465.7 - 547.6%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "rockthrow",
+              "minPercent": 11.4,
+              "maxPercent": 14.1,
+              "ko": "possible 8HKO",
+              "description": "Lvl 56 Onix Rock Throw vs. Lvl 58 Omastar: 17-21 (9.1 - 11.3%) -- possible 8HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "machamp",
+              "level": 58,
+              "moves": [
+                "leer",
+                "focusenergy",
+                "fissure",
+                "submission"
+              ]
+            },
+            "answer": {
+              "move": "skyattack",
+              "member": "pidgeot",
+              "form": "pidgeot",
+              "minPercent": 101.1,
+              "maxPercent": 119.3,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 58 Pidgeot Sky Attack vs. Lvl 58 Machamp: 183-216 (83.9 - 99%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "submission",
+              "minPercent": 46.3,
+              "maxPercent": 54.9,
+              "ko": "64.4% chance to 2HKO",
+              "description": "Lvl 58 Machamp Submission vs. Lvl 58 Pidgeot: 76-90 (38 - 45%) -- 64.4% chance to 2HKO"
+            }
+          }
+        ],
+        "lead": "omastar",
+        "warnings": []
+      },
+      {
+        "boss": "agatha",
+        "name": "Agatha",
+        "location": "Indigo Plateau",
+        "stage": 8,
+        "level": 60,
+        "usable": [
+          {
+            "member": "dugtrio",
+            "form": "dugtrio",
+            "moves": [
+              "earthquake",
+              "rest",
+              "slash",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "venomoth",
+            "form": "venomoth",
+            "moves": [
+              "doubleedge",
+              "sleeppowder",
+              "psychic",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "omastar",
+            "form": "omastar",
+            "moves": [
+              "hydropump",
+              "submission",
+              "surf",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "pidgeot",
+            "form": "pidgeot",
+            "moves": [
+              "hyperbeam",
+              "skyattack",
+              "takedown",
+              "gust"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "raichu",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "submission",
+              "thunder"
+            ]
+          },
+          {
+            "member": "hypno",
+            "form": "hypno",
+            "moves": [
+              "psychic",
+              "hypnosis",
+              "submission",
+              "megakick"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "gengar",
+              "level": 56,
+              "moves": [
+                "confuseray",
+                "nightshade",
+                "hypnosis",
+                "dreameater"
+              ]
+            },
+            "answer": {
+              "move": "earthquake",
+              "member": "dugtrio",
+              "form": "dugtrio",
+              "minPercent": 121.8,
+              "maxPercent": 143.7,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 60 Dugtrio Earthquake vs. Lvl 56 Gengar: 173-204 (97.7 - 115.2%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "dreameater",
+              "minPercent": 52.7,
+              "maxPercent": 62.5,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 56 Gengar Dream Eater vs. Lvl 60 Dugtrio: 59-70 (39.5 - 46.9%) -- guaranteed 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "golbat",
+              "level": 56,
+              "moves": [
+                "supersonic",
+                "confuseray",
+                "wingattack",
+                "haze"
+              ]
+            },
+            "answer": {
+              "move": "thunder",
+              "member": "raichu",
+              "form": "raichu",
+              "minPercent": 123.4,
+              "maxPercent": 145.6,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 60 Raichu Thunder vs. Lvl 56 Golbat: 195-230 (100.5 - 118.5%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "wingattack",
+              "minPercent": 8.5,
+              "maxPercent": 10.6,
+              "ko": "",
+              "description": "Lvl 56 Golbat Wing Attack vs. Lvl 60 Raichu: 12-15 (6.7 - 8.3%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "haunter",
+              "level": 55,
+              "moves": [
+                "confuseray",
+                "nightshade",
+                "hypnosis",
+                "dreameater"
+              ]
+            },
+            "answer": {
+              "move": "earthquake",
+              "member": "dugtrio",
+              "form": "dugtrio",
+              "minPercent": 166.7,
+              "maxPercent": 196.7,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 60 Dugtrio Earthquake vs. Lvl 55 Haunter: 205-242 (130.5 - 154.1%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "dreameater",
+              "minPercent": 47.3,
+              "maxPercent": 56.3,
+              "ko": "84% chance to 2HKO",
+              "description": "Lvl 55 Haunter Dream Eater vs. Lvl 60 Dugtrio: 53-63 (35.5 - 42.2%) -- 84% chance to 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "arbok",
+              "level": 58,
+              "moves": [
+                "bite",
+                "glare",
+                "screech",
+                "acid"
+              ]
+            },
+            "answer": {
+              "move": "psychic",
+              "member": "hypno",
+              "form": "hypno",
+              "minPercent": 125.3,
+              "maxPercent": 147.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 60 Hypno Psychic vs. Lvl 58 Arbok: 183-216 (100 - 118%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "acid",
+              "minPercent": 17.4,
+              "maxPercent": 20.9,
+              "ko": "possible 5HKO",
+              "description": "Lvl 58 Arbok Acid vs. Lvl 60 Hypno: 30-36 (14.3 - 17.2%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "gengar",
+              "level": 60,
+              "moves": [
+                "confuseray",
+                "nightshade",
+                "toxic",
+                "dreameater"
+              ]
+            },
+            "answer": {
+              "move": "earthquake",
+              "member": "dugtrio",
+              "form": "dugtrio",
+              "minPercent": 107.9,
+              "maxPercent": 127.2,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 60 Dugtrio Earthquake vs. Lvl 60 Gengar: 163-192 (86.2 - 101.5%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "dreameater",
+              "minPercent": 60.7,
+              "maxPercent": 72.3,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 60 Gengar Dream Eater vs. Lvl 60 Dugtrio: 68-81 (45.6 - 54.3%) -- guaranteed 2HKO"
+            }
+          }
+        ],
+        "lead": "dugtrio",
+        "warnings": []
+      },
+      {
+        "boss": "lance",
+        "name": "Lance",
+        "location": "Indigo Plateau",
+        "stage": 8,
+        "level": 62,
+        "usable": [
+          {
+            "member": "dugtrio",
+            "form": "dugtrio",
+            "moves": [
+              "earthquake",
+              "rest",
+              "slash",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "venomoth",
+            "form": "venomoth",
+            "moves": [
+              "doubleedge",
+              "sleeppowder",
+              "psychic",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "omastar",
+            "form": "omastar",
+            "moves": [
+              "hydropump",
+              "submission",
+              "surf",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "pidgeot",
+            "form": "pidgeot",
+            "moves": [
+              "hyperbeam",
+              "skyattack",
+              "takedown",
+              "gust"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "raichu",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "submission",
+              "thunder"
+            ]
+          },
+          {
+            "member": "hypno",
+            "form": "hypno",
+            "moves": [
+              "psychic",
+              "hypnosis",
+              "submission",
+              "megakick"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "gyarados",
+              "level": 58,
+              "moves": [
+                "dragonrage",
+                "leer",
+                "hydropump",
+                "hyperbeam"
+              ]
+            },
+            "answer": {
+              "move": "thunder",
+              "member": "raichu",
+              "form": "raichu",
+              "minPercent": 174.3,
+              "maxPercent": 205.3,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 62 Raichu Thunder vs. Lvl 58 Gyarados: 326-384 (145.5 - 171.4%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hyperbeam",
+              "minPercent": 70.5,
+              "maxPercent": 83.6,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 58 Gyarados Hyper Beam vs. Lvl 62 Raichu: 103-122 (55.6 - 65.9%) -- guaranteed 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "dragonair",
+              "level": 56,
+              "moves": [
+                "agility",
+                "slam",
+                "dragonrage",
+                "hyperbeam"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "pidgeot",
+              "form": "pidgeot",
+              "minPercent": 87.4,
+              "maxPercent": 103.5,
+              "ko": "23.1% chance to OHKO",
+              "description": "Lvl 62 Pidgeot Hyper Beam vs. Lvl 56 Dragonair: 125-148 (70.2 - 83.1%) -- 23.1% chance to OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hyperbeam",
+              "minPercent": 35.6,
+              "maxPercent": 42,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 56 Dragonair Hyper Beam vs. Lvl 62 Pidgeot: 62-73 (29.1 - 34.2%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "dragonair",
+              "level": 56,
+              "moves": [
+                "agility",
+                "slam",
+                "dragonrage",
+                "hyperbeam"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "pidgeot",
+              "form": "pidgeot",
+              "minPercent": 87.4,
+              "maxPercent": 103.5,
+              "ko": "23.1% chance to OHKO",
+              "description": "Lvl 62 Pidgeot Hyper Beam vs. Lvl 56 Dragonair: 125-148 (70.2 - 83.1%) -- 23.1% chance to OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hyperbeam",
+              "minPercent": 35.6,
+              "maxPercent": 42,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 56 Dragonair Hyper Beam vs. Lvl 62 Pidgeot: 62-73 (29.1 - 34.2%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "aerodactyl",
+              "level": 60,
+              "moves": [
+                "supersonic",
+                "bite",
+                "takedown",
+                "hyperbeam"
+              ]
+            },
+            "answer": {
+              "move": "hydropump",
+              "member": "omastar",
+              "form": "omastar",
+              "minPercent": 145.7,
+              "maxPercent": 171.4,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 62 Omastar Hydro Pump vs. Lvl 60 Aerodactyl: 255-300 (119.7 - 140.8%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "hyperbeam",
+              "minPercent": 17.7,
+              "maxPercent": 21.5,
+              "ko": "possible 5HKO",
+              "description": "Lvl 60 Aerodactyl Hyper Beam vs. Lvl 62 Omastar: 28-34 (14.2 - 17.2%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "dragonite",
+              "level": 62,
+              "moves": [
+                "agility",
+                "slam",
+                "barrier",
+                "hyperbeam"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "pidgeot",
+              "form": "pidgeot",
+              "minPercent": 46.4,
+              "maxPercent": 54.6,
+              "ko": "60.4% chance to 2HKO",
+              "description": "Lvl 62 Pidgeot Hyper Beam vs. Lvl 62 Dragonite: 90-106 (38.6 - 45.4%) -- 60.4% chance to 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hyperbeam",
+              "minPercent": 58.6,
+              "maxPercent": 69,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 62 Dragonite Hyper Beam vs. Lvl 62 Pidgeot: 102-120 (47.8 - 56.3%) -- guaranteed 2HKO"
+            }
+          }
+        ],
+        "lead": "raichu",
+        "warnings": []
+      },
+      {
+        "boss": "rival-champion",
+        "name": "Rival",
+        "location": "Indigo Plateau (Champion)",
+        "stage": 8,
+        "level": 65,
+        "rivalStarter": "charmander",
+        "usable": [
+          {
+            "member": "dugtrio",
+            "form": "dugtrio",
+            "moves": [
+              "earthquake",
+              "rest",
+              "slash",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "venomoth",
+            "form": "venomoth",
+            "moves": [
+              "doubleedge",
+              "sleeppowder",
+              "psychic",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "omastar",
+            "form": "omastar",
+            "moves": [
+              "hydropump",
+              "submission",
+              "surf",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "pidgeot",
+            "form": "pidgeot",
+            "moves": [
+              "hyperbeam",
+              "skyattack",
+              "takedown",
+              "gust"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "raichu",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "submission",
+              "thunder"
+            ]
+          },
+          {
+            "member": "hypno",
+            "form": "hypno",
+            "moves": [
+              "psychic",
+              "hypnosis",
+              "submission",
+              "megakick"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeot",
+              "level": 61,
+              "moves": [
+                "whirlwind",
+                "wingattack",
+                "skyattack",
+                "mirrormove"
+              ]
+            },
+            "answer": {
+              "move": "thunder",
+              "member": "raichu",
+              "form": "raichu",
+              "minPercent": 120.3,
+              "maxPercent": 141.8,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 65 Raichu Thunder vs. Lvl 61 Pidgeot: 219-258 (99.5 - 117.2%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "skyattack",
+              "minPercent": 36.6,
+              "maxPercent": 43.1,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 61 Pidgeot Sky Attack vs. Lvl 65 Raichu: 56-66 (29 - 34.1%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "alakazam",
+              "level": 59,
+              "moves": [
+                "psybeam",
+                "recover",
+                "psychic",
+                "reflect"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "pidgeot",
+              "form": "pidgeot",
+              "minPercent": 116.1,
+              "maxPercent": 137.1,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 65 Pidgeot Hyper Beam vs. Lvl 59 Alakazam: 166-196 (92.2 - 108.8%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "psychic",
+              "minPercent": 46.2,
+              "maxPercent": 54.4,
+              "ko": "55% chance to 2HKO",
+              "description": "Lvl 59 Alakazam Psychic vs. Lvl 65 Pidgeot: 84-99 (37.6 - 44.3%) -- 55% chance to 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rhydon",
+              "level": 61,
+              "moves": [
+                "tailwhip",
+                "furyattack",
+                "horndrill",
+                "leer"
+              ]
+            },
+            "answer": {
+              "move": "hydropump",
+              "member": "omastar",
+              "form": "omastar",
+              "minPercent": 315.4,
+              "maxPercent": 371.2,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 65 Omastar Hydro Pump vs. Lvl 61 Rhydon: 656-772 (265.5 - 312.5%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "furyattack",
+              "minPercent": 5.4,
+              "maxPercent": 7.2,
+              "ko": "",
+              "description": "Lvl 61 Rhydon Fury Attack (3 hits) vs. Lvl 65 Omastar: 9-12 (4.3 - 5.8%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "exeggutor",
+              "level": 61,
+              "moves": [
+                "barrage",
+                "hypnosis",
+                "stomp"
+              ]
+            },
+            "answer": {
+              "move": "skyattack",
+              "member": "pidgeot",
+              "form": "pidgeot",
+              "minPercent": 106.6,
+              "maxPercent": 125.5,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 65 Pidgeot Sky Attack vs. Lvl 61 Exeggutor: 209-246 (88.9 - 104.6%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 18.1,
+              "maxPercent": 21.4,
+              "ko": "possible 5HKO",
+              "description": "Lvl 61 Exeggutor Stomp vs. Lvl 65 Pidgeot: 33-39 (14.7 - 17.4%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "gyarados",
+              "level": 63,
+              "moves": [
+                "dragonrage",
+                "leer",
+                "hydropump",
+                "hyperbeam"
+              ]
+            },
+            "answer": {
+              "move": "thunder",
+              "member": "raichu",
+              "form": "raichu",
+              "minPercent": 166.3,
+              "maxPercent": 196,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 65 Raichu Thunder vs. Lvl 63 Gyarados: 336-396 (138.8 - 163.6%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hyperbeam",
+              "minPercent": 75.8,
+              "maxPercent": 89.5,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 63 Gyarados Hyper Beam vs. Lvl 65 Raichu: 116-137 (60.1 - 70.9%) -- guaranteed 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charizard",
+              "level": 65,
+              "moves": [
+                "rage",
+                "slash",
+                "fireblast",
+                "firespin"
+              ]
+            },
+            "answer": {
+              "move": "hydropump",
+              "member": "omastar",
+              "form": "omastar",
+              "minPercent": 115.1,
+              "maxPercent": 135.5,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 65 Omastar Hydro Pump vs. Lvl 65 Charizard: 214-252 (94.2 - 111%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "slash",
+              "minPercent": 14.5,
+              "maxPercent": 17.5,
+              "ko": "possible 6HKO",
+              "description": "Lvl 65 Charizard Slash vs. Lvl 65 Omastar on a critical hit: 24-29 (11.6 - 14%) -- possible 6HKO"
+            }
+          }
+        ],
+        "lead": "raichu",
+        "warnings": []
+      }
+    ]
+  }
+}

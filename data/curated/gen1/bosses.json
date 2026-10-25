@@ -1,0 +1,1826 @@
+{
+  "source": {
+    "repo": "https://github.com/pret/pokered",
+    "commit": "171e2c204f9c1ff8e577ca387a4bbb009e130843",
+    "paths": [
+      "data/trainers/parties.asm",
+      "data/pokemon/evos_moves.asm",
+      "data/pokemon/base_stats/*.asm",
+      "data/trainers/special_moves.asm",
+      "engine/battle/read_trainer_party.asm"
+    ],
+    "note": "Parties from the pokered disassembly (identical in Red and Blue). Moves follow the game: level 1 moves, then learnset moves up to the trainer Pokémon's level (WriteMonMoves), then special moves written to the third slot (gym leader LoneMoves, Elite Four TeamMoves, the champion rival). Order is the typical story order; gym leaders can be fought out of order."
+  },
+  "rivalStarterFor": {
+    "charmander": "squirtle",
+    "squirtle": "bulbasaur",
+    "bulbasaur": "charmander"
+  },
+  "bosses": [
+    {
+      "id": "rival-route22-early",
+      "name": "Rival",
+      "kind": "rival",
+      "location": "Route 22",
+      "order": 1,
+      "variants": [
+        {
+          "rivalStarter": "squirtle",
+          "team": [
+            {
+              "species": "pidgey",
+              "level": 9,
+              "moves": [
+                "gust",
+                "sandattack"
+              ]
+            },
+            {
+              "species": "squirtle",
+              "level": 8,
+              "moves": [
+                "tackle",
+                "tailwhip",
+                "bubble"
+              ]
+            }
+          ]
+        },
+        {
+          "rivalStarter": "bulbasaur",
+          "team": [
+            {
+              "species": "pidgey",
+              "level": 9,
+              "moves": [
+                "gust",
+                "sandattack"
+              ]
+            },
+            {
+              "species": "bulbasaur",
+              "level": 8,
+              "moves": [
+                "tackle",
+                "growl",
+                "leechseed"
+              ]
+            }
+          ]
+        },
+        {
+          "rivalStarter": "charmander",
+          "team": [
+            {
+              "species": "pidgey",
+              "level": 9,
+              "moves": [
+                "gust",
+                "sandattack"
+              ]
+            },
+            {
+              "species": "charmander",
+              "level": 8,
+              "moves": [
+                "scratch",
+                "growl"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rival-cerulean",
+      "name": "Rival",
+      "kind": "rival",
+      "location": "Cerulean City",
+      "order": 2,
+      "variants": [
+        {
+          "rivalStarter": "squirtle",
+          "team": [
+            {
+              "species": "pidgeotto",
+              "level": 18,
+              "moves": [
+                "gust",
+                "sandattack",
+                "quickattack"
+              ]
+            },
+            {
+              "species": "abra",
+              "level": 15,
+              "moves": [
+                "teleport"
+              ]
+            },
+            {
+              "species": "rattata",
+              "level": 15,
+              "moves": [
+                "tackle",
+                "tailwhip",
+                "quickattack",
+                "hyperfang"
+              ]
+            },
+            {
+              "species": "squirtle",
+              "level": 17,
+              "moves": [
+                "tackle",
+                "tailwhip",
+                "bubble",
+                "watergun"
+              ]
+            }
+          ]
+        },
+        {
+          "rivalStarter": "bulbasaur",
+          "team": [
+            {
+              "species": "pidgeotto",
+              "level": 18,
+              "moves": [
+                "gust",
+                "sandattack",
+                "quickattack"
+              ]
+            },
+            {
+              "species": "abra",
+              "level": 15,
+              "moves": [
+                "teleport"
+              ]
+            },
+            {
+              "species": "rattata",
+              "level": 15,
+              "moves": [
+                "tackle",
+                "tailwhip",
+                "quickattack",
+                "hyperfang"
+              ]
+            },
+            {
+              "species": "bulbasaur",
+              "level": 17,
+              "moves": [
+                "tackle",
+                "growl",
+                "leechseed",
+                "vinewhip"
+              ]
+            }
+          ]
+        },
+        {
+          "rivalStarter": "charmander",
+          "team": [
+            {
+              "species": "pidgeotto",
+              "level": 18,
+              "moves": [
+                "gust",
+                "sandattack",
+                "quickattack"
+              ]
+            },
+            {
+              "species": "abra",
+              "level": 15,
+              "moves": [
+                "teleport"
+              ]
+            },
+            {
+              "species": "rattata",
+              "level": 15,
+              "moves": [
+                "tackle",
+                "tailwhip",
+                "quickattack",
+                "hyperfang"
+              ]
+            },
+            {
+              "species": "charmander",
+              "level": 17,
+              "moves": [
+                "scratch",
+                "growl",
+                "ember",
+                "leer"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brock",
+      "name": "Brock",
+      "kind": "gymLeader",
+      "location": "Pewter City",
+      "badge": "Boulder",
+      "order": 3,
+      "variants": [
+        {
+          "team": [
+            {
+              "species": "geodude",
+              "level": 12,
+              "moves": [
+                "tackle",
+                "defensecurl"
+              ]
+            },
+            {
+              "species": "onix",
+              "level": 14,
+              "moves": [
+                "tackle",
+                "screech",
+                "bide"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "misty",
+      "name": "Misty",
+      "kind": "gymLeader",
+      "location": "Cerulean City",
+      "badge": "Cascade",
+      "order": 4,
+      "variants": [
+        {
+          "team": [
+            {
+              "species": "staryu",
+              "level": 18,
+              "moves": [
+                "tackle",
+                "watergun"
+              ]
+            },
+            {
+              "species": "starmie",
+              "level": 21,
+              "moves": [
+                "tackle",
+                "watergun",
+                "bubblebeam"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rival-ssanne",
+      "name": "Rival",
+      "kind": "rival",
+      "location": "SS Anne 2F",
+      "order": 5,
+      "variants": [
+        {
+          "rivalStarter": "squirtle",
+          "team": [
+            {
+              "species": "pidgeotto",
+              "level": 19,
+              "moves": [
+                "gust",
+                "sandattack",
+                "quickattack"
+              ]
+            },
+            {
+              "species": "raticate",
+              "level": 16,
+              "moves": [
+                "tackle",
+                "tailwhip",
+                "quickattack",
+                "hyperfang"
+              ]
+            },
+            {
+              "species": "kadabra",
+              "level": 18,
+              "moves": [
+                "teleport",
+                "confusion",
+                "disable"
+              ]
+            },
+            {
+              "species": "wartortle",
+              "level": 20,
+              "moves": [
+                "tackle",
+                "tailwhip",
+                "bubble",
+                "watergun"
+              ]
+            }
+          ]
+        },
+        {
+          "rivalStarter": "bulbasaur",
+          "team": [
+            {
+              "species": "pidgeotto",
+              "level": 19,
+              "moves": [
+                "gust",
+                "sandattack",
+                "quickattack"
+              ]
+            },
+            {
+              "species": "raticate",
+              "level": 16,
+              "moves": [
+                "tackle",
+                "tailwhip",
+                "quickattack",
+                "hyperfang"
+              ]
+            },
+            {
+              "species": "kadabra",
+              "level": 18,
+              "moves": [
+                "teleport",
+                "confusion",
+                "disable"
+              ]
+            },
+            {
+              "species": "ivysaur",
+              "level": 20,
+              "moves": [
+                "tackle",
+                "growl",
+                "leechseed",
+                "vinewhip"
+              ]
+            }
+          ]
+        },
+        {
+          "rivalStarter": "charmander",
+          "team": [
+            {
+              "species": "pidgeotto",
+              "level": 19,
+              "moves": [
+                "gust",
+                "sandattack",
+                "quickattack"
+              ]
+            },
+            {
+              "species": "raticate",
+              "level": 16,
+              "moves": [
+                "tackle",
+                "tailwhip",
+                "quickattack",
+                "hyperfang"
+              ]
+            },
+            {
+              "species": "kadabra",
+              "level": 18,
+              "moves": [
+                "teleport",
+                "confusion",
+                "disable"
+              ]
+            },
+            {
+              "species": "charmeleon",
+              "level": 20,
+              "moves": [
+                "scratch",
+                "growl",
+                "ember",
+                "leer"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ltsurge",
+      "name": "Lt. Surge",
+      "kind": "gymLeader",
+      "location": "Vermilion City",
+      "badge": "Thunder",
+      "order": 6,
+      "variants": [
+        {
+          "team": [
+            {
+              "species": "voltorb",
+              "level": 21,
+              "moves": [
+                "tackle",
+                "screech",
+                "sonicboom"
+              ]
+            },
+            {
+              "species": "pikachu",
+              "level": 18,
+              "moves": [
+                "thundershock",
+                "growl",
+                "thunderwave",
+                "quickattack"
+              ]
+            },
+            {
+              "species": "raichu",
+              "level": 24,
+              "moves": [
+                "thundershock",
+                "growl",
+                "thunderbolt"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rival-pokemontower",
+      "name": "Rival",
+      "kind": "rival",
+      "location": "Pokémon Tower 2F",
+      "order": 7,
+      "variants": [
+        {
+          "rivalStarter": "squirtle",
+          "team": [
+            {
+              "species": "pidgeotto",
+              "level": 25,
+              "moves": [
+                "gust",
+                "sandattack",
+                "quickattack",
+                "whirlwind"
+              ]
+            },
+            {
+              "species": "growlithe",
+              "level": 23,
+              "moves": [
+                "bite",
+                "roar",
+                "ember",
+                "leer"
+              ]
+            },
+            {
+              "species": "exeggcute",
+              "level": 22,
+              "moves": [
+                "barrage",
+                "hypnosis"
+              ]
+            },
+            {
+              "species": "kadabra",
+              "level": 20,
+              "moves": [
+                "teleport",
+                "confusion",
+                "disable"
+              ]
+            },
+            {
+              "species": "wartortle",
+              "level": 25,
+              "moves": [
+                "tailwhip",
+                "bubble",
+                "watergun",
+                "bite"
+              ]
+            }
+          ]
+        },
+        {
+          "rivalStarter": "bulbasaur",
+          "team": [
+            {
+              "species": "pidgeotto",
+              "level": 25,
+              "moves": [
+                "gust",
+                "sandattack",
+                "quickattack",
+                "whirlwind"
+              ]
+            },
+            {
+              "species": "gyarados",
+              "level": 23,
+              "moves": [
+                "bite",
+                "dragonrage",
+                "leer",
+                "hydropump"
+              ]
+            },
+            {
+              "species": "growlithe",
+              "level": 22,
+              "moves": [
+                "bite",
+                "roar",
+                "ember"
+              ]
+            },
+            {
+              "species": "kadabra",
+              "level": 20,
+              "moves": [
+                "teleport",
+                "confusion",
+                "disable"
+              ]
+            },
+            {
+              "species": "ivysaur",
+              "level": 25,
+              "moves": [
+                "growl",
+                "leechseed",
+                "vinewhip",
+                "poisonpowder"
+              ]
+            }
+          ]
+        },
+        {
+          "rivalStarter": "charmander",
+          "team": [
+            {
+              "species": "pidgeotto",
+              "level": 25,
+              "moves": [
+                "gust",
+                "sandattack",
+                "quickattack",
+                "whirlwind"
+              ]
+            },
+            {
+              "species": "exeggcute",
+              "level": 23,
+              "moves": [
+                "barrage",
+                "hypnosis"
+              ]
+            },
+            {
+              "species": "gyarados",
+              "level": 22,
+              "moves": [
+                "bite",
+                "dragonrage",
+                "leer",
+                "hydropump"
+              ]
+            },
+            {
+              "species": "kadabra",
+              "level": 20,
+              "moves": [
+                "teleport",
+                "confusion",
+                "disable"
+              ]
+            },
+            {
+              "species": "charmeleon",
+              "level": 25,
+              "moves": [
+                "growl",
+                "ember",
+                "leer",
+                "rage"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "erika",
+      "name": "Erika",
+      "kind": "gymLeader",
+      "location": "Celadon City",
+      "badge": "Rainbow",
+      "order": 8,
+      "variants": [
+        {
+          "team": [
+            {
+              "species": "victreebel",
+              "level": 29,
+              "moves": [
+                "razorleaf",
+                "wrap",
+                "poisonpowder",
+                "sleeppowder"
+              ]
+            },
+            {
+              "species": "tangela",
+              "level": 24,
+              "moves": [
+                "constrict",
+                "bind"
+              ]
+            },
+            {
+              "species": "vileplume",
+              "level": 29,
+              "moves": [
+                "petaldance",
+                "poisonpowder",
+                "megadrain",
+                "sleeppowder"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "giovanni-hideout",
+      "name": "Giovanni",
+      "kind": "villain",
+      "location": "Rocket Hideout B4F",
+      "order": 9,
+      "variants": [
+        {
+          "team": [
+            {
+              "species": "onix",
+              "level": 25,
+              "moves": [
+                "screech",
+                "bind",
+                "rockthrow",
+                "rage"
+              ]
+            },
+            {
+              "species": "rhyhorn",
+              "level": 24,
+              "moves": [
+                "hornattack"
+              ]
+            },
+            {
+              "species": "kangaskhan",
+              "level": 29,
+              "moves": [
+                "cometpunch",
+                "rage",
+                "bite"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "koga",
+      "name": "Koga",
+      "kind": "gymLeader",
+      "location": "Fuchsia City",
+      "badge": "Soul",
+      "order": 10,
+      "variants": [
+        {
+          "team": [
+            {
+              "species": "koffing",
+              "level": 37,
+              "moves": [
+                "tackle",
+                "smog",
+                "sludge",
+                "smokescreen"
+              ]
+            },
+            {
+              "species": "muk",
+              "level": 39,
+              "moves": [
+                "disable",
+                "poisongas",
+                "minimize",
+                "sludge"
+              ]
+            },
+            {
+              "species": "koffing",
+              "level": 37,
+              "moves": [
+                "tackle",
+                "smog",
+                "sludge",
+                "smokescreen"
+              ]
+            },
+            {
+              "species": "weezing",
+              "level": 43,
+              "moves": [
+                "smog",
+                "sludge",
+                "toxic",
+                "selfdestruct"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rival-silph",
+      "name": "Rival",
+      "kind": "rival",
+      "location": "Silph Co. 7F",
+      "order": 11,
+      "variants": [
+        {
+          "rivalStarter": "squirtle",
+          "team": [
+            {
+              "species": "pidgeot",
+              "level": 37,
+              "moves": [
+                "sandattack",
+                "quickattack",
+                "whirlwind",
+                "wingattack"
+              ]
+            },
+            {
+              "species": "growlithe",
+              "level": 38,
+              "moves": [
+                "roar",
+                "ember",
+                "leer",
+                "takedown"
+              ]
+            },
+            {
+              "species": "exeggcute",
+              "level": 35,
+              "moves": [
+                "hypnosis",
+                "reflect",
+                "leechseed",
+                "stunspore"
+              ]
+            },
+            {
+              "species": "alakazam",
+              "level": 35,
+              "moves": [
+                "confusion",
+                "disable",
+                "psybeam",
+                "recover"
+              ]
+            },
+            {
+              "species": "blastoise",
+              "level": 40,
+              "moves": [
+                "bubble",
+                "watergun",
+                "bite",
+                "withdraw"
+              ]
+            }
+          ]
+        },
+        {
+          "rivalStarter": "bulbasaur",
+          "team": [
+            {
+              "species": "pidgeot",
+              "level": 37,
+              "moves": [
+                "sandattack",
+                "quickattack",
+                "whirlwind",
+                "wingattack"
+              ]
+            },
+            {
+              "species": "gyarados",
+              "level": 38,
+              "moves": [
+                "bite",
+                "dragonrage",
+                "leer",
+                "hydropump"
+              ]
+            },
+            {
+              "species": "growlithe",
+              "level": 35,
+              "moves": [
+                "roar",
+                "ember",
+                "leer",
+                "takedown"
+              ]
+            },
+            {
+              "species": "alakazam",
+              "level": 35,
+              "moves": [
+                "confusion",
+                "disable",
+                "psybeam",
+                "recover"
+              ]
+            },
+            {
+              "species": "venusaur",
+              "level": 40,
+              "moves": [
+                "leechseed",
+                "vinewhip",
+                "poisonpowder",
+                "razorleaf"
+              ]
+            }
+          ]
+        },
+        {
+          "rivalStarter": "charmander",
+          "team": [
+            {
+              "species": "pidgeot",
+              "level": 37,
+              "moves": [
+                "sandattack",
+                "quickattack",
+                "whirlwind",
+                "wingattack"
+              ]
+            },
+            {
+              "species": "exeggcute",
+              "level": 38,
+              "moves": [
+                "reflect",
+                "leechseed",
+                "stunspore",
+                "poisonpowder"
+              ]
+            },
+            {
+              "species": "gyarados",
+              "level": 35,
+              "moves": [
+                "bite",
+                "dragonrage",
+                "leer",
+                "hydropump"
+              ]
+            },
+            {
+              "species": "alakazam",
+              "level": 35,
+              "moves": [
+                "confusion",
+                "disable",
+                "psybeam",
+                "recover"
+              ]
+            },
+            {
+              "species": "charizard",
+              "level": 40,
+              "moves": [
+                "ember",
+                "leer",
+                "rage",
+                "slash"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "giovanni-silph",
+      "name": "Giovanni",
+      "kind": "villain",
+      "location": "Silph Co. 11F",
+      "order": 12,
+      "variants": [
+        {
+          "team": [
+            {
+              "species": "nidorino",
+              "level": 37,
+              "moves": [
+                "hornattack",
+                "poisonsting",
+                "focusenergy",
+                "furyattack"
+              ]
+            },
+            {
+              "species": "kangaskhan",
+              "level": 35,
+              "moves": [
+                "cometpunch",
+                "rage",
+                "bite",
+                "tailwhip"
+              ]
+            },
+            {
+              "species": "rhyhorn",
+              "level": 37,
+              "moves": [
+                "hornattack",
+                "stomp",
+                "tailwhip"
+              ]
+            },
+            {
+              "species": "nidoqueen",
+              "level": 41,
+              "moves": [
+                "scratch",
+                "tailwhip",
+                "bodyslam",
+                "poisonsting"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sabrina",
+      "name": "Sabrina",
+      "kind": "gymLeader",
+      "location": "Saffron City",
+      "badge": "Marsh",
+      "order": 13,
+      "variants": [
+        {
+          "team": [
+            {
+              "species": "kadabra",
+              "level": 38,
+              "moves": [
+                "disable",
+                "psybeam",
+                "recover",
+                "psychic"
+              ]
+            },
+            {
+              "species": "mrmime",
+              "level": 37,
+              "moves": [
+                "confusion",
+                "barrier",
+                "lightscreen",
+                "doubleslap"
+              ]
+            },
+            {
+              "species": "venomoth",
+              "level": 38,
+              "moves": [
+                "poisonpowder",
+                "leechlife",
+                "stunspore",
+                "psybeam"
+              ]
+            },
+            {
+              "species": "alakazam",
+              "level": 43,
+              "moves": [
+                "psybeam",
+                "recover",
+                "psywave",
+                "reflect"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "blaine",
+      "name": "Blaine",
+      "kind": "gymLeader",
+      "location": "Cinnabar Island",
+      "badge": "Volcano",
+      "order": 14,
+      "variants": [
+        {
+          "team": [
+            {
+              "species": "growlithe",
+              "level": 42,
+              "moves": [
+                "ember",
+                "leer",
+                "takedown",
+                "agility"
+              ]
+            },
+            {
+              "species": "ponyta",
+              "level": 40,
+              "moves": [
+                "tailwhip",
+                "stomp",
+                "growl",
+                "firespin"
+              ]
+            },
+            {
+              "species": "rapidash",
+              "level": 42,
+              "moves": [
+                "tailwhip",
+                "stomp",
+                "growl",
+                "firespin"
+              ]
+            },
+            {
+              "species": "arcanine",
+              "level": 47,
+              "moves": [
+                "roar",
+                "ember",
+                "fireblast",
+                "takedown"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "giovanni-gym",
+      "name": "Giovanni",
+      "kind": "gymLeader",
+      "location": "Viridian City",
+      "badge": "Earth",
+      "order": 15,
+      "variants": [
+        {
+          "team": [
+            {
+              "species": "rhyhorn",
+              "level": 45,
+              "moves": [
+                "stomp",
+                "tailwhip",
+                "furyattack",
+                "horndrill"
+              ]
+            },
+            {
+              "species": "dugtrio",
+              "level": 42,
+              "moves": [
+                "growl",
+                "dig",
+                "sandattack",
+                "slash"
+              ]
+            },
+            {
+              "species": "nidoqueen",
+              "level": 44,
+              "moves": [
+                "scratch",
+                "tailwhip",
+                "bodyslam",
+                "poisonsting"
+              ]
+            },
+            {
+              "species": "nidoking",
+              "level": 45,
+              "moves": [
+                "tackle",
+                "hornattack",
+                "poisonsting",
+                "thrash"
+              ]
+            },
+            {
+              "species": "rhydon",
+              "level": 50,
+              "moves": [
+                "stomp",
+                "tailwhip",
+                "fissure",
+                "horndrill"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rival-route22-late",
+      "name": "Rival",
+      "kind": "rival",
+      "location": "Route 22",
+      "order": 16,
+      "variants": [
+        {
+          "rivalStarter": "squirtle",
+          "team": [
+            {
+              "species": "pidgeot",
+              "level": 47,
+              "moves": [
+                "quickattack",
+                "whirlwind",
+                "wingattack",
+                "agility"
+              ]
+            },
+            {
+              "species": "rhyhorn",
+              "level": 45,
+              "moves": [
+                "stomp",
+                "tailwhip",
+                "furyattack",
+                "horndrill"
+              ]
+            },
+            {
+              "species": "growlithe",
+              "level": 45,
+              "moves": [
+                "ember",
+                "leer",
+                "takedown",
+                "agility"
+              ]
+            },
+            {
+              "species": "exeggcute",
+              "level": 47,
+              "moves": [
+                "leechseed",
+                "stunspore",
+                "poisonpowder",
+                "solarbeam"
+              ]
+            },
+            {
+              "species": "alakazam",
+              "level": 50,
+              "moves": [
+                "psybeam",
+                "recover",
+                "psychic",
+                "reflect"
+              ]
+            },
+            {
+              "species": "blastoise",
+              "level": 53,
+              "moves": [
+                "bite",
+                "withdraw",
+                "skullbash",
+                "hydropump"
+              ]
+            }
+          ]
+        },
+        {
+          "rivalStarter": "bulbasaur",
+          "team": [
+            {
+              "species": "pidgeot",
+              "level": 47,
+              "moves": [
+                "quickattack",
+                "whirlwind",
+                "wingattack",
+                "agility"
+              ]
+            },
+            {
+              "species": "rhyhorn",
+              "level": 45,
+              "moves": [
+                "stomp",
+                "tailwhip",
+                "furyattack",
+                "horndrill"
+              ]
+            },
+            {
+              "species": "gyarados",
+              "level": 45,
+              "moves": [
+                "bite",
+                "dragonrage",
+                "leer",
+                "hydropump"
+              ]
+            },
+            {
+              "species": "growlithe",
+              "level": 47,
+              "moves": [
+                "ember",
+                "leer",
+                "takedown",
+                "agility"
+              ]
+            },
+            {
+              "species": "alakazam",
+              "level": 50,
+              "moves": [
+                "psybeam",
+                "recover",
+                "psychic",
+                "reflect"
+              ]
+            },
+            {
+              "species": "venusaur",
+              "level": 53,
+              "moves": [
+                "vinewhip",
+                "poisonpowder",
+                "razorleaf",
+                "growth"
+              ]
+            }
+          ]
+        },
+        {
+          "rivalStarter": "charmander",
+          "team": [
+            {
+              "species": "pidgeot",
+              "level": 47,
+              "moves": [
+                "quickattack",
+                "whirlwind",
+                "wingattack",
+                "agility"
+              ]
+            },
+            {
+              "species": "rhyhorn",
+              "level": 45,
+              "moves": [
+                "stomp",
+                "tailwhip",
+                "furyattack",
+                "horndrill"
+              ]
+            },
+            {
+              "species": "exeggcute",
+              "level": 45,
+              "moves": [
+                "leechseed",
+                "stunspore",
+                "poisonpowder",
+                "solarbeam"
+              ]
+            },
+            {
+              "species": "gyarados",
+              "level": 47,
+              "moves": [
+                "bite",
+                "dragonrage",
+                "leer",
+                "hydropump"
+              ]
+            },
+            {
+              "species": "alakazam",
+              "level": 50,
+              "moves": [
+                "psybeam",
+                "recover",
+                "psychic",
+                "reflect"
+              ]
+            },
+            {
+              "species": "charizard",
+              "level": 53,
+              "moves": [
+                "leer",
+                "rage",
+                "slash",
+                "flamethrower"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lorelei",
+      "name": "Lorelei",
+      "kind": "eliteFour",
+      "location": "Indigo Plateau",
+      "order": 17,
+      "variants": [
+        {
+          "team": [
+            {
+              "species": "dewgong",
+              "level": 54,
+              "moves": [
+                "growl",
+                "aurorabeam",
+                "rest",
+                "takedown"
+              ]
+            },
+            {
+              "species": "cloyster",
+              "level": 53,
+              "moves": [
+                "supersonic",
+                "clamp",
+                "aurorabeam",
+                "spikecannon"
+              ]
+            },
+            {
+              "species": "slowbro",
+              "level": 54,
+              "moves": [
+                "growl",
+                "watergun",
+                "withdraw",
+                "amnesia"
+              ]
+            },
+            {
+              "species": "jynx",
+              "level": 56,
+              "moves": [
+                "doubleslap",
+                "icepunch",
+                "bodyslam",
+                "thrash"
+              ]
+            },
+            {
+              "species": "lapras",
+              "level": 56,
+              "moves": [
+                "bodyslam",
+                "confuseray",
+                "blizzard",
+                "hydropump"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bruno",
+      "name": "Bruno",
+      "kind": "eliteFour",
+      "location": "Indigo Plateau",
+      "order": 18,
+      "variants": [
+        {
+          "team": [
+            {
+              "species": "onix",
+              "level": 53,
+              "moves": [
+                "rockthrow",
+                "rage",
+                "slam",
+                "harden"
+              ]
+            },
+            {
+              "species": "hitmonchan",
+              "level": 55,
+              "moves": [
+                "icepunch",
+                "thunderpunch",
+                "megapunch",
+                "counter"
+              ]
+            },
+            {
+              "species": "hitmonlee",
+              "level": 55,
+              "moves": [
+                "jumpkick",
+                "focusenergy",
+                "highjumpkick",
+                "megakick"
+              ]
+            },
+            {
+              "species": "onix",
+              "level": 56,
+              "moves": [
+                "rockthrow",
+                "rage",
+                "slam",
+                "harden"
+              ]
+            },
+            {
+              "species": "machamp",
+              "level": 58,
+              "moves": [
+                "leer",
+                "focusenergy",
+                "fissure",
+                "submission"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agatha",
+      "name": "Agatha",
+      "kind": "eliteFour",
+      "location": "Indigo Plateau",
+      "order": 19,
+      "variants": [
+        {
+          "team": [
+            {
+              "species": "gengar",
+              "level": 56,
+              "moves": [
+                "confuseray",
+                "nightshade",
+                "hypnosis",
+                "dreameater"
+              ]
+            },
+            {
+              "species": "golbat",
+              "level": 56,
+              "moves": [
+                "supersonic",
+                "confuseray",
+                "wingattack",
+                "haze"
+              ]
+            },
+            {
+              "species": "haunter",
+              "level": 55,
+              "moves": [
+                "confuseray",
+                "nightshade",
+                "hypnosis",
+                "dreameater"
+              ]
+            },
+            {
+              "species": "arbok",
+              "level": 58,
+              "moves": [
+                "bite",
+                "glare",
+                "screech",
+                "acid"
+              ]
+            },
+            {
+              "species": "gengar",
+              "level": 60,
+              "moves": [
+                "confuseray",
+                "nightshade",
+                "toxic",
+                "dreameater"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lance",
+      "name": "Lance",
+      "kind": "eliteFour",
+      "location": "Indigo Plateau",
+      "order": 20,
+      "variants": [
+        {
+          "team": [
+            {
+              "species": "gyarados",
+              "level": 58,
+              "moves": [
+                "dragonrage",
+                "leer",
+                "hydropump",
+                "hyperbeam"
+              ]
+            },
+            {
+              "species": "dragonair",
+              "level": 56,
+              "moves": [
+                "agility",
+                "slam",
+                "dragonrage",
+                "hyperbeam"
+              ]
+            },
+            {
+              "species": "dragonair",
+              "level": 56,
+              "moves": [
+                "agility",
+                "slam",
+                "dragonrage",
+                "hyperbeam"
+              ]
+            },
+            {
+              "species": "aerodactyl",
+              "level": 60,
+              "moves": [
+                "supersonic",
+                "bite",
+                "takedown",
+                "hyperbeam"
+              ]
+            },
+            {
+              "species": "dragonite",
+              "level": 62,
+              "moves": [
+                "agility",
+                "slam",
+                "barrier",
+                "hyperbeam"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rival-champion",
+      "name": "Rival",
+      "kind": "rival",
+      "location": "Indigo Plateau (Champion)",
+      "order": 21,
+      "variants": [
+        {
+          "rivalStarter": "squirtle",
+          "team": [
+            {
+              "species": "pidgeot",
+              "level": 61,
+              "moves": [
+                "whirlwind",
+                "wingattack",
+                "skyattack",
+                "mirrormove"
+              ]
+            },
+            {
+              "species": "alakazam",
+              "level": 59,
+              "moves": [
+                "psybeam",
+                "recover",
+                "psychic",
+                "reflect"
+              ]
+            },
+            {
+              "species": "rhydon",
+              "level": 61,
+              "moves": [
+                "tailwhip",
+                "furyattack",
+                "horndrill",
+                "leer"
+              ]
+            },
+            {
+              "species": "arcanine",
+              "level": 61,
+              "moves": [
+                "roar",
+                "ember",
+                "leer",
+                "takedown"
+              ]
+            },
+            {
+              "species": "exeggutor",
+              "level": 63,
+              "moves": [
+                "barrage",
+                "hypnosis",
+                "stomp"
+              ]
+            },
+            {
+              "species": "blastoise",
+              "level": 65,
+              "moves": [
+                "bite",
+                "withdraw",
+                "blizzard",
+                "hydropump"
+              ]
+            }
+          ]
+        },
+        {
+          "rivalStarter": "bulbasaur",
+          "team": [
+            {
+              "species": "pidgeot",
+              "level": 61,
+              "moves": [
+                "whirlwind",
+                "wingattack",
+                "skyattack",
+                "mirrormove"
+              ]
+            },
+            {
+              "species": "alakazam",
+              "level": 59,
+              "moves": [
+                "psybeam",
+                "recover",
+                "psychic",
+                "reflect"
+              ]
+            },
+            {
+              "species": "rhydon",
+              "level": 61,
+              "moves": [
+                "tailwhip",
+                "furyattack",
+                "horndrill",
+                "leer"
+              ]
+            },
+            {
+              "species": "gyarados",
+              "level": 61,
+              "moves": [
+                "dragonrage",
+                "leer",
+                "hydropump",
+                "hyperbeam"
+              ]
+            },
+            {
+              "species": "arcanine",
+              "level": 63,
+              "moves": [
+                "roar",
+                "ember",
+                "leer",
+                "takedown"
+              ]
+            },
+            {
+              "species": "venusaur",
+              "level": 65,
+              "moves": [
+                "razorleaf",
+                "growth",
+                "megadrain",
+                "solarbeam"
+              ]
+            }
+          ]
+        },
+        {
+          "rivalStarter": "charmander",
+          "team": [
+            {
+              "species": "pidgeot",
+              "level": 61,
+              "moves": [
+                "whirlwind",
+                "wingattack",
+                "skyattack",
+                "mirrormove"
+              ]
+            },
+            {
+              "species": "alakazam",
+              "level": 59,
+              "moves": [
+                "psybeam",
+                "recover",
+                "psychic",
+                "reflect"
+              ]
+            },
+            {
+              "species": "rhydon",
+              "level": 61,
+              "moves": [
+                "tailwhip",
+                "furyattack",
+                "horndrill",
+                "leer"
+              ]
+            },
+            {
+              "species": "exeggutor",
+              "level": 61,
+              "moves": [
+                "barrage",
+                "hypnosis",
+                "stomp"
+              ]
+            },
+            {
+              "species": "gyarados",
+              "level": 63,
+              "moves": [
+                "dragonrage",
+                "leer",
+                "hydropump",
+                "hyperbeam"
+              ]
+            },
+            {
+              "species": "charizard",
+              "level": 65,
+              "moves": [
+                "rage",
+                "slash",
+                "fireblast",
+                "firespin"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

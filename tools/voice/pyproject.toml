@@ -1,0 +1,15 @@
+[project]
+name = "pokevidgen-voice"
+version = "0.1.0"
+description = "Speech and word-timing sidecar for pokevidgen: one JSON request on stdin, one JSON response on stdout."
+requires-python = ">=3.10,<3.13"
+dependencies = [
+  "kokoro-onnx>=0.4.9",
+  "faster-whisper>=1.1.0",
+  "soundfile>=0.12",
+  "numpy>=1.26",
+  "scipy>=1.11",
+]
+
+[tool.uv]
+package = false

@@ -1,0 +1,719 @@
+{
+  "source": {
+    "repo": "https://github.com/pret/pokered",
+    "commit": "171e2c204f9c1ff8e577ca387a4bbb009e130843",
+    "note": "Locations come from pokered map objects, scripts, marts and prizes. `npc` means a character on that map gives it (reward, gift or trade); conditions are not modelled. Stages are hand-assigned (typical story order). TMs with no source here are not obtainable in the game."
+  },
+  "tms": [
+    {
+      "kind": "tm",
+      "number": 1,
+      "move": "megapunch",
+      "sources": [
+        {
+          "kind": "ground",
+          "location": "Mt. Moon B2F",
+          "stage": 1
+        },
+        {
+          "kind": "shop",
+          "location": "Celadon Dept. Store 2F",
+          "stage": 3
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 2,
+      "move": "razorwind",
+      "sources": [
+        {
+          "kind": "ground",
+          "location": "Rocket Hideout B4F",
+          "stage": 4
+        },
+        {
+          "kind": "shop",
+          "location": "Celadon Dept. Store 2F",
+          "stage": 3
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 3,
+      "move": "swordsdance",
+      "sources": [
+        {
+          "kind": "ground",
+          "location": "Silph Co. 7F",
+          "stage": 5
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 4,
+      "move": "whirlwind",
+      "sources": [
+        {
+          "kind": "ground",
+          "location": "Route 4",
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 5,
+      "move": "megakick",
+      "sources": [
+        {
+          "kind": "ground",
+          "location": "Victory Road 2F",
+          "stage": 8
+        },
+        {
+          "kind": "shop",
+          "location": "Celadon Dept. Store 2F",
+          "stage": 3
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 6,
+      "move": "toxic",
+      "sources": [
+        {
+          "kind": "npc",
+          "location": "Fuchsia Gym (Koga)",
+          "stage": 5
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 7,
+      "move": "horndrill",
+      "sources": [
+        {
+          "kind": "ground",
+          "location": "Rocket Hideout B2F",
+          "stage": 4
+        },
+        {
+          "kind": "shop",
+          "location": "Celadon Dept. Store 2F",
+          "stage": 3
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 8,
+      "move": "bodyslam",
+      "sources": [
+        {
+          "kind": "ground",
+          "location": "S.S. Anne 1F rooms",
+          "stage": 2
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 9,
+      "move": "takedown",
+      "sources": [
+        {
+          "kind": "ground",
+          "location": "Silph Co. 5F",
+          "stage": 5
+        },
+        {
+          "kind": "shop",
+          "location": "Celadon Dept. Store 2F",
+          "stage": 3
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 10,
+      "move": "doubleedge",
+      "sources": [
+        {
+          "kind": "ground",
+          "location": "Rocket Hideout B3F",
+          "stage": 4
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 11,
+      "move": "bubblebeam",
+      "sources": [
+        {
+          "kind": "npc",
+          "location": "Cerulean Gym (Misty)",
+          "stage": 2
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 12,
+      "move": "watergun",
+      "sources": [
+        {
+          "kind": "ground",
+          "location": "Mt. Moon 1F",
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 13,
+      "move": "icebeam",
+      "sources": [
+        {
+          "kind": "npc",
+          "location": "Celadon Dept. Store roof",
+          "stage": 3
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 14,
+      "move": "blizzard",
+      "sources": [
+        {
+          "kind": "ground",
+          "location": "Pokémon Mansion B1F",
+          "stage": 6
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 15,
+      "move": "hyperbeam",
+      "sources": [
+        {
+          "kind": "prize",
+          "location": "Celadon Game Corner prize counter",
+          "stage": 3
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 16,
+      "move": "payday",
+      "sources": [
+        {
+          "kind": "ground",
+          "location": "Route 12",
+          "stage": 4
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 17,
+      "move": "submission",
+      "sources": [
+        {
+          "kind": "ground",
+          "location": "Victory Road 2F",
+          "stage": 8
+        },
+        {
+          "kind": "shop",
+          "location": "Celadon Dept. Store 2F",
+          "stage": 3
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 18,
+      "move": "counter",
+      "sources": [
+        {
+          "kind": "npc",
+          "location": "Celadon Dept. Store 3F",
+          "stage": 3
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 19,
+      "move": "seismictoss",
+      "sources": [
+        {
+          "kind": "ground",
+          "location": "Route 25",
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 20,
+      "move": "rage",
+      "sources": [
+        {
+          "kind": "ground",
+          "location": "Route 15",
+          "stage": 4
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 21,
+      "move": "megadrain",
+      "sources": [
+        {
+          "kind": "npc",
+          "location": "Celadon Gym (Erika)",
+          "stage": 4
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 22,
+      "move": "solarbeam",
+      "sources": [
+        {
+          "kind": "ground",
+          "location": "Pokémon Mansion B1F",
+          "stage": 6
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 23,
+      "move": "dragonrage",
+      "sources": [
+        {
+          "kind": "prize",
+          "location": "Celadon Game Corner prize counter",
+          "stage": 3
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 24,
+      "move": "thunderbolt",
+      "sources": [
+        {
+          "kind": "npc",
+          "location": "Vermilion Gym (Lt. Surge)",
+          "stage": 3
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 25,
+      "move": "thunder",
+      "sources": [
+        {
+          "kind": "ground",
+          "location": "Power Plant",
+          "stage": 5
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 26,
+      "move": "earthquake",
+      "sources": [
+        {
+          "kind": "ground",
+          "location": "Silph Co. 10F",
+          "stage": 5
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 27,
+      "move": "fissure",
+      "sources": [
+        {
+          "kind": "npc",
+          "location": "Viridian Gym (Giovanni)",
+          "stage": 8
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 28,
+      "move": "dig",
+      "sources": [
+        {
+          "kind": "npc",
+          "location": "Cerulean City",
+          "stage": 1
+        },
+        {
+          "kind": "npc",
+          "location": "Cerulean City (trashed house)",
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 29,
+      "move": "psychic",
+      "sources": [
+        {
+          "kind": "npc",
+          "location": "Saffron City (Mr. Psychic)",
+          "stage": 5
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 30,
+      "move": "teleport",
+      "sources": [
+        {
+          "kind": "ground",
+          "location": "Route 9",
+          "stage": 3
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 31,
+      "move": "mimic",
+      "sources": [
+        {
+          "kind": "npc",
+          "location": "Saffron City (Copycat's house)",
+          "stage": 5
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 32,
+      "move": "doubleteam",
+      "sources": [
+        {
+          "kind": "ground",
+          "location": "Safari Zone West",
+          "stage": 4
+        },
+        {
+          "kind": "shop",
+          "location": "Celadon Dept. Store 2F",
+          "stage": 3
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 33,
+      "move": "reflect",
+      "sources": [
+        {
+          "kind": "ground",
+          "location": "Power Plant",
+          "stage": 5
+        },
+        {
+          "kind": "shop",
+          "location": "Celadon Dept. Store 2F",
+          "stage": 3
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 34,
+      "move": "bide",
+      "sources": [
+        {
+          "kind": "npc",
+          "location": "Pewter Gym (Brock)",
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 35,
+      "move": "metronome",
+      "sources": [
+        {
+          "kind": "npc",
+          "location": "Cinnabar Lab (Metronome room)",
+          "stage": 6
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 36,
+      "move": "selfdestruct",
+      "sources": [
+        {
+          "kind": "npc",
+          "location": "Silph Co. 2F",
+          "stage": 5
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 37,
+      "move": "eggbomb",
+      "sources": [
+        {
+          "kind": "ground",
+          "location": "Safari Zone East",
+          "stage": 4
+        },
+        {
+          "kind": "shop",
+          "location": "Celadon Dept. Store 2F",
+          "stage": 3
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 38,
+      "move": "fireblast",
+      "sources": [
+        {
+          "kind": "npc",
+          "location": "Cinnabar Gym (Blaine)",
+          "stage": 7
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 39,
+      "move": "swift",
+      "sources": [
+        {
+          "kind": "npc",
+          "location": "Route 12 gate 2F",
+          "stage": 4
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 40,
+      "move": "skullbash",
+      "sources": [
+        {
+          "kind": "ground",
+          "location": "Safari Zone North",
+          "stage": 4
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 41,
+      "move": "softboiled",
+      "sources": [
+        {
+          "kind": "npc",
+          "location": "Celadon City",
+          "stage": 3
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 42,
+      "move": "dreameater",
+      "sources": [
+        {
+          "kind": "npc",
+          "location": "Viridian City",
+          "stage": 3
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 43,
+      "move": "skyattack",
+      "sources": [
+        {
+          "kind": "ground",
+          "location": "Victory Road 1F",
+          "stage": 8
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 44,
+      "move": "rest",
+      "sources": [
+        {
+          "kind": "ground",
+          "location": "S.S. Anne B1F rooms",
+          "stage": 2
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 45,
+      "move": "thunderwave",
+      "sources": [
+        {
+          "kind": "ground",
+          "location": "Route 24 (Nugget Bridge)",
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 46,
+      "move": "psywave",
+      "sources": [
+        {
+          "kind": "npc",
+          "location": "Saffron Gym (Sabrina)",
+          "stage": 6
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 47,
+      "move": "explosion",
+      "sources": [
+        {
+          "kind": "ground",
+          "location": "Victory Road 3F",
+          "stage": 8
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 48,
+      "move": "rockslide",
+      "sources": [
+        {
+          "kind": "npc",
+          "location": "Celadon Dept. Store roof",
+          "stage": 3
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 49,
+      "move": "triattack",
+      "sources": [
+        {
+          "kind": "npc",
+          "location": "Celadon Dept. Store roof",
+          "stage": 3
+        }
+      ]
+    },
+    {
+      "kind": "tm",
+      "number": 50,
+      "move": "substitute",
+      "sources": [
+        {
+          "kind": "prize",
+          "location": "Celadon Game Corner prize counter",
+          "stage": 3
+        }
+      ]
+    },
+    {
+      "kind": "hm",
+      "number": 1,
+      "move": "cut",
+      "sources": [
+        {
+          "kind": "npc",
+          "location": "S.S. Anne captain's room",
+          "stage": 2
+        }
+      ]
+    },
+    {
+      "kind": "hm",
+      "number": 2,
+      "move": "fly",
+      "sources": [
+        {
+          "kind": "npc",
+          "location": "Route 16 house",
+          "stage": 4
+        }
+      ]
+    },
+    {
+      "kind": "hm",
+      "number": 3,
+      "move": "surf",
+      "sources": [
+        {
+          "kind": "npc",
+          "location": "Safari Zone secret house",
+          "stage": 4
+        }
+      ]
+    },
+    {
+      "kind": "hm",
+      "number": 4,
+      "move": "strength",
+      "sources": [
+        {
+          "kind": "npc",
+          "location": "Fuchsia City (Warden's house)",
+          "stage": 4
+        }
+      ]
+    },
+    {
+      "kind": "hm",
+      "number": 5,
+      "move": "flash",
+      "sources": [
+        {
+          "kind": "npc",
+          "location": "Route 2 gate (Oak's aide)",
+          "stage": 1
+        }
+      ]
+    }
+  ]
+}

@@ -12,7 +12,12 @@
     "make": "pnpm --filter @pokevidgen/cli exec tsx src/make.ts",
     "typecheck": "pnpm -r typecheck",
     "lint": "eslint .",
-    "test": "vitest run"
+    "test": "vitest run",
+    "web": "pnpm --filter @pokevidgen/web exec tsx src/server.ts",
+    "web:dev": "pnpm --filter @pokevidgen/web exec tsx watch src/server.ts",
+    "video": "pnpm --filter @pokevidgen/video exec tsx src/cli.ts",
+    "video:studio": "pnpm --filter @pokevidgen/video exec remotion studio src/index.ts",
+    "voice": "pnpm --filter @pokevidgen/cli exec tsx src/voice.ts"
   },
   "devDependencies": {
     "@types/node": "^20.14.0",

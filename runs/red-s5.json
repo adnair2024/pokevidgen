@@ -1,0 +1,2516 @@
+{
+  "id": "red-s5",
+  "title": "Building a Kanto team",
+  "teamId": "red-s5",
+  "game": "red",
+  "region": "Kanto",
+  "seed": 5,
+  "music": null,
+  "voiceover": {
+    "hook": "Only six Pokémon. Can this Kanto team really beat the Elite Four?",
+    "outro": "Which Pokémon would you swap out? Tell me in the comments below."
+  },
+  "picks": [
+    {
+      "pokemon": "pidgeot",
+      "name": "Pidgeot",
+      "types": [
+        "normal",
+        "flying"
+      ],
+      "dex": 18,
+      "stage": 0,
+      "intro": {
+        "kind": "gymLeader",
+        "name": "Bruno",
+        "title": "Elite Four",
+        "types": [
+          "fighting",
+          "ground"
+        ]
+      },
+      "line": {
+        "text": "Against Bruno, we bring in Pidgeot. Sky Attack knocks out Machamp in one hit, and that decides the fight. Take Down comes from TM9.",
+        "factIds": [
+          "pidgeot.vs-bruno",
+          "pidgeot.calc-bruno",
+          "pidgeot.move-takedown"
+        ],
+        "source": "template"
+      },
+      "effect": null
+    },
+    {
+      "pokemon": "raichu",
+      "name": "Raichu",
+      "types": [
+        "electric"
+      ],
+      "dex": 26,
+      "stage": 0,
+      "intro": {
+        "kind": "gymLeader",
+        "name": "Agatha",
+        "title": "Elite Four",
+        "types": [
+          "poison",
+          "ghost"
+        ]
+      },
+      "line": {
+        "text": "Agatha looks scary, but Raichu makes it easy. Thunder wipes out Golbat in a single hit. It spreads paralysis, so slower enemies can barely move.",
+        "factIds": [
+          "raichu.vs-agatha",
+          "raichu.calc-agatha",
+          "raichu.role-paralysis"
+        ],
+        "source": "template"
+      },
+      "effect": "lightning"
+    },
+    {
+      "pokemon": "dugtrio",
+      "name": "Dugtrio",
+      "types": [
+        "ground"
+      ],
+      "dex": 51,
+      "stage": 2,
+      "intro": {
+        "kind": "gymLeader",
+        "name": "Lt. Surge",
+        "title": "Thunder Badge",
+        "types": [
+          "electric"
+        ]
+      },
+      "line": {
+        "text": "Lt. Surge looks scary, but Dugtrio makes it easy. Dig knocks out Pikachu in one hit. You can get it in Digletts Cave.",
+        "factIds": [
+          "dugtrio.vs-ltsurge",
+          "dugtrio.calc-ltsurge",
+          "dugtrio.get"
+        ],
+        "source": "template"
+      },
+      "effect": null
+    },
+    {
+      "pokemon": "hypno",
+      "name": "Hypno",
+      "types": [
+        "psychic"
+      ],
+      "dex": 97,
+      "stage": 2,
+      "intro": {
+        "kind": "gymLeader",
+        "name": "Koga",
+        "title": "Soul Badge",
+        "types": [
+          "poison"
+        ]
+      },
+      "line": {
+        "text": "Against Koga, we bring in Hypno. Psychic knocks out Koffing in one hit, and that decides the fight. Mega Kick comes from TM5.",
+        "factIds": [
+          "hypno.vs-koga",
+          "hypno.calc-koga",
+          "hypno.move-megakick"
+        ],
+        "source": "template"
+      },
+      "effect": "psychic"
+    },
+    {
+      "pokemon": "venomoth",
+      "name": "Venomoth",
+      "types": [
+        "bug",
+        "poison"
+      ],
+      "dex": 49,
+      "stage": 4,
+      "intro": {
+        "kind": "tm",
+        "move": "doubleedge",
+        "moveName": "Double-Edge",
+        "number": 10,
+        "moveType": "normal",
+        "location": "Rocket Hideout B3F"
+      },
+      "line": {
+        "text": "Our next pick is Venomoth, and Double-Edge becomes its main weapon from TM10. It can put opponents to sleep, which wins fights on its own.",
+        "factIds": [
+          "venomoth.get",
+          "venomoth.move-doubleedge",
+          "venomoth.role-sleep"
+        ],
+        "source": "template"
+      },
+      "effect": null
+    },
+    {
+      "pokemon": "omastar",
+      "name": "Omastar",
+      "types": [
+        "rock",
+        "water"
+      ],
+      "dex": 139,
+      "stage": 6,
+      "intro": {
+        "kind": "pokedex",
+        "genus": "Spiral Pokémon",
+        "heightM": 1,
+        "weightKg": 35
+      },
+      "line": {
+        "text": "Next up is Omastar. You can get it by reviving a fossil in Cinnabar Island Cinnabar Lab, and Hydro Pump comes at level 49.",
+        "factIds": [
+          "omastar.get",
+          "omastar.move-hydropump"
+        ],
+        "source": "template"
+      },
+      "effect": "bubbles"
+    }
+  ],
+  "facts": [
+    {
+      "id": "dugtrio.vs-rival-ssanne",
+      "species": "dugtrio",
+      "text": "Dugtrio is the best answer to your rival's Charmeleon (level 20)",
+      "mentions": {
+        "pokemon": [
+          "dugtrio",
+          "charmeleon"
+        ],
+        "moves": [],
+        "numbers": [
+          20
+        ]
+      },
+      "kind": "matchup",
+      "bossId": "rival-ssanne",
+      "boss": "your rival",
+      "bossKind": "rival",
+      "bossMon": "charmeleon",
+      "bossMonLevel": 20
+    },
+    {
+      "id": "dugtrio.calc-rival-ssanne",
+      "species": "dugtrio",
+      "text": "Dig does 110.7-132.1% to your rival's Charmeleon (guaranteed OHKO)",
+      "mentions": {
+        "pokemon": [
+          "dugtrio",
+          "charmeleon"
+        ],
+        "moves": [
+          "dig"
+        ],
+        "numbers": [
+          110.7,
+          132.1,
+          120
+        ]
+      },
+      "kind": "calc",
+      "bossId": "rival-ssanne",
+      "boss": "your rival",
+      "bossKind": "rival",
+      "bossMon": "charmeleon",
+      "move": "dig",
+      "minPercent": 110.7,
+      "maxPercent": 132.1,
+      "ko": "guaranteed OHKO"
+    },
+    {
+      "id": "dugtrio.vs-ltsurge",
+      "species": "dugtrio",
+      "text": "Dugtrio is the best answer to Lt. Surge's Pikachu (level 18)",
+      "mentions": {
+        "pokemon": [
+          "dugtrio",
+          "pikachu"
+        ],
+        "moves": [],
+        "numbers": [
+          18
+        ]
+      },
+      "kind": "matchup",
+      "bossId": "ltsurge",
+      "boss": "Lt. Surge",
+      "bossKind": "gymLeader",
+      "bossMon": "pikachu",
+      "bossMonLevel": 18
+    },
+    {
+      "id": "dugtrio.calc-ltsurge",
+      "species": "dugtrio",
+      "text": "Dig does 276.7-325.6% to Lt. Surge's Pikachu (guaranteed OHKO)",
+      "mentions": {
+        "pokemon": [
+          "dugtrio",
+          "pikachu"
+        ],
+        "moves": [
+          "dig"
+        ],
+        "numbers": [
+          276.7,
+          325.6,
+          300
+        ]
+      },
+      "kind": "calc",
+      "bossId": "ltsurge",
+      "boss": "Lt. Surge",
+      "bossKind": "gymLeader",
+      "bossMon": "pikachu",
+      "move": "dig",
+      "minPercent": 276.7,
+      "maxPercent": 325.6,
+      "ko": "guaranteed OHKO"
+    },
+    {
+      "id": "dugtrio.vs-rival-pokemontower",
+      "species": "dugtrio",
+      "text": "Dugtrio is the best answer to your rival's Kadabra (level 20)",
+      "mentions": {
+        "pokemon": [
+          "dugtrio",
+          "kadabra"
+        ],
+        "moves": [],
+        "numbers": [
+          20
+        ]
+      },
+      "kind": "matchup",
+      "bossId": "rival-pokemontower",
+      "boss": "your rival",
+      "bossKind": "rival",
+      "bossMon": "kadabra",
+      "bossMonLevel": 20
+    },
+    {
+      "id": "dugtrio.calc-rival-pokemontower",
+      "species": "dugtrio",
+      "text": "Dig does 128.6-153.1% to your rival's Kadabra (guaranteed OHKO)",
+      "mentions": {
+        "pokemon": [
+          "dugtrio",
+          "kadabra"
+        ],
+        "moves": [
+          "dig"
+        ],
+        "numbers": [
+          128.6,
+          153.1,
+          140
+        ]
+      },
+      "kind": "calc",
+      "bossId": "rival-pokemontower",
+      "boss": "your rival",
+      "bossKind": "rival",
+      "bossMon": "kadabra",
+      "move": "dig",
+      "minPercent": 128.6,
+      "maxPercent": 153.1,
+      "ko": "guaranteed OHKO"
+    },
+    {
+      "id": "dugtrio.vs-erika",
+      "species": "dugtrio",
+      "text": "Dugtrio is the best answer to Erika's Tangela (level 24)",
+      "mentions": {
+        "pokemon": [
+          "dugtrio",
+          "tangela"
+        ],
+        "moves": [],
+        "numbers": [
+          24
+        ]
+      },
+      "kind": "matchup",
+      "bossId": "erika",
+      "boss": "Erika",
+      "bossKind": "gymLeader",
+      "bossMon": "tangela",
+      "bossMonLevel": 24
+    },
+    {
+      "id": "dugtrio.calc-erika",
+      "species": "dugtrio",
+      "text": "Hyper Beam does 46.4-55.1% to Erika's Tangela (63.1% chance to 2HKO)",
+      "mentions": {
+        "pokemon": [
+          "dugtrio",
+          "tangela"
+        ],
+        "moves": [
+          "hyperbeam"
+        ],
+        "numbers": [
+          46.4,
+          55.1,
+          50,
+          63,
+          1,
+          2
+        ]
+      },
+      "kind": "calc",
+      "bossId": "erika",
+      "boss": "Erika",
+      "bossKind": "gymLeader",
+      "bossMon": "tangela",
+      "move": "hyperbeam",
+      "minPercent": 46.4,
+      "maxPercent": 55.1,
+      "ko": "63.1% chance to 2HKO"
+    },
+    {
+      "id": "dugtrio.vs-giovanni-hideout",
+      "species": "dugtrio",
+      "text": "Dugtrio is the best answer to Giovanni's Rhyhorn (level 24)",
+      "mentions": {
+        "pokemon": [
+          "dugtrio",
+          "rhyhorn"
+        ],
+        "moves": [],
+        "numbers": [
+          24
+        ]
+      },
+      "kind": "matchup",
+      "bossId": "giovanni-hideout",
+      "boss": "Giovanni",
+      "bossKind": "villain",
+      "bossMon": "rhyhorn",
+      "bossMonLevel": 24
+    },
+    {
+      "id": "dugtrio.calc-giovanni-hideout",
+      "species": "dugtrio",
+      "text": "Dig does 96.1-113.2% to Giovanni's Rhyhorn (76.9% chance to OHKO)",
+      "mentions": {
+        "pokemon": [
+          "dugtrio",
+          "rhyhorn"
+        ],
+        "moves": [
+          "dig"
+        ],
+        "numbers": [
+          96.1,
+          113.2,
+          105,
+          76,
+          9
+        ]
+      },
+      "kind": "calc",
+      "bossId": "giovanni-hideout",
+      "boss": "Giovanni",
+      "bossKind": "villain",
+      "bossMon": "rhyhorn",
+      "move": "dig",
+      "minPercent": 96.1,
+      "maxPercent": 113.2,
+      "ko": "76.9% chance to OHKO"
+    },
+    {
+      "id": "dugtrio.vs-agatha",
+      "species": "dugtrio",
+      "text": "Dugtrio is the best answer to Agatha's Haunter (level 55)",
+      "mentions": {
+        "pokemon": [
+          "dugtrio",
+          "haunter"
+        ],
+        "moves": [],
+        "numbers": [
+          55
+        ]
+      },
+      "kind": "matchup",
+      "bossId": "agatha",
+      "boss": "Agatha",
+      "bossKind": "eliteFour",
+      "bossMon": "haunter",
+      "bossMonLevel": 55
+    },
+    {
+      "id": "dugtrio.calc-agatha",
+      "species": "dugtrio",
+      "text": "Earthquake does 166.7-196.7% to Agatha's Haunter (guaranteed OHKO)",
+      "mentions": {
+        "pokemon": [
+          "dugtrio",
+          "haunter"
+        ],
+        "moves": [
+          "earthquake"
+        ],
+        "numbers": [
+          166.7,
+          196.7,
+          180
+        ]
+      },
+      "kind": "calc",
+      "bossId": "agatha",
+      "boss": "Agatha",
+      "bossKind": "eliteFour",
+      "bossMon": "haunter",
+      "move": "earthquake",
+      "minPercent": 166.7,
+      "maxPercent": 196.7,
+      "ko": "guaranteed OHKO"
+    },
+    {
+      "id": "dugtrio.move-earthquake",
+      "species": "dugtrio",
+      "text": "Dugtrio learns Earthquake at level 47",
+      "mentions": {
+        "pokemon": [
+          "dugtrio"
+        ],
+        "moves": [
+          "earthquake"
+        ],
+        "numbers": [
+          47
+        ]
+      },
+      "kind": "move",
+      "move": "earthquake",
+      "how": "level",
+      "level": 47,
+      "weight": 148.5
+    },
+    {
+      "id": "dugtrio.move-rest",
+      "species": "dugtrio",
+      "text": "Dugtrio learns Rest from TM44 (S.S. Anne B1F rooms)",
+      "mentions": {
+        "pokemon": [
+          "dugtrio"
+        ],
+        "moves": [
+          "rest"
+        ],
+        "numbers": [
+          44
+        ]
+      },
+      "kind": "move",
+      "move": "rest",
+      "how": "tm",
+      "number": 44,
+      "location": "S.S. Anne B1F rooms",
+      "weight": 0
+    },
+    {
+      "id": "dugtrio.move-slash",
+      "species": "dugtrio",
+      "text": "Dugtrio learns Slash at level 35",
+      "mentions": {
+        "pokemon": [
+          "dugtrio"
+        ],
+        "moves": [
+          "slash"
+        ],
+        "numbers": [
+          35
+        ]
+      },
+      "kind": "move",
+      "move": "slash",
+      "how": "level",
+      "level": 35,
+      "weight": 69
+    },
+    {
+      "id": "dugtrio.move-hyperbeam",
+      "species": "dugtrio",
+      "text": "Dugtrio learns Hyper Beam from TM15 (Celadon Game Corner prize counter)",
+      "mentions": {
+        "pokemon": [
+          "dugtrio"
+        ],
+        "moves": [
+          "hyperbeam"
+        ],
+        "numbers": [
+          15
+        ]
+      },
+      "kind": "move",
+      "move": "hyperbeam",
+      "how": "tm",
+      "number": 15,
+      "location": "Celadon Game Corner prize counter",
+      "weight": 134.1
+    },
+    {
+      "id": "dugtrio.get",
+      "species": "dugtrio",
+      "text": "Dugtrio: Digletts Cave (grass/cave)",
+      "mentions": {
+        "pokemon": [
+          "dugtrio",
+          "dugtrio"
+        ],
+        "moves": [],
+        "numbers": [
+          29,
+          31
+        ]
+      },
+      "kind": "availability",
+      "how": "wild",
+      "where": "Digletts Cave",
+      "stage": 2,
+      "firstSpecies": "dugtrio"
+    },
+    {
+      "id": "dugtrio.role-recovery",
+      "species": "dugtrio",
+      "text": "dugtrio fills the recovery role for the team",
+      "mentions": {
+        "pokemon": [
+          "dugtrio"
+        ],
+        "moves": [],
+        "numbers": []
+      },
+      "kind": "role",
+      "role": "recovery"
+    },
+    {
+      "id": "venomoth.move-doubleedge",
+      "species": "venomoth",
+      "text": "Venomoth learns Double-Edge from TM10 (Rocket Hideout B3F)",
+      "mentions": {
+        "pokemon": [
+          "venomoth"
+        ],
+        "moves": [
+          "doubleedge"
+        ],
+        "numbers": [
+          10
+        ]
+      },
+      "kind": "move",
+      "move": "doubleedge",
+      "how": "tm",
+      "number": 10,
+      "location": "Rocket Hideout B3F",
+      "weight": 99
+    },
+    {
+      "id": "venomoth.move-sleeppowder",
+      "species": "venomoth",
+      "text": "Venomoth learns Sleep Powder at level 43",
+      "mentions": {
+        "pokemon": [
+          "venomoth"
+        ],
+        "moves": [
+          "sleeppowder"
+        ],
+        "numbers": [
+          43
+        ]
+      },
+      "kind": "move",
+      "move": "sleeppowder",
+      "how": "level",
+      "level": 43,
+      "weight": 0
+    },
+    {
+      "id": "venomoth.move-psychic",
+      "species": "venomoth",
+      "text": "Venomoth learns Psychic at level 50",
+      "mentions": {
+        "pokemon": [
+          "venomoth"
+        ],
+        "moves": [
+          "psychic"
+        ],
+        "numbers": [
+          50
+        ]
+      },
+      "kind": "move",
+      "move": "psychic",
+      "how": "level",
+      "level": 50,
+      "weight": 89
+    },
+    {
+      "id": "venomoth.move-takedown",
+      "species": "venomoth",
+      "text": "Venomoth learns Take Down from TM9 (Celadon Dept. Store 2F)",
+      "mentions": {
+        "pokemon": [
+          "venomoth"
+        ],
+        "moves": [
+          "takedown"
+        ],
+        "numbers": [
+          9
+        ]
+      },
+      "kind": "move",
+      "move": "takedown",
+      "how": "tm",
+      "number": 9,
+      "location": "Celadon Dept. Store 2F",
+      "weight": 75.64999999999999
+    },
+    {
+      "id": "venomoth.get",
+      "species": "venomoth",
+      "text": "Venomoth: Safari Zone 2 North (grass/cave)",
+      "mentions": {
+        "pokemon": [
+          "venomoth",
+          "venomoth"
+        ],
+        "moves": [],
+        "numbers": [
+          32,
+          32,
+          2
+        ]
+      },
+      "kind": "availability",
+      "how": "wild",
+      "where": "Safari Zone 2 North",
+      "stage": 4,
+      "firstSpecies": "venomoth"
+    },
+    {
+      "id": "venomoth.role-sleep",
+      "species": "venomoth",
+      "text": "venomoth fills the sleep role for the team",
+      "mentions": {
+        "pokemon": [
+          "venomoth"
+        ],
+        "moves": [],
+        "numbers": []
+      },
+      "kind": "role",
+      "role": "sleep"
+    },
+    {
+      "id": "omastar.vs-blaine",
+      "species": "omastar",
+      "text": "Omastar is the best answer to Blaine's Growlithe (level 42)",
+      "mentions": {
+        "pokemon": [
+          "omastar",
+          "growlithe"
+        ],
+        "moves": [],
+        "numbers": [
+          42
+        ]
+      },
+      "kind": "matchup",
+      "bossId": "blaine",
+      "boss": "Blaine",
+      "bossKind": "gymLeader",
+      "bossMon": "growlithe",
+      "bossMonLevel": 42
+    },
+    {
+      "id": "omastar.calc-blaine",
+      "species": "omastar",
+      "text": "Surf does 177.9-209.6% to Blaine's Growlithe (guaranteed OHKO)",
+      "mentions": {
+        "pokemon": [
+          "omastar",
+          "growlithe"
+        ],
+        "moves": [
+          "surf"
+        ],
+        "numbers": [
+          177.9,
+          209.6,
+          195
+        ]
+      },
+      "kind": "calc",
+      "bossId": "blaine",
+      "boss": "Blaine",
+      "bossKind": "gymLeader",
+      "bossMon": "growlithe",
+      "move": "surf",
+      "minPercent": 177.9,
+      "maxPercent": 209.6,
+      "ko": "guaranteed OHKO"
+    },
+    {
+      "id": "omastar.vs-giovanni-gym",
+      "species": "omastar",
+      "text": "Omastar is the best answer to Giovanni's Rhyhorn (level 45)",
+      "mentions": {
+        "pokemon": [
+          "omastar",
+          "rhyhorn"
+        ],
+        "moves": [],
+        "numbers": [
+          45
+        ]
+      },
+      "kind": "matchup",
+      "bossId": "giovanni-gym",
+      "boss": "Giovanni",
+      "bossKind": "gymLeader",
+      "bossMon": "rhyhorn",
+      "bossMonLevel": 45
+    },
+    {
+      "id": "omastar.calc-giovanni-gym",
+      "species": "omastar",
+      "text": "Hydro Pump does 482.1-567.2% to Giovanni's Rhyhorn (guaranteed OHKO)",
+      "mentions": {
+        "pokemon": [
+          "omastar",
+          "rhyhorn"
+        ],
+        "moves": [
+          "hydropump"
+        ],
+        "numbers": [
+          482.1,
+          567.2,
+          525
+        ]
+      },
+      "kind": "calc",
+      "bossId": "giovanni-gym",
+      "boss": "Giovanni",
+      "bossKind": "gymLeader",
+      "bossMon": "rhyhorn",
+      "move": "hydropump",
+      "minPercent": 482.1,
+      "maxPercent": 567.2,
+      "ko": "guaranteed OHKO"
+    },
+    {
+      "id": "omastar.vs-rival-route22-late",
+      "species": "omastar",
+      "text": "Omastar is the best answer to your rival's Rhyhorn (level 45)",
+      "mentions": {
+        "pokemon": [
+          "omastar",
+          "rhyhorn"
+        ],
+        "moves": [],
+        "numbers": [
+          45
+        ]
+      },
+      "kind": "matchup",
+      "bossId": "rival-route22-late",
+      "boss": "your rival",
+      "bossKind": "rival",
+      "bossMon": "rhyhorn",
+      "bossMonLevel": 45
+    },
+    {
+      "id": "omastar.calc-rival-route22-late",
+      "species": "omastar",
+      "text": "Hydro Pump does 532.8-626.9% to your rival's Rhyhorn (guaranteed OHKO)",
+      "mentions": {
+        "pokemon": [
+          "omastar",
+          "rhyhorn"
+        ],
+        "moves": [
+          "hydropump"
+        ],
+        "numbers": [
+          532.8,
+          626.9,
+          580
+        ]
+      },
+      "kind": "calc",
+      "bossId": "rival-route22-late",
+      "boss": "your rival",
+      "bossKind": "rival",
+      "bossMon": "rhyhorn",
+      "move": "hydropump",
+      "minPercent": 532.8,
+      "maxPercent": 626.9,
+      "ko": "guaranteed OHKO"
+    },
+    {
+      "id": "omastar.vs-bruno",
+      "species": "omastar",
+      "text": "Omastar is the best answer to Bruno's Onix (level 53)",
+      "mentions": {
+        "pokemon": [
+          "omastar",
+          "onix"
+        ],
+        "moves": [],
+        "numbers": [
+          53
+        ]
+      },
+      "kind": "matchup",
+      "bossId": "bruno",
+      "boss": "Bruno",
+      "bossKind": "eliteFour",
+      "bossMon": "onix",
+      "bossMonLevel": 53
+    },
+    {
+      "id": "omastar.calc-bruno",
+      "species": "omastar",
+      "text": "Hydro Pump does 674.1-792.6% to Bruno's Onix (guaranteed OHKO)",
+      "mentions": {
+        "pokemon": [
+          "omastar",
+          "onix"
+        ],
+        "moves": [
+          "hydropump"
+        ],
+        "numbers": [
+          674.1,
+          792.6,
+          735
+        ]
+      },
+      "kind": "calc",
+      "bossId": "bruno",
+      "boss": "Bruno",
+      "bossKind": "eliteFour",
+      "bossMon": "onix",
+      "move": "hydropump",
+      "minPercent": 674.1,
+      "maxPercent": 792.6,
+      "ko": "guaranteed OHKO"
+    },
+    {
+      "id": "omastar.vs-lance",
+      "species": "omastar",
+      "text": "Omastar is the best answer to Lance's Aerodactyl (level 60)",
+      "mentions": {
+        "pokemon": [
+          "omastar",
+          "aerodactyl"
+        ],
+        "moves": [],
+        "numbers": [
+          60
+        ]
+      },
+      "kind": "matchup",
+      "bossId": "lance",
+      "boss": "Lance",
+      "bossKind": "eliteFour",
+      "bossMon": "aerodactyl",
+      "bossMonLevel": 60
+    },
+    {
+      "id": "omastar.calc-lance",
+      "species": "omastar",
+      "text": "Hydro Pump does 145.7-171.4% to Lance's Aerodactyl (guaranteed OHKO)",
+      "mentions": {
+        "pokemon": [
+          "omastar",
+          "aerodactyl"
+        ],
+        "moves": [
+          "hydropump"
+        ],
+        "numbers": [
+          145.7,
+          171.4,
+          160
+        ]
+      },
+      "kind": "calc",
+      "bossId": "lance",
+      "boss": "Lance",
+      "bossKind": "eliteFour",
+      "bossMon": "aerodactyl",
+      "move": "hydropump",
+      "minPercent": 145.7,
+      "maxPercent": 171.4,
+      "ko": "guaranteed OHKO"
+    },
+    {
+      "id": "omastar.vs-rival-champion",
+      "species": "omastar",
+      "text": "Omastar is the best answer to your rival's Rhydon (level 61)",
+      "mentions": {
+        "pokemon": [
+          "omastar",
+          "rhydon"
+        ],
+        "moves": [],
+        "numbers": [
+          61
+        ]
+      },
+      "kind": "matchup",
+      "bossId": "rival-champion",
+      "boss": "your rival",
+      "bossKind": "rival",
+      "bossMon": "rhydon",
+      "bossMonLevel": 61
+    },
+    {
+      "id": "omastar.calc-rival-champion",
+      "species": "omastar",
+      "text": "Hydro Pump does 315.4-371.2% to your rival's Rhydon (guaranteed OHKO)",
+      "mentions": {
+        "pokemon": [
+          "omastar",
+          "rhydon"
+        ],
+        "moves": [
+          "hydropump"
+        ],
+        "numbers": [
+          315.4,
+          371.2,
+          345
+        ]
+      },
+      "kind": "calc",
+      "bossId": "rival-champion",
+      "boss": "your rival",
+      "bossKind": "rival",
+      "bossMon": "rhydon",
+      "move": "hydropump",
+      "minPercent": 315.4,
+      "maxPercent": 371.2,
+      "ko": "guaranteed OHKO"
+    },
+    {
+      "id": "omastar.move-hydropump",
+      "species": "omastar",
+      "text": "Omastar learns Hydro Pump at level 49",
+      "mentions": {
+        "pokemon": [
+          "omastar"
+        ],
+        "moves": [
+          "hydropump"
+        ],
+        "numbers": [
+          49
+        ]
+      },
+      "kind": "move",
+      "move": "hydropump",
+      "how": "level",
+      "level": 49,
+      "weight": 142.8
+    },
+    {
+      "id": "omastar.move-submission",
+      "species": "omastar",
+      "text": "Omastar learns Submission from TM17 (Celadon Dept. Store 2F)",
+      "mentions": {
+        "pokemon": [
+          "omastar"
+        ],
+        "moves": [
+          "submission"
+        ],
+        "numbers": [
+          17
+        ]
+      },
+      "kind": "move",
+      "move": "submission",
+      "how": "tm",
+      "number": 17,
+      "location": "Celadon Dept. Store 2F",
+      "weight": 63.2
+    },
+    {
+      "id": "omastar.move-surf",
+      "species": "omastar",
+      "text": "Omastar learns Surf from HM3 (Safari Zone secret house)",
+      "mentions": {
+        "pokemon": [
+          "omastar"
+        ],
+        "moves": [
+          "surf"
+        ],
+        "numbers": [
+          3
+        ]
+      },
+      "kind": "move",
+      "move": "surf",
+      "how": "hm",
+      "number": 3,
+      "location": "Safari Zone secret house",
+      "weight": 141
+    },
+    {
+      "id": "omastar.move-hornattack",
+      "species": "omastar",
+      "text": "Omastar learns Horn Attack at level 34",
+      "mentions": {
+        "pokemon": [
+          "omastar"
+        ],
+        "moves": [
+          "hornattack"
+        ],
+        "numbers": [
+          34
+        ]
+      },
+      "kind": "move",
+      "move": "hornattack",
+      "how": "level",
+      "level": 34,
+      "weight": 64
+    },
+    {
+      "id": "omastar.get",
+      "species": "omastar",
+      "text": "Omanyte: Revive at Cinnabar Island Cinnabar Lab (helix fossil); then Evolves from Omanyte at level 40",
+      "mentions": {
+        "pokemon": [
+          "omastar",
+          "omanyte"
+        ],
+        "moves": [],
+        "numbers": [
+          30,
+          30,
+          40
+        ]
+      },
+      "kind": "availability",
+      "how": "fossil",
+      "where": "Cinnabar Island Cinnabar Lab",
+      "stage": 6,
+      "firstSpecies": "omanyte",
+      "evolution": {
+        "how": "level",
+        "level": 40
+      }
+    },
+    {
+      "id": "pidgeot.vs-rival-silph",
+      "species": "pidgeot",
+      "text": "Pidgeot is the best answer to your rival's Alakazam (level 35)",
+      "mentions": {
+        "pokemon": [
+          "pidgeot",
+          "alakazam"
+        ],
+        "moves": [],
+        "numbers": [
+          35
+        ]
+      },
+      "kind": "matchup",
+      "bossId": "rival-silph",
+      "boss": "your rival",
+      "bossKind": "rival",
+      "bossMon": "alakazam",
+      "bossMonLevel": 35
+    },
+    {
+      "id": "pidgeot.calc-rival-silph",
+      "species": "pidgeot",
+      "text": "Hyper Beam does 122.5-144.9% to your rival's Alakazam (guaranteed OHKO)",
+      "mentions": {
+        "pokemon": [
+          "pidgeot",
+          "alakazam"
+        ],
+        "moves": [
+          "hyperbeam"
+        ],
+        "numbers": [
+          122.5,
+          144.9,
+          135
+        ]
+      },
+      "kind": "calc",
+      "bossId": "rival-silph",
+      "boss": "your rival",
+      "bossKind": "rival",
+      "bossMon": "alakazam",
+      "move": "hyperbeam",
+      "minPercent": 122.5,
+      "maxPercent": 144.9,
+      "ko": "guaranteed OHKO"
+    },
+    {
+      "id": "pidgeot.vs-sabrina",
+      "species": "pidgeot",
+      "text": "Pidgeot is the best answer to Sabrina's Kadabra (level 38)",
+      "mentions": {
+        "pokemon": [
+          "pidgeot",
+          "kadabra"
+        ],
+        "moves": [],
+        "numbers": [
+          38
+        ]
+      },
+      "kind": "matchup",
+      "bossId": "sabrina",
+      "boss": "Sabrina",
+      "bossKind": "gymLeader",
+      "bossMon": "kadabra",
+      "bossMonLevel": 38
+    },
+    {
+      "id": "pidgeot.calc-sabrina",
+      "species": "pidgeot",
+      "text": "Hyper Beam does 164.3-194% to Sabrina's Kadabra (guaranteed OHKO)",
+      "mentions": {
+        "pokemon": [
+          "pidgeot",
+          "kadabra"
+        ],
+        "moves": [
+          "hyperbeam"
+        ],
+        "numbers": [
+          164.3,
+          194,
+          180
+        ]
+      },
+      "kind": "calc",
+      "bossId": "sabrina",
+      "boss": "Sabrina",
+      "bossKind": "gymLeader",
+      "bossMon": "kadabra",
+      "move": "hyperbeam",
+      "minPercent": 164.3,
+      "maxPercent": 194,
+      "ko": "guaranteed OHKO"
+    },
+    {
+      "id": "pidgeot.vs-rival-route22-late",
+      "species": "pidgeot",
+      "text": "Pidgeot is the best answer to your rival's Exeggcute (level 45)",
+      "mentions": {
+        "pokemon": [
+          "pidgeot",
+          "exeggcute"
+        ],
+        "moves": [],
+        "numbers": [
+          45
+        ]
+      },
+      "kind": "matchup",
+      "bossId": "rival-route22-late",
+      "boss": "your rival",
+      "bossKind": "rival",
+      "bossMon": "exeggcute",
+      "bossMonLevel": 45
+    },
+    {
+      "id": "pidgeot.calc-rival-route22-late",
+      "species": "pidgeot",
+      "text": "Sky Attack does 168.1-198.3% to your rival's Exeggcute (guaranteed OHKO)",
+      "mentions": {
+        "pokemon": [
+          "pidgeot",
+          "exeggcute"
+        ],
+        "moves": [
+          "skyattack"
+        ],
+        "numbers": [
+          168.1,
+          198.3,
+          185
+        ]
+      },
+      "kind": "calc",
+      "bossId": "rival-route22-late",
+      "boss": "your rival",
+      "bossKind": "rival",
+      "bossMon": "exeggcute",
+      "move": "skyattack",
+      "minPercent": 168.1,
+      "maxPercent": 198.3,
+      "ko": "guaranteed OHKO"
+    },
+    {
+      "id": "pidgeot.vs-lorelei",
+      "species": "pidgeot",
+      "text": "Pidgeot is the best answer to Lorelei's Jynx (level 56)",
+      "mentions": {
+        "pokemon": [
+          "pidgeot",
+          "jynx"
+        ],
+        "moves": [],
+        "numbers": [
+          56
+        ]
+      },
+      "kind": "matchup",
+      "bossId": "lorelei",
+      "boss": "Lorelei",
+      "bossKind": "eliteFour",
+      "bossMon": "jynx",
+      "bossMonLevel": 56
+    },
+    {
+      "id": "pidgeot.calc-lorelei",
+      "species": "pidgeot",
+      "text": "Hyper Beam does 98.6-116.3% to Lorelei's Jynx (92.3% chance to OHKO)",
+      "mentions": {
+        "pokemon": [
+          "pidgeot",
+          "jynx"
+        ],
+        "moves": [
+          "hyperbeam"
+        ],
+        "numbers": [
+          98.6,
+          116.3,
+          105,
+          92,
+          3
+        ]
+      },
+      "kind": "calc",
+      "bossId": "lorelei",
+      "boss": "Lorelei",
+      "bossKind": "eliteFour",
+      "bossMon": "jynx",
+      "move": "hyperbeam",
+      "minPercent": 98.6,
+      "maxPercent": 116.3,
+      "ko": "92.3% chance to OHKO"
+    },
+    {
+      "id": "pidgeot.vs-bruno",
+      "species": "pidgeot",
+      "text": "Pidgeot is the best answer to Bruno's Machamp (level 58)",
+      "mentions": {
+        "pokemon": [
+          "pidgeot",
+          "machamp"
+        ],
+        "moves": [],
+        "numbers": [
+          58
+        ]
+      },
+      "kind": "matchup",
+      "bossId": "bruno",
+      "boss": "Bruno",
+      "bossKind": "eliteFour",
+      "bossMon": "machamp",
+      "bossMonLevel": 58
+    },
+    {
+      "id": "pidgeot.calc-bruno",
+      "species": "pidgeot",
+      "text": "Sky Attack does 101.1-119.3% to Bruno's Machamp (guaranteed OHKO)",
+      "mentions": {
+        "pokemon": [
+          "pidgeot",
+          "machamp"
+        ],
+        "moves": [
+          "skyattack"
+        ],
+        "numbers": [
+          101.1,
+          119.3,
+          110
+        ]
+      },
+      "kind": "calc",
+      "bossId": "bruno",
+      "boss": "Bruno",
+      "bossKind": "eliteFour",
+      "bossMon": "machamp",
+      "move": "skyattack",
+      "minPercent": 101.1,
+      "maxPercent": 119.3,
+      "ko": "guaranteed OHKO"
+    },
+    {
+      "id": "pidgeot.vs-lance",
+      "species": "pidgeot",
+      "text": "Pidgeot is the best answer to Lance's Dragonair (level 56)",
+      "mentions": {
+        "pokemon": [
+          "pidgeot",
+          "dragonair"
+        ],
+        "moves": [],
+        "numbers": [
+          56
+        ]
+      },
+      "kind": "matchup",
+      "bossId": "lance",
+      "boss": "Lance",
+      "bossKind": "eliteFour",
+      "bossMon": "dragonair",
+      "bossMonLevel": 56
+    },
+    {
+      "id": "pidgeot.calc-lance",
+      "species": "pidgeot",
+      "text": "Hyper Beam does 87.4-103.5% to Lance's Dragonair (23.1% chance to OHKO)",
+      "mentions": {
+        "pokemon": [
+          "pidgeot",
+          "dragonair"
+        ],
+        "moves": [
+          "hyperbeam"
+        ],
+        "numbers": [
+          87.4,
+          103.5,
+          95,
+          23,
+          1
+        ]
+      },
+      "kind": "calc",
+      "bossId": "lance",
+      "boss": "Lance",
+      "bossKind": "eliteFour",
+      "bossMon": "dragonair",
+      "move": "hyperbeam",
+      "minPercent": 87.4,
+      "maxPercent": 103.5,
+      "ko": "23.1% chance to OHKO"
+    },
+    {
+      "id": "pidgeot.vs-rival-champion",
+      "species": "pidgeot",
+      "text": "Pidgeot is the best answer to your rival's Alakazam (level 59)",
+      "mentions": {
+        "pokemon": [
+          "pidgeot",
+          "alakazam"
+        ],
+        "moves": [],
+        "numbers": [
+          59
+        ]
+      },
+      "kind": "matchup",
+      "bossId": "rival-champion",
+      "boss": "your rival",
+      "bossKind": "rival",
+      "bossMon": "alakazam",
+      "bossMonLevel": 59
+    },
+    {
+      "id": "pidgeot.calc-rival-champion",
+      "species": "pidgeot",
+      "text": "Hyper Beam does 116.1-137.1% to your rival's Alakazam (guaranteed OHKO)",
+      "mentions": {
+        "pokemon": [
+          "pidgeot",
+          "alakazam"
+        ],
+        "moves": [
+          "hyperbeam"
+        ],
+        "numbers": [
+          116.1,
+          137.1,
+          125
+        ]
+      },
+      "kind": "calc",
+      "bossId": "rival-champion",
+      "boss": "your rival",
+      "bossKind": "rival",
+      "bossMon": "alakazam",
+      "move": "hyperbeam",
+      "minPercent": 116.1,
+      "maxPercent": 137.1,
+      "ko": "guaranteed OHKO"
+    },
+    {
+      "id": "pidgeot.move-takedown",
+      "species": "pidgeot",
+      "text": "Pidgeot learns Take Down from TM9 (Celadon Dept. Store 2F)",
+      "mentions": {
+        "pokemon": [
+          "pidgeot"
+        ],
+        "moves": [
+          "takedown"
+        ],
+        "numbers": [
+          9
+        ]
+      },
+      "kind": "move",
+      "move": "takedown",
+      "how": "tm",
+      "number": 9,
+      "location": "Celadon Dept. Store 2F",
+      "weight": 113.475
+    },
+    {
+      "id": "pidgeot.move-skyattack",
+      "species": "pidgeot",
+      "text": "Pidgeot learns Sky Attack from TM43 (Victory Road 1F)",
+      "mentions": {
+        "pokemon": [
+          "pidgeot"
+        ],
+        "moves": [
+          "skyattack"
+        ],
+        "numbers": [
+          43
+        ]
+      },
+      "kind": "move",
+      "move": "skyattack",
+      "how": "tm",
+      "number": 43,
+      "location": "Victory Road 1F",
+      "weight": 187.65
+    },
+    {
+      "id": "pidgeot.move-gust",
+      "species": "pidgeot",
+      "text": "Pidgeot learns Gust when caught",
+      "mentions": {
+        "pokemon": [
+          "pidgeot"
+        ],
+        "moves": [
+          "gust"
+        ],
+        "numbers": []
+      },
+      "kind": "move",
+      "move": "gust",
+      "how": "start",
+      "weight": 58.5
+    },
+    {
+      "id": "pidgeot.move-quickattack",
+      "species": "pidgeot",
+      "text": "Pidgeot learns Quick Attack at level 12",
+      "mentions": {
+        "pokemon": [
+          "pidgeot"
+        ],
+        "moves": [
+          "quickattack"
+        ],
+        "numbers": [
+          12
+        ]
+      },
+      "kind": "move",
+      "move": "quickattack",
+      "how": "level",
+      "level": 12,
+      "weight": 58.5
+    },
+    {
+      "id": "pidgeot.get",
+      "species": "pidgeot",
+      "text": "Pidgey: Route 1 (grass/cave); then Evolves from Pidgeotto at level 36",
+      "mentions": {
+        "pokemon": [
+          "pidgeot",
+          "pidgey"
+        ],
+        "moves": [],
+        "numbers": [
+          2,
+          5,
+          18,
+          1
+        ]
+      },
+      "kind": "availability",
+      "how": "wild",
+      "where": "Route 1",
+      "stage": 0,
+      "firstSpecies": "pidgey",
+      "evolution": {
+        "how": "level",
+        "level": 18
+      }
+    },
+    {
+      "id": "raichu.vs-rival-pokemontower",
+      "species": "raichu",
+      "text": "Raichu is the best answer to your rival's Gyarados (level 22)",
+      "mentions": {
+        "pokemon": [
+          "raichu",
+          "gyarados"
+        ],
+        "moves": [],
+        "numbers": [
+          22
+        ]
+      },
+      "kind": "matchup",
+      "bossId": "rival-pokemontower",
+      "boss": "your rival",
+      "bossKind": "rival",
+      "bossMon": "gyarados",
+      "bossMonLevel": 22
+    },
+    {
+      "id": "raichu.calc-rival-pokemontower",
+      "species": "raichu",
+      "text": "Thunderbolt does 162.3-192.2% to your rival's Gyarados (guaranteed OHKO)",
+      "mentions": {
+        "pokemon": [
+          "raichu",
+          "gyarados"
+        ],
+        "moves": [
+          "thunderbolt"
+        ],
+        "numbers": [
+          162.3,
+          192.2,
+          175
+        ]
+      },
+      "kind": "calc",
+      "bossId": "rival-pokemontower",
+      "boss": "your rival",
+      "bossKind": "rival",
+      "bossMon": "gyarados",
+      "move": "thunderbolt",
+      "minPercent": 162.3,
+      "maxPercent": 192.2,
+      "ko": "guaranteed OHKO"
+    },
+    {
+      "id": "raichu.vs-giovanni-hideout",
+      "species": "raichu",
+      "text": "Raichu is the best answer to Giovanni's Kangaskhan (level 29)",
+      "mentions": {
+        "pokemon": [
+          "raichu",
+          "kangaskhan"
+        ],
+        "moves": [],
+        "numbers": [
+          29
+        ]
+      },
+      "kind": "matchup",
+      "bossId": "giovanni-hideout",
+      "boss": "Giovanni",
+      "bossKind": "villain",
+      "bossMon": "kangaskhan",
+      "bossMonLevel": 29
+    },
+    {
+      "id": "raichu.calc-giovanni-hideout",
+      "species": "raichu",
+      "text": "Thunderbolt does 49-57.7% to Giovanni's Kangaskhan (96.3% chance to 2HKO)",
+      "mentions": {
+        "pokemon": [
+          "raichu",
+          "kangaskhan"
+        ],
+        "moves": [
+          "thunderbolt"
+        ],
+        "numbers": [
+          49,
+          57.7,
+          55,
+          96,
+          3,
+          2
+        ]
+      },
+      "kind": "calc",
+      "bossId": "giovanni-hideout",
+      "boss": "Giovanni",
+      "bossKind": "villain",
+      "bossMon": "kangaskhan",
+      "move": "thunderbolt",
+      "minPercent": 49,
+      "maxPercent": 57.7,
+      "ko": "96.3% chance to 2HKO"
+    },
+    {
+      "id": "raichu.vs-rival-silph",
+      "species": "raichu",
+      "text": "Raichu is the best answer to your rival's Gyarados (level 35)",
+      "mentions": {
+        "pokemon": [
+          "raichu",
+          "gyarados"
+        ],
+        "moves": [],
+        "numbers": [
+          35
+        ]
+      },
+      "kind": "matchup",
+      "bossId": "rival-silph",
+      "boss": "your rival",
+      "bossKind": "rival",
+      "bossMon": "gyarados",
+      "bossMonLevel": 35
+    },
+    {
+      "id": "raichu.calc-rival-silph",
+      "species": "raichu",
+      "text": "Thunderbolt does 165.8-194.9% to your rival's Gyarados (guaranteed OHKO)",
+      "mentions": {
+        "pokemon": [
+          "raichu",
+          "gyarados"
+        ],
+        "moves": [
+          "thunderbolt"
+        ],
+        "numbers": [
+          165.8,
+          194.9,
+          180
+        ]
+      },
+      "kind": "calc",
+      "bossId": "rival-silph",
+      "boss": "your rival",
+      "bossKind": "rival",
+      "bossMon": "gyarados",
+      "move": "thunderbolt",
+      "minPercent": 165.8,
+      "maxPercent": 194.9,
+      "ko": "guaranteed OHKO"
+    },
+    {
+      "id": "raichu.vs-rival-route22-late",
+      "species": "raichu",
+      "text": "Raichu is the best answer to your rival's Gyarados (level 47)",
+      "mentions": {
+        "pokemon": [
+          "raichu",
+          "gyarados"
+        ],
+        "moves": [],
+        "numbers": [
+          47
+        ]
+      },
+      "kind": "matchup",
+      "bossId": "rival-route22-late",
+      "boss": "your rival",
+      "bossKind": "rival",
+      "bossMon": "gyarados",
+      "bossMonLevel": 47
+    },
+    {
+      "id": "raichu.calc-rival-route22-late",
+      "species": "raichu",
+      "text": "Thunder does 195.4-230.1% to your rival's Gyarados (guaranteed OHKO)",
+      "mentions": {
+        "pokemon": [
+          "raichu",
+          "gyarados"
+        ],
+        "moves": [
+          "thunder"
+        ],
+        "numbers": [
+          195.4,
+          230.1,
+          215
+        ]
+      },
+      "kind": "calc",
+      "bossId": "rival-route22-late",
+      "boss": "your rival",
+      "bossKind": "rival",
+      "bossMon": "gyarados",
+      "move": "thunder",
+      "minPercent": 195.4,
+      "maxPercent": 230.1,
+      "ko": "guaranteed OHKO"
+    },
+    {
+      "id": "raichu.vs-lorelei",
+      "species": "raichu",
+      "text": "Raichu is the best answer to Lorelei's Cloyster (level 53)",
+      "mentions": {
+        "pokemon": [
+          "raichu",
+          "cloyster"
+        ],
+        "moves": [],
+        "numbers": [
+          53
+        ]
+      },
+      "kind": "matchup",
+      "bossId": "lorelei",
+      "boss": "Lorelei",
+      "bossKind": "eliteFour",
+      "bossMon": "cloyster",
+      "bossMonLevel": 53
+    },
+    {
+      "id": "raichu.calc-lorelei",
+      "species": "raichu",
+      "text": "Thunder does 133.1-156.5% to Lorelei's Cloyster (guaranteed OHKO)",
+      "mentions": {
+        "pokemon": [
+          "raichu",
+          "cloyster"
+        ],
+        "moves": [
+          "thunder"
+        ],
+        "numbers": [
+          133.1,
+          156.5,
+          145
+        ]
+      },
+      "kind": "calc",
+      "bossId": "lorelei",
+      "boss": "Lorelei",
+      "bossKind": "eliteFour",
+      "bossMon": "cloyster",
+      "move": "thunder",
+      "minPercent": 133.1,
+      "maxPercent": 156.5,
+      "ko": "guaranteed OHKO"
+    },
+    {
+      "id": "raichu.vs-agatha",
+      "species": "raichu",
+      "text": "Raichu is the best answer to Agatha's Golbat (level 56)",
+      "mentions": {
+        "pokemon": [
+          "raichu",
+          "golbat"
+        ],
+        "moves": [],
+        "numbers": [
+          56
+        ]
+      },
+      "kind": "matchup",
+      "bossId": "agatha",
+      "boss": "Agatha",
+      "bossKind": "eliteFour",
+      "bossMon": "golbat",
+      "bossMonLevel": 56
+    },
+    {
+      "id": "raichu.calc-agatha",
+      "species": "raichu",
+      "text": "Thunder does 123.4-145.6% to Agatha's Golbat (guaranteed OHKO)",
+      "mentions": {
+        "pokemon": [
+          "raichu",
+          "golbat"
+        ],
+        "moves": [
+          "thunder"
+        ],
+        "numbers": [
+          123.4,
+          145.6,
+          135
+        ]
+      },
+      "kind": "calc",
+      "bossId": "agatha",
+      "boss": "Agatha",
+      "bossKind": "eliteFour",
+      "bossMon": "golbat",
+      "move": "thunder",
+      "minPercent": 123.4,
+      "maxPercent": 145.6,
+      "ko": "guaranteed OHKO"
+    },
+    {
+      "id": "raichu.vs-lance",
+      "species": "raichu",
+      "text": "Raichu is the best answer to Lance's Gyarados (level 58)",
+      "mentions": {
+        "pokemon": [
+          "raichu",
+          "gyarados"
+        ],
+        "moves": [],
+        "numbers": [
+          58
+        ]
+      },
+      "kind": "matchup",
+      "bossId": "lance",
+      "boss": "Lance",
+      "bossKind": "eliteFour",
+      "bossMon": "gyarados",
+      "bossMonLevel": 58
+    },
+    {
+      "id": "raichu.calc-lance",
+      "species": "raichu",
+      "text": "Thunder does 174.3-205.3% to Lance's Gyarados (guaranteed OHKO)",
+      "mentions": {
+        "pokemon": [
+          "raichu",
+          "gyarados"
+        ],
+        "moves": [
+          "thunder"
+        ],
+        "numbers": [
+          174.3,
+          205.3,
+          190
+        ]
+      },
+      "kind": "calc",
+      "bossId": "lance",
+      "boss": "Lance",
+      "bossKind": "eliteFour",
+      "bossMon": "gyarados",
+      "move": "thunder",
+      "minPercent": 174.3,
+      "maxPercent": 205.3,
+      "ko": "guaranteed OHKO"
+    },
+    {
+      "id": "raichu.vs-rival-champion",
+      "species": "raichu",
+      "text": "Raichu is the best answer to your rival's Gyarados (level 63)",
+      "mentions": {
+        "pokemon": [
+          "raichu",
+          "gyarados"
+        ],
+        "moves": [],
+        "numbers": [
+          63
+        ]
+      },
+      "kind": "matchup",
+      "bossId": "rival-champion",
+      "boss": "your rival",
+      "bossKind": "rival",
+      "bossMon": "gyarados",
+      "bossMonLevel": 63
+    },
+    {
+      "id": "raichu.calc-rival-champion",
+      "species": "raichu",
+      "text": "Thunder does 166.3-196% to your rival's Gyarados (guaranteed OHKO)",
+      "mentions": {
+        "pokemon": [
+          "raichu",
+          "gyarados"
+        ],
+        "moves": [
+          "thunder"
+        ],
+        "numbers": [
+          166.3,
+          196,
+          180
+        ]
+      },
+      "kind": "calc",
+      "bossId": "rival-champion",
+      "boss": "your rival",
+      "bossKind": "rival",
+      "bossMon": "gyarados",
+      "move": "thunder",
+      "minPercent": 166.3,
+      "maxPercent": 196,
+      "ko": "guaranteed OHKO"
+    },
+    {
+      "id": "raichu.move-thunderbolt",
+      "species": "raichu",
+      "text": "Raichu learns Thunderbolt from TM24 (Vermilion Gym (Lt. Surge))",
+      "mentions": {
+        "pokemon": [
+          "raichu"
+        ],
+        "moves": [
+          "thunderbolt"
+        ],
+        "numbers": [
+          24
+        ]
+      },
+      "kind": "move",
+      "move": "thunderbolt",
+      "how": "tm",
+      "number": 24,
+      "location": "Vermilion Gym (Lt. Surge)",
+      "weight": 141
+    },
+    {
+      "id": "raichu.move-thunderwave",
+      "species": "raichu",
+      "text": "Raichu learns Thunder Wave at level 9",
+      "mentions": {
+        "pokemon": [
+          "raichu"
+        ],
+        "moves": [
+          "thunderwave"
+        ],
+        "numbers": [
+          9
+        ]
+      },
+      "kind": "move",
+      "move": "thunderwave",
+      "how": "level",
+      "level": 9,
+      "weight": 0
+    },
+    {
+      "id": "raichu.move-submission",
+      "species": "raichu",
+      "text": "Raichu learns Submission from TM17 (Celadon Dept. Store 2F)",
+      "mentions": {
+        "pokemon": [
+          "raichu"
+        ],
+        "moves": [
+          "submission"
+        ],
+        "numbers": [
+          17
+        ]
+      },
+      "kind": "move",
+      "move": "submission",
+      "how": "tm",
+      "number": 17,
+      "location": "Celadon Dept. Store 2F",
+      "weight": 63.2
+    },
+    {
+      "id": "raichu.move-thunder",
+      "species": "raichu",
+      "text": "Raichu learns Thunder at level 43",
+      "mentions": {
+        "pokemon": [
+          "raichu"
+        ],
+        "moves": [
+          "thunder"
+        ],
+        "numbers": [
+          43
+        ]
+      },
+      "kind": "move",
+      "move": "thunder",
+      "how": "level",
+      "level": 43,
+      "weight": 124.94999999999999
+    },
+    {
+      "id": "raichu.get",
+      "species": "raichu",
+      "text": "Pikachu: Viridian Forest (grass/cave); then Evolve Pikachu with a Thunder Stone (Celadon Dept. Store 4F)",
+      "mentions": {
+        "pokemon": [
+          "raichu",
+          "pikachu"
+        ],
+        "moves": [],
+        "numbers": [
+          3,
+          5
+        ]
+      },
+      "kind": "availability",
+      "how": "wild",
+      "where": "Viridian Forest",
+      "stage": 0,
+      "firstSpecies": "pikachu",
+      "evolution": {
+        "how": "stone",
+        "item": "Thunder Stone"
+      }
+    },
+    {
+      "id": "raichu.role-paralysis",
+      "species": "raichu",
+      "text": "raichu fills the paralysis role for the team",
+      "mentions": {
+        "pokemon": [
+          "raichu"
+        ],
+        "moves": [],
+        "numbers": []
+      },
+      "kind": "role",
+      "role": "paralysis"
+    },
+    {
+      "id": "hypno.vs-erika",
+      "species": "hypno",
+      "text": "Hypno is the best answer to Erika's Vileplume (level 29)",
+      "mentions": {
+        "pokemon": [
+          "hypno",
+          "vileplume"
+        ],
+        "moves": [],
+        "numbers": [
+          29
+        ]
+      },
+      "kind": "matchup",
+      "bossId": "erika",
+      "boss": "Erika",
+      "bossKind": "gymLeader",
+      "bossMon": "vileplume",
+      "bossMonLevel": 29
+    },
+    {
+      "id": "hypno.calc-erika",
+      "species": "hypno",
+      "text": "Confusion does 46-55.2% to Erika's Vileplume (66.3% chance to 2HKO)",
+      "mentions": {
+        "pokemon": [
+          "hypno",
+          "vileplume"
+        ],
+        "moves": [
+          "confusion"
+        ],
+        "numbers": [
+          46,
+          55.2,
+          50,
+          66,
+          3,
+          2
+        ]
+      },
+      "kind": "calc",
+      "bossId": "erika",
+      "boss": "Erika",
+      "bossKind": "gymLeader",
+      "bossMon": "vileplume",
+      "move": "confusion",
+      "minPercent": 46,
+      "maxPercent": 55.2,
+      "ko": "66.3% chance to 2HKO"
+    },
+    {
+      "id": "hypno.vs-koga",
+      "species": "hypno",
+      "text": "Hypno is the best answer to Koga's Koffing (level 37)",
+      "mentions": {
+        "pokemon": [
+          "hypno",
+          "koffing"
+        ],
+        "moves": [],
+        "numbers": [
+          37
+        ]
+      },
+      "kind": "matchup",
+      "bossId": "koga",
+      "boss": "Koga",
+      "bossKind": "gymLeader",
+      "bossMon": "koffing",
+      "bossMonLevel": 37
+    },
+    {
+      "id": "hypno.calc-koga",
+      "species": "hypno",
+      "text": "Psychic does 192.7-226.8% to Koga's Koffing (guaranteed OHKO)",
+      "mentions": {
+        "pokemon": [
+          "hypno",
+          "koffing"
+        ],
+        "moves": [
+          "psychic"
+        ],
+        "numbers": [
+          192.7,
+          226.8,
+          210
+        ]
+      },
+      "kind": "calc",
+      "bossId": "koga",
+      "boss": "Koga",
+      "bossKind": "gymLeader",
+      "bossMon": "koffing",
+      "move": "psychic",
+      "minPercent": 192.7,
+      "maxPercent": 226.8,
+      "ko": "guaranteed OHKO"
+    },
+    {
+      "id": "hypno.vs-giovanni-silph",
+      "species": "hypno",
+      "text": "Hypno is the best answer to Giovanni's Nidorino (level 37)",
+      "mentions": {
+        "pokemon": [
+          "hypno",
+          "nidorino"
+        ],
+        "moves": [],
+        "numbers": [
+          37
+        ]
+      },
+      "kind": "matchup",
+      "bossId": "giovanni-silph",
+      "boss": "Giovanni",
+      "bossKind": "villain",
+      "bossMon": "nidorino",
+      "bossMonLevel": 37
+    },
+    {
+      "id": "hypno.calc-giovanni-silph",
+      "species": "hypno",
+      "text": "Psychic does 152-179.6% to Giovanni's Nidorino (guaranteed OHKO)",
+      "mentions": {
+        "pokemon": [
+          "hypno",
+          "nidorino"
+        ],
+        "moves": [
+          "psychic"
+        ],
+        "numbers": [
+          152,
+          179.6,
+          165
+        ]
+      },
+      "kind": "calc",
+      "bossId": "giovanni-silph",
+      "boss": "Giovanni",
+      "bossKind": "villain",
+      "bossMon": "nidorino",
+      "move": "psychic",
+      "minPercent": 152,
+      "maxPercent": 179.6,
+      "ko": "guaranteed OHKO"
+    },
+    {
+      "id": "hypno.vs-sabrina",
+      "species": "hypno",
+      "text": "Hypno is the best answer to Sabrina's Venomoth (level 38)",
+      "mentions": {
+        "pokemon": [
+          "hypno",
+          "venomoth"
+        ],
+        "moves": [],
+        "numbers": [
+          38
+        ]
+      },
+      "kind": "matchup",
+      "bossId": "sabrina",
+      "boss": "Sabrina",
+      "bossKind": "gymLeader",
+      "bossMon": "venomoth",
+      "bossMonLevel": 38
+    },
+    {
+      "id": "hypno.calc-sabrina",
+      "species": "hypno",
+      "text": "Psychic does 111.2-130.8% to Sabrina's Venomoth (guaranteed OHKO)",
+      "mentions": {
+        "pokemon": [
+          "hypno",
+          "venomoth"
+        ],
+        "moves": [
+          "psychic"
+        ],
+        "numbers": [
+          111.2,
+          130.8,
+          120
+        ]
+      },
+      "kind": "calc",
+      "bossId": "sabrina",
+      "boss": "Sabrina",
+      "bossKind": "gymLeader",
+      "bossMon": "venomoth",
+      "move": "psychic",
+      "minPercent": 111.2,
+      "maxPercent": 130.8,
+      "ko": "guaranteed OHKO"
+    },
+    {
+      "id": "hypno.vs-bruno",
+      "species": "hypno",
+      "text": "Hypno is the best answer to Bruno's Hitmonchan (level 55)",
+      "mentions": {
+        "pokemon": [
+          "hypno",
+          "hitmonchan"
+        ],
+        "moves": [],
+        "numbers": [
+          55
+        ]
+      },
+      "kind": "matchup",
+      "bossId": "bruno",
+      "boss": "Bruno",
+      "bossKind": "eliteFour",
+      "bossMon": "hitmonchan",
+      "bossMonLevel": 55
+    },
+    {
+      "id": "hypno.calc-bruno",
+      "species": "hypno",
+      "text": "Psychic does 195.3-229.7% to Bruno's Hitmonchan (guaranteed OHKO)",
+      "mentions": {
+        "pokemon": [
+          "hypno",
+          "hitmonchan"
+        ],
+        "moves": [
+          "psychic"
+        ],
+        "numbers": [
+          195.3,
+          229.7,
+          215
+        ]
+      },
+      "kind": "calc",
+      "bossId": "bruno",
+      "boss": "Bruno",
+      "bossKind": "eliteFour",
+      "bossMon": "hitmonchan",
+      "move": "psychic",
+      "minPercent": 195.3,
+      "maxPercent": 229.7,
+      "ko": "guaranteed OHKO"
+    },
+    {
+      "id": "hypno.vs-agatha",
+      "species": "hypno",
+      "text": "Hypno is the best answer to Agatha's Arbok (level 58)",
+      "mentions": {
+        "pokemon": [
+          "hypno",
+          "arbok"
+        ],
+        "moves": [],
+        "numbers": [
+          58
+        ]
+      },
+      "kind": "matchup",
+      "bossId": "agatha",
+      "boss": "Agatha",
+      "bossKind": "eliteFour",
+      "bossMon": "arbok",
+      "bossMonLevel": 58
+    },
+    {
+      "id": "hypno.calc-agatha",
+      "species": "hypno",
+      "text": "Psychic does 125.3-147.9% to Agatha's Arbok (guaranteed OHKO)",
+      "mentions": {
+        "pokemon": [
+          "hypno",
+          "arbok"
+        ],
+        "moves": [
+          "psychic"
+        ],
+        "numbers": [
+          125.3,
+          147.9,
+          135
+        ]
+      },
+      "kind": "calc",
+      "bossId": "agatha",
+      "boss": "Agatha",
+      "bossKind": "eliteFour",
+      "bossMon": "arbok",
+      "move": "psychic",
+      "minPercent": 125.3,
+      "maxPercent": 147.9,
+      "ko": "guaranteed OHKO"
+    },
+    {
+      "id": "hypno.move-psychic",
+      "species": "hypno",
+      "text": "Hypno learns Psychic at level 37",
+      "mentions": {
+        "pokemon": [
+          "hypno"
+        ],
+        "moves": [
+          "psychic"
+        ],
+        "numbers": [
+          37
+        ]
+      },
+      "kind": "move",
+      "move": "psychic",
+      "how": "level",
+      "level": 37,
+      "weight": 133.5
+    },
+    {
+      "id": "hypno.move-submission",
+      "species": "hypno",
+      "text": "Hypno learns Submission from TM17 (Celadon Dept. Store 2F)",
+      "mentions": {
+        "pokemon": [
+          "hypno"
+        ],
+        "moves": [
+          "submission"
+        ],
+        "numbers": [
+          17
+        ]
+      },
+      "kind": "move",
+      "move": "submission",
+      "how": "tm",
+      "number": 17,
+      "location": "Celadon Dept. Store 2F",
+      "weight": 63.2
+    },
+    {
+      "id": "hypno.move-megakick",
+      "species": "hypno",
+      "text": "Hypno learns Mega Kick from TM5 (Celadon Dept. Store 2F)",
+      "mentions": {
+        "pokemon": [
+          "hypno"
+        ],
+        "moves": [
+          "megakick"
+        ],
+        "numbers": [
+          5
+        ]
+      },
+      "kind": "move",
+      "move": "megakick",
+      "how": "tm",
+      "number": 5,
+      "location": "Celadon Dept. Store 2F",
+      "weight": 89.25
+    },
+    {
+      "id": "hypno.move-confusion",
+      "species": "hypno",
+      "text": "Hypno learns Confusion at level 17",
+      "mentions": {
+        "pokemon": [
+          "hypno"
+        ],
+        "moves": [
+          "confusion"
+        ],
+        "numbers": [
+          17
+        ]
+      },
+      "kind": "move",
+      "move": "confusion",
+      "how": "level",
+      "level": 17,
+      "weight": 73.5
+    },
+    {
+      "id": "hypno.get",
+      "species": "hypno",
+      "text": "Drowzee: Route 11 (grass/cave); then Evolves from Drowzee at level 26",
+      "mentions": {
+        "pokemon": [
+          "hypno",
+          "drowzee"
+        ],
+        "moves": [],
+        "numbers": [
+          9,
+          15,
+          26,
+          11
+        ]
+      },
+      "kind": "availability",
+      "how": "wild",
+      "where": "Route 11",
+      "stage": 2,
+      "firstSpecies": "drowzee",
+      "evolution": {
+        "how": "level",
+        "level": 26
+      }
+    }
+  ]
+}

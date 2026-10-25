@@ -1,0 +1,14 @@
+{
+  "name": "@pokevidgen/web",
+  "private": true,
+  "type": "module",
+  "scripts": { "typecheck": "tsc -p ." },
+  "dependencies": {
+    "@hono/node-server": "^1.13.0",
+    "@pokevidgen/core": "workspace:*",
+    "hono": "^4.6.0",
+    "htmx.org": "^2.0.0",
+    "marked": "^14.0.0",
+    "zod": "^3.23.0"
+  }
+}

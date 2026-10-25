@@ -9,3 +9,10 @@ models/
 .env
 .venv/
 __pycache__/
+CLAUDE.md
+packages/video/public/sprites/
+packages/video/public/voice/
+packages/video/node_modules/.remotion/
+tools/voice/models/
+tools/voice/.venv/
+data/publish/

@@ -1,0 +1,4322 @@
+{
+  "id": "blue-s7",
+  "kind": "ingame",
+  "target": "blue",
+  "seed": 7,
+  "members": [
+    {
+      "set": {
+        "species": "gyarados",
+        "level": 56,
+        "moves": [
+          "hydropump",
+          "rest",
+          "surf",
+          "hyperbeam"
+        ]
+      },
+      "roles": [
+        "recovery",
+        "bulky"
+      ],
+      "acquisition": {
+        "stage": 4,
+        "steps": [
+          {
+            "species": "magikarp",
+            "how": "gift",
+            "where": "Gift in Route 4 Pokémon Center",
+            "minLevel": 5,
+            "maxLevel": 5,
+            "stage": 1
+          },
+          {
+            "species": "gyarados",
+            "how": "evolution",
+            "where": "Evolves from magikarp at level 20",
+            "stage": 1
+          }
+        ],
+        "moves": [
+          {
+            "move": "hydropump",
+            "source": {
+              "kind": "level",
+              "level": 41,
+              "from": "gyarados"
+            },
+            "stage": 0
+          },
+          {
+            "move": "rest",
+            "source": {
+              "kind": "tm",
+              "number": 44,
+              "location": "S.S. Anne B1F rooms"
+            },
+            "stage": 2
+          },
+          {
+            "move": "surf",
+            "source": {
+              "kind": "hm",
+              "number": 3,
+              "location": "Safari Zone secret house"
+            },
+            "stage": 4
+          },
+          {
+            "move": "hyperbeam",
+            "source": {
+              "kind": "level",
+              "level": 52,
+              "from": "gyarados"
+            },
+            "stage": 0
+          }
+        ]
+      }
+    },
+    {
+      "set": {
+        "species": "nidoking",
+        "level": 56,
+        "moves": [
+          "earthquake",
+          "submission",
+          "surf",
+          "hyperbeam"
+        ]
+      },
+      "roles": [],
+      "acquisition": {
+        "stage": 5,
+        "steps": [
+          {
+            "species": "nidoranm",
+            "how": "wild",
+            "where": "Route 22 (grass/cave)",
+            "minLevel": 3,
+            "maxLevel": 4,
+            "stage": 0
+          },
+          {
+            "species": "nidorino",
+            "how": "evolution",
+            "where": "Evolves from nidoranm at level 16",
+            "stage": 0
+          },
+          {
+            "species": "nidoking",
+            "how": "evolution",
+            "where": "Evolve nidorino with a Moon Stone (Mt. Moon 1F (also Route 2 and Rocket Hideout B2F))",
+            "stage": 1
+          }
+        ],
+        "moves": [
+          {
+            "move": "earthquake",
+            "source": {
+              "kind": "tm",
+              "number": 26,
+              "location": "Silph Co. 10F"
+            },
+            "stage": 5
+          },
+          {
+            "move": "submission",
+            "source": {
+              "kind": "tm",
+              "number": 17,
+              "location": "Celadon Dept. Store 2F"
+            },
+            "stage": 3
+          },
+          {
+            "move": "surf",
+            "source": {
+              "kind": "hm",
+              "number": 3,
+              "location": "Safari Zone secret house"
+            },
+            "stage": 4
+          },
+          {
+            "move": "hyperbeam",
+            "source": {
+              "kind": "tm",
+              "number": 15,
+              "location": "Celadon Game Corner prize counter"
+            },
+            "stage": 3
+          }
+        ]
+      }
+    },
+    {
+      "set": {
+        "species": "tauros",
+        "level": 56,
+        "moves": [
+          "doubleedge",
+          "hyperbeam",
+          "strength",
+          "takedown"
+        ]
+      },
+      "roles": [
+        "fast"
+      ],
+      "acquisition": {
+        "stage": 4,
+        "steps": [
+          {
+            "species": "tauros",
+            "how": "wild",
+            "where": "Safari Zone 2 North (grass/cave)",
+            "minLevel": 28,
+            "maxLevel": 28,
+            "stage": 4
+          }
+        ],
+        "moves": [
+          {
+            "move": "doubleedge",
+            "source": {
+              "kind": "tm",
+              "number": 10,
+              "location": "Rocket Hideout B3F"
+            },
+            "stage": 4
+          },
+          {
+            "move": "hyperbeam",
+            "source": {
+              "kind": "tm",
+              "number": 15,
+              "location": "Celadon Game Corner prize counter"
+            },
+            "stage": 3
+          },
+          {
+            "move": "strength",
+            "source": {
+              "kind": "hm",
+              "number": 4,
+              "location": "Fuchsia City (Warden's house)"
+            },
+            "stage": 4
+          },
+          {
+            "move": "takedown",
+            "source": {
+              "kind": "level",
+              "level": 51,
+              "from": "tauros"
+            },
+            "stage": 0
+          }
+        ]
+      }
+    },
+    {
+      "set": {
+        "species": "exeggutor",
+        "level": 56,
+        "moves": [
+          "solarbeam",
+          "psychic",
+          "sleeppowder",
+          "eggbomb"
+        ]
+      },
+      "roles": [
+        "sleep",
+        "bulky"
+      ],
+      "acquisition": {
+        "stage": 5,
+        "steps": [
+          {
+            "species": "exeggcute",
+            "how": "wild",
+            "where": "Safari Zone Middle (grass/cave)",
+            "minLevel": 24,
+            "maxLevel": 25,
+            "stage": 4
+          },
+          {
+            "species": "exeggutor",
+            "how": "evolution",
+            "where": "Evolve exeggcute with a Leaf Stone (Celadon Dept. Store 4F)",
+            "stage": 4
+          }
+        ],
+        "moves": [
+          {
+            "move": "solarbeam",
+            "source": {
+              "kind": "level",
+              "level": 42,
+              "from": "exeggcute"
+            },
+            "stage": 0
+          },
+          {
+            "move": "psychic",
+            "source": {
+              "kind": "tm",
+              "number": 29,
+              "location": "Saffron City (Mr. Psychic)"
+            },
+            "stage": 5
+          },
+          {
+            "move": "sleeppowder",
+            "source": {
+              "kind": "level",
+              "level": 48,
+              "from": "exeggcute"
+            },
+            "stage": 0
+          },
+          {
+            "move": "eggbomb",
+            "source": {
+              "kind": "tm",
+              "number": 37,
+              "location": "Celadon Dept. Store 2F"
+            },
+            "stage": 3
+          }
+        ]
+      }
+    },
+    {
+      "set": {
+        "species": "electrode",
+        "level": 56,
+        "moves": [
+          "thunderbolt",
+          "thunderwave",
+          "hyperbeam",
+          "takedown"
+        ]
+      },
+      "roles": [
+        "paralysis",
+        "fast"
+      ],
+      "acquisition": {
+        "stage": 3,
+        "steps": [
+          {
+            "species": "voltorb",
+            "how": "wild",
+            "where": "Route 10 (grass/cave)",
+            "minLevel": 14,
+            "maxLevel": 17,
+            "stage": 3
+          },
+          {
+            "species": "electrode",
+            "how": "evolution",
+            "where": "Evolves from voltorb at level 30",
+            "stage": 3
+          }
+        ],
+        "moves": [
+          {
+            "move": "thunderbolt",
+            "source": {
+              "kind": "tm",
+              "number": 24,
+              "location": "Vermilion Gym (Lt. Surge)"
+            },
+            "stage": 3
+          },
+          {
+            "move": "thunderwave",
+            "source": {
+              "kind": "tm",
+              "number": 45,
+              "location": "Route 24 (Nugget Bridge)"
+            },
+            "stage": 1
+          },
+          {
+            "move": "hyperbeam",
+            "source": {
+              "kind": "tm",
+              "number": 15,
+              "location": "Celadon Game Corner prize counter"
+            },
+            "stage": 3
+          },
+          {
+            "move": "takedown",
+            "source": {
+              "kind": "tm",
+              "number": 9,
+              "location": "Celadon Dept. Store 2F"
+            },
+            "stage": 3
+          }
+        ]
+      }
+    },
+    {
+      "set": {
+        "species": "raticate",
+        "level": 56,
+        "moves": [
+          "bodyslam",
+          "dig",
+          "hyperfang",
+          "hyperbeam"
+        ]
+      },
+      "roles": [],
+      "acquisition": {
+        "stage": 3,
+        "steps": [
+          {
+            "species": "rattata",
+            "how": "wild",
+            "where": "Route 1 (grass/cave)",
+            "minLevel": 2,
+            "maxLevel": 4,
+            "stage": 0
+          },
+          {
+            "species": "raticate",
+            "how": "evolution",
+            "where": "Evolves from rattata at level 20",
+            "stage": 0
+          }
+        ],
+        "moves": [
+          {
+            "move": "bodyslam",
+            "source": {
+              "kind": "tm",
+              "number": 8,
+              "location": "S.S. Anne 1F rooms"
+            },
+            "stage": 2
+          },
+          {
+            "move": "dig",
+            "source": {
+              "kind": "tm",
+              "number": 28,
+              "location": "Cerulean City"
+            },
+            "stage": 1
+          },
+          {
+            "move": "hyperfang",
+            "source": {
+              "kind": "level",
+              "level": 14,
+              "from": "rattata"
+            },
+            "stage": 0
+          },
+          {
+            "move": "hyperbeam",
+            "source": {
+              "kind": "tm",
+              "number": 15,
+              "location": "Celadon Game Corner prize counter"
+            },
+            "stage": 3
+          }
+        ]
+      }
+    }
+  ],
+  "analysis": {
+    "plannedLevel": 56,
+    "constraints": {
+      "must": [],
+      "ban": [],
+      "noTrades": true,
+      "noLegendaries": false,
+      "nuzlocke": false
+    },
+    "sharedWeaknesses": [],
+    "teamDefense": {
+      "Bug": {
+        "weak": 2,
+        "resist": 1,
+        "immune": 0,
+        "neutral": 3
+      },
+      "Fire": {
+        "weak": 1,
+        "resist": 1,
+        "immune": 0,
+        "neutral": 4
+      },
+      "Ghost": {
+        "weak": 0,
+        "resist": 0,
+        "immune": 3,
+        "neutral": 3
+      },
+      "Ice": {
+        "weak": 2,
+        "resist": 0,
+        "immune": 0,
+        "neutral": 4
+      },
+      "Poison": {
+        "weak": 1,
+        "resist": 1,
+        "immune": 0,
+        "neutral": 4
+      },
+      "Psychic": {
+        "weak": 1,
+        "resist": 1,
+        "immune": 0,
+        "neutral": 4
+      },
+      "Electric": {
+        "weak": 1,
+        "resist": 2,
+        "immune": 1,
+        "neutral": 2
+      },
+      "Grass": {
+        "weak": 0,
+        "resist": 1,
+        "immune": 0,
+        "neutral": 5
+      },
+      "Dragon": {
+        "weak": 0,
+        "resist": 0,
+        "immune": 0,
+        "neutral": 6
+      },
+      "Fighting": {
+        "weak": 2,
+        "resist": 3,
+        "immune": 0,
+        "neutral": 1
+      },
+      "Flying": {
+        "weak": 1,
+        "resist": 1,
+        "immune": 0,
+        "neutral": 4
+      },
+      "Ground": {
+        "weak": 2,
+        "resist": 1,
+        "immune": 1,
+        "neutral": 2
+      },
+      "Normal": {
+        "weak": 0,
+        "resist": 0,
+        "immune": 0,
+        "neutral": 6
+      },
+      "Rock": {
+        "weak": 1,
+        "resist": 1,
+        "immune": 0,
+        "neutral": 4
+      },
+      "Water": {
+        "weak": 1,
+        "resist": 2,
+        "immune": 0,
+        "neutral": 3
+      }
+    },
+    "starter": {
+      "player": "bulbasaur",
+      "rival": "charmander",
+      "onTeam": false
+    },
+    "bosses": [
+      {
+        "boss": "rival-route22-early",
+        "name": "Rival",
+        "location": "Route 22",
+        "stage": 0,
+        "level": 9,
+        "rivalStarter": "charmander",
+        "usable": [
+          {
+            "member": "nidoking",
+            "form": "nidoranm",
+            "moves": [
+              "hornattack",
+              "tackle"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "rattata",
+            "moves": [
+              "quickattack",
+              "tackle"
+            ]
+          }
+        ],
+        "notYet": [
+          "gyarados",
+          "tauros",
+          "exeggutor",
+          "electrode"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgey",
+              "level": 9,
+              "moves": [
+                "gust",
+                "sandattack"
+              ]
+            },
+            "answer": {
+              "move": "hornattack",
+              "member": "nidoking",
+              "form": "nidoranm",
+              "minPercent": 25.9,
+              "maxPercent": 33.3,
+              "ko": "0.1% chance to 3HKO",
+              "description": "Lvl 9 Nidoran-M Horn Attack vs. Lvl 9 Pidgey: 7-9 (21.2 - 27.2%) -- 0.1% chance to 3HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "gust",
+              "minPercent": 25.9,
+              "maxPercent": 33.3,
+              "ko": "0.1% chance to 3HKO",
+              "description": "Lvl 9 Pidgey Gust vs. Lvl 9 Nidoran-M: 7-9 (21.8 - 28.1%) -- 0.1% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charmander",
+              "level": 8,
+              "moves": [
+                "scratch",
+                "growl"
+              ]
+            },
+            "answer": {
+              "move": "hornattack",
+              "member": "nidoking",
+              "form": "nidoranm",
+              "minPercent": 28,
+              "maxPercent": 36,
+              "ko": "4.2% chance to 3HKO",
+              "description": "Lvl 9 Nidoran-M Horn Attack vs. Lvl 8 Charmander: 7-9 (23.3 - 30%) -- 4.2% chance to 3HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "scratch",
+              "minPercent": 18.5,
+              "maxPercent": 22.2,
+              "ko": "possible 5HKO",
+              "description": "Lvl 8 Charmander Scratch vs. Lvl 9 Nidoran-M: 5-6 (15.6 - 18.7%) -- possible 5HKO"
+            }
+          }
+        ],
+        "lead": "nidoking",
+        "warnings": [
+          "Weak against pidgey: best is Lvl 9 Nidoran-M Horn Attack vs. Lvl 9 Pidgey: 7-9 (21.2 - 27.2%) -- 0.1% chance to 3HKO.",
+          "Weak against charmander: best is Lvl 9 Nidoran-M Horn Attack vs. Lvl 8 Charmander: 7-9 (23.3 - 30%) -- 4.2% chance to 3HKO."
+        ]
+      },
+      {
+        "boss": "rival-cerulean",
+        "name": "Rival",
+        "location": "Cerulean City",
+        "stage": 0,
+        "level": 18,
+        "rivalStarter": "charmander",
+        "usable": [
+          {
+            "member": "nidoking",
+            "form": "nidorino",
+            "moves": [
+              "hornattack",
+              "tackle"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "rattata",
+            "moves": [
+              "hyperfang",
+              "quickattack",
+              "tackle"
+            ]
+          }
+        ],
+        "notYet": [
+          "gyarados",
+          "tauros",
+          "exeggutor",
+          "electrode"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeotto",
+              "level": 18,
+              "moves": [
+                "gust",
+                "sandattack",
+                "quickattack"
+              ]
+            },
+            "answer": {
+              "move": "hyperfang",
+              "member": "raticate",
+              "form": "rattata",
+              "minPercent": 37.7,
+              "maxPercent": 45.3,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 18 Rattata Hyper Fang vs. Lvl 18 Pidgeotto: 20-24 (31.2 - 37.5%) -- guaranteed 3HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "gust",
+              "minPercent": 34.2,
+              "maxPercent": 42.1,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 18 Pidgeotto Gust vs. Lvl 18 Rattata: 13-16 (26 - 32%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "abra",
+              "level": 15,
+              "moves": [
+                "teleport"
+              ]
+            },
+            "answer": {
+              "move": "hyperfang",
+              "member": "raticate",
+              "form": "rattata",
+              "minPercent": 102.9,
+              "maxPercent": 123.5,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 18 Rattata Hyper Fang vs. Lvl 15 Abra: 35-42 (79.5 - 95.4%) -- guaranteed OHKO",
+              "outspeeds": false
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rattata",
+              "level": 15,
+              "moves": [
+                "tackle",
+                "tailwhip",
+                "quickattack",
+                "hyperfang"
+              ]
+            },
+            "answer": {
+              "move": "hyperfang",
+              "member": "raticate",
+              "form": "rattata",
+              "minPercent": 77.8,
+              "maxPercent": 91.7,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 18 Rattata Hyper Fang vs. Lvl 15 Rattata: 28-33 (62.2 - 73.3%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hyperfang",
+              "minPercent": 47.4,
+              "maxPercent": 57.9,
+              "ko": "93.2% chance to 2HKO",
+              "description": "Lvl 15 Rattata Hyper Fang vs. Lvl 18 Rattata: 18-22 (36 - 44%) -- 93.2% chance to 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charmander",
+              "level": 17,
+              "moves": [
+                "scratch",
+                "growl",
+                "ember",
+                "leer"
+              ]
+            },
+            "answer": {
+              "move": "hyperfang",
+              "member": "raticate",
+              "form": "rattata",
+              "minPercent": 54.8,
+              "maxPercent": 66.7,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 18 Rattata Hyper Fang vs. Lvl 17 Charmander: 23-28 (43.3 - 52.8%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "ember",
+              "minPercent": 31.6,
+              "maxPercent": 39.5,
+              "ko": "98.5% chance to 3HKO",
+              "description": "Lvl 17 Charmander Ember vs. Lvl 18 Rattata: 12-15 (24 - 30%) -- 98.5% chance to 3HKO"
+            }
+          }
+        ],
+        "lead": "raticate",
+        "warnings": [
+          "Weak against pidgeotto: best is Lvl 18 Rattata Hyper Fang vs. Lvl 18 Pidgeotto: 20-24 (31.2 - 37.5%) -- guaranteed 3HKO."
+        ]
+      },
+      {
+        "boss": "brock",
+        "name": "Brock",
+        "location": "Pewter City",
+        "stage": 0,
+        "level": 14,
+        "usable": [
+          {
+            "member": "nidoking",
+            "form": "nidoranm",
+            "moves": [
+              "hornattack",
+              "tackle"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "rattata",
+            "moves": [
+              "hyperfang",
+              "quickattack",
+              "tackle"
+            ]
+          }
+        ],
+        "notYet": [
+          "gyarados",
+          "tauros",
+          "exeggutor",
+          "electrode"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "geodude",
+              "level": 12,
+              "moves": [
+                "tackle",
+                "defensecurl"
+              ]
+            },
+            "answer": {
+              "move": "hyperfang",
+              "member": "raticate",
+              "form": "rattata",
+              "minPercent": 18.2,
+              "maxPercent": 24.2,
+              "ko": "possible 5HKO",
+              "description": "Lvl 14 Rattata Hyper Fang vs. Lvl 12 Geodude: 6-8 (14.6 - 19.5%) -- possible 5HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "tackle",
+              "minPercent": 15.6,
+              "maxPercent": 21.9,
+              "ko": "possible 5HKO",
+              "description": "Lvl 12 Geodude Tackle vs. Lvl 14 Rattata: 5-7 (12.1 - 17%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "onix",
+              "level": 14,
+              "moves": [
+                "tackle",
+                "screech",
+                "bide"
+              ]
+            },
+            "answer": {
+              "move": "hyperfang",
+              "member": "raticate",
+              "form": "rattata",
+              "minPercent": 11.1,
+              "maxPercent": 13.9,
+              "ko": "possible 8HKO",
+              "description": "Lvl 14 Rattata Hyper Fang vs. Lvl 14 Onix: 4-5 (9 - 11.3%) -- possible 8HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "tackle",
+              "minPercent": 15.6,
+              "maxPercent": 21.9,
+              "ko": "possible 5HKO",
+              "description": "Lvl 14 Onix Tackle vs. Lvl 14 Rattata: 5-7 (12.1 - 17%) -- possible 5HKO"
+            }
+          }
+        ],
+        "lead": "raticate",
+        "warnings": [
+          "Weak against geodude: best is Lvl 14 Rattata Hyper Fang vs. Lvl 12 Geodude: 6-8 (14.6 - 19.5%) -- possible 5HKO.",
+          "Weak against onix: best is Lvl 14 Rattata Hyper Fang vs. Lvl 14 Onix: 4-5 (9 - 11.3%) -- possible 8HKO."
+        ]
+      },
+      {
+        "boss": "misty",
+        "name": "Misty",
+        "location": "Cerulean City",
+        "stage": 1,
+        "level": 21,
+        "usable": [
+          {
+            "member": "gyarados",
+            "form": "gyarados",
+            "moves": [
+              "watergun",
+              "bite",
+              "tackle"
+            ]
+          },
+          {
+            "member": "nidoking",
+            "form": "nidoking",
+            "moves": [
+              "megapunch",
+              "hornattack",
+              "tackle"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "raticate",
+            "moves": [
+              "hyperfang",
+              "dig",
+              "quickattack",
+              "tackle"
+            ]
+          }
+        ],
+        "notYet": [
+          "tauros",
+          "exeggutor",
+          "electrode"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "staryu",
+              "level": 18,
+              "moves": [
+                "tackle",
+                "watergun"
+              ]
+            },
+            "answer": {
+              "move": "hyperfang",
+              "member": "raticate",
+              "form": "raticate",
+              "minPercent": 73.2,
+              "maxPercent": 87.8,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 21 Raticate Hyper Fang vs. Lvl 18 Staryu: 30-36 (56.6 - 67.9%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "watergun",
+              "minPercent": 20.4,
+              "maxPercent": 24.1,
+              "ko": "guaranteed 5HKO",
+              "description": "Lvl 18 Staryu Water Gun vs. Lvl 21 Raticate: 11-13 (16.4 - 19.4%) -- guaranteed 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "starmie",
+              "level": 21,
+              "moves": [
+                "tackle",
+                "watergun",
+                "bubblebeam"
+              ]
+            },
+            "answer": {
+              "move": "hyperfang",
+              "member": "raticate",
+              "form": "raticate",
+              "minPercent": 35.6,
+              "maxPercent": 42.4,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 21 Raticate Hyper Fang vs. Lvl 21 Starmie: 21-25 (29.1 - 34.7%) -- guaranteed 3HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "bubblebeam",
+              "minPercent": 48.1,
+              "maxPercent": 57.4,
+              "ko": "91.3% chance to 2HKO",
+              "description": "Lvl 21 Starmie Bubble Beam vs. Lvl 21 Raticate: 26-31 (38.8 - 46.2%) -- 91.3% chance to 2HKO"
+            }
+          }
+        ],
+        "lead": "raticate",
+        "warnings": [
+          "Weak against starmie: best is Lvl 21 Raticate Hyper Fang vs. Lvl 21 Starmie: 21-25 (29.1 - 34.7%) -- guaranteed 3HKO."
+        ]
+      },
+      {
+        "boss": "rival-ssanne",
+        "name": "Rival",
+        "location": "SS Anne 2F",
+        "stage": 2,
+        "level": 20,
+        "rivalStarter": "charmander",
+        "usable": [
+          {
+            "member": "gyarados",
+            "form": "gyarados",
+            "moves": [
+              "bubblebeam",
+              "rest",
+              "bite"
+            ]
+          },
+          {
+            "member": "nidoking",
+            "form": "nidoking",
+            "moves": [
+              "bodyslam",
+              "megapunch",
+              "hornattack",
+              "tackle"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "raticate",
+            "moves": [
+              "hyperfang",
+              "dig",
+              "quickattack",
+              "tackle"
+            ]
+          }
+        ],
+        "notYet": [
+          "tauros",
+          "exeggutor",
+          "electrode"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeotto",
+              "level": 19,
+              "moves": [
+                "gust",
+                "sandattack",
+                "quickattack"
+              ]
+            },
+            "answer": {
+              "move": "hyperfang",
+              "member": "raticate",
+              "form": "raticate",
+              "minPercent": 50.9,
+              "maxPercent": 61.8,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 20 Raticate Hyper Fang vs. Lvl 19 Pidgeotto: 28-34 (41.7 - 50.7%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "gust",
+              "minPercent": 21.2,
+              "maxPercent": 25,
+              "ko": "0.1% chance to 4HKO",
+              "description": "Lvl 19 Pidgeotto Gust vs. Lvl 20 Raticate: 11-13 (17.1 - 20.3%) -- 0.1% chance to 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "raticate",
+              "level": 16,
+              "moves": [
+                "tackle",
+                "tailwhip",
+                "quickattack",
+                "hyperfang"
+              ]
+            },
+            "answer": {
+              "move": "bubblebeam",
+              "member": "gyarados",
+              "form": "gyarados",
+              "minPercent": 67.4,
+              "maxPercent": 80.4,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 20 Gyarados Bubble Beam vs. Lvl 16 Raticate: 31-37 (55.3 - 66%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hyperfang",
+              "minPercent": 22.1,
+              "maxPercent": 26.5,
+              "ko": "3.8% chance to 4HKO",
+              "description": "Lvl 16 Raticate Hyper Fang vs. Lvl 20 Gyarados: 15-18 (18.7 - 22.5%) -- 3.8% chance to 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "kadabra",
+              "level": 18,
+              "moves": [
+                "teleport",
+                "confusion",
+                "disable"
+              ]
+            },
+            "answer": {
+              "move": "hyperfang",
+              "member": "raticate",
+              "form": "raticate",
+              "minPercent": 84.4,
+              "maxPercent": 100,
+              "ko": "2.6% chance to OHKO",
+              "description": "Lvl 20 Raticate Hyper Fang vs. Lvl 18 Kadabra: 38-45 (67.8 - 80.3%) -- 2.6% chance to OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "confusion",
+              "minPercent": 34.6,
+              "maxPercent": 42.3,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 18 Kadabra Confusion vs. Lvl 20 Raticate: 18-22 (28.1 - 34.3%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charmeleon",
+              "level": 20,
+              "moves": [
+                "scratch",
+                "growl",
+                "ember",
+                "leer"
+              ]
+            },
+            "answer": {
+              "move": "bubblebeam",
+              "member": "gyarados",
+              "form": "gyarados",
+              "minPercent": 80.4,
+              "maxPercent": 96.4,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 20 Gyarados Bubble Beam vs. Lvl 20 Charmeleon: 45-54 (65.2 - 78.2%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "scratch",
+              "minPercent": 10.3,
+              "maxPercent": 13.2,
+              "ko": "possible 8HKO",
+              "description": "Lvl 20 Charmeleon Scratch vs. Lvl 20 Gyarados: 7-9 (8.7 - 11.2%) -- possible 8HKO"
+            }
+          }
+        ],
+        "lead": "raticate",
+        "warnings": []
+      },
+      {
+        "boss": "ltsurge",
+        "name": "Lt. Surge",
+        "location": "Vermilion City",
+        "stage": 2,
+        "level": 24,
+        "usable": [
+          {
+            "member": "gyarados",
+            "form": "gyarados",
+            "moves": [
+              "bubblebeam",
+              "rest",
+              "bite"
+            ]
+          },
+          {
+            "member": "nidoking",
+            "form": "nidoking",
+            "moves": [
+              "thrash",
+              "megapunch",
+              "hornattack",
+              "tackle"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "raticate",
+            "moves": [
+              "bodyslam",
+              "dig",
+              "hyperfang",
+              "quickattack"
+            ]
+          }
+        ],
+        "notYet": [
+          "tauros",
+          "exeggutor",
+          "electrode"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "voltorb",
+              "level": 21,
+              "moves": [
+                "tackle",
+                "screech",
+                "sonicboom"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "raticate",
+              "form": "raticate",
+              "minPercent": 111.8,
+              "maxPercent": 133.3,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 24 Raticate Dig vs. Lvl 21 Voltorb: 57-68 (89 - 106.2%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "tackle",
+              "minPercent": 8.3,
+              "maxPercent": 10,
+              "ko": "",
+              "description": "Lvl 21 Voltorb Tackle vs. Lvl 24 Raticate: 5-6 (6.6 - 8%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "pikachu",
+              "level": 18,
+              "moves": [
+                "thundershock",
+                "growl",
+                "thunderwave",
+                "quickattack"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "raticate",
+              "form": "raticate",
+              "minPercent": 183.7,
+              "maxPercent": 218.6,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 24 Raticate Dig vs. Lvl 18 Pikachu: 79-94 (146.2 - 174%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "thundershock",
+              "minPercent": 13.3,
+              "maxPercent": 16.7,
+              "ko": "possible 6HKO",
+              "description": "Lvl 18 Pikachu Thunder Shock vs. Lvl 24 Raticate: 8-10 (10.6 - 13.3%) -- possible 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "raichu",
+              "level": 24,
+              "moves": [
+                "thundershock",
+                "growl",
+                "thunderbolt"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "raticate",
+              "form": "raticate",
+              "minPercent": 74.2,
+              "maxPercent": 87.9,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 24 Raticate Dig vs. Lvl 24 Raichu: 49-58 (60.4 - 71.6%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "thunderbolt",
+              "minPercent": 65,
+              "maxPercent": 76.7,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 24 Raichu Thunderbolt vs. Lvl 24 Raticate: 39-46 (52 - 61.3%) -- guaranteed 2HKO"
+            }
+          }
+        ],
+        "lead": "raticate",
+        "warnings": []
+      },
+      {
+        "boss": "rival-pokemontower",
+        "name": "Rival",
+        "location": "Pokémon Tower 2F",
+        "stage": 3,
+        "level": 25,
+        "rivalStarter": "charmander",
+        "usable": [
+          {
+            "member": "gyarados",
+            "form": "gyarados",
+            "moves": [
+              "bubblebeam",
+              "rest",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "nidoking",
+            "form": "nidoking",
+            "moves": [
+              "hyperbeam",
+              "submission",
+              "megakick",
+              "thrash"
+            ]
+          },
+          {
+            "member": "electrode",
+            "form": "voltorb",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "takedown"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "raticate",
+            "moves": [
+              "hyperbeam",
+              "takedown",
+              "hyperfang"
+            ]
+          }
+        ],
+        "notYet": [
+          "tauros",
+          "exeggutor"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeotto",
+              "level": 25,
+              "moves": [
+                "gust",
+                "sandattack",
+                "quickattack",
+                "whirlwind"
+              ]
+            },
+            "answer": {
+              "move": "thunderbolt",
+              "member": "electrode",
+              "form": "voltorb",
+              "minPercent": 94.3,
+              "maxPercent": 111.4,
+              "ko": "69.2% chance to OHKO",
+              "description": "Lvl 25 Voltorb Thunderbolt vs. Lvl 25 Pidgeotto: 66-78 (76.7 - 90.6%) -- 69.2% chance to OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "gust",
+              "minPercent": 27.3,
+              "maxPercent": 32.7,
+              "ko": "guaranteed 4HKO",
+              "description": "Lvl 25 Pidgeotto Gust vs. Lvl 25 Voltorb: 15-18 (21.4 - 25.7%) -- guaranteed 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "exeggcute",
+              "level": 23,
+              "moves": [
+                "barrage",
+                "hypnosis"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "raticate",
+              "form": "raticate",
+              "minPercent": 79.7,
+              "maxPercent": 95.3,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 25 Raticate Hyper Beam vs. Lvl 23 Exeggcute: 51-61 (65.3 - 78.2%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "barrage",
+              "minPercent": 14.5,
+              "maxPercent": 19.4,
+              "ko": "approx. possible 6HKO",
+              "description": "Lvl 23 Exeggcute Barrage (3 hits) vs. Lvl 25 Raticate: 9-12 (11.5 - 15.3%) -- approx. possible 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "gyarados",
+              "level": 22,
+              "moves": [
+                "bite",
+                "dragonrage",
+                "leer",
+                "hydropump"
+              ]
+            },
+            "answer": {
+              "move": "thunderbolt",
+              "member": "electrode",
+              "form": "voltorb",
+              "minPercent": 123.4,
+              "maxPercent": 145.5,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 25 Voltorb Thunderbolt vs. Lvl 22 Gyarados: 95-112 (104.3 - 123%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hydropump",
+              "minPercent": 72.7,
+              "maxPercent": 87.3,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 22 Gyarados Hydro Pump vs. Lvl 25 Voltorb: 40-48 (57.1 - 68.5%) -- guaranteed 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "kadabra",
+              "level": 20,
+              "moves": [
+                "teleport",
+                "confusion",
+                "disable"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "raticate",
+              "form": "raticate",
+              "minPercent": 193.9,
+              "maxPercent": 228.6,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 25 Raticate Hyper Beam vs. Lvl 20 Kadabra: 95-112 (155.7 - 183.6%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "confusion",
+              "minPercent": 29,
+              "maxPercent": 35.5,
+              "ko": "13.7% chance to 3HKO",
+              "description": "Lvl 20 Kadabra Confusion vs. Lvl 25 Raticate: 18-22 (23 - 28.2%) -- 13.7% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charmeleon",
+              "level": 25,
+              "moves": [
+                "growl",
+                "ember",
+                "leer",
+                "rage"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "raticate",
+              "form": "raticate",
+              "minPercent": 85.3,
+              "maxPercent": 101.5,
+              "ko": "10.3% chance to OHKO",
+              "description": "Lvl 25 Raticate Hyper Beam vs. Lvl 25 Charmeleon: 58-69 (69.8 - 83.1%) -- 10.3% chance to OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "ember",
+              "minPercent": 25.8,
+              "maxPercent": 30.6,
+              "ko": "guaranteed 4HKO",
+              "description": "Lvl 25 Charmeleon Ember vs. Lvl 25 Raticate: 16-19 (20.5 - 24.3%) -- guaranteed 4HKO"
+            }
+          }
+        ],
+        "lead": "electrode",
+        "warnings": []
+      },
+      {
+        "boss": "erika",
+        "name": "Erika",
+        "location": "Celadon City",
+        "stage": 3,
+        "level": 29,
+        "usable": [
+          {
+            "member": "gyarados",
+            "form": "gyarados",
+            "moves": [
+              "bubblebeam",
+              "rest",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "nidoking",
+            "form": "nidoking",
+            "moves": [
+              "hyperbeam",
+              "submission",
+              "megakick",
+              "thrash"
+            ]
+          },
+          {
+            "member": "electrode",
+            "form": "voltorb",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "takedown"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "raticate",
+            "moves": [
+              "hyperbeam",
+              "takedown",
+              "hyperfang"
+            ]
+          }
+        ],
+        "notYet": [
+          "tauros",
+          "exeggutor"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "victreebel",
+              "level": 29,
+              "moves": [
+                "razorleaf",
+                "wrap",
+                "poisonpowder",
+                "sleeppowder"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "raticate",
+              "form": "raticate",
+              "minPercent": 64.4,
+              "maxPercent": 76.7,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 29 Raticate Hyper Beam vs. Lvl 29 Victreebel: 58-69 (53.7 - 63.8%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "razorleaf",
+              "minPercent": 77.1,
+              "maxPercent": 91.4,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 29 Victreebel Razor Leaf vs. Lvl 29 Raticate on a critical hit: 54-64 (60.6 - 71.9%) -- guaranteed 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "tangela",
+              "level": 24,
+              "moves": [
+                "constrict",
+                "bind"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "raticate",
+              "form": "raticate",
+              "minPercent": 69.6,
+              "maxPercent": 82.6,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 29 Raticate Hyper Beam vs. Lvl 24 Tangela: 48-57 (57.1 - 67.8%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "bind",
+              "minPercent": 4.3,
+              "maxPercent": 5.7,
+              "ko": "possible 9HKO after trapping damage",
+              "description": "Lvl 24 Tangela Bind vs. Lvl 29 Raticate: 3-4 (3.3 - 4.4%) -- possible 9HKO after trapping damage"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "vileplume",
+              "level": 29,
+              "moves": [
+                "petaldance",
+                "poisonpowder",
+                "megadrain",
+                "sleeppowder"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "raticate",
+              "form": "raticate",
+              "minPercent": 56.3,
+              "maxPercent": 66.7,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 29 Raticate Hyper Beam vs. Lvl 29 Vileplume: 49-58 (46.6 - 55.2%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "petaldance",
+              "minPercent": 51.4,
+              "maxPercent": 61.4,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 29 Vileplume Petal Dance vs. Lvl 29 Raticate: 36-43 (40.4 - 48.3%) -- guaranteed 2HKO"
+            }
+          }
+        ],
+        "lead": "raticate",
+        "warnings": []
+      },
+      {
+        "boss": "giovanni-hideout",
+        "name": "Giovanni",
+        "location": "Rocket Hideout B4F",
+        "stage": 4,
+        "level": 29,
+        "usable": [
+          {
+            "member": "gyarados",
+            "form": "gyarados",
+            "moves": [
+              "surf",
+              "rest",
+              "hyperbeam",
+              "strength"
+            ]
+          },
+          {
+            "member": "nidoking",
+            "form": "nidoking",
+            "moves": [
+              "hyperbeam",
+              "surf",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "tauros",
+            "form": "tauros",
+            "moves": [
+              "hyperbeam",
+              "strength",
+              "takedown",
+              "stomp"
+            ]
+          },
+          {
+            "member": "exeggutor",
+            "form": "exeggutor",
+            "moves": [
+              "hyperbeam",
+              "hypnosis",
+              "strength",
+              "takedown"
+            ]
+          },
+          {
+            "member": "electrode",
+            "form": "voltorb",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "takedown"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "raticate",
+            "moves": [
+              "hyperbeam",
+              "takedown",
+              "hyperfang"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "onix",
+              "level": 25,
+              "moves": [
+                "screech",
+                "bind",
+                "rockthrow",
+                "rage"
+              ]
+            },
+            "answer": {
+              "move": "surf",
+              "member": "gyarados",
+              "form": "gyarados",
+              "minPercent": 498.2,
+              "maxPercent": 585.7,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 29 Gyarados Surf vs. Lvl 25 Onix: 279-328 (387.5 - 455.5%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "rockthrow",
+              "minPercent": 23.4,
+              "maxPercent": 27.7,
+              "ko": "62.3% chance to 4HKO",
+              "description": "Lvl 25 Onix Rock Throw vs. Lvl 29 Gyarados: 22-26 (19.6 - 23.2%) -- 62.3% chance to 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rhyhorn",
+              "level": 24,
+              "moves": [
+                "hornattack"
+              ]
+            },
+            "answer": {
+              "move": "surf",
+              "member": "gyarados",
+              "form": "gyarados",
+              "minPercent": 380.3,
+              "maxPercent": 447.4,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 29 Gyarados Surf vs. Lvl 24 Rhyhorn: 289-340 (317.5 - 373.6%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hornattack",
+              "minPercent": 11.7,
+              "maxPercent": 14.9,
+              "ko": "possible 7HKO",
+              "description": "Lvl 24 Rhyhorn Horn Attack vs. Lvl 29 Gyarados: 11-14 (9.8 - 12.5%) -- possible 7HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "kangaskhan",
+              "level": 29,
+              "moves": [
+                "cometpunch",
+                "rage",
+                "bite"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 55.8,
+              "maxPercent": 66.3,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 29 Tauros Hyper Beam vs. Lvl 29 Kangaskhan: 58-69 (47.5 - 56.5%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "cometpunch",
+              "minPercent": 25.6,
+              "maxPercent": 32.9,
+              "ko": "approx. 4HKO",
+              "description": "Lvl 29 Kangaskhan Comet Punch (3 hits) vs. Lvl 29 Tauros: 21-27 (21 - 27%) -- approx. 4HKO"
+            }
+          }
+        ],
+        "lead": "gyarados",
+        "warnings": []
+      },
+      {
+        "boss": "koga",
+        "name": "Koga",
+        "location": "Fuchsia City",
+        "stage": 4,
+        "level": 43,
+        "usable": [
+          {
+            "member": "gyarados",
+            "form": "gyarados",
+            "moves": [
+              "hydropump",
+              "rest",
+              "surf",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "nidoking",
+            "form": "nidoking",
+            "moves": [
+              "hyperbeam",
+              "surf",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "tauros",
+            "form": "tauros",
+            "moves": [
+              "hyperbeam",
+              "strength",
+              "takedown",
+              "stomp"
+            ]
+          },
+          {
+            "member": "exeggutor",
+            "form": "exeggutor",
+            "moves": [
+              "solarbeam",
+              "hypnosis",
+              "hyperbeam",
+              "strength"
+            ]
+          },
+          {
+            "member": "electrode",
+            "form": "electrode",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "raticate",
+            "moves": [
+              "hyperbeam",
+              "takedown",
+              "hyperfang"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "koffing",
+              "level": 37,
+              "moves": [
+                "tackle",
+                "smog",
+                "sludge",
+                "smokescreen"
+              ]
+            },
+            "answer": {
+              "move": "hydropump",
+              "member": "gyarados",
+              "form": "gyarados",
+              "minPercent": 114.6,
+              "maxPercent": 135.4,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 43 Gyarados Hydro Pump vs. Lvl 37 Koffing: 94-111 (89.5 - 105.7%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "sludge",
+              "minPercent": 16.4,
+              "maxPercent": 20.1,
+              "ko": "possible 5HKO",
+              "description": "Lvl 37 Koffing Sludge vs. Lvl 43 Gyarados: 22-27 (13.6 - 16.7%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "muk",
+              "level": 39,
+              "moves": [
+                "disable",
+                "poisongas",
+                "minimize",
+                "sludge"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 70.8,
+              "maxPercent": 83.9,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 43 Tauros Hyper Beam vs. Lvl 39 Muk: 97-115 (60.2 - 71.4%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "sludge",
+              "minPercent": 23.9,
+              "maxPercent": 29.1,
+              "ko": "99.5% chance to 4HKO",
+              "description": "Lvl 39 Muk Sludge vs. Lvl 43 Tauros: 28-34 (19.4 - 23.6%) -- 99.5% chance to 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "koffing",
+              "level": 37,
+              "moves": [
+                "tackle",
+                "smog",
+                "sludge",
+                "smokescreen"
+              ]
+            },
+            "answer": {
+              "move": "hydropump",
+              "member": "gyarados",
+              "form": "gyarados",
+              "minPercent": 114.6,
+              "maxPercent": 135.4,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 43 Gyarados Hydro Pump vs. Lvl 37 Koffing: 94-111 (89.5 - 105.7%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "sludge",
+              "minPercent": 16.4,
+              "maxPercent": 20.1,
+              "ko": "possible 5HKO",
+              "description": "Lvl 37 Koffing Sludge vs. Lvl 43 Gyarados: 22-27 (13.6 - 16.7%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "weezing",
+              "level": 43,
+              "moves": [
+                "smog",
+                "sludge",
+                "toxic",
+                "selfdestruct"
+              ]
+            },
+            "answer": {
+              "move": "hydropump",
+              "member": "gyarados",
+              "form": "gyarados",
+              "minPercent": 57.4,
+              "maxPercent": 67.8,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 43 Gyarados Hydro Pump vs. Lvl 43 Weezing: 66-78 (46.4 - 54.9%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "selfdestruct",
+              "minPercent": 70.1,
+              "maxPercent": 82.8,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 43 Weezing Self-Destruct vs. Lvl 43 Gyarados: 94-111 (58.3 - 68.9%) -- guaranteed 2HKO"
+            }
+          }
+        ],
+        "lead": "gyarados",
+        "warnings": []
+      },
+      {
+        "boss": "rival-silph",
+        "name": "Rival",
+        "location": "Silph Co. 7F",
+        "stage": 5,
+        "level": 40,
+        "rivalStarter": "charmander",
+        "usable": [
+          {
+            "member": "gyarados",
+            "form": "gyarados",
+            "moves": [
+              "surf",
+              "rest",
+              "hyperbeam",
+              "strength"
+            ]
+          },
+          {
+            "member": "nidoking",
+            "form": "nidoking",
+            "moves": [
+              "earthquake",
+              "submission",
+              "surf",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "tauros",
+            "form": "tauros",
+            "moves": [
+              "hyperbeam",
+              "strength",
+              "takedown",
+              "stomp"
+            ]
+          },
+          {
+            "member": "exeggutor",
+            "form": "exeggutor",
+            "moves": [
+              "psychic",
+              "hypnosis",
+              "hyperbeam",
+              "strength"
+            ]
+          },
+          {
+            "member": "electrode",
+            "form": "electrode",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "raticate",
+            "moves": [
+              "hyperbeam",
+              "takedown",
+              "hyperfang"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeot",
+              "level": 37,
+              "moves": [
+                "sandattack",
+                "quickattack",
+                "whirlwind",
+                "wingattack"
+              ]
+            },
+            "answer": {
+              "move": "thunderbolt",
+              "member": "electrode",
+              "form": "electrode",
+              "minPercent": 90.4,
+              "maxPercent": 107,
+              "ko": "43.6% chance to OHKO",
+              "description": "Lvl 40 Electrode Thunderbolt vs. Lvl 37 Pidgeot: 103-122 (75.1 - 89%) -- 43.6% chance to OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "quickattack",
+              "minPercent": 18.4,
+              "maxPercent": 22.4,
+              "ko": "possible 5HKO",
+              "description": "Lvl 37 Pidgeot Quick Attack vs. Lvl 40 Electrode: 18-22 (14.6 - 17.8%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "exeggcute",
+              "level": 38,
+              "moves": [
+                "reflect",
+                "leechseed",
+                "stunspore",
+                "poisonpowder"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 85.9,
+              "maxPercent": 101,
+              "ko": "7.7% chance to OHKO",
+              "description": "Lvl 40 Tauros Hyper Beam vs. Lvl 38 Exeggcute: 85-100 (69.1 - 81.3%) -- 7.7% chance to OHKO",
+              "outspeeds": true
+            }
+          },
+          {
+            "bossMon": {
+              "species": "gyarados",
+              "level": 35,
+              "moves": [
+                "bite",
+                "dragonrage",
+                "leer",
+                "hydropump"
+              ]
+            },
+            "answer": {
+              "move": "thunderbolt",
+              "member": "electrode",
+              "form": "electrode",
+              "minPercent": 151.3,
+              "maxPercent": 177.8,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 40 Electrode Thunderbolt vs. Lvl 35 Gyarados: 177-208 (127.3 - 149.6%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hydropump",
+              "minPercent": 52,
+              "maxPercent": 62.2,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 35 Gyarados Hydro Pump vs. Lvl 40 Electrode: 51-61 (41.4 - 49.5%) -- guaranteed 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "alakazam",
+              "level": 35,
+              "moves": [
+                "confusion",
+                "disable",
+                "psybeam",
+                "recover"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 140.4,
+              "maxPercent": 166.3,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 40 Tauros Hyper Beam vs. Lvl 35 Alakazam: 125-148 (112.6 - 133.3%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "psybeam",
+              "minPercent": 34.5,
+              "maxPercent": 40.9,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 35 Alakazam Psybeam vs. Lvl 40 Tauros: 38-45 (28.1 - 33.3%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charizard",
+              "level": 40,
+              "moves": [
+                "ember",
+                "leer",
+                "rage",
+                "slash"
+              ]
+            },
+            "answer": {
+              "move": "surf",
+              "member": "gyarados",
+              "form": "gyarados",
+              "minPercent": 86.4,
+              "maxPercent": 101.7,
+              "ko": "12.8% chance to OHKO",
+              "description": "Lvl 40 Gyarados Surf vs. Lvl 40 Charizard: 102-120 (70.8 - 83.3%) -- 12.8% chance to OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "slash",
+              "minPercent": 34.9,
+              "maxPercent": 41.3,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 40 Charizard Slash vs. Lvl 40 Gyarados on a critical hit: 44-52 (29.1 - 34.4%) -- guaranteed 3HKO"
+            }
+          }
+        ],
+        "lead": "electrode",
+        "warnings": []
+      },
+      {
+        "boss": "giovanni-silph",
+        "name": "Giovanni",
+        "location": "Silph Co. 11F",
+        "stage": 5,
+        "level": 41,
+        "usable": [
+          {
+            "member": "gyarados",
+            "form": "gyarados",
+            "moves": [
+              "hydropump",
+              "rest",
+              "surf",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "nidoking",
+            "form": "nidoking",
+            "moves": [
+              "earthquake",
+              "submission",
+              "surf",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "tauros",
+            "form": "tauros",
+            "moves": [
+              "hyperbeam",
+              "strength",
+              "takedown",
+              "stomp"
+            ]
+          },
+          {
+            "member": "exeggutor",
+            "form": "exeggutor",
+            "moves": [
+              "psychic",
+              "hypnosis",
+              "hyperbeam",
+              "strength"
+            ]
+          },
+          {
+            "member": "electrode",
+            "form": "electrode",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "raticate",
+            "moves": [
+              "hyperbeam",
+              "takedown",
+              "hyperfang"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "nidorino",
+              "level": 37,
+              "moves": [
+                "hornattack",
+                "poisonsting",
+                "focusenergy",
+                "furyattack"
+              ]
+            },
+            "answer": {
+              "move": "psychic",
+              "member": "exeggutor",
+              "form": "exeggutor",
+              "minPercent": 161.2,
+              "maxPercent": 189.8,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 41 Exeggutor Psychic vs. Lvl 37 Nidorino: 158-186 (130.5 - 153.7%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "hornattack",
+              "minPercent": 12.5,
+              "maxPercent": 14.8,
+              "ko": "possible 7HKO",
+              "description": "Lvl 37 Nidorino Horn Attack vs. Lvl 41 Exeggutor: 16-19 (10.3 - 12.3%) -- possible 7HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "kangaskhan",
+              "level": 35,
+              "moves": [
+                "cometpunch",
+                "rage",
+                "bite",
+                "tailwhip"
+              ]
+            },
+            "answer": {
+              "move": "hydropump",
+              "member": "gyarados",
+              "form": "gyarados",
+              "minPercent": 88.7,
+              "maxPercent": 104.8,
+              "ko": "30.8% chance to OHKO",
+              "description": "Lvl 41 Gyarados Hydro Pump vs. Lvl 35 Kangaskhan: 110-130 (75.3 - 89%) -- 30.8% chance to OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "cometpunch",
+              "minPercent": 18.8,
+              "maxPercent": 23.4,
+              "ko": "approx. possible 5HKO",
+              "description": "Lvl 35 Kangaskhan Comet Punch (3 hits) vs. Lvl 41 Gyarados: 24-30 (15.5 - 19.4%) -- approx. possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rhyhorn",
+              "level": 37,
+              "moves": [
+                "hornattack",
+                "stomp",
+                "tailwhip"
+              ]
+            },
+            "answer": {
+              "move": "hydropump",
+              "member": "gyarados",
+              "form": "gyarados",
+              "minPercent": 422.3,
+              "maxPercent": 496.4,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 41 Gyarados Hydro Pump vs. Lvl 37 Rhyhorn: 473-556 (350.3 - 411.8%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hornattack",
+              "minPercent": 13.3,
+              "maxPercent": 16.4,
+              "ko": "possible 7HKO",
+              "description": "Lvl 37 Rhyhorn Horn Attack vs. Lvl 41 Gyarados: 17-21 (11 - 13.6%) -- possible 7HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "nidoqueen",
+              "level": 41,
+              "moves": [
+                "scratch",
+                "tailwhip",
+                "bodyslam",
+                "poisonsting"
+              ]
+            },
+            "answer": {
+              "move": "hydropump",
+              "member": "gyarados",
+              "form": "gyarados",
+              "minPercent": 104.6,
+              "maxPercent": 123.7,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 41 Gyarados Hydro Pump vs. Lvl 41 Nidoqueen: 137-162 (87.2 - 103.1%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "bodyslam",
+              "minPercent": 21.9,
+              "maxPercent": 25.8,
+              "ko": "0.5% chance to 4HKO",
+              "description": "Lvl 41 Nidoqueen Body Slam vs. Lvl 41 Gyarados: 28-33 (18.1 - 21.4%) -- 0.5% chance to 4HKO"
+            }
+          }
+        ],
+        "lead": "exeggutor",
+        "warnings": []
+      },
+      {
+        "boss": "sabrina",
+        "name": "Sabrina",
+        "location": "Saffron City",
+        "stage": 5,
+        "level": 43,
+        "usable": [
+          {
+            "member": "gyarados",
+            "form": "gyarados",
+            "moves": [
+              "hydropump",
+              "rest",
+              "surf",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "nidoking",
+            "form": "nidoking",
+            "moves": [
+              "earthquake",
+              "submission",
+              "surf",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "tauros",
+            "form": "tauros",
+            "moves": [
+              "hyperbeam",
+              "strength",
+              "takedown",
+              "stomp"
+            ]
+          },
+          {
+            "member": "exeggutor",
+            "form": "exeggutor",
+            "moves": [
+              "solarbeam",
+              "psychic",
+              "hypnosis",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "electrode",
+            "form": "electrode",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "raticate",
+            "moves": [
+              "hyperbeam",
+              "takedown",
+              "hyperfang"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "kadabra",
+              "level": 38,
+              "moves": [
+                "disable",
+                "psybeam",
+                "recover",
+                "psychic"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 190.5,
+              "maxPercent": 225,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 43 Tauros Hyper Beam vs. Lvl 38 Kadabra: 160-189 (148.1 - 175%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "psychic",
+              "minPercent": 43.6,
+              "maxPercent": 51.3,
+              "ko": "4.8% chance to 2HKO",
+              "description": "Lvl 38 Kadabra Psychic vs. Lvl 43 Tauros: 51-60 (35.4 - 41.6%) -- 4.8% chance to 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "mrmime",
+              "level": 37,
+              "moves": [
+                "confusion",
+                "barrier",
+                "lightscreen",
+                "doubleslap"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 136.6,
+              "maxPercent": 161,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 43 Tauros Hyper Beam vs. Lvl 37 Mr. Mime: 112-132 (106.6 - 125.7%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "confusion",
+              "minPercent": 19.7,
+              "maxPercent": 23.9,
+              "ko": "possible 5HKO",
+              "description": "Lvl 37 Mr. Mime Confusion vs. Lvl 43 Tauros: 23-28 (15.9 - 19.4%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "venomoth",
+              "level": 38,
+              "moves": [
+                "poisonpowder",
+                "leechlife",
+                "stunspore",
+                "psybeam"
+              ]
+            },
+            "answer": {
+              "move": "psychic",
+              "member": "exeggutor",
+              "form": "exeggutor",
+              "minPercent": 118.7,
+              "maxPercent": 140.2,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 43 Exeggutor Psychic vs. Lvl 38 Venomoth: 127-150 (96.9 - 114.5%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "leechlife",
+              "minPercent": 25.4,
+              "maxPercent": 29.9,
+              "ko": "guaranteed 4HKO",
+              "description": "Lvl 38 Venomoth Leech Life vs. Lvl 43 Exeggutor: 34-40 (21.1 - 24.8%) -- guaranteed 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "alakazam",
+              "level": 43,
+              "moves": [
+                "psybeam",
+                "recover",
+                "psywave",
+                "reflect"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 110.3,
+              "maxPercent": 129.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 43 Tauros Hyper Beam vs. Lvl 43 Alakazam: 118-139 (88 - 103.7%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "psybeam",
+              "minPercent": 43.6,
+              "maxPercent": 51.3,
+              "ko": "4.8% chance to 2HKO",
+              "description": "Lvl 43 Alakazam Psybeam vs. Lvl 43 Tauros: 51-60 (35.4 - 41.6%) -- 4.8% chance to 2HKO"
+            }
+          }
+        ],
+        "lead": "tauros",
+        "warnings": []
+      },
+      {
+        "boss": "blaine",
+        "name": "Blaine",
+        "location": "Cinnabar Island",
+        "stage": 6,
+        "level": 47,
+        "usable": [
+          {
+            "member": "gyarados",
+            "form": "gyarados",
+            "moves": [
+              "hydropump",
+              "rest",
+              "surf",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "nidoking",
+            "form": "nidoking",
+            "moves": [
+              "earthquake",
+              "submission",
+              "surf",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "tauros",
+            "form": "tauros",
+            "moves": [
+              "hyperbeam",
+              "strength",
+              "takedown",
+              "stomp"
+            ]
+          },
+          {
+            "member": "exeggutor",
+            "form": "exeggutor",
+            "moves": [
+              "solarbeam",
+              "psychic",
+              "hypnosis",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "electrode",
+            "form": "electrode",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "raticate",
+            "moves": [
+              "hyperbeam",
+              "takedown",
+              "hyperfang"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "growlithe",
+              "level": 42,
+              "moves": [
+                "ember",
+                "leer",
+                "takedown",
+                "agility"
+              ]
+            },
+            "answer": {
+              "move": "hydropump",
+              "member": "gyarados",
+              "form": "gyarados",
+              "minPercent": 202.9,
+              "maxPercent": 238.5,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 47 Gyarados Hydro Pump vs. Lvl 42 Growlithe: 211-248 (161 - 189.3%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "takedown",
+              "minPercent": 16.4,
+              "maxPercent": 19.9,
+              "ko": "possible 6HKO",
+              "description": "Lvl 42 Growlithe Take Down vs. Lvl 47 Gyarados: 24-29 (13.7 - 16.5%) -- possible 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "ponyta",
+              "level": 40,
+              "moves": [
+                "tailwhip",
+                "stomp",
+                "growl",
+                "firespin"
+              ]
+            },
+            "answer": {
+              "move": "hydropump",
+              "member": "gyarados",
+              "form": "gyarados",
+              "minPercent": 202.1,
+              "maxPercent": 237.5,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 47 Gyarados Hydro Pump vs. Lvl 40 Ponyta: 194-228 (160.3 - 188.4%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 13,
+              "maxPercent": 15.8,
+              "ko": "possible 7HKO",
+              "description": "Lvl 40 Ponyta Stomp vs. Lvl 47 Gyarados: 19-23 (10.8 - 13.1%) -- possible 7HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rapidash",
+              "level": 42,
+              "moves": [
+                "tailwhip",
+                "stomp",
+                "growl",
+                "firespin"
+              ]
+            },
+            "answer": {
+              "move": "hydropump",
+              "member": "gyarados",
+              "form": "gyarados",
+              "minPercent": 144.2,
+              "maxPercent": 169.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 47 Gyarados Hydro Pump vs. Lvl 42 Rapidash: 163-192 (117.2 - 138.1%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 15.1,
+              "maxPercent": 17.8,
+              "ko": "possible 6HKO",
+              "description": "Lvl 42 Rapidash Stomp vs. Lvl 47 Gyarados: 22-26 (12.5 - 14.8%) -- possible 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "arcanine",
+              "level": 47,
+              "moves": [
+                "roar",
+                "ember",
+                "fireblast",
+                "takedown"
+              ]
+            },
+            "answer": {
+              "move": "hydropump",
+              "member": "gyarados",
+              "form": "gyarados",
+              "minPercent": 96.6,
+              "maxPercent": 114.1,
+              "ko": "82.1% chance to OHKO",
+              "description": "Lvl 47 Gyarados Hydro Pump vs. Lvl 47 Arcanine: 144-170 (80.8 - 95.5%) -- 82.1% chance to OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "takedown",
+              "minPercent": 26.7,
+              "maxPercent": 32.2,
+              "ko": "guaranteed 4HKO",
+              "description": "Lvl 47 Arcanine Take Down vs. Lvl 47 Gyarados: 39-47 (22.2 - 26.8%) -- guaranteed 4HKO"
+            }
+          }
+        ],
+        "lead": "gyarados",
+        "warnings": []
+      },
+      {
+        "boss": "giovanni-gym",
+        "name": "Giovanni",
+        "location": "Viridian City",
+        "stage": 7,
+        "level": 50,
+        "usable": [
+          {
+            "member": "gyarados",
+            "form": "gyarados",
+            "moves": [
+              "hydropump",
+              "rest",
+              "surf",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "nidoking",
+            "form": "nidoking",
+            "moves": [
+              "earthquake",
+              "submission",
+              "surf",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "tauros",
+            "form": "tauros",
+            "moves": [
+              "hyperbeam",
+              "strength",
+              "takedown",
+              "stomp"
+            ]
+          },
+          {
+            "member": "exeggutor",
+            "form": "exeggutor",
+            "moves": [
+              "solarbeam",
+              "psychic",
+              "sleeppowder",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "electrode",
+            "form": "electrode",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "raticate",
+            "moves": [
+              "hyperbeam",
+              "takedown",
+              "hyperfang"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "rhyhorn",
+              "level": 45,
+              "moves": [
+                "stomp",
+                "tailwhip",
+                "furyattack",
+                "horndrill"
+              ]
+            },
+            "answer": {
+              "move": "solarbeam",
+              "member": "exeggutor",
+              "form": "exeggutor",
+              "minPercent": 512.7,
+              "maxPercent": 603,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 50 Exeggutor Solar Beam vs. Lvl 45 Rhyhorn: 687-808 (424 - 498.7%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 13.5,
+              "maxPercent": 16.1,
+              "ko": "possible 7HKO",
+              "description": "Lvl 45 Rhyhorn Stomp vs. Lvl 50 Exeggutor: 21-25 (11.2 - 13.4%) -- possible 7HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "dugtrio",
+              "level": 42,
+              "moves": [
+                "growl",
+                "dig",
+                "sandattack",
+                "slash"
+              ]
+            },
+            "answer": {
+              "move": "solarbeam",
+              "member": "exeggutor",
+              "form": "exeggutor",
+              "minPercent": 271.6,
+              "maxPercent": 320.5,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 50 Exeggutor Solar Beam vs. Lvl 42 Dugtrio: 239-282 (209.6 - 247.3%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "slash",
+              "minPercent": 22.6,
+              "maxPercent": 27.1,
+              "ko": "41.4% chance to 4HKO",
+              "description": "Lvl 42 Dugtrio Slash vs. Lvl 50 Exeggutor on a critical hit: 35-42 (18.8 - 22.5%) -- 41.4% chance to 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "nidoqueen",
+              "level": 44,
+              "moves": [
+                "scratch",
+                "tailwhip",
+                "bodyslam",
+                "poisonsting"
+              ]
+            },
+            "answer": {
+              "move": "hydropump",
+              "member": "gyarados",
+              "form": "gyarados",
+              "minPercent": 134.3,
+              "maxPercent": 158.6,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 50 Gyarados Hydro Pump vs. Lvl 44 Nidoqueen: 188-222 (112.5 - 132.9%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "bodyslam",
+              "minPercent": 16.8,
+              "maxPercent": 20,
+              "ko": "possible 5HKO",
+              "description": "Lvl 44 Nidoqueen Body Slam vs. Lvl 50 Gyarados: 26-31 (13.9 - 16.6%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "nidoking",
+              "level": 45,
+              "moves": [
+                "tackle",
+                "hornattack",
+                "poisonsting",
+                "thrash"
+              ]
+            },
+            "answer": {
+              "move": "hydropump",
+              "member": "gyarados",
+              "form": "gyarados",
+              "minPercent": 135.6,
+              "maxPercent": 160,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 50 Gyarados Hydro Pump vs. Lvl 45 Nidoking: 183-216 (112.2 - 132.5%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "thrash",
+              "minPercent": 20.6,
+              "maxPercent": 24.5,
+              "ko": "guaranteed 5HKO",
+              "description": "Lvl 45 Nidoking Thrash vs. Lvl 50 Gyarados: 32-38 (17.2 - 20.4%) -- guaranteed 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rhydon",
+              "level": 50,
+              "moves": [
+                "stomp",
+                "tailwhip",
+                "fissure",
+                "horndrill"
+              ]
+            },
+            "answer": {
+              "move": "solarbeam",
+              "member": "exeggutor",
+              "form": "exeggutor",
+              "minPercent": 300.6,
+              "maxPercent": 353.8,
+              "ko": "guaranteed OHKO",
+              "description": "Exeggutor Solar Beam vs. Rhydon: 520-612 (254.9 - 300%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 21.9,
+              "maxPercent": 25.8,
+              "ko": "0.8% chance to 4HKO",
+              "description": "Rhydon Stomp vs. Exeggutor: 34-40 (18.2 - 21.5%) -- 0.8% chance to 4HKO"
+            }
+          }
+        ],
+        "lead": "exeggutor",
+        "warnings": []
+      },
+      {
+        "boss": "rival-route22-late",
+        "name": "Rival",
+        "location": "Route 22",
+        "stage": 8,
+        "level": 53,
+        "rivalStarter": "charmander",
+        "usable": [
+          {
+            "member": "gyarados",
+            "form": "gyarados",
+            "moves": [
+              "hydropump",
+              "rest",
+              "surf",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "nidoking",
+            "form": "nidoking",
+            "moves": [
+              "earthquake",
+              "submission",
+              "surf",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "tauros",
+            "form": "tauros",
+            "moves": [
+              "hyperbeam",
+              "strength",
+              "takedown",
+              "stomp"
+            ]
+          },
+          {
+            "member": "exeggutor",
+            "form": "exeggutor",
+            "moves": [
+              "solarbeam",
+              "psychic",
+              "sleeppowder",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "electrode",
+            "form": "electrode",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "raticate",
+            "moves": [
+              "hyperbeam",
+              "takedown",
+              "hyperfang"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeot",
+              "level": 47,
+              "moves": [
+                "quickattack",
+                "whirlwind",
+                "wingattack",
+                "agility"
+              ]
+            },
+            "answer": {
+              "move": "thunderbolt",
+              "member": "electrode",
+              "form": "electrode",
+              "minPercent": 97.9,
+              "maxPercent": 115.5,
+              "ko": "89.7% chance to OHKO",
+              "description": "Lvl 53 Electrode Thunderbolt vs. Lvl 47 Pidgeot: 139-164 (80.8 - 95.3%) -- 89.7% chance to OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "quickattack",
+              "minPercent": 16.7,
+              "maxPercent": 19.8,
+              "ko": "guaranteed 6HKO",
+              "description": "Lvl 47 Pidgeot Quick Attack vs. Lvl 53 Electrode: 21-25 (13.2 - 15.7%) -- guaranteed 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rhyhorn",
+              "level": 45,
+              "moves": [
+                "stomp",
+                "tailwhip",
+                "furyattack",
+                "horndrill"
+              ]
+            },
+            "answer": {
+              "move": "solarbeam",
+              "member": "exeggutor",
+              "form": "exeggutor",
+              "minPercent": 566.4,
+              "maxPercent": 665.7,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 53 Exeggutor Solar Beam vs. Lvl 45 Rhyhorn: 759-892 (468.5 - 550.6%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 12.3,
+              "maxPercent": 14.7,
+              "ko": "possible 7HKO",
+              "description": "Lvl 45 Rhyhorn Stomp vs. Lvl 53 Exeggutor: 20-24 (10.1 - 12.1%) -- possible 7HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "exeggcute",
+              "level": 45,
+              "moves": [
+                "leechseed",
+                "stunspore",
+                "poisonpowder",
+                "solarbeam"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 103.4,
+              "maxPercent": 122.4,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 53 Tauros Hyper Beam vs. Lvl 45 Exeggcute: 120-142 (83.3 - 98.6%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "solarbeam",
+              "minPercent": 34.5,
+              "maxPercent": 40.8,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 45 Exeggcute Solar Beam vs. Lvl 53 Tauros: 49-58 (28 - 33.1%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "gyarados",
+              "level": 47,
+              "moves": [
+                "bite",
+                "dragonrage",
+                "leer",
+                "hydropump"
+              ]
+            },
+            "answer": {
+              "move": "thunderbolt",
+              "member": "electrode",
+              "form": "electrode",
+              "minPercent": 146.4,
+              "maxPercent": 172.5,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 53 Electrode Thunderbolt vs. Lvl 47 Gyarados: 224-264 (122.4 - 144.2%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hydropump",
+              "minPercent": 50.8,
+              "maxPercent": 60.3,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 47 Gyarados Hydro Pump vs. Lvl 53 Electrode: 64-76 (40.2 - 47.7%) -- guaranteed 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "alakazam",
+              "level": 50,
+              "moves": [
+                "psybeam",
+                "recover",
+                "psychic",
+                "reflect"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 122.8,
+              "maxPercent": 144.7,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 53 Tauros Hyper Beam vs. Lvl 50 Alakazam: 151-178 (98 - 115.5%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "psychic",
+              "minPercent": 53.5,
+              "maxPercent": 63.4,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 50 Alakazam Psychic vs. Lvl 53 Tauros: 76-90 (43.4 - 51.4%) -- guaranteed 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charizard",
+              "level": 53,
+              "moves": [
+                "leer",
+                "rage",
+                "slash",
+                "flamethrower"
+              ]
+            },
+            "answer": {
+              "move": "hydropump",
+              "member": "gyarados",
+              "form": "gyarados",
+              "minPercent": 103.2,
+              "maxPercent": 122.1,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 53 Gyarados Hydro Pump vs. Lvl 53 Charizard: 159-188 (85 - 100.5%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "slash",
+              "minPercent": 34.4,
+              "maxPercent": 40.5,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 53 Charizard Slash vs. Lvl 53 Gyarados on a critical hit: 56-66 (28.4 - 33.5%) -- guaranteed 3HKO"
+            }
+          }
+        ],
+        "lead": "electrode",
+        "warnings": []
+      },
+      {
+        "boss": "lorelei",
+        "name": "Lorelei",
+        "location": "Indigo Plateau",
+        "stage": 8,
+        "level": 56,
+        "usable": [
+          {
+            "member": "gyarados",
+            "form": "gyarados",
+            "moves": [
+              "hydropump",
+              "rest",
+              "surf",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "nidoking",
+            "form": "nidoking",
+            "moves": [
+              "earthquake",
+              "submission",
+              "surf",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "tauros",
+            "form": "tauros",
+            "moves": [
+              "hyperbeam",
+              "strength",
+              "takedown",
+              "stomp"
+            ]
+          },
+          {
+            "member": "exeggutor",
+            "form": "exeggutor",
+            "moves": [
+              "solarbeam",
+              "psychic",
+              "sleeppowder",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "electrode",
+            "form": "electrode",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "raticate",
+            "moves": [
+              "hyperbeam",
+              "takedown",
+              "hyperfang"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "dewgong",
+              "level": 54,
+              "moves": [
+                "growl",
+                "aurorabeam",
+                "rest",
+                "takedown"
+              ]
+            },
+            "answer": {
+              "move": "solarbeam",
+              "member": "exeggutor",
+              "form": "exeggutor",
+              "minPercent": 111.2,
+              "maxPercent": 131.4,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 56 Exeggutor Solar Beam vs. Lvl 54 Dewgong: 188-222 (92.6 - 109.3%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "aurorabeam",
+              "minPercent": 36,
+              "maxPercent": 43,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 54 Dewgong Aurora Beam vs. Lvl 56 Exeggutor: 62-74 (29.9 - 35.7%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "cloyster",
+              "level": 53,
+              "moves": [
+                "supersonic",
+                "clamp",
+                "aurorabeam",
+                "spikecannon"
+              ]
+            },
+            "answer": {
+              "move": "solarbeam",
+              "member": "exeggutor",
+              "form": "exeggutor",
+              "minPercent": 168.5,
+              "maxPercent": 198.4,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 56 Exeggutor Solar Beam vs. Lvl 53 Cloyster: 209-246 (133.1 - 156.6%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "aurorabeam",
+              "minPercent": 33.1,
+              "maxPercent": 39.5,
+              "ko": "99.9% chance to 3HKO",
+              "description": "Lvl 53 Cloyster Aurora Beam vs. Lvl 56 Exeggutor: 57-68 (27.5 - 32.8%) -- 99.9% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "slowbro",
+              "level": 54,
+              "moves": [
+                "growl",
+                "watergun",
+                "withdraw",
+                "amnesia"
+              ]
+            },
+            "answer": {
+              "move": "solarbeam",
+              "member": "exeggutor",
+              "form": "exeggutor",
+              "minPercent": 120.6,
+              "maxPercent": 141.7,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 56 Exeggutor Solar Beam vs. Lvl 54 Slowbro: 211-248 (100.9 - 118.6%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "watergun",
+              "minPercent": 5.2,
+              "maxPercent": 6.4,
+              "ko": "",
+              "description": "Lvl 54 Slowbro Water Gun vs. Lvl 56 Exeggutor: 9-11 (4.3 - 5.3%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "jynx",
+              "level": 56,
+              "moves": [
+                "doubleslap",
+                "icepunch",
+                "bodyslam",
+                "thrash"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 115,
+              "maxPercent": 135.4,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 56 Tauros Hyper Beam vs. Lvl 56 Jynx: 169-199 (92.3 - 108.7%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "icepunch",
+              "minPercent": 38,
+              "maxPercent": 44.7,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 56 Jynx Ice Punch vs. Lvl 56 Tauros: 57-67 (30.8 - 36.2%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "lapras",
+              "level": 56,
+              "moves": [
+                "bodyslam",
+                "confuseray",
+                "blizzard",
+                "hydropump"
+              ]
+            },
+            "answer": {
+              "move": "solarbeam",
+              "member": "exeggutor",
+              "form": "exeggutor",
+              "minPercent": 83.2,
+              "maxPercent": 98.2,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 56 Exeggutor Solar Beam vs. Lvl 56 Lapras: 183-216 (71.7 - 84.7%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "blizzard",
+              "minPercent": 72.1,
+              "maxPercent": 84.9,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 56 Lapras Blizzard vs. Lvl 56 Exeggutor: 124-146 (59.9 - 70.5%) -- guaranteed 2HKO"
+            }
+          }
+        ],
+        "lead": "exeggutor",
+        "warnings": []
+      },
+      {
+        "boss": "bruno",
+        "name": "Bruno",
+        "location": "Indigo Plateau",
+        "stage": 8,
+        "level": 58,
+        "usable": [
+          {
+            "member": "gyarados",
+            "form": "gyarados",
+            "moves": [
+              "hydropump",
+              "rest",
+              "surf",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "nidoking",
+            "form": "nidoking",
+            "moves": [
+              "earthquake",
+              "submission",
+              "surf",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "tauros",
+            "form": "tauros",
+            "moves": [
+              "hyperbeam",
+              "strength",
+              "takedown",
+              "stomp"
+            ]
+          },
+          {
+            "member": "exeggutor",
+            "form": "exeggutor",
+            "moves": [
+              "solarbeam",
+              "psychic",
+              "sleeppowder",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "electrode",
+            "form": "electrode",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "raticate",
+            "moves": [
+              "hyperbeam",
+              "takedown",
+              "hyperfang"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "onix",
+              "level": 53,
+              "moves": [
+                "rockthrow",
+                "rage",
+                "slam",
+                "harden"
+              ]
+            },
+            "answer": {
+              "move": "solarbeam",
+              "member": "exeggutor",
+              "form": "exeggutor",
+              "minPercent": 718.5,
+              "maxPercent": 844.4,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 58 Exeggutor Solar Beam vs. Lvl 53 Onix: 776-912 (550.3 - 646.8%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "slam",
+              "minPercent": 11.8,
+              "maxPercent": 14,
+              "ko": "possible 8HKO",
+              "description": "Lvl 53 Onix Slam vs. Lvl 58 Exeggutor: 21-25 (9.8 - 11.6%) -- possible 8HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "hitmonchan",
+              "level": 55,
+              "moves": [
+                "icepunch",
+                "thunderpunch",
+                "megapunch",
+                "counter"
+              ]
+            },
+            "answer": {
+              "move": "psychic",
+              "member": "exeggutor",
+              "form": "exeggutor",
+              "minPercent": 207,
+              "maxPercent": 243.8,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 58 Exeggutor Psychic vs. Lvl 55 Hitmonchan: 265-312 (162.5 - 191.4%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "megapunch",
+              "minPercent": 20.8,
+              "maxPercent": 24.7,
+              "ko": "guaranteed 5HKO",
+              "description": "Lvl 55 Hitmonchan Mega Punch vs. Lvl 58 Exeggutor: 37-44 (17.2 - 20.5%) -- guaranteed 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "hitmonlee",
+              "level": 55,
+              "moves": [
+                "jumpkick",
+                "focusenergy",
+                "highjumpkick",
+                "megakick"
+              ]
+            },
+            "answer": {
+              "move": "psychic",
+              "member": "exeggutor",
+              "form": "exeggutor",
+              "minPercent": 207,
+              "maxPercent": 243.8,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 58 Exeggutor Psychic vs. Lvl 55 Hitmonlee: 265-312 (162.5 - 191.4%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "megakick",
+              "minPercent": 33.7,
+              "maxPercent": 39.9,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 55 Hitmonlee Mega Kick vs. Lvl 58 Exeggutor: 60-71 (28 - 33.1%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "onix",
+              "level": 56,
+              "moves": [
+                "rockthrow",
+                "rage",
+                "slam",
+                "harden"
+              ]
+            },
+            "answer": {
+              "move": "solarbeam",
+              "member": "exeggutor",
+              "form": "exeggutor",
+              "minPercent": 644.7,
+              "maxPercent": 757.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 58 Exeggutor Solar Beam vs. Lvl 56 Onix: 735-864 (493.2 - 579.8%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "rockthrow",
+              "minPercent": 12.4,
+              "maxPercent": 15.2,
+              "ko": "possible 7HKO",
+              "description": "Lvl 56 Onix Rock Throw vs. Lvl 58 Exeggutor: 22-27 (10.2 - 12.6%) -- possible 7HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "machamp",
+              "level": 58,
+              "moves": [
+                "leer",
+                "focusenergy",
+                "fissure",
+                "submission"
+              ]
+            },
+            "answer": {
+              "move": "psychic",
+              "member": "exeggutor",
+              "form": "exeggutor",
+              "minPercent": 99.4,
+              "maxPercent": 117.1,
+              "ko": "97.4% chance to OHKO",
+              "description": "Lvl 58 Exeggutor Psychic vs. Lvl 58 Machamp: 180-212 (82.5 - 97.2%) -- 97.4% chance to OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "submission",
+              "minPercent": 19.7,
+              "maxPercent": 23.6,
+              "ko": "possible 5HKO",
+              "description": "Lvl 58 Machamp Submission vs. Lvl 58 Exeggutor: 35-42 (16.3 - 19.6%) -- possible 5HKO"
+            }
+          }
+        ],
+        "lead": "exeggutor",
+        "warnings": []
+      },
+      {
+        "boss": "agatha",
+        "name": "Agatha",
+        "location": "Indigo Plateau",
+        "stage": 8,
+        "level": 60,
+        "usable": [
+          {
+            "member": "gyarados",
+            "form": "gyarados",
+            "moves": [
+              "hydropump",
+              "rest",
+              "surf",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "nidoking",
+            "form": "nidoking",
+            "moves": [
+              "earthquake",
+              "submission",
+              "surf",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "tauros",
+            "form": "tauros",
+            "moves": [
+              "hyperbeam",
+              "strength",
+              "takedown",
+              "stomp"
+            ]
+          },
+          {
+            "member": "exeggutor",
+            "form": "exeggutor",
+            "moves": [
+              "solarbeam",
+              "psychic",
+              "sleeppowder",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "electrode",
+            "form": "electrode",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "raticate",
+            "moves": [
+              "hyperbeam",
+              "takedown",
+              "hyperfang"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "gengar",
+              "level": 56,
+              "moves": [
+                "confuseray",
+                "nightshade",
+                "hypnosis",
+                "dreameater"
+              ]
+            },
+            "answer": {
+              "move": "earthquake",
+              "member": "nidoking",
+              "form": "nidoking",
+              "minPercent": 132.4,
+              "maxPercent": 156.3,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 60 Nidoking Earthquake vs. Lvl 56 Gengar: 188-222 (106.2 - 125.4%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "dreameater",
+              "minPercent": 68.3,
+              "maxPercent": 80.2,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 56 Gengar Dream Eater vs. Lvl 60 Nidoking: 114-134 (55.6 - 65.3%) -- guaranteed 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "golbat",
+              "level": 56,
+              "moves": [
+                "supersonic",
+                "confuseray",
+                "wingattack",
+                "haze"
+              ]
+            },
+            "answer": {
+              "move": "psychic",
+              "member": "exeggutor",
+              "form": "exeggutor",
+              "minPercent": 117.1,
+              "maxPercent": 138,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 60 Exeggutor Psychic vs. Lvl 56 Golbat: 185-218 (95.3 - 112.3%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "wingattack",
+              "minPercent": 22.8,
+              "maxPercent": 27.2,
+              "ko": "47.3% chance to 4HKO",
+              "description": "Lvl 56 Golbat Wing Attack vs. Lvl 60 Exeggutor: 42-50 (19 - 22.6%) -- 47.3% chance to 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "haunter",
+              "level": 55,
+              "moves": [
+                "confuseray",
+                "nightshade",
+                "hypnosis",
+                "dreameater"
+              ]
+            },
+            "answer": {
+              "move": "earthquake",
+              "member": "nidoking",
+              "form": "nidoking",
+              "minPercent": 182.1,
+              "maxPercent": 214.6,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 60 Nidoking Earthquake vs. Lvl 55 Haunter: 224-264 (142.6 - 168.1%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "dreameater",
+              "minPercent": 61.1,
+              "maxPercent": 71.9,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 55 Haunter Dream Eater vs. Lvl 60 Nidoking: 102-120 (49.7 - 58.5%) -- guaranteed 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "arbok",
+              "level": 58,
+              "moves": [
+                "bite",
+                "glare",
+                "screech",
+                "acid"
+              ]
+            },
+            "answer": {
+              "move": "psychic",
+              "member": "exeggutor",
+              "form": "exeggutor",
+              "minPercent": 133.6,
+              "maxPercent": 157.5,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 60 Exeggutor Psychic vs. Lvl 58 Arbok: 195-230 (106.5 - 125.6%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "acid",
+              "minPercent": 28.3,
+              "maxPercent": 33.7,
+              "ko": "0.1% chance to 3HKO",
+              "description": "Lvl 58 Arbok Acid vs. Lvl 60 Exeggutor: 52-62 (23.5 - 28%) -- 0.1% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "gengar",
+              "level": 60,
+              "moves": [
+                "confuseray",
+                "nightshade",
+                "toxic",
+                "dreameater"
+              ]
+            },
+            "answer": {
+              "move": "earthquake",
+              "member": "nidoking",
+              "form": "nidoking",
+              "minPercent": 115.9,
+              "maxPercent": 136.4,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 60 Nidoking Earthquake vs. Lvl 60 Gengar: 175-206 (92.5 - 108.9%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "dreameater",
+              "minPercent": 79,
+              "maxPercent": 93.4,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 60 Gengar Dream Eater vs. Lvl 60 Nidoking: 132-156 (64.3 - 76%) -- guaranteed 2HKO"
+            }
+          }
+        ],
+        "lead": "nidoking",
+        "warnings": []
+      },
+      {
+        "boss": "lance",
+        "name": "Lance",
+        "location": "Indigo Plateau",
+        "stage": 8,
+        "level": 62,
+        "usable": [
+          {
+            "member": "gyarados",
+            "form": "gyarados",
+            "moves": [
+              "hydropump",
+              "rest",
+              "surf",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "nidoking",
+            "form": "nidoking",
+            "moves": [
+              "earthquake",
+              "submission",
+              "surf",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "tauros",
+            "form": "tauros",
+            "moves": [
+              "hyperbeam",
+              "strength",
+              "takedown",
+              "stomp"
+            ]
+          },
+          {
+            "member": "exeggutor",
+            "form": "exeggutor",
+            "moves": [
+              "solarbeam",
+              "psychic",
+              "sleeppowder",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "electrode",
+            "form": "electrode",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "raticate",
+            "moves": [
+              "hyperbeam",
+              "takedown",
+              "hyperfang"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "gyarados",
+              "level": 58,
+              "moves": [
+                "dragonrage",
+                "leer",
+                "hydropump",
+                "hyperbeam"
+              ]
+            },
+            "answer": {
+              "move": "thunderbolt",
+              "member": "electrode",
+              "form": "electrode",
+              "minPercent": 127.3,
+              "maxPercent": 149.7,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 62 Electrode Thunderbolt vs. Lvl 58 Gyarados: 238-280 (106.2 - 125%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hyperbeam",
+              "minPercent": 62.3,
+              "maxPercent": 73.3,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 58 Gyarados Hyper Beam vs. Lvl 62 Electrode: 91-107 (49.1 - 57.8%) -- guaranteed 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "dragonair",
+              "level": 56,
+              "moves": [
+                "agility",
+                "slam",
+                "dragonrage",
+                "hyperbeam"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 102.1,
+              "maxPercent": 120.3,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 62 Tauros Hyper Beam vs. Lvl 56 Dragonair: 146-172 (82 - 96.6%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hyperbeam",
+              "minPercent": 31.5,
+              "maxPercent": 37.6,
+              "ko": "89.4% chance to 3HKO",
+              "description": "Lvl 56 Dragonair Hyper Beam vs. Lvl 62 Tauros: 52-62 (25.4 - 30.3%) -- 89.4% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "dragonair",
+              "level": 56,
+              "moves": [
+                "agility",
+                "slam",
+                "dragonrage",
+                "hyperbeam"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 102.1,
+              "maxPercent": 120.3,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 62 Tauros Hyper Beam vs. Lvl 56 Dragonair: 146-172 (82 - 96.6%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hyperbeam",
+              "minPercent": 31.5,
+              "maxPercent": 37.6,
+              "ko": "89.4% chance to 3HKO",
+              "description": "Lvl 56 Dragonair Hyper Beam vs. Lvl 62 Tauros: 52-62 (25.4 - 30.3%) -- 89.4% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "aerodactyl",
+              "level": 60,
+              "moves": [
+                "supersonic",
+                "bite",
+                "takedown",
+                "hyperbeam"
+              ]
+            },
+            "answer": {
+              "move": "hydropump",
+              "member": "gyarados",
+              "form": "gyarados",
+              "minPercent": 132,
+              "maxPercent": 155.4,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 62 Gyarados Hydro Pump vs. Lvl 60 Aerodactyl: 231-272 (108.4 - 127.6%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "hyperbeam",
+              "minPercent": 41.8,
+              "maxPercent": 49.7,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 60 Aerodactyl Hyper Beam vs. Lvl 62 Gyarados: 79-94 (34.6 - 41.2%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "dragonite",
+              "level": 62,
+              "moves": [
+                "agility",
+                "slam",
+                "barrier",
+                "hyperbeam"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 53.6,
+              "maxPercent": 63.4,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 62 Tauros Hyper Beam vs. Lvl 62 Dragonite: 104-123 (44.6 - 52.7%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hyperbeam",
+              "minPercent": 52.1,
+              "maxPercent": 61.8,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 62 Dragonite Hyper Beam vs. Lvl 62 Tauros: 86-102 (42.1 - 50%) -- guaranteed 2HKO"
+            }
+          }
+        ],
+        "lead": "electrode",
+        "warnings": []
+      },
+      {
+        "boss": "rival-champion",
+        "name": "Rival",
+        "location": "Indigo Plateau (Champion)",
+        "stage": 8,
+        "level": 65,
+        "rivalStarter": "charmander",
+        "usable": [
+          {
+            "member": "gyarados",
+            "form": "gyarados",
+            "moves": [
+              "hydropump",
+              "rest",
+              "surf",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "nidoking",
+            "form": "nidoking",
+            "moves": [
+              "earthquake",
+              "submission",
+              "surf",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "tauros",
+            "form": "tauros",
+            "moves": [
+              "hyperbeam",
+              "strength",
+              "takedown",
+              "stomp"
+            ]
+          },
+          {
+            "member": "exeggutor",
+            "form": "exeggutor",
+            "moves": [
+              "solarbeam",
+              "psychic",
+              "sleeppowder",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "electrode",
+            "form": "electrode",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "raticate",
+            "moves": [
+              "hyperbeam",
+              "takedown",
+              "hyperfang"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeot",
+              "level": 61,
+              "moves": [
+                "whirlwind",
+                "wingattack",
+                "skyattack",
+                "mirrormove"
+              ]
+            },
+            "answer": {
+              "move": "thunderbolt",
+              "member": "electrode",
+              "form": "electrode",
+              "minPercent": 87.4,
+              "maxPercent": 103.3,
+              "ko": "23.1% chance to OHKO",
+              "description": "Lvl 65 Electrode Thunderbolt vs. Lvl 61 Pidgeot: 159-188 (72.2 - 85.4%) -- 23.1% chance to OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "skyattack",
+              "minPercent": 31.4,
+              "maxPercent": 37.3,
+              "ko": "82% chance to 3HKO",
+              "description": "Lvl 61 Pidgeot Sky Attack vs. Lvl 65 Electrode: 48-57 (24.8 - 29.5%) -- 82% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "alakazam",
+              "level": 59,
+              "moves": [
+                "psybeam",
+                "recover",
+                "psychic",
+                "reflect"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 135.7,
+              "maxPercent": 159.4,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 65 Tauros Hyper Beam vs. Lvl 59 Alakazam: 194-228 (107.7 - 126.6%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "psychic",
+              "minPercent": 48.8,
+              "maxPercent": 57.6,
+              "ko": "95.9% chance to 2HKO",
+              "description": "Lvl 59 Alakazam Psychic vs. Lvl 65 Tauros: 84-99 (39.4 - 46.4%) -- 95.9% chance to 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rhydon",
+              "level": 61,
+              "moves": [
+                "tailwhip",
+                "furyattack",
+                "horndrill",
+                "leer"
+              ]
+            },
+            "answer": {
+              "move": "solarbeam",
+              "member": "exeggutor",
+              "form": "exeggutor",
+              "minPercent": 335.1,
+              "maxPercent": 394.2,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 65 Exeggutor Solar Beam vs. Lvl 61 Rhydon: 697-820 (282.1 - 331.9%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "furyattack",
+              "minPercent": 15.2,
+              "maxPercent": 18.2,
+              "ko": "approx. possible 6HKO",
+              "description": "Lvl 61 Rhydon Fury Attack (3 hits) vs. Lvl 65 Exeggutor: 30-36 (12.5 - 15%) -- approx. possible 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "exeggutor",
+              "level": 61,
+              "moves": [
+                "barrage",
+                "hypnosis",
+                "stomp"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 66.3,
+              "maxPercent": 78.1,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 65 Tauros Hyper Beam vs. Lvl 61 Exeggutor: 130-153 (55.3 - 65.1%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 16.3,
+              "maxPercent": 19.8,
+              "ko": "possible 6HKO",
+              "description": "Lvl 61 Exeggutor Stomp vs. Lvl 65 Tauros: 28-34 (13.1 - 15.9%) -- possible 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "gyarados",
+              "level": 63,
+              "moves": [
+                "dragonrage",
+                "leer",
+                "hydropump",
+                "hyperbeam"
+              ]
+            },
+            "answer": {
+              "move": "thunderbolt",
+              "member": "electrode",
+              "form": "electrode",
+              "minPercent": 122.8,
+              "maxPercent": 144.6,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 65 Electrode Thunderbolt vs. Lvl 63 Gyarados: 248-292 (102.4 - 120.6%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hyperbeam",
+              "minPercent": 66,
+              "maxPercent": 77.8,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 63 Gyarados Hyper Beam vs. Lvl 65 Electrode: 101-119 (52.3 - 61.6%) -- guaranteed 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charizard",
+              "level": 65,
+              "moves": [
+                "rage",
+                "slash",
+                "fireblast",
+                "firespin"
+              ]
+            },
+            "answer": {
+              "move": "hydropump",
+              "member": "gyarados",
+              "form": "gyarados",
+              "minPercent": 104.8,
+              "maxPercent": 123.7,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 65 Gyarados Hydro Pump vs. Lvl 65 Charizard: 195-230 (85.9 - 101.3%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "slash",
+              "minPercent": 34.3,
+              "maxPercent": 40.4,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 65 Charizard Slash vs. Lvl 65 Gyarados on a critical hit: 68-80 (28.4 - 33.4%) -- guaranteed 3HKO"
+            }
+          }
+        ],
+        "lead": "electrode",
+        "warnings": []
+      }
+    ]
+  }
+}

@@ -27,24 +27,50 @@ export const SetSchema = z.object({
 export type PokemonSet = z.infer<typeof SetSchema>;
 
 export const MoveSourceSchema = z.discriminatedUnion('kind', [
-  z.object({ kind: z.literal('level'), level: z.number().int() }),
-  z.object({ kind: z.literal('tm'), number: z.number().int(), move: IdSchema }),
-  z.object({ kind: z.literal('hm'), number: z.number().int(), move: IdSchema }),
-  z.object({ kind: z.literal('tutor') }),
-  z.object({ kind: z.literal('egg') }),
+  /** Learned by level-up; `from` is the species that learns it (a pre-evolution, or the member itself). */
+  z.object({ kind: z.literal('level'), level: z.number().int(), from: IdSchema }),
+  /** Known the moment the Pokémon is obtained (the game's last-four rule at its starting level). */
+  z.object({ kind: z.literal('start'), from: IdSchema }),
+  z.object({ kind: z.literal('tm'), number: z.number().int(), location: z.string() }),
+  z.object({ kind: z.literal('hm'), number: z.number().int(), location: z.string() }),
 ]);
 export type MoveSource = z.infer<typeof MoveSourceSchema>;
+
+export const MoveLearnSchema = z.object({
+  move: IdSchema,
+  source: MoveSourceSchema,
+  /** Stage (badges held; 9 = after the Elite Four) at which this move can first be taught. */
+  stage: z.number().int().min(0).max(9),
+});
+export type MoveLearn = z.infer<typeof MoveLearnSchema>;
+
+export const AcquisitionStepSchema = z.object({
+  species: IdSchema,
+  how: z.enum(['wild', 'surf', 'rod', 'gift', 'static', 'trade', 'prize', 'purchase', 'fossil', 'evolution']),
+  /** Human-readable place or method ("Viridian Forest", "Thunder Stone from Celadon Dept. Store 4F"). */
+  where: z.string(),
+  minLevel: z.number().int().optional(),
+  maxLevel: z.number().int().optional(),
+  stage: z.number().int().min(0).max(9),
+  /** Structured details, so narration never has to parse `where`. */
+  place: z.string().optional(),
+  price: z.number().int().optional(),
+  coins: z.number().int().optional(),
+  evolution: z.object({ how: z.enum(['level', 'stone', 'trade']), level: z.number().int().optional(), item: z.string().optional() }).optional(),
+});
+export type AcquisitionStep = z.infer<typeof AcquisitionStepSchema>;
 
 export const MemberSchema = z.object({
   set: SetSchema,
   roles: z.array(z.string()).default([]),
-  /** In-game only: where/when this Pokémon (and each move) is obtained. */
+  /** In-game only: how to get the line from first catch to final form, and when each move is learned. */
   acquisition: z
     .object({
-      location: z.string(),
-      minBadges: z.number().int().min(0),
-      method: z.enum(['wild', 'gift', 'trade', 'evolve', 'egg', 'static']),
-      moveSources: z.record(IdSchema, MoveSourceSchema).default({}),
+      stage: z.number().int().min(0).max(9),
+      steps: z.array(AcquisitionStepSchema).min(1),
+      moves: z.array(MoveLearnSchema),
+      /** Advice that follows from the plan, e.g. when to hold off evolving. */
+      notes: z.array(z.string()).default([]),
     })
     .optional(),
 });

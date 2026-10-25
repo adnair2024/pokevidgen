@@ -1,0 +1,7510 @@
+{
+  "source": {
+    "repo": "https://github.com/pret/pokered",
+    "commit": "171e2c204f9c1ff8e577ca387a4bbb009e130843",
+    "note": "Level-up moves from data/pokemon/evos_moves.asm, starting moves and TM/HM compatibility from data/pokemon/base_stats/*.asm. Identical in Red and Blue. Pokemon Showdown / @pkmn learnset codes are not used: they encode entries like \"1L1\" that do not reflect the games."
+  },
+  "species": {
+    "bulbasaur": {
+      "start": [
+        "tackle",
+        "growl"
+      ],
+      "levelUp": [
+        {
+          "level": 7,
+          "move": "leechseed"
+        },
+        {
+          "level": 13,
+          "move": "vinewhip"
+        },
+        {
+          "level": 20,
+          "move": "poisonpowder"
+        },
+        {
+          "level": 27,
+          "move": "razorleaf"
+        },
+        {
+          "level": 34,
+          "move": "growth"
+        },
+        {
+          "level": 41,
+          "move": "sleeppowder"
+        },
+        {
+          "level": 48,
+          "move": "solarbeam"
+        }
+      ],
+      "tmhm": [
+        "swordsdance",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "rage",
+        "megadrain",
+        "solarbeam",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "rest",
+        "substitute",
+        "cut"
+      ]
+    },
+    "ivysaur": {
+      "start": [
+        "tackle",
+        "growl",
+        "leechseed"
+      ],
+      "levelUp": [
+        {
+          "level": 7,
+          "move": "leechseed"
+        },
+        {
+          "level": 13,
+          "move": "vinewhip"
+        },
+        {
+          "level": 22,
+          "move": "poisonpowder"
+        },
+        {
+          "level": 30,
+          "move": "razorleaf"
+        },
+        {
+          "level": 38,
+          "move": "growth"
+        },
+        {
+          "level": 46,
+          "move": "sleeppowder"
+        },
+        {
+          "level": 54,
+          "move": "solarbeam"
+        }
+      ],
+      "tmhm": [
+        "swordsdance",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "rage",
+        "megadrain",
+        "solarbeam",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "rest",
+        "substitute",
+        "cut"
+      ]
+    },
+    "venusaur": {
+      "start": [
+        "tackle",
+        "growl",
+        "leechseed",
+        "vinewhip"
+      ],
+      "levelUp": [
+        {
+          "level": 7,
+          "move": "leechseed"
+        },
+        {
+          "level": 13,
+          "move": "vinewhip"
+        },
+        {
+          "level": 22,
+          "move": "poisonpowder"
+        },
+        {
+          "level": 30,
+          "move": "razorleaf"
+        },
+        {
+          "level": 43,
+          "move": "growth"
+        },
+        {
+          "level": 55,
+          "move": "sleeppowder"
+        },
+        {
+          "level": 65,
+          "move": "solarbeam"
+        }
+      ],
+      "tmhm": [
+        "swordsdance",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "hyperbeam",
+        "rage",
+        "megadrain",
+        "solarbeam",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "rest",
+        "substitute",
+        "cut"
+      ]
+    },
+    "charmander": {
+      "start": [
+        "scratch",
+        "growl"
+      ],
+      "levelUp": [
+        {
+          "level": 9,
+          "move": "ember"
+        },
+        {
+          "level": 15,
+          "move": "leer"
+        },
+        {
+          "level": 22,
+          "move": "rage"
+        },
+        {
+          "level": 30,
+          "move": "slash"
+        },
+        {
+          "level": 38,
+          "move": "flamethrower"
+        },
+        {
+          "level": 46,
+          "move": "firespin"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "swordsdance",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "dragonrage",
+        "dig",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "fireblast",
+        "swift",
+        "skullbash",
+        "rest",
+        "substitute",
+        "cut",
+        "strength"
+      ]
+    },
+    "charmeleon": {
+      "start": [
+        "scratch",
+        "growl",
+        "ember"
+      ],
+      "levelUp": [
+        {
+          "level": 9,
+          "move": "ember"
+        },
+        {
+          "level": 15,
+          "move": "leer"
+        },
+        {
+          "level": 24,
+          "move": "rage"
+        },
+        {
+          "level": 33,
+          "move": "slash"
+        },
+        {
+          "level": 42,
+          "move": "flamethrower"
+        },
+        {
+          "level": 56,
+          "move": "firespin"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "swordsdance",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "dragonrage",
+        "dig",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "fireblast",
+        "swift",
+        "skullbash",
+        "rest",
+        "substitute",
+        "cut",
+        "strength"
+      ]
+    },
+    "charizard": {
+      "start": [
+        "scratch",
+        "growl",
+        "ember",
+        "leer"
+      ],
+      "levelUp": [
+        {
+          "level": 9,
+          "move": "ember"
+        },
+        {
+          "level": 15,
+          "move": "leer"
+        },
+        {
+          "level": 24,
+          "move": "rage"
+        },
+        {
+          "level": 36,
+          "move": "slash"
+        },
+        {
+          "level": 46,
+          "move": "flamethrower"
+        },
+        {
+          "level": 55,
+          "move": "firespin"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "swordsdance",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "hyperbeam",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "dragonrage",
+        "earthquake",
+        "fissure",
+        "dig",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "fireblast",
+        "swift",
+        "skullbash",
+        "rest",
+        "substitute",
+        "cut",
+        "strength"
+      ]
+    },
+    "squirtle": {
+      "start": [
+        "tackle",
+        "tailwhip"
+      ],
+      "levelUp": [
+        {
+          "level": 8,
+          "move": "bubble"
+        },
+        {
+          "level": 15,
+          "move": "watergun"
+        },
+        {
+          "level": 22,
+          "move": "bite"
+        },
+        {
+          "level": 28,
+          "move": "withdraw"
+        },
+        {
+          "level": 35,
+          "move": "skullbash"
+        },
+        {
+          "level": 42,
+          "move": "hydropump"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "dig",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "skullbash",
+        "rest",
+        "substitute",
+        "surf",
+        "strength"
+      ]
+    },
+    "wartortle": {
+      "start": [
+        "tackle",
+        "tailwhip",
+        "bubble"
+      ],
+      "levelUp": [
+        {
+          "level": 8,
+          "move": "bubble"
+        },
+        {
+          "level": 15,
+          "move": "watergun"
+        },
+        {
+          "level": 24,
+          "move": "bite"
+        },
+        {
+          "level": 31,
+          "move": "withdraw"
+        },
+        {
+          "level": 39,
+          "move": "skullbash"
+        },
+        {
+          "level": 47,
+          "move": "hydropump"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "dig",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "skullbash",
+        "rest",
+        "substitute",
+        "surf",
+        "strength"
+      ]
+    },
+    "blastoise": {
+      "start": [
+        "tackle",
+        "tailwhip",
+        "bubble",
+        "watergun"
+      ],
+      "levelUp": [
+        {
+          "level": 8,
+          "move": "bubble"
+        },
+        {
+          "level": 15,
+          "move": "watergun"
+        },
+        {
+          "level": 24,
+          "move": "bite"
+        },
+        {
+          "level": 31,
+          "move": "withdraw"
+        },
+        {
+          "level": 42,
+          "move": "skullbash"
+        },
+        {
+          "level": 52,
+          "move": "hydropump"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "hyperbeam",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "earthquake",
+        "fissure",
+        "dig",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "skullbash",
+        "rest",
+        "substitute",
+        "surf",
+        "strength"
+      ]
+    },
+    "caterpie": {
+      "start": [
+        "tackle",
+        "stringshot"
+      ],
+      "levelUp": [],
+      "tmhm": []
+    },
+    "metapod": {
+      "start": [
+        "harden"
+      ],
+      "levelUp": [],
+      "tmhm": []
+    },
+    "butterfree": {
+      "start": [
+        "confusion"
+      ],
+      "levelUp": [
+        {
+          "level": 12,
+          "move": "confusion"
+        },
+        {
+          "level": 15,
+          "move": "poisonpowder"
+        },
+        {
+          "level": 16,
+          "move": "stunspore"
+        },
+        {
+          "level": 17,
+          "move": "sleeppowder"
+        },
+        {
+          "level": 21,
+          "move": "supersonic"
+        },
+        {
+          "level": 26,
+          "move": "whirlwind"
+        },
+        {
+          "level": 32,
+          "move": "psybeam"
+        }
+      ],
+      "tmhm": [
+        "razorwind",
+        "whirlwind",
+        "toxic",
+        "takedown",
+        "doubleedge",
+        "hyperbeam",
+        "rage",
+        "megadrain",
+        "solarbeam",
+        "psychic",
+        "teleport",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "swift",
+        "rest",
+        "psywave",
+        "substitute"
+      ]
+    },
+    "weedle": {
+      "start": [
+        "poisonsting",
+        "stringshot"
+      ],
+      "levelUp": [],
+      "tmhm": []
+    },
+    "kakuna": {
+      "start": [
+        "harden"
+      ],
+      "levelUp": [],
+      "tmhm": []
+    },
+    "beedrill": {
+      "start": [
+        "furyattack"
+      ],
+      "levelUp": [
+        {
+          "level": 12,
+          "move": "furyattack"
+        },
+        {
+          "level": 16,
+          "move": "focusenergy"
+        },
+        {
+          "level": 20,
+          "move": "twineedle"
+        },
+        {
+          "level": 25,
+          "move": "rage"
+        },
+        {
+          "level": 30,
+          "move": "pinmissile"
+        },
+        {
+          "level": 35,
+          "move": "agility"
+        }
+      ],
+      "tmhm": [
+        "swordsdance",
+        "toxic",
+        "takedown",
+        "doubleedge",
+        "hyperbeam",
+        "rage",
+        "megadrain",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "swift",
+        "skullbash",
+        "rest",
+        "substitute",
+        "cut"
+      ]
+    },
+    "pidgey": {
+      "start": [
+        "gust"
+      ],
+      "levelUp": [
+        {
+          "level": 5,
+          "move": "sandattack"
+        },
+        {
+          "level": 12,
+          "move": "quickattack"
+        },
+        {
+          "level": 19,
+          "move": "whirlwind"
+        },
+        {
+          "level": 28,
+          "move": "wingattack"
+        },
+        {
+          "level": 36,
+          "move": "agility"
+        },
+        {
+          "level": 44,
+          "move": "mirrormove"
+        }
+      ],
+      "tmhm": [
+        "razorwind",
+        "whirlwind",
+        "toxic",
+        "takedown",
+        "doubleedge",
+        "rage",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "swift",
+        "skyattack",
+        "rest",
+        "substitute",
+        "fly"
+      ]
+    },
+    "pidgeotto": {
+      "start": [
+        "gust",
+        "sandattack"
+      ],
+      "levelUp": [
+        {
+          "level": 5,
+          "move": "sandattack"
+        },
+        {
+          "level": 12,
+          "move": "quickattack"
+        },
+        {
+          "level": 21,
+          "move": "whirlwind"
+        },
+        {
+          "level": 31,
+          "move": "wingattack"
+        },
+        {
+          "level": 40,
+          "move": "agility"
+        },
+        {
+          "level": 49,
+          "move": "mirrormove"
+        }
+      ],
+      "tmhm": [
+        "razorwind",
+        "whirlwind",
+        "toxic",
+        "takedown",
+        "doubleedge",
+        "rage",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "swift",
+        "skyattack",
+        "rest",
+        "substitute",
+        "fly"
+      ]
+    },
+    "pidgeot": {
+      "start": [
+        "gust",
+        "sandattack",
+        "quickattack"
+      ],
+      "levelUp": [
+        {
+          "level": 5,
+          "move": "sandattack"
+        },
+        {
+          "level": 12,
+          "move": "quickattack"
+        },
+        {
+          "level": 21,
+          "move": "whirlwind"
+        },
+        {
+          "level": 31,
+          "move": "wingattack"
+        },
+        {
+          "level": 44,
+          "move": "agility"
+        },
+        {
+          "level": 54,
+          "move": "mirrormove"
+        }
+      ],
+      "tmhm": [
+        "razorwind",
+        "whirlwind",
+        "toxic",
+        "takedown",
+        "doubleedge",
+        "hyperbeam",
+        "rage",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "swift",
+        "skyattack",
+        "rest",
+        "substitute",
+        "fly"
+      ]
+    },
+    "rattata": {
+      "start": [
+        "tackle",
+        "tailwhip"
+      ],
+      "levelUp": [
+        {
+          "level": 7,
+          "move": "quickattack"
+        },
+        {
+          "level": 14,
+          "move": "hyperfang"
+        },
+        {
+          "level": 23,
+          "move": "focusenergy"
+        },
+        {
+          "level": 34,
+          "move": "superfang"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "blizzard",
+        "rage",
+        "thunderbolt",
+        "thunder",
+        "dig",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "swift",
+        "skullbash",
+        "rest",
+        "substitute"
+      ]
+    },
+    "raticate": {
+      "start": [
+        "tackle",
+        "tailwhip",
+        "quickattack"
+      ],
+      "levelUp": [
+        {
+          "level": 7,
+          "move": "quickattack"
+        },
+        {
+          "level": 14,
+          "move": "hyperfang"
+        },
+        {
+          "level": 27,
+          "move": "focusenergy"
+        },
+        {
+          "level": 41,
+          "move": "superfang"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "hyperbeam",
+        "rage",
+        "thunderbolt",
+        "thunder",
+        "dig",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "swift",
+        "skullbash",
+        "rest",
+        "substitute"
+      ]
+    },
+    "spearow": {
+      "start": [
+        "peck",
+        "growl"
+      ],
+      "levelUp": [
+        {
+          "level": 9,
+          "move": "leer"
+        },
+        {
+          "level": 15,
+          "move": "furyattack"
+        },
+        {
+          "level": 22,
+          "move": "mirrormove"
+        },
+        {
+          "level": 29,
+          "move": "drillpeck"
+        },
+        {
+          "level": 36,
+          "move": "agility"
+        }
+      ],
+      "tmhm": [
+        "razorwind",
+        "whirlwind",
+        "toxic",
+        "takedown",
+        "doubleedge",
+        "rage",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "swift",
+        "skyattack",
+        "rest",
+        "substitute",
+        "fly"
+      ]
+    },
+    "fearow": {
+      "start": [
+        "peck",
+        "growl",
+        "leer"
+      ],
+      "levelUp": [
+        {
+          "level": 9,
+          "move": "leer"
+        },
+        {
+          "level": 15,
+          "move": "furyattack"
+        },
+        {
+          "level": 25,
+          "move": "mirrormove"
+        },
+        {
+          "level": 34,
+          "move": "drillpeck"
+        },
+        {
+          "level": 43,
+          "move": "agility"
+        }
+      ],
+      "tmhm": [
+        "razorwind",
+        "whirlwind",
+        "toxic",
+        "takedown",
+        "doubleedge",
+        "hyperbeam",
+        "rage",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "swift",
+        "skyattack",
+        "rest",
+        "substitute",
+        "fly"
+      ]
+    },
+    "ekans": {
+      "start": [
+        "wrap",
+        "leer"
+      ],
+      "levelUp": [
+        {
+          "level": 10,
+          "move": "poisonsting"
+        },
+        {
+          "level": 17,
+          "move": "bite"
+        },
+        {
+          "level": 24,
+          "move": "glare"
+        },
+        {
+          "level": 31,
+          "move": "screech"
+        },
+        {
+          "level": 38,
+          "move": "acid"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "rage",
+        "megadrain",
+        "earthquake",
+        "fissure",
+        "dig",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "skullbash",
+        "rest",
+        "rockslide",
+        "substitute",
+        "strength"
+      ]
+    },
+    "arbok": {
+      "start": [
+        "wrap",
+        "leer",
+        "poisonsting"
+      ],
+      "levelUp": [
+        {
+          "level": 10,
+          "move": "poisonsting"
+        },
+        {
+          "level": 17,
+          "move": "bite"
+        },
+        {
+          "level": 27,
+          "move": "glare"
+        },
+        {
+          "level": 36,
+          "move": "screech"
+        },
+        {
+          "level": 47,
+          "move": "acid"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "hyperbeam",
+        "rage",
+        "megadrain",
+        "earthquake",
+        "fissure",
+        "dig",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "skullbash",
+        "rest",
+        "rockslide",
+        "substitute",
+        "strength"
+      ]
+    },
+    "pikachu": {
+      "start": [
+        "thundershock",
+        "growl"
+      ],
+      "levelUp": [
+        {
+          "level": 9,
+          "move": "thunderwave"
+        },
+        {
+          "level": 16,
+          "move": "quickattack"
+        },
+        {
+          "level": 26,
+          "move": "swift"
+        },
+        {
+          "level": 33,
+          "move": "agility"
+        },
+        {
+          "level": 43,
+          "move": "thunder"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "payday",
+        "submission",
+        "seismictoss",
+        "rage",
+        "thunderbolt",
+        "thunder",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "swift",
+        "skullbash",
+        "rest",
+        "thunderwave",
+        "substitute",
+        "flash"
+      ]
+    },
+    "raichu": {
+      "start": [
+        "thundershock",
+        "growl",
+        "thunderwave"
+      ],
+      "levelUp": [],
+      "tmhm": [
+        "megapunch",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "hyperbeam",
+        "payday",
+        "submission",
+        "seismictoss",
+        "rage",
+        "thunderbolt",
+        "thunder",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "swift",
+        "skullbash",
+        "rest",
+        "thunderwave",
+        "substitute",
+        "flash"
+      ]
+    },
+    "sandshrew": {
+      "start": [
+        "scratch"
+      ],
+      "levelUp": [
+        {
+          "level": 10,
+          "move": "sandattack"
+        },
+        {
+          "level": 17,
+          "move": "slash"
+        },
+        {
+          "level": 24,
+          "move": "poisonsting"
+        },
+        {
+          "level": 31,
+          "move": "swift"
+        },
+        {
+          "level": 38,
+          "move": "furyswipes"
+        }
+      ],
+      "tmhm": [
+        "swordsdance",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "submission",
+        "seismictoss",
+        "rage",
+        "earthquake",
+        "fissure",
+        "dig",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "swift",
+        "skullbash",
+        "rest",
+        "rockslide",
+        "substitute",
+        "cut",
+        "strength"
+      ]
+    },
+    "sandslash": {
+      "start": [
+        "scratch",
+        "sandattack"
+      ],
+      "levelUp": [
+        {
+          "level": 10,
+          "move": "sandattack"
+        },
+        {
+          "level": 17,
+          "move": "slash"
+        },
+        {
+          "level": 27,
+          "move": "poisonsting"
+        },
+        {
+          "level": 36,
+          "move": "swift"
+        },
+        {
+          "level": 47,
+          "move": "furyswipes"
+        }
+      ],
+      "tmhm": [
+        "swordsdance",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "hyperbeam",
+        "submission",
+        "seismictoss",
+        "rage",
+        "earthquake",
+        "fissure",
+        "dig",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "swift",
+        "skullbash",
+        "rest",
+        "rockslide",
+        "substitute",
+        "cut",
+        "strength"
+      ]
+    },
+    "nidoranf": {
+      "start": [
+        "growl",
+        "tackle"
+      ],
+      "levelUp": [
+        {
+          "level": 8,
+          "move": "scratch"
+        },
+        {
+          "level": 14,
+          "move": "poisonsting"
+        },
+        {
+          "level": 21,
+          "move": "tailwhip"
+        },
+        {
+          "level": 29,
+          "move": "bite"
+        },
+        {
+          "level": 36,
+          "move": "furyswipes"
+        },
+        {
+          "level": 43,
+          "move": "doublekick"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "blizzard",
+        "rage",
+        "thunderbolt",
+        "thunder",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "skullbash",
+        "rest",
+        "substitute"
+      ]
+    },
+    "nidorina": {
+      "start": [
+        "growl",
+        "tackle",
+        "scratch"
+      ],
+      "levelUp": [
+        {
+          "level": 8,
+          "move": "scratch"
+        },
+        {
+          "level": 14,
+          "move": "poisonsting"
+        },
+        {
+          "level": 23,
+          "move": "tailwhip"
+        },
+        {
+          "level": 32,
+          "move": "bite"
+        },
+        {
+          "level": 41,
+          "move": "furyswipes"
+        },
+        {
+          "level": 50,
+          "move": "doublekick"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "horndrill",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "rage",
+        "thunderbolt",
+        "thunder",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "skullbash",
+        "rest",
+        "substitute"
+      ]
+    },
+    "nidoqueen": {
+      "start": [
+        "tackle",
+        "scratch",
+        "tailwhip",
+        "bodyslam"
+      ],
+      "levelUp": [
+        {
+          "level": 8,
+          "move": "scratch"
+        },
+        {
+          "level": 14,
+          "move": "poisonsting"
+        },
+        {
+          "level": 23,
+          "move": "bodyslam"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "megakick",
+        "toxic",
+        "horndrill",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "hyperbeam",
+        "payday",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "thunderbolt",
+        "thunder",
+        "earthquake",
+        "fissure",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "fireblast",
+        "skullbash",
+        "rest",
+        "rockslide",
+        "substitute",
+        "surf",
+        "strength"
+      ]
+    },
+    "nidoranm": {
+      "start": [
+        "leer",
+        "tackle"
+      ],
+      "levelUp": [
+        {
+          "level": 8,
+          "move": "hornattack"
+        },
+        {
+          "level": 14,
+          "move": "poisonsting"
+        },
+        {
+          "level": 21,
+          "move": "focusenergy"
+        },
+        {
+          "level": 29,
+          "move": "furyattack"
+        },
+        {
+          "level": 36,
+          "move": "horndrill"
+        },
+        {
+          "level": 43,
+          "move": "doublekick"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "horndrill",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "blizzard",
+        "rage",
+        "thunderbolt",
+        "thunder",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "skullbash",
+        "rest",
+        "substitute"
+      ]
+    },
+    "nidorino": {
+      "start": [
+        "leer",
+        "tackle",
+        "hornattack"
+      ],
+      "levelUp": [
+        {
+          "level": 8,
+          "move": "hornattack"
+        },
+        {
+          "level": 14,
+          "move": "poisonsting"
+        },
+        {
+          "level": 23,
+          "move": "focusenergy"
+        },
+        {
+          "level": 32,
+          "move": "furyattack"
+        },
+        {
+          "level": 41,
+          "move": "horndrill"
+        },
+        {
+          "level": 50,
+          "move": "doublekick"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "horndrill",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "rage",
+        "thunderbolt",
+        "thunder",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "skullbash",
+        "rest",
+        "substitute"
+      ]
+    },
+    "nidoking": {
+      "start": [
+        "tackle",
+        "hornattack",
+        "poisonsting",
+        "thrash"
+      ],
+      "levelUp": [
+        {
+          "level": 8,
+          "move": "hornattack"
+        },
+        {
+          "level": 14,
+          "move": "poisonsting"
+        },
+        {
+          "level": 23,
+          "move": "thrash"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "megakick",
+        "toxic",
+        "horndrill",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "hyperbeam",
+        "payday",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "thunderbolt",
+        "thunder",
+        "earthquake",
+        "fissure",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "fireblast",
+        "skullbash",
+        "rest",
+        "rockslide",
+        "substitute",
+        "surf",
+        "strength"
+      ]
+    },
+    "clefairy": {
+      "start": [
+        "pound",
+        "growl"
+      ],
+      "levelUp": [
+        {
+          "level": 13,
+          "move": "sing"
+        },
+        {
+          "level": 18,
+          "move": "doubleslap"
+        },
+        {
+          "level": 24,
+          "move": "minimize"
+        },
+        {
+          "level": 31,
+          "move": "metronome"
+        },
+        {
+          "level": 39,
+          "move": "defensecurl"
+        },
+        {
+          "level": 48,
+          "move": "lightscreen"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "solarbeam",
+        "thunderbolt",
+        "thunder",
+        "psychic",
+        "teleport",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "metronome",
+        "fireblast",
+        "skullbash",
+        "rest",
+        "thunderwave",
+        "psywave",
+        "triattack",
+        "substitute",
+        "strength",
+        "flash"
+      ]
+    },
+    "clefable": {
+      "start": [
+        "sing",
+        "doubleslap",
+        "minimize",
+        "metronome"
+      ],
+      "levelUp": [],
+      "tmhm": [
+        "megapunch",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "hyperbeam",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "solarbeam",
+        "thunderbolt",
+        "thunder",
+        "psychic",
+        "teleport",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "metronome",
+        "fireblast",
+        "skullbash",
+        "rest",
+        "thunderwave",
+        "psywave",
+        "triattack",
+        "substitute",
+        "strength",
+        "flash"
+      ]
+    },
+    "vulpix": {
+      "start": [
+        "ember",
+        "tailwhip"
+      ],
+      "levelUp": [
+        {
+          "level": 16,
+          "move": "quickattack"
+        },
+        {
+          "level": 21,
+          "move": "roar"
+        },
+        {
+          "level": 28,
+          "move": "confuseray"
+        },
+        {
+          "level": 35,
+          "move": "flamethrower"
+        },
+        {
+          "level": 42,
+          "move": "firespin"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "rage",
+        "dig",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "fireblast",
+        "swift",
+        "skullbash",
+        "rest",
+        "substitute"
+      ]
+    },
+    "ninetales": {
+      "start": [
+        "ember",
+        "tailwhip",
+        "quickattack",
+        "roar"
+      ],
+      "levelUp": [],
+      "tmhm": [
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "hyperbeam",
+        "rage",
+        "dig",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "fireblast",
+        "swift",
+        "skullbash",
+        "rest",
+        "substitute"
+      ]
+    },
+    "jigglypuff": {
+      "start": [
+        "sing"
+      ],
+      "levelUp": [
+        {
+          "level": 9,
+          "move": "pound"
+        },
+        {
+          "level": 14,
+          "move": "disable"
+        },
+        {
+          "level": 19,
+          "move": "defensecurl"
+        },
+        {
+          "level": 24,
+          "move": "doubleslap"
+        },
+        {
+          "level": 29,
+          "move": "rest"
+        },
+        {
+          "level": 34,
+          "move": "bodyslam"
+        },
+        {
+          "level": 39,
+          "move": "doubleedge"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "solarbeam",
+        "thunderbolt",
+        "thunder",
+        "psychic",
+        "teleport",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "fireblast",
+        "skullbash",
+        "rest",
+        "thunderwave",
+        "psywave",
+        "triattack",
+        "substitute",
+        "strength",
+        "flash"
+      ]
+    },
+    "wigglytuff": {
+      "start": [
+        "sing",
+        "disable",
+        "defensecurl",
+        "doubleslap"
+      ],
+      "levelUp": [],
+      "tmhm": [
+        "megapunch",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "hyperbeam",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "solarbeam",
+        "thunderbolt",
+        "thunder",
+        "psychic",
+        "teleport",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "fireblast",
+        "skullbash",
+        "rest",
+        "thunderwave",
+        "psywave",
+        "triattack",
+        "substitute",
+        "strength",
+        "flash"
+      ]
+    },
+    "zubat": {
+      "start": [
+        "leechlife"
+      ],
+      "levelUp": [
+        {
+          "level": 10,
+          "move": "supersonic"
+        },
+        {
+          "level": 15,
+          "move": "bite"
+        },
+        {
+          "level": 21,
+          "move": "confuseray"
+        },
+        {
+          "level": 28,
+          "move": "wingattack"
+        },
+        {
+          "level": 36,
+          "move": "haze"
+        }
+      ],
+      "tmhm": [
+        "razorwind",
+        "whirlwind",
+        "toxic",
+        "takedown",
+        "doubleedge",
+        "rage",
+        "megadrain",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "swift",
+        "rest",
+        "substitute"
+      ]
+    },
+    "golbat": {
+      "start": [
+        "leechlife",
+        "screech",
+        "bite"
+      ],
+      "levelUp": [
+        {
+          "level": 10,
+          "move": "supersonic"
+        },
+        {
+          "level": 15,
+          "move": "bite"
+        },
+        {
+          "level": 21,
+          "move": "confuseray"
+        },
+        {
+          "level": 32,
+          "move": "wingattack"
+        },
+        {
+          "level": 43,
+          "move": "haze"
+        }
+      ],
+      "tmhm": [
+        "razorwind",
+        "whirlwind",
+        "toxic",
+        "takedown",
+        "doubleedge",
+        "hyperbeam",
+        "rage",
+        "megadrain",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "swift",
+        "rest",
+        "substitute"
+      ]
+    },
+    "oddish": {
+      "start": [
+        "absorb"
+      ],
+      "levelUp": [
+        {
+          "level": 15,
+          "move": "poisonpowder"
+        },
+        {
+          "level": 17,
+          "move": "stunspore"
+        },
+        {
+          "level": 19,
+          "move": "sleeppowder"
+        },
+        {
+          "level": 24,
+          "move": "acid"
+        },
+        {
+          "level": 33,
+          "move": "petaldance"
+        },
+        {
+          "level": 46,
+          "move": "solarbeam"
+        }
+      ],
+      "tmhm": [
+        "swordsdance",
+        "toxic",
+        "takedown",
+        "doubleedge",
+        "rage",
+        "megadrain",
+        "solarbeam",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "rest",
+        "substitute",
+        "cut"
+      ]
+    },
+    "gloom": {
+      "start": [
+        "absorb",
+        "poisonpowder",
+        "stunspore"
+      ],
+      "levelUp": [
+        {
+          "level": 15,
+          "move": "poisonpowder"
+        },
+        {
+          "level": 17,
+          "move": "stunspore"
+        },
+        {
+          "level": 19,
+          "move": "sleeppowder"
+        },
+        {
+          "level": 28,
+          "move": "acid"
+        },
+        {
+          "level": 38,
+          "move": "petaldance"
+        },
+        {
+          "level": 52,
+          "move": "solarbeam"
+        }
+      ],
+      "tmhm": [
+        "swordsdance",
+        "toxic",
+        "takedown",
+        "doubleedge",
+        "rage",
+        "megadrain",
+        "solarbeam",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "rest",
+        "substitute",
+        "cut"
+      ]
+    },
+    "vileplume": {
+      "start": [
+        "stunspore",
+        "sleeppowder",
+        "acid",
+        "petaldance"
+      ],
+      "levelUp": [
+        {
+          "level": 15,
+          "move": "poisonpowder"
+        },
+        {
+          "level": 17,
+          "move": "stunspore"
+        },
+        {
+          "level": 19,
+          "move": "sleeppowder"
+        }
+      ],
+      "tmhm": [
+        "swordsdance",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "hyperbeam",
+        "rage",
+        "megadrain",
+        "solarbeam",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "rest",
+        "substitute",
+        "cut"
+      ]
+    },
+    "paras": {
+      "start": [
+        "scratch"
+      ],
+      "levelUp": [
+        {
+          "level": 13,
+          "move": "stunspore"
+        },
+        {
+          "level": 20,
+          "move": "leechlife"
+        },
+        {
+          "level": 27,
+          "move": "spore"
+        },
+        {
+          "level": 34,
+          "move": "slash"
+        },
+        {
+          "level": 41,
+          "move": "growth"
+        }
+      ],
+      "tmhm": [
+        "swordsdance",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "rage",
+        "megadrain",
+        "solarbeam",
+        "dig",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "skullbash",
+        "rest",
+        "substitute",
+        "cut"
+      ]
+    },
+    "parasect": {
+      "start": [
+        "scratch",
+        "stunspore",
+        "leechlife"
+      ],
+      "levelUp": [
+        {
+          "level": 13,
+          "move": "stunspore"
+        },
+        {
+          "level": 20,
+          "move": "leechlife"
+        },
+        {
+          "level": 30,
+          "move": "spore"
+        },
+        {
+          "level": 39,
+          "move": "slash"
+        },
+        {
+          "level": 48,
+          "move": "growth"
+        }
+      ],
+      "tmhm": [
+        "swordsdance",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "hyperbeam",
+        "rage",
+        "megadrain",
+        "solarbeam",
+        "dig",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "skullbash",
+        "rest",
+        "substitute",
+        "cut"
+      ]
+    },
+    "venonat": {
+      "start": [
+        "tackle",
+        "disable"
+      ],
+      "levelUp": [
+        {
+          "level": 24,
+          "move": "poisonpowder"
+        },
+        {
+          "level": 27,
+          "move": "leechlife"
+        },
+        {
+          "level": 30,
+          "move": "stunspore"
+        },
+        {
+          "level": 35,
+          "move": "psybeam"
+        },
+        {
+          "level": 38,
+          "move": "sleeppowder"
+        },
+        {
+          "level": 43,
+          "move": "psychic"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "takedown",
+        "doubleedge",
+        "rage",
+        "megadrain",
+        "solarbeam",
+        "psychic",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "rest",
+        "psywave",
+        "substitute"
+      ]
+    },
+    "venomoth": {
+      "start": [
+        "tackle",
+        "disable",
+        "poisonpowder",
+        "leechlife"
+      ],
+      "levelUp": [
+        {
+          "level": 24,
+          "move": "poisonpowder"
+        },
+        {
+          "level": 27,
+          "move": "leechlife"
+        },
+        {
+          "level": 30,
+          "move": "stunspore"
+        },
+        {
+          "level": 38,
+          "move": "psybeam"
+        },
+        {
+          "level": 43,
+          "move": "sleeppowder"
+        },
+        {
+          "level": 50,
+          "move": "psychic"
+        }
+      ],
+      "tmhm": [
+        "razorwind",
+        "whirlwind",
+        "toxic",
+        "takedown",
+        "doubleedge",
+        "hyperbeam",
+        "rage",
+        "megadrain",
+        "solarbeam",
+        "psychic",
+        "teleport",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "swift",
+        "rest",
+        "psywave",
+        "substitute"
+      ]
+    },
+    "diglett": {
+      "start": [
+        "scratch"
+      ],
+      "levelUp": [
+        {
+          "level": 15,
+          "move": "growl"
+        },
+        {
+          "level": 19,
+          "move": "dig"
+        },
+        {
+          "level": 24,
+          "move": "sandattack"
+        },
+        {
+          "level": 31,
+          "move": "slash"
+        },
+        {
+          "level": 40,
+          "move": "earthquake"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "rage",
+        "earthquake",
+        "fissure",
+        "dig",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "rest",
+        "rockslide",
+        "substitute"
+      ]
+    },
+    "dugtrio": {
+      "start": [
+        "scratch",
+        "growl",
+        "dig"
+      ],
+      "levelUp": [
+        {
+          "level": 15,
+          "move": "growl"
+        },
+        {
+          "level": 19,
+          "move": "dig"
+        },
+        {
+          "level": 24,
+          "move": "sandattack"
+        },
+        {
+          "level": 35,
+          "move": "slash"
+        },
+        {
+          "level": 47,
+          "move": "earthquake"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "hyperbeam",
+        "rage",
+        "earthquake",
+        "fissure",
+        "dig",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "rest",
+        "rockslide",
+        "substitute"
+      ]
+    },
+    "meowth": {
+      "start": [
+        "scratch",
+        "growl"
+      ],
+      "levelUp": [
+        {
+          "level": 12,
+          "move": "bite"
+        },
+        {
+          "level": 17,
+          "move": "payday"
+        },
+        {
+          "level": 24,
+          "move": "screech"
+        },
+        {
+          "level": 33,
+          "move": "furyswipes"
+        },
+        {
+          "level": 44,
+          "move": "slash"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "payday",
+        "rage",
+        "thunderbolt",
+        "thunder",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "swift",
+        "skullbash",
+        "rest",
+        "substitute"
+      ]
+    },
+    "persian": {
+      "start": [
+        "scratch",
+        "growl",
+        "bite",
+        "screech"
+      ],
+      "levelUp": [
+        {
+          "level": 12,
+          "move": "bite"
+        },
+        {
+          "level": 17,
+          "move": "payday"
+        },
+        {
+          "level": 24,
+          "move": "screech"
+        },
+        {
+          "level": 37,
+          "move": "furyswipes"
+        },
+        {
+          "level": 51,
+          "move": "slash"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "hyperbeam",
+        "payday",
+        "rage",
+        "thunderbolt",
+        "thunder",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "swift",
+        "skullbash",
+        "rest",
+        "substitute"
+      ]
+    },
+    "psyduck": {
+      "start": [
+        "scratch"
+      ],
+      "levelUp": [
+        {
+          "level": 28,
+          "move": "tailwhip"
+        },
+        {
+          "level": 31,
+          "move": "disable"
+        },
+        {
+          "level": 36,
+          "move": "confusion"
+        },
+        {
+          "level": 43,
+          "move": "furyswipes"
+        },
+        {
+          "level": 52,
+          "move": "hydropump"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "payday",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "dig",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "swift",
+        "skullbash",
+        "rest",
+        "substitute",
+        "surf",
+        "strength"
+      ]
+    },
+    "golduck": {
+      "start": [
+        "scratch",
+        "tailwhip",
+        "disable"
+      ],
+      "levelUp": [
+        {
+          "level": 28,
+          "move": "tailwhip"
+        },
+        {
+          "level": 31,
+          "move": "disable"
+        },
+        {
+          "level": 39,
+          "move": "confusion"
+        },
+        {
+          "level": 48,
+          "move": "furyswipes"
+        },
+        {
+          "level": 59,
+          "move": "hydropump"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "hyperbeam",
+        "payday",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "dig",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "swift",
+        "skullbash",
+        "rest",
+        "substitute",
+        "surf",
+        "strength"
+      ]
+    },
+    "mankey": {
+      "start": [
+        "scratch",
+        "leer"
+      ],
+      "levelUp": [
+        {
+          "level": 15,
+          "move": "karatechop"
+        },
+        {
+          "level": 21,
+          "move": "furyswipes"
+        },
+        {
+          "level": 27,
+          "move": "focusenergy"
+        },
+        {
+          "level": 33,
+          "move": "seismictoss"
+        },
+        {
+          "level": 39,
+          "move": "thrash"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "payday",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "thunderbolt",
+        "thunder",
+        "dig",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "metronome",
+        "swift",
+        "skullbash",
+        "rest",
+        "rockslide",
+        "substitute",
+        "strength"
+      ]
+    },
+    "primeape": {
+      "start": [
+        "scratch",
+        "leer",
+        "karatechop",
+        "furyswipes"
+      ],
+      "levelUp": [
+        {
+          "level": 15,
+          "move": "karatechop"
+        },
+        {
+          "level": 21,
+          "move": "furyswipes"
+        },
+        {
+          "level": 27,
+          "move": "focusenergy"
+        },
+        {
+          "level": 37,
+          "move": "seismictoss"
+        },
+        {
+          "level": 46,
+          "move": "thrash"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "hyperbeam",
+        "payday",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "thunderbolt",
+        "thunder",
+        "dig",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "metronome",
+        "swift",
+        "skullbash",
+        "rest",
+        "rockslide",
+        "substitute",
+        "strength"
+      ]
+    },
+    "growlithe": {
+      "start": [
+        "bite",
+        "roar"
+      ],
+      "levelUp": [
+        {
+          "level": 18,
+          "move": "ember"
+        },
+        {
+          "level": 23,
+          "move": "leer"
+        },
+        {
+          "level": 30,
+          "move": "takedown"
+        },
+        {
+          "level": 39,
+          "move": "agility"
+        },
+        {
+          "level": 50,
+          "move": "flamethrower"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "rage",
+        "dragonrage",
+        "dig",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "fireblast",
+        "swift",
+        "skullbash",
+        "rest",
+        "substitute"
+      ]
+    },
+    "arcanine": {
+      "start": [
+        "roar",
+        "ember",
+        "leer",
+        "takedown"
+      ],
+      "levelUp": [],
+      "tmhm": [
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "hyperbeam",
+        "rage",
+        "dragonrage",
+        "dig",
+        "teleport",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "fireblast",
+        "swift",
+        "skullbash",
+        "rest",
+        "substitute"
+      ]
+    },
+    "poliwag": {
+      "start": [
+        "bubble"
+      ],
+      "levelUp": [
+        {
+          "level": 16,
+          "move": "hypnosis"
+        },
+        {
+          "level": 19,
+          "move": "watergun"
+        },
+        {
+          "level": 25,
+          "move": "doubleslap"
+        },
+        {
+          "level": 31,
+          "move": "bodyslam"
+        },
+        {
+          "level": 38,
+          "move": "amnesia"
+        },
+        {
+          "level": 45,
+          "move": "hydropump"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "rage",
+        "psychic",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "skullbash",
+        "rest",
+        "psywave",
+        "substitute",
+        "surf"
+      ]
+    },
+    "poliwhirl": {
+      "start": [
+        "bubble",
+        "hypnosis",
+        "watergun"
+      ],
+      "levelUp": [
+        {
+          "level": 16,
+          "move": "hypnosis"
+        },
+        {
+          "level": 19,
+          "move": "watergun"
+        },
+        {
+          "level": 26,
+          "move": "doubleslap"
+        },
+        {
+          "level": 33,
+          "move": "bodyslam"
+        },
+        {
+          "level": 41,
+          "move": "amnesia"
+        },
+        {
+          "level": 49,
+          "move": "hydropump"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "earthquake",
+        "fissure",
+        "psychic",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "metronome",
+        "skullbash",
+        "rest",
+        "psywave",
+        "substitute",
+        "surf",
+        "strength"
+      ]
+    },
+    "poliwrath": {
+      "start": [
+        "hypnosis",
+        "watergun",
+        "doubleslap",
+        "bodyslam"
+      ],
+      "levelUp": [
+        {
+          "level": 16,
+          "move": "hypnosis"
+        },
+        {
+          "level": 19,
+          "move": "watergun"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "hyperbeam",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "earthquake",
+        "fissure",
+        "psychic",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "metronome",
+        "skullbash",
+        "rest",
+        "psywave",
+        "substitute",
+        "surf",
+        "strength"
+      ]
+    },
+    "abra": {
+      "start": [
+        "teleport"
+      ],
+      "levelUp": [],
+      "tmhm": [
+        "megapunch",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "psychic",
+        "teleport",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "metronome",
+        "skullbash",
+        "rest",
+        "thunderwave",
+        "psywave",
+        "triattack",
+        "substitute",
+        "flash"
+      ]
+    },
+    "kadabra": {
+      "start": [
+        "teleport",
+        "confusion",
+        "disable"
+      ],
+      "levelUp": [
+        {
+          "level": 16,
+          "move": "confusion"
+        },
+        {
+          "level": 20,
+          "move": "disable"
+        },
+        {
+          "level": 27,
+          "move": "psybeam"
+        },
+        {
+          "level": 31,
+          "move": "recover"
+        },
+        {
+          "level": 38,
+          "move": "psychic"
+        },
+        {
+          "level": 42,
+          "move": "reflect"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "dig",
+        "psychic",
+        "teleport",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "metronome",
+        "skullbash",
+        "rest",
+        "thunderwave",
+        "psywave",
+        "triattack",
+        "substitute",
+        "flash"
+      ]
+    },
+    "alakazam": {
+      "start": [
+        "teleport",
+        "confusion",
+        "disable"
+      ],
+      "levelUp": [
+        {
+          "level": 16,
+          "move": "confusion"
+        },
+        {
+          "level": 20,
+          "move": "disable"
+        },
+        {
+          "level": 27,
+          "move": "psybeam"
+        },
+        {
+          "level": 31,
+          "move": "recover"
+        },
+        {
+          "level": 38,
+          "move": "psychic"
+        },
+        {
+          "level": 42,
+          "move": "reflect"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "hyperbeam",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "dig",
+        "psychic",
+        "teleport",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "metronome",
+        "skullbash",
+        "rest",
+        "thunderwave",
+        "psywave",
+        "triattack",
+        "substitute",
+        "flash"
+      ]
+    },
+    "machop": {
+      "start": [
+        "karatechop"
+      ],
+      "levelUp": [
+        {
+          "level": 20,
+          "move": "lowkick"
+        },
+        {
+          "level": 25,
+          "move": "leer"
+        },
+        {
+          "level": 32,
+          "move": "focusenergy"
+        },
+        {
+          "level": 39,
+          "move": "seismictoss"
+        },
+        {
+          "level": 46,
+          "move": "submission"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "earthquake",
+        "fissure",
+        "dig",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "metronome",
+        "fireblast",
+        "skullbash",
+        "rest",
+        "rockslide",
+        "substitute",
+        "strength"
+      ]
+    },
+    "machoke": {
+      "start": [
+        "karatechop",
+        "lowkick",
+        "leer"
+      ],
+      "levelUp": [
+        {
+          "level": 20,
+          "move": "lowkick"
+        },
+        {
+          "level": 25,
+          "move": "leer"
+        },
+        {
+          "level": 36,
+          "move": "focusenergy"
+        },
+        {
+          "level": 44,
+          "move": "seismictoss"
+        },
+        {
+          "level": 52,
+          "move": "submission"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "earthquake",
+        "fissure",
+        "dig",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "metronome",
+        "fireblast",
+        "skullbash",
+        "rest",
+        "rockslide",
+        "substitute",
+        "strength"
+      ]
+    },
+    "machamp": {
+      "start": [
+        "karatechop",
+        "lowkick",
+        "leer"
+      ],
+      "levelUp": [
+        {
+          "level": 20,
+          "move": "lowkick"
+        },
+        {
+          "level": 25,
+          "move": "leer"
+        },
+        {
+          "level": 36,
+          "move": "focusenergy"
+        },
+        {
+          "level": 44,
+          "move": "seismictoss"
+        },
+        {
+          "level": 52,
+          "move": "submission"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "hyperbeam",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "earthquake",
+        "fissure",
+        "dig",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "metronome",
+        "fireblast",
+        "skullbash",
+        "rest",
+        "rockslide",
+        "substitute",
+        "strength"
+      ]
+    },
+    "bellsprout": {
+      "start": [
+        "vinewhip",
+        "growth"
+      ],
+      "levelUp": [
+        {
+          "level": 13,
+          "move": "wrap"
+        },
+        {
+          "level": 15,
+          "move": "poisonpowder"
+        },
+        {
+          "level": 18,
+          "move": "sleeppowder"
+        },
+        {
+          "level": 21,
+          "move": "stunspore"
+        },
+        {
+          "level": 26,
+          "move": "acid"
+        },
+        {
+          "level": 33,
+          "move": "razorleaf"
+        },
+        {
+          "level": 42,
+          "move": "slam"
+        }
+      ],
+      "tmhm": [
+        "swordsdance",
+        "toxic",
+        "takedown",
+        "doubleedge",
+        "rage",
+        "megadrain",
+        "solarbeam",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "rest",
+        "substitute",
+        "cut"
+      ]
+    },
+    "weepinbell": {
+      "start": [
+        "vinewhip",
+        "growth",
+        "wrap"
+      ],
+      "levelUp": [
+        {
+          "level": 13,
+          "move": "wrap"
+        },
+        {
+          "level": 15,
+          "move": "poisonpowder"
+        },
+        {
+          "level": 18,
+          "move": "sleeppowder"
+        },
+        {
+          "level": 23,
+          "move": "stunspore"
+        },
+        {
+          "level": 29,
+          "move": "acid"
+        },
+        {
+          "level": 38,
+          "move": "razorleaf"
+        },
+        {
+          "level": 49,
+          "move": "slam"
+        }
+      ],
+      "tmhm": [
+        "swordsdance",
+        "toxic",
+        "takedown",
+        "doubleedge",
+        "rage",
+        "megadrain",
+        "solarbeam",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "rest",
+        "substitute",
+        "cut"
+      ]
+    },
+    "victreebel": {
+      "start": [
+        "sleeppowder",
+        "stunspore",
+        "acid",
+        "razorleaf"
+      ],
+      "levelUp": [
+        {
+          "level": 13,
+          "move": "wrap"
+        },
+        {
+          "level": 15,
+          "move": "poisonpowder"
+        },
+        {
+          "level": 18,
+          "move": "sleeppowder"
+        }
+      ],
+      "tmhm": [
+        "swordsdance",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "hyperbeam",
+        "rage",
+        "megadrain",
+        "solarbeam",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "rest",
+        "substitute",
+        "cut"
+      ]
+    },
+    "tentacool": {
+      "start": [
+        "acid"
+      ],
+      "levelUp": [
+        {
+          "level": 7,
+          "move": "supersonic"
+        },
+        {
+          "level": 13,
+          "move": "wrap"
+        },
+        {
+          "level": 18,
+          "move": "poisonsting"
+        },
+        {
+          "level": 22,
+          "move": "watergun"
+        },
+        {
+          "level": 27,
+          "move": "constrict"
+        },
+        {
+          "level": 33,
+          "move": "barrier"
+        },
+        {
+          "level": 40,
+          "move": "screech"
+        },
+        {
+          "level": 48,
+          "move": "hydropump"
+        }
+      ],
+      "tmhm": [
+        "swordsdance",
+        "toxic",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "rage",
+        "megadrain",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "skullbash",
+        "rest",
+        "substitute",
+        "cut",
+        "surf"
+      ]
+    },
+    "tentacruel": {
+      "start": [
+        "acid",
+        "supersonic",
+        "wrap"
+      ],
+      "levelUp": [
+        {
+          "level": 7,
+          "move": "supersonic"
+        },
+        {
+          "level": 13,
+          "move": "wrap"
+        },
+        {
+          "level": 18,
+          "move": "poisonsting"
+        },
+        {
+          "level": 22,
+          "move": "watergun"
+        },
+        {
+          "level": 27,
+          "move": "constrict"
+        },
+        {
+          "level": 35,
+          "move": "barrier"
+        },
+        {
+          "level": 43,
+          "move": "screech"
+        },
+        {
+          "level": 50,
+          "move": "hydropump"
+        }
+      ],
+      "tmhm": [
+        "swordsdance",
+        "toxic",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "hyperbeam",
+        "rage",
+        "megadrain",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "skullbash",
+        "rest",
+        "substitute",
+        "cut",
+        "surf"
+      ]
+    },
+    "geodude": {
+      "start": [
+        "tackle"
+      ],
+      "levelUp": [
+        {
+          "level": 11,
+          "move": "defensecurl"
+        },
+        {
+          "level": 16,
+          "move": "rockthrow"
+        },
+        {
+          "level": 21,
+          "move": "selfdestruct"
+        },
+        {
+          "level": 26,
+          "move": "harden"
+        },
+        {
+          "level": 31,
+          "move": "earthquake"
+        },
+        {
+          "level": 36,
+          "move": "explosion"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "earthquake",
+        "fissure",
+        "dig",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "metronome",
+        "selfdestruct",
+        "fireblast",
+        "rest",
+        "explosion",
+        "rockslide",
+        "substitute",
+        "strength"
+      ]
+    },
+    "graveler": {
+      "start": [
+        "tackle",
+        "defensecurl"
+      ],
+      "levelUp": [
+        {
+          "level": 11,
+          "move": "defensecurl"
+        },
+        {
+          "level": 16,
+          "move": "rockthrow"
+        },
+        {
+          "level": 21,
+          "move": "selfdestruct"
+        },
+        {
+          "level": 29,
+          "move": "harden"
+        },
+        {
+          "level": 36,
+          "move": "earthquake"
+        },
+        {
+          "level": 43,
+          "move": "explosion"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "earthquake",
+        "fissure",
+        "dig",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "metronome",
+        "selfdestruct",
+        "fireblast",
+        "rest",
+        "explosion",
+        "rockslide",
+        "substitute",
+        "strength"
+      ]
+    },
+    "golem": {
+      "start": [
+        "tackle",
+        "defensecurl"
+      ],
+      "levelUp": [
+        {
+          "level": 11,
+          "move": "defensecurl"
+        },
+        {
+          "level": 16,
+          "move": "rockthrow"
+        },
+        {
+          "level": 21,
+          "move": "selfdestruct"
+        },
+        {
+          "level": 29,
+          "move": "harden"
+        },
+        {
+          "level": 36,
+          "move": "earthquake"
+        },
+        {
+          "level": 43,
+          "move": "explosion"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "hyperbeam",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "earthquake",
+        "fissure",
+        "dig",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "metronome",
+        "selfdestruct",
+        "fireblast",
+        "rest",
+        "explosion",
+        "rockslide",
+        "substitute",
+        "strength"
+      ]
+    },
+    "ponyta": {
+      "start": [
+        "ember"
+      ],
+      "levelUp": [
+        {
+          "level": 30,
+          "move": "tailwhip"
+        },
+        {
+          "level": 32,
+          "move": "stomp"
+        },
+        {
+          "level": 35,
+          "move": "growl"
+        },
+        {
+          "level": 39,
+          "move": "firespin"
+        },
+        {
+          "level": 43,
+          "move": "takedown"
+        },
+        {
+          "level": 48,
+          "move": "agility"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "horndrill",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "rage",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "fireblast",
+        "swift",
+        "skullbash",
+        "rest",
+        "substitute"
+      ]
+    },
+    "rapidash": {
+      "start": [
+        "ember",
+        "tailwhip",
+        "stomp",
+        "growl"
+      ],
+      "levelUp": [
+        {
+          "level": 30,
+          "move": "tailwhip"
+        },
+        {
+          "level": 32,
+          "move": "stomp"
+        },
+        {
+          "level": 35,
+          "move": "growl"
+        },
+        {
+          "level": 39,
+          "move": "firespin"
+        },
+        {
+          "level": 47,
+          "move": "takedown"
+        },
+        {
+          "level": 55,
+          "move": "agility"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "horndrill",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "hyperbeam",
+        "rage",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "fireblast",
+        "swift",
+        "skullbash",
+        "rest",
+        "substitute"
+      ]
+    },
+    "slowpoke": {
+      "start": [
+        "confusion"
+      ],
+      "levelUp": [
+        {
+          "level": 18,
+          "move": "disable"
+        },
+        {
+          "level": 22,
+          "move": "headbutt"
+        },
+        {
+          "level": 27,
+          "move": "growl"
+        },
+        {
+          "level": 33,
+          "move": "watergun"
+        },
+        {
+          "level": 40,
+          "move": "amnesia"
+        },
+        {
+          "level": 48,
+          "move": "psychic"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "payday",
+        "rage",
+        "earthquake",
+        "fissure",
+        "dig",
+        "psychic",
+        "teleport",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "fireblast",
+        "swift",
+        "skullbash",
+        "rest",
+        "thunderwave",
+        "psywave",
+        "triattack",
+        "substitute",
+        "surf",
+        "strength",
+        "flash"
+      ]
+    },
+    "slowbro": {
+      "start": [
+        "confusion",
+        "disable",
+        "headbutt"
+      ],
+      "levelUp": [
+        {
+          "level": 18,
+          "move": "disable"
+        },
+        {
+          "level": 22,
+          "move": "headbutt"
+        },
+        {
+          "level": 27,
+          "move": "growl"
+        },
+        {
+          "level": 33,
+          "move": "watergun"
+        },
+        {
+          "level": 37,
+          "move": "withdraw"
+        },
+        {
+          "level": 44,
+          "move": "amnesia"
+        },
+        {
+          "level": 55,
+          "move": "psychic"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "hyperbeam",
+        "payday",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "earthquake",
+        "fissure",
+        "dig",
+        "psychic",
+        "teleport",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "fireblast",
+        "swift",
+        "skullbash",
+        "rest",
+        "thunderwave",
+        "psywave",
+        "triattack",
+        "substitute",
+        "surf",
+        "strength",
+        "flash"
+      ]
+    },
+    "magnemite": {
+      "start": [
+        "tackle"
+      ],
+      "levelUp": [
+        {
+          "level": 21,
+          "move": "sonicboom"
+        },
+        {
+          "level": 25,
+          "move": "thundershock"
+        },
+        {
+          "level": 29,
+          "move": "supersonic"
+        },
+        {
+          "level": 35,
+          "move": "thunderwave"
+        },
+        {
+          "level": 41,
+          "move": "swift"
+        },
+        {
+          "level": 47,
+          "move": "screech"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "takedown",
+        "doubleedge",
+        "rage",
+        "thunderbolt",
+        "thunder",
+        "teleport",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "swift",
+        "rest",
+        "thunderwave",
+        "substitute",
+        "flash"
+      ]
+    },
+    "magneton": {
+      "start": [
+        "tackle",
+        "sonicboom",
+        "thundershock"
+      ],
+      "levelUp": [
+        {
+          "level": 21,
+          "move": "sonicboom"
+        },
+        {
+          "level": 25,
+          "move": "thundershock"
+        },
+        {
+          "level": 29,
+          "move": "supersonic"
+        },
+        {
+          "level": 38,
+          "move": "thunderwave"
+        },
+        {
+          "level": 46,
+          "move": "swift"
+        },
+        {
+          "level": 54,
+          "move": "screech"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "takedown",
+        "doubleedge",
+        "hyperbeam",
+        "rage",
+        "thunderbolt",
+        "thunder",
+        "teleport",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "swift",
+        "rest",
+        "thunderwave",
+        "substitute",
+        "flash"
+      ]
+    },
+    "farfetchd": {
+      "start": [
+        "peck",
+        "sandattack"
+      ],
+      "levelUp": [
+        {
+          "level": 7,
+          "move": "leer"
+        },
+        {
+          "level": 15,
+          "move": "furyattack"
+        },
+        {
+          "level": 23,
+          "move": "swordsdance"
+        },
+        {
+          "level": 31,
+          "move": "agility"
+        },
+        {
+          "level": 39,
+          "move": "slash"
+        }
+      ],
+      "tmhm": [
+        "razorwind",
+        "swordsdance",
+        "whirlwind",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "rage",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "swift",
+        "skullbash",
+        "rest",
+        "substitute",
+        "cut",
+        "fly"
+      ]
+    },
+    "doduo": {
+      "start": [
+        "peck"
+      ],
+      "levelUp": [
+        {
+          "level": 20,
+          "move": "growl"
+        },
+        {
+          "level": 24,
+          "move": "furyattack"
+        },
+        {
+          "level": 30,
+          "move": "drillpeck"
+        },
+        {
+          "level": 36,
+          "move": "rage"
+        },
+        {
+          "level": 40,
+          "move": "triattack"
+        },
+        {
+          "level": 44,
+          "move": "agility"
+        }
+      ],
+      "tmhm": [
+        "whirlwind",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "rage",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "skullbash",
+        "skyattack",
+        "rest",
+        "triattack",
+        "substitute",
+        "fly"
+      ]
+    },
+    "dodrio": {
+      "start": [
+        "peck",
+        "growl",
+        "furyattack"
+      ],
+      "levelUp": [
+        {
+          "level": 20,
+          "move": "growl"
+        },
+        {
+          "level": 24,
+          "move": "furyattack"
+        },
+        {
+          "level": 30,
+          "move": "drillpeck"
+        },
+        {
+          "level": 39,
+          "move": "rage"
+        },
+        {
+          "level": 45,
+          "move": "triattack"
+        },
+        {
+          "level": 51,
+          "move": "agility"
+        }
+      ],
+      "tmhm": [
+        "whirlwind",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "hyperbeam",
+        "rage",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "skullbash",
+        "skyattack",
+        "rest",
+        "triattack",
+        "substitute",
+        "fly"
+      ]
+    },
+    "seel": {
+      "start": [
+        "headbutt"
+      ],
+      "levelUp": [
+        {
+          "level": 30,
+          "move": "growl"
+        },
+        {
+          "level": 35,
+          "move": "aurorabeam"
+        },
+        {
+          "level": 40,
+          "move": "rest"
+        },
+        {
+          "level": 45,
+          "move": "takedown"
+        },
+        {
+          "level": 50,
+          "move": "icebeam"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "horndrill",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "payday",
+        "rage",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "skullbash",
+        "rest",
+        "substitute",
+        "surf",
+        "strength"
+      ]
+    },
+    "dewgong": {
+      "start": [
+        "headbutt",
+        "growl",
+        "aurorabeam"
+      ],
+      "levelUp": [
+        {
+          "level": 30,
+          "move": "growl"
+        },
+        {
+          "level": 35,
+          "move": "aurorabeam"
+        },
+        {
+          "level": 44,
+          "move": "rest"
+        },
+        {
+          "level": 50,
+          "move": "takedown"
+        },
+        {
+          "level": 56,
+          "move": "icebeam"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "horndrill",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "hyperbeam",
+        "payday",
+        "rage",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "skullbash",
+        "rest",
+        "substitute",
+        "surf",
+        "strength"
+      ]
+    },
+    "grimer": {
+      "start": [
+        "pound",
+        "disable"
+      ],
+      "levelUp": [
+        {
+          "level": 30,
+          "move": "poisongas"
+        },
+        {
+          "level": 33,
+          "move": "minimize"
+        },
+        {
+          "level": 37,
+          "move": "sludge"
+        },
+        {
+          "level": 42,
+          "move": "harden"
+        },
+        {
+          "level": 48,
+          "move": "screech"
+        },
+        {
+          "level": 55,
+          "move": "acidarmor"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "bodyslam",
+        "rage",
+        "megadrain",
+        "thunderbolt",
+        "thunder",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "selfdestruct",
+        "fireblast",
+        "rest",
+        "explosion",
+        "substitute"
+      ]
+    },
+    "muk": {
+      "start": [
+        "pound",
+        "disable",
+        "poisongas"
+      ],
+      "levelUp": [
+        {
+          "level": 30,
+          "move": "poisongas"
+        },
+        {
+          "level": 33,
+          "move": "minimize"
+        },
+        {
+          "level": 37,
+          "move": "sludge"
+        },
+        {
+          "level": 45,
+          "move": "harden"
+        },
+        {
+          "level": 53,
+          "move": "screech"
+        },
+        {
+          "level": 60,
+          "move": "acidarmor"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "bodyslam",
+        "hyperbeam",
+        "rage",
+        "megadrain",
+        "thunderbolt",
+        "thunder",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "selfdestruct",
+        "fireblast",
+        "rest",
+        "explosion",
+        "substitute"
+      ]
+    },
+    "shellder": {
+      "start": [
+        "tackle",
+        "withdraw"
+      ],
+      "levelUp": [
+        {
+          "level": 18,
+          "move": "supersonic"
+        },
+        {
+          "level": 23,
+          "move": "clamp"
+        },
+        {
+          "level": 30,
+          "move": "aurorabeam"
+        },
+        {
+          "level": 39,
+          "move": "leer"
+        },
+        {
+          "level": 50,
+          "move": "icebeam"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "rage",
+        "teleport",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "selfdestruct",
+        "swift",
+        "rest",
+        "explosion",
+        "triattack",
+        "substitute",
+        "surf"
+      ]
+    },
+    "cloyster": {
+      "start": [
+        "withdraw",
+        "supersonic",
+        "clamp",
+        "aurorabeam"
+      ],
+      "levelUp": [
+        {
+          "level": 50,
+          "move": "spikecannon"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "hyperbeam",
+        "rage",
+        "teleport",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "selfdestruct",
+        "swift",
+        "rest",
+        "explosion",
+        "triattack",
+        "substitute",
+        "surf"
+      ]
+    },
+    "gastly": {
+      "start": [
+        "lick",
+        "confuseray",
+        "nightshade"
+      ],
+      "levelUp": [
+        {
+          "level": 27,
+          "move": "hypnosis"
+        },
+        {
+          "level": 35,
+          "move": "dreameater"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "rage",
+        "megadrain",
+        "thunderbolt",
+        "thunder",
+        "psychic",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "selfdestruct",
+        "dreameater",
+        "rest",
+        "psywave",
+        "explosion",
+        "substitute"
+      ]
+    },
+    "haunter": {
+      "start": [
+        "lick",
+        "confuseray",
+        "nightshade"
+      ],
+      "levelUp": [
+        {
+          "level": 29,
+          "move": "hypnosis"
+        },
+        {
+          "level": 38,
+          "move": "dreameater"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "rage",
+        "megadrain",
+        "thunderbolt",
+        "thunder",
+        "psychic",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "selfdestruct",
+        "dreameater",
+        "rest",
+        "psywave",
+        "explosion",
+        "substitute"
+      ]
+    },
+    "gengar": {
+      "start": [
+        "lick",
+        "confuseray",
+        "nightshade"
+      ],
+      "levelUp": [
+        {
+          "level": 29,
+          "move": "hypnosis"
+        },
+        {
+          "level": 38,
+          "move": "dreameater"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "hyperbeam",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "megadrain",
+        "thunderbolt",
+        "thunder",
+        "psychic",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "metronome",
+        "selfdestruct",
+        "skullbash",
+        "dreameater",
+        "rest",
+        "psywave",
+        "explosion",
+        "substitute",
+        "strength"
+      ]
+    },
+    "onix": {
+      "start": [
+        "tackle",
+        "screech"
+      ],
+      "levelUp": [
+        {
+          "level": 15,
+          "move": "bind"
+        },
+        {
+          "level": 19,
+          "move": "rockthrow"
+        },
+        {
+          "level": 25,
+          "move": "rage"
+        },
+        {
+          "level": 33,
+          "move": "slam"
+        },
+        {
+          "level": 43,
+          "move": "harden"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "rage",
+        "earthquake",
+        "fissure",
+        "dig",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "selfdestruct",
+        "skullbash",
+        "rest",
+        "explosion",
+        "rockslide",
+        "substitute",
+        "strength"
+      ]
+    },
+    "drowzee": {
+      "start": [
+        "pound",
+        "hypnosis"
+      ],
+      "levelUp": [
+        {
+          "level": 12,
+          "move": "disable"
+        },
+        {
+          "level": 17,
+          "move": "confusion"
+        },
+        {
+          "level": 24,
+          "move": "headbutt"
+        },
+        {
+          "level": 29,
+          "move": "poisongas"
+        },
+        {
+          "level": 32,
+          "move": "psychic"
+        },
+        {
+          "level": 37,
+          "move": "meditate"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "psychic",
+        "teleport",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "metronome",
+        "skullbash",
+        "dreameater",
+        "rest",
+        "thunderwave",
+        "psywave",
+        "triattack",
+        "substitute",
+        "flash"
+      ]
+    },
+    "hypno": {
+      "start": [
+        "pound",
+        "hypnosis",
+        "disable",
+        "confusion"
+      ],
+      "levelUp": [
+        {
+          "level": 12,
+          "move": "disable"
+        },
+        {
+          "level": 17,
+          "move": "confusion"
+        },
+        {
+          "level": 24,
+          "move": "headbutt"
+        },
+        {
+          "level": 33,
+          "move": "poisongas"
+        },
+        {
+          "level": 37,
+          "move": "psychic"
+        },
+        {
+          "level": 43,
+          "move": "meditate"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "hyperbeam",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "psychic",
+        "teleport",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "metronome",
+        "skullbash",
+        "dreameater",
+        "rest",
+        "thunderwave",
+        "psywave",
+        "triattack",
+        "substitute",
+        "flash"
+      ]
+    },
+    "krabby": {
+      "start": [
+        "bubble",
+        "leer"
+      ],
+      "levelUp": [
+        {
+          "level": 20,
+          "move": "visegrip"
+        },
+        {
+          "level": 25,
+          "move": "guillotine"
+        },
+        {
+          "level": 30,
+          "move": "stomp"
+        },
+        {
+          "level": 35,
+          "move": "crabhammer"
+        },
+        {
+          "level": 40,
+          "move": "harden"
+        }
+      ],
+      "tmhm": [
+        "swordsdance",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "rage",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "rest",
+        "substitute",
+        "cut",
+        "surf",
+        "strength"
+      ]
+    },
+    "kingler": {
+      "start": [
+        "bubble",
+        "leer",
+        "visegrip"
+      ],
+      "levelUp": [
+        {
+          "level": 20,
+          "move": "visegrip"
+        },
+        {
+          "level": 25,
+          "move": "guillotine"
+        },
+        {
+          "level": 34,
+          "move": "stomp"
+        },
+        {
+          "level": 42,
+          "move": "crabhammer"
+        },
+        {
+          "level": 49,
+          "move": "harden"
+        }
+      ],
+      "tmhm": [
+        "swordsdance",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "hyperbeam",
+        "rage",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "rest",
+        "substitute",
+        "cut",
+        "surf",
+        "strength"
+      ]
+    },
+    "voltorb": {
+      "start": [
+        "tackle",
+        "screech"
+      ],
+      "levelUp": [
+        {
+          "level": 17,
+          "move": "sonicboom"
+        },
+        {
+          "level": 22,
+          "move": "selfdestruct"
+        },
+        {
+          "level": 29,
+          "move": "lightscreen"
+        },
+        {
+          "level": 36,
+          "move": "swift"
+        },
+        {
+          "level": 43,
+          "move": "explosion"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "takedown",
+        "rage",
+        "thunderbolt",
+        "thunder",
+        "teleport",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "selfdestruct",
+        "swift",
+        "rest",
+        "thunderwave",
+        "explosion",
+        "substitute",
+        "flash"
+      ]
+    },
+    "electrode": {
+      "start": [
+        "tackle",
+        "screech",
+        "sonicboom"
+      ],
+      "levelUp": [
+        {
+          "level": 17,
+          "move": "sonicboom"
+        },
+        {
+          "level": 22,
+          "move": "selfdestruct"
+        },
+        {
+          "level": 29,
+          "move": "lightscreen"
+        },
+        {
+          "level": 40,
+          "move": "swift"
+        },
+        {
+          "level": 50,
+          "move": "explosion"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "takedown",
+        "hyperbeam",
+        "rage",
+        "thunderbolt",
+        "thunder",
+        "teleport",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "selfdestruct",
+        "swift",
+        "skullbash",
+        "rest",
+        "thunderwave",
+        "explosion",
+        "substitute",
+        "flash"
+      ]
+    },
+    "exeggcute": {
+      "start": [
+        "barrage",
+        "hypnosis"
+      ],
+      "levelUp": [
+        {
+          "level": 25,
+          "move": "reflect"
+        },
+        {
+          "level": 28,
+          "move": "leechseed"
+        },
+        {
+          "level": 32,
+          "move": "stunspore"
+        },
+        {
+          "level": 37,
+          "move": "poisonpowder"
+        },
+        {
+          "level": 42,
+          "move": "solarbeam"
+        },
+        {
+          "level": 48,
+          "move": "sleeppowder"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "takedown",
+        "doubleedge",
+        "rage",
+        "psychic",
+        "teleport",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "selfdestruct",
+        "eggbomb",
+        "rest",
+        "psywave",
+        "explosion",
+        "substitute"
+      ]
+    },
+    "exeggutor": {
+      "start": [
+        "barrage",
+        "hypnosis"
+      ],
+      "levelUp": [
+        {
+          "level": 28,
+          "move": "stomp"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "takedown",
+        "doubleedge",
+        "hyperbeam",
+        "rage",
+        "megadrain",
+        "solarbeam",
+        "psychic",
+        "teleport",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "selfdestruct",
+        "eggbomb",
+        "rest",
+        "psywave",
+        "explosion",
+        "substitute",
+        "strength"
+      ]
+    },
+    "cubone": {
+      "start": [
+        "boneclub",
+        "growl"
+      ],
+      "levelUp": [
+        {
+          "level": 25,
+          "move": "leer"
+        },
+        {
+          "level": 31,
+          "move": "focusenergy"
+        },
+        {
+          "level": 38,
+          "move": "thrash"
+        },
+        {
+          "level": 43,
+          "move": "bonemerang"
+        },
+        {
+          "level": 46,
+          "move": "rage"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "earthquake",
+        "fissure",
+        "dig",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "fireblast",
+        "skullbash",
+        "rest",
+        "substitute",
+        "strength"
+      ]
+    },
+    "marowak": {
+      "start": [
+        "boneclub",
+        "growl",
+        "leer",
+        "focusenergy"
+      ],
+      "levelUp": [
+        {
+          "level": 25,
+          "move": "leer"
+        },
+        {
+          "level": 33,
+          "move": "focusenergy"
+        },
+        {
+          "level": 41,
+          "move": "thrash"
+        },
+        {
+          "level": 48,
+          "move": "bonemerang"
+        },
+        {
+          "level": 55,
+          "move": "rage"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "hyperbeam",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "earthquake",
+        "fissure",
+        "dig",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "fireblast",
+        "skullbash",
+        "rest",
+        "substitute",
+        "strength"
+      ]
+    },
+    "hitmonlee": {
+      "start": [
+        "doublekick",
+        "meditate"
+      ],
+      "levelUp": [
+        {
+          "level": 33,
+          "move": "rollingkick"
+        },
+        {
+          "level": 38,
+          "move": "jumpkick"
+        },
+        {
+          "level": 43,
+          "move": "focusenergy"
+        },
+        {
+          "level": 48,
+          "move": "highjumpkick"
+        },
+        {
+          "level": 53,
+          "move": "megakick"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "metronome",
+        "swift",
+        "skullbash",
+        "rest",
+        "substitute",
+        "strength"
+      ]
+    },
+    "hitmonchan": {
+      "start": [
+        "cometpunch",
+        "agility"
+      ],
+      "levelUp": [
+        {
+          "level": 33,
+          "move": "firepunch"
+        },
+        {
+          "level": 38,
+          "move": "icepunch"
+        },
+        {
+          "level": 43,
+          "move": "thunderpunch"
+        },
+        {
+          "level": 48,
+          "move": "megapunch"
+        },
+        {
+          "level": 53,
+          "move": "counter"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "metronome",
+        "swift",
+        "skullbash",
+        "rest",
+        "substitute",
+        "strength"
+      ]
+    },
+    "lickitung": {
+      "start": [
+        "wrap",
+        "supersonic"
+      ],
+      "levelUp": [
+        {
+          "level": 7,
+          "move": "stomp"
+        },
+        {
+          "level": 15,
+          "move": "disable"
+        },
+        {
+          "level": 23,
+          "move": "defensecurl"
+        },
+        {
+          "level": 31,
+          "move": "slam"
+        },
+        {
+          "level": 39,
+          "move": "screech"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "swordsdance",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "hyperbeam",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "thunderbolt",
+        "thunder",
+        "earthquake",
+        "fissure",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "fireblast",
+        "skullbash",
+        "rest",
+        "substitute",
+        "cut",
+        "surf",
+        "strength"
+      ]
+    },
+    "koffing": {
+      "start": [
+        "tackle",
+        "smog"
+      ],
+      "levelUp": [
+        {
+          "level": 32,
+          "move": "sludge"
+        },
+        {
+          "level": 37,
+          "move": "smokescreen"
+        },
+        {
+          "level": 40,
+          "move": "selfdestruct"
+        },
+        {
+          "level": 45,
+          "move": "haze"
+        },
+        {
+          "level": 48,
+          "move": "explosion"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "rage",
+        "thunderbolt",
+        "thunder",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "selfdestruct",
+        "fireblast",
+        "rest",
+        "explosion",
+        "substitute"
+      ]
+    },
+    "weezing": {
+      "start": [
+        "tackle",
+        "smog",
+        "sludge"
+      ],
+      "levelUp": [
+        {
+          "level": 32,
+          "move": "sludge"
+        },
+        {
+          "level": 39,
+          "move": "smokescreen"
+        },
+        {
+          "level": 43,
+          "move": "selfdestruct"
+        },
+        {
+          "level": 49,
+          "move": "haze"
+        },
+        {
+          "level": 53,
+          "move": "explosion"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "hyperbeam",
+        "rage",
+        "thunderbolt",
+        "thunder",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "selfdestruct",
+        "fireblast",
+        "rest",
+        "explosion",
+        "substitute"
+      ]
+    },
+    "rhyhorn": {
+      "start": [
+        "hornattack"
+      ],
+      "levelUp": [
+        {
+          "level": 30,
+          "move": "stomp"
+        },
+        {
+          "level": 35,
+          "move": "tailwhip"
+        },
+        {
+          "level": 40,
+          "move": "furyattack"
+        },
+        {
+          "level": 45,
+          "move": "horndrill"
+        },
+        {
+          "level": 50,
+          "move": "leer"
+        },
+        {
+          "level": 55,
+          "move": "takedown"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "horndrill",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "rage",
+        "thunderbolt",
+        "thunder",
+        "earthquake",
+        "fissure",
+        "dig",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "fireblast",
+        "skullbash",
+        "rest",
+        "rockslide",
+        "substitute",
+        "strength"
+      ]
+    },
+    "rhydon": {
+      "start": [
+        "hornattack",
+        "stomp",
+        "tailwhip",
+        "furyattack"
+      ],
+      "levelUp": [
+        {
+          "level": 30,
+          "move": "stomp"
+        },
+        {
+          "level": 35,
+          "move": "tailwhip"
+        },
+        {
+          "level": 40,
+          "move": "furyattack"
+        },
+        {
+          "level": 48,
+          "move": "horndrill"
+        },
+        {
+          "level": 55,
+          "move": "leer"
+        },
+        {
+          "level": 64,
+          "move": "takedown"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "megakick",
+        "toxic",
+        "horndrill",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "hyperbeam",
+        "payday",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "thunderbolt",
+        "thunder",
+        "earthquake",
+        "fissure",
+        "dig",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "fireblast",
+        "skullbash",
+        "rest",
+        "rockslide",
+        "substitute",
+        "surf",
+        "strength"
+      ]
+    },
+    "chansey": {
+      "start": [
+        "pound",
+        "doubleslap"
+      ],
+      "levelUp": [
+        {
+          "level": 24,
+          "move": "sing"
+        },
+        {
+          "level": 30,
+          "move": "growl"
+        },
+        {
+          "level": 38,
+          "move": "minimize"
+        },
+        {
+          "level": 44,
+          "move": "defensecurl"
+        },
+        {
+          "level": 48,
+          "move": "lightscreen"
+        },
+        {
+          "level": 54,
+          "move": "doubleedge"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "hyperbeam",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "solarbeam",
+        "thunderbolt",
+        "thunder",
+        "psychic",
+        "teleport",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "metronome",
+        "eggbomb",
+        "fireblast",
+        "skullbash",
+        "softboiled",
+        "rest",
+        "thunderwave",
+        "psywave",
+        "triattack",
+        "substitute",
+        "strength",
+        "flash"
+      ]
+    },
+    "tangela": {
+      "start": [
+        "constrict",
+        "bind"
+      ],
+      "levelUp": [
+        {
+          "level": 29,
+          "move": "absorb"
+        },
+        {
+          "level": 32,
+          "move": "poisonpowder"
+        },
+        {
+          "level": 36,
+          "move": "stunspore"
+        },
+        {
+          "level": 39,
+          "move": "sleeppowder"
+        },
+        {
+          "level": 45,
+          "move": "slam"
+        },
+        {
+          "level": 49,
+          "move": "growth"
+        }
+      ],
+      "tmhm": [
+        "swordsdance",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "hyperbeam",
+        "rage",
+        "megadrain",
+        "solarbeam",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "skullbash",
+        "rest",
+        "substitute",
+        "cut"
+      ]
+    },
+    "kangaskhan": {
+      "start": [
+        "cometpunch",
+        "rage"
+      ],
+      "levelUp": [
+        {
+          "level": 26,
+          "move": "bite"
+        },
+        {
+          "level": 31,
+          "move": "tailwhip"
+        },
+        {
+          "level": 36,
+          "move": "megapunch"
+        },
+        {
+          "level": 41,
+          "move": "leer"
+        },
+        {
+          "level": 46,
+          "move": "dizzypunch"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "hyperbeam",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "thunderbolt",
+        "thunder",
+        "earthquake",
+        "fissure",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "fireblast",
+        "skullbash",
+        "rest",
+        "rockslide",
+        "substitute",
+        "surf",
+        "strength"
+      ]
+    },
+    "horsea": {
+      "start": [
+        "bubble"
+      ],
+      "levelUp": [
+        {
+          "level": 19,
+          "move": "smokescreen"
+        },
+        {
+          "level": 24,
+          "move": "leer"
+        },
+        {
+          "level": 30,
+          "move": "watergun"
+        },
+        {
+          "level": 37,
+          "move": "agility"
+        },
+        {
+          "level": 45,
+          "move": "hydropump"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "rage",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "swift",
+        "skullbash",
+        "rest",
+        "substitute",
+        "surf"
+      ]
+    },
+    "seadra": {
+      "start": [
+        "bubble",
+        "smokescreen"
+      ],
+      "levelUp": [
+        {
+          "level": 19,
+          "move": "smokescreen"
+        },
+        {
+          "level": 24,
+          "move": "leer"
+        },
+        {
+          "level": 30,
+          "move": "watergun"
+        },
+        {
+          "level": 41,
+          "move": "agility"
+        },
+        {
+          "level": 52,
+          "move": "hydropump"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "hyperbeam",
+        "rage",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "swift",
+        "skullbash",
+        "rest",
+        "substitute",
+        "surf"
+      ]
+    },
+    "goldeen": {
+      "start": [
+        "peck",
+        "tailwhip"
+      ],
+      "levelUp": [
+        {
+          "level": 19,
+          "move": "supersonic"
+        },
+        {
+          "level": 24,
+          "move": "hornattack"
+        },
+        {
+          "level": 30,
+          "move": "furyattack"
+        },
+        {
+          "level": 37,
+          "move": "waterfall"
+        },
+        {
+          "level": 45,
+          "move": "horndrill"
+        },
+        {
+          "level": 54,
+          "move": "agility"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "horndrill",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "rage",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "swift",
+        "skullbash",
+        "rest",
+        "substitute",
+        "surf"
+      ]
+    },
+    "seaking": {
+      "start": [
+        "peck",
+        "tailwhip",
+        "supersonic"
+      ],
+      "levelUp": [
+        {
+          "level": 19,
+          "move": "supersonic"
+        },
+        {
+          "level": 24,
+          "move": "hornattack"
+        },
+        {
+          "level": 30,
+          "move": "furyattack"
+        },
+        {
+          "level": 39,
+          "move": "waterfall"
+        },
+        {
+          "level": 48,
+          "move": "horndrill"
+        },
+        {
+          "level": 54,
+          "move": "agility"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "horndrill",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "hyperbeam",
+        "rage",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "swift",
+        "skullbash",
+        "rest",
+        "substitute",
+        "surf"
+      ]
+    },
+    "staryu": {
+      "start": [
+        "tackle"
+      ],
+      "levelUp": [
+        {
+          "level": 17,
+          "move": "watergun"
+        },
+        {
+          "level": 22,
+          "move": "harden"
+        },
+        {
+          "level": 27,
+          "move": "recover"
+        },
+        {
+          "level": 32,
+          "move": "swift"
+        },
+        {
+          "level": 37,
+          "move": "minimize"
+        },
+        {
+          "level": 42,
+          "move": "lightscreen"
+        },
+        {
+          "level": 47,
+          "move": "hydropump"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "rage",
+        "thunderbolt",
+        "thunder",
+        "psychic",
+        "teleport",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "swift",
+        "skullbash",
+        "rest",
+        "thunderwave",
+        "psywave",
+        "triattack",
+        "substitute",
+        "surf",
+        "flash"
+      ]
+    },
+    "starmie": {
+      "start": [
+        "tackle",
+        "watergun",
+        "harden"
+      ],
+      "levelUp": [],
+      "tmhm": [
+        "toxic",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "hyperbeam",
+        "rage",
+        "thunderbolt",
+        "thunder",
+        "psychic",
+        "teleport",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "swift",
+        "skullbash",
+        "rest",
+        "thunderwave",
+        "psywave",
+        "triattack",
+        "substitute",
+        "surf",
+        "flash"
+      ]
+    },
+    "mrmime": {
+      "start": [
+        "confusion",
+        "barrier"
+      ],
+      "levelUp": [
+        {
+          "level": 15,
+          "move": "confusion"
+        },
+        {
+          "level": 23,
+          "move": "lightscreen"
+        },
+        {
+          "level": 31,
+          "move": "doubleslap"
+        },
+        {
+          "level": 39,
+          "move": "meditate"
+        },
+        {
+          "level": 47,
+          "move": "substitute"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "hyperbeam",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "solarbeam",
+        "thunderbolt",
+        "thunder",
+        "psychic",
+        "teleport",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "metronome",
+        "skullbash",
+        "rest",
+        "thunderwave",
+        "psywave",
+        "substitute",
+        "flash"
+      ]
+    },
+    "scyther": {
+      "start": [
+        "quickattack"
+      ],
+      "levelUp": [
+        {
+          "level": 17,
+          "move": "leer"
+        },
+        {
+          "level": 20,
+          "move": "focusenergy"
+        },
+        {
+          "level": 24,
+          "move": "doubleteam"
+        },
+        {
+          "level": 29,
+          "move": "slash"
+        },
+        {
+          "level": 35,
+          "move": "swordsdance"
+        },
+        {
+          "level": 42,
+          "move": "agility"
+        }
+      ],
+      "tmhm": [
+        "swordsdance",
+        "toxic",
+        "takedown",
+        "doubleedge",
+        "hyperbeam",
+        "rage",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "swift",
+        "skullbash",
+        "rest",
+        "substitute",
+        "cut"
+      ]
+    },
+    "jynx": {
+      "start": [
+        "pound",
+        "lovelykiss"
+      ],
+      "levelUp": [
+        {
+          "level": 18,
+          "move": "lick"
+        },
+        {
+          "level": 23,
+          "move": "doubleslap"
+        },
+        {
+          "level": 31,
+          "move": "icepunch"
+        },
+        {
+          "level": 39,
+          "move": "bodyslam"
+        },
+        {
+          "level": 47,
+          "move": "thrash"
+        },
+        {
+          "level": 58,
+          "move": "blizzard"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "hyperbeam",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "psychic",
+        "teleport",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "metronome",
+        "skullbash",
+        "rest",
+        "psywave",
+        "substitute"
+      ]
+    },
+    "electabuzz": {
+      "start": [
+        "quickattack",
+        "leer"
+      ],
+      "levelUp": [
+        {
+          "level": 34,
+          "move": "thundershock"
+        },
+        {
+          "level": 37,
+          "move": "screech"
+        },
+        {
+          "level": 42,
+          "move": "thunderpunch"
+        },
+        {
+          "level": 49,
+          "move": "lightscreen"
+        },
+        {
+          "level": 54,
+          "move": "thunder"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "hyperbeam",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "thunderbolt",
+        "thunder",
+        "psychic",
+        "teleport",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "metronome",
+        "swift",
+        "skullbash",
+        "rest",
+        "thunderwave",
+        "psywave",
+        "substitute",
+        "strength",
+        "flash"
+      ]
+    },
+    "magmar": {
+      "start": [
+        "ember"
+      ],
+      "levelUp": [
+        {
+          "level": 36,
+          "move": "leer"
+        },
+        {
+          "level": 39,
+          "move": "confuseray"
+        },
+        {
+          "level": 43,
+          "move": "firepunch"
+        },
+        {
+          "level": 48,
+          "move": "smokescreen"
+        },
+        {
+          "level": 52,
+          "move": "smog"
+        },
+        {
+          "level": 55,
+          "move": "flamethrower"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "hyperbeam",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "psychic",
+        "teleport",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "metronome",
+        "fireblast",
+        "skullbash",
+        "rest",
+        "psywave",
+        "substitute",
+        "strength"
+      ]
+    },
+    "pinsir": {
+      "start": [
+        "visegrip"
+      ],
+      "levelUp": [
+        {
+          "level": 25,
+          "move": "seismictoss"
+        },
+        {
+          "level": 30,
+          "move": "guillotine"
+        },
+        {
+          "level": 36,
+          "move": "focusenergy"
+        },
+        {
+          "level": 43,
+          "move": "harden"
+        },
+        {
+          "level": 49,
+          "move": "slash"
+        },
+        {
+          "level": 54,
+          "move": "swordsdance"
+        }
+      ],
+      "tmhm": [
+        "swordsdance",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "hyperbeam",
+        "submission",
+        "seismictoss",
+        "rage",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "rest",
+        "substitute",
+        "cut",
+        "strength"
+      ]
+    },
+    "tauros": {
+      "start": [
+        "tackle"
+      ],
+      "levelUp": [
+        {
+          "level": 21,
+          "move": "stomp"
+        },
+        {
+          "level": 28,
+          "move": "tailwhip"
+        },
+        {
+          "level": 35,
+          "move": "leer"
+        },
+        {
+          "level": 44,
+          "move": "rage"
+        },
+        {
+          "level": 51,
+          "move": "takedown"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "horndrill",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "icebeam",
+        "blizzard",
+        "hyperbeam",
+        "rage",
+        "thunderbolt",
+        "thunder",
+        "earthquake",
+        "fissure",
+        "mimic",
+        "doubleteam",
+        "bide",
+        "fireblast",
+        "skullbash",
+        "rest",
+        "substitute",
+        "strength"
+      ]
+    },
+    "magikarp": {
+      "start": [
+        "splash"
+      ],
+      "levelUp": [
+        {
+          "level": 15,
+          "move": "tackle"
+        }
+      ],
+      "tmhm": []
+    },
+    "gyarados": {
+      "start": [
+        "bite",
+        "dragonrage",
+        "leer",
+        "hydropump"
+      ],
+      "levelUp": [
+        {
+          "level": 20,
+          "move": "bite"
+        },
+        {
+          "level": 25,
+          "move": "dragonrage"
+        },
+        {
+          "level": 32,
+          "move": "leer"
+        },
+        {
+          "level": 41,
+          "move": "hydropump"
+        },
+        {
+          "level": 52,
+          "move": "hyperbeam"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "hyperbeam",
+        "rage",
+        "dragonrage",
+        "thunderbolt",
+        "thunder",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "fireblast",
+        "skullbash",
+        "rest",
+        "substitute",
+        "surf",
+        "strength"
+      ]
+    },
+    "lapras": {
+      "start": [
+        "watergun",
+        "growl"
+      ],
+      "levelUp": [
+        {
+          "level": 16,
+          "move": "sing"
+        },
+        {
+          "level": 20,
+          "move": "mist"
+        },
+        {
+          "level": 25,
+          "move": "bodyslam"
+        },
+        {
+          "level": 31,
+          "move": "confuseray"
+        },
+        {
+          "level": 38,
+          "move": "icebeam"
+        },
+        {
+          "level": 46,
+          "move": "hydropump"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "horndrill",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "hyperbeam",
+        "rage",
+        "solarbeam",
+        "dragonrage",
+        "thunderbolt",
+        "thunder",
+        "psychic",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "skullbash",
+        "rest",
+        "psywave",
+        "substitute",
+        "surf",
+        "strength"
+      ]
+    },
+    "ditto": {
+      "start": [
+        "transform"
+      ],
+      "levelUp": [],
+      "tmhm": []
+    },
+    "eevee": {
+      "start": [
+        "tackle",
+        "sandattack"
+      ],
+      "levelUp": [
+        {
+          "level": 27,
+          "move": "quickattack"
+        },
+        {
+          "level": 31,
+          "move": "tailwhip"
+        },
+        {
+          "level": 37,
+          "move": "bite"
+        },
+        {
+          "level": 45,
+          "move": "takedown"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "rage",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "swift",
+        "skullbash",
+        "rest",
+        "substitute"
+      ]
+    },
+    "vaporeon": {
+      "start": [
+        "tackle",
+        "sandattack",
+        "quickattack",
+        "watergun"
+      ],
+      "levelUp": [
+        {
+          "level": 27,
+          "move": "quickattack"
+        },
+        {
+          "level": 31,
+          "move": "watergun"
+        },
+        {
+          "level": 37,
+          "move": "tailwhip"
+        },
+        {
+          "level": 40,
+          "move": "bite"
+        },
+        {
+          "level": 42,
+          "move": "acidarmor"
+        },
+        {
+          "level": 44,
+          "move": "haze"
+        },
+        {
+          "level": 48,
+          "move": "mist"
+        },
+        {
+          "level": 54,
+          "move": "hydropump"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "hyperbeam",
+        "rage",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "swift",
+        "skullbash",
+        "rest",
+        "substitute",
+        "surf"
+      ]
+    },
+    "jolteon": {
+      "start": [
+        "tackle",
+        "sandattack",
+        "quickattack",
+        "thundershock"
+      ],
+      "levelUp": [
+        {
+          "level": 27,
+          "move": "quickattack"
+        },
+        {
+          "level": 31,
+          "move": "thundershock"
+        },
+        {
+          "level": 37,
+          "move": "tailwhip"
+        },
+        {
+          "level": 40,
+          "move": "thunderwave"
+        },
+        {
+          "level": 42,
+          "move": "doublekick"
+        },
+        {
+          "level": 44,
+          "move": "agility"
+        },
+        {
+          "level": 48,
+          "move": "pinmissile"
+        },
+        {
+          "level": 54,
+          "move": "thunder"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "hyperbeam",
+        "rage",
+        "thunderbolt",
+        "thunder",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "swift",
+        "skullbash",
+        "rest",
+        "thunderwave",
+        "substitute",
+        "flash"
+      ]
+    },
+    "flareon": {
+      "start": [
+        "tackle",
+        "sandattack",
+        "quickattack",
+        "ember"
+      ],
+      "levelUp": [
+        {
+          "level": 27,
+          "move": "quickattack"
+        },
+        {
+          "level": 31,
+          "move": "ember"
+        },
+        {
+          "level": 37,
+          "move": "tailwhip"
+        },
+        {
+          "level": 40,
+          "move": "bite"
+        },
+        {
+          "level": 42,
+          "move": "leer"
+        },
+        {
+          "level": 44,
+          "move": "firespin"
+        },
+        {
+          "level": 48,
+          "move": "rage"
+        },
+        {
+          "level": 54,
+          "move": "flamethrower"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "hyperbeam",
+        "rage",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "fireblast",
+        "swift",
+        "skullbash",
+        "rest",
+        "substitute"
+      ]
+    },
+    "porygon": {
+      "start": [
+        "tackle",
+        "sharpen",
+        "conversion"
+      ],
+      "levelUp": [
+        {
+          "level": 23,
+          "move": "psybeam"
+        },
+        {
+          "level": 28,
+          "move": "recover"
+        },
+        {
+          "level": 35,
+          "move": "agility"
+        },
+        {
+          "level": 42,
+          "move": "triattack"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "takedown",
+        "doubleedge",
+        "icebeam",
+        "blizzard",
+        "hyperbeam",
+        "rage",
+        "thunderbolt",
+        "thunder",
+        "psychic",
+        "teleport",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "swift",
+        "skullbash",
+        "rest",
+        "thunderwave",
+        "psywave",
+        "triattack",
+        "substitute",
+        "flash"
+      ]
+    },
+    "omanyte": {
+      "start": [
+        "watergun",
+        "withdraw"
+      ],
+      "levelUp": [
+        {
+          "level": 34,
+          "move": "hornattack"
+        },
+        {
+          "level": 39,
+          "move": "leer"
+        },
+        {
+          "level": 46,
+          "move": "spikecannon"
+        },
+        {
+          "level": 53,
+          "move": "hydropump"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "rage",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "rest",
+        "substitute",
+        "surf"
+      ]
+    },
+    "omastar": {
+      "start": [
+        "watergun",
+        "withdraw",
+        "hornattack"
+      ],
+      "levelUp": [
+        {
+          "level": 34,
+          "move": "hornattack"
+        },
+        {
+          "level": 39,
+          "move": "leer"
+        },
+        {
+          "level": 44,
+          "move": "spikecannon"
+        },
+        {
+          "level": 49,
+          "move": "hydropump"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "horndrill",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "hyperbeam",
+        "submission",
+        "seismictoss",
+        "rage",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "skullbash",
+        "rest",
+        "substitute",
+        "surf"
+      ]
+    },
+    "kabuto": {
+      "start": [
+        "scratch",
+        "harden"
+      ],
+      "levelUp": [
+        {
+          "level": 34,
+          "move": "absorb"
+        },
+        {
+          "level": 39,
+          "move": "slash"
+        },
+        {
+          "level": 44,
+          "move": "leer"
+        },
+        {
+          "level": 49,
+          "move": "hydropump"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "rage",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "rest",
+        "substitute",
+        "surf"
+      ]
+    },
+    "kabutops": {
+      "start": [
+        "scratch",
+        "harden",
+        "absorb"
+      ],
+      "levelUp": [
+        {
+          "level": 34,
+          "move": "absorb"
+        },
+        {
+          "level": 39,
+          "move": "slash"
+        },
+        {
+          "level": 46,
+          "move": "leer"
+        },
+        {
+          "level": 53,
+          "move": "hydropump"
+        }
+      ],
+      "tmhm": [
+        "razorwind",
+        "swordsdance",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "hyperbeam",
+        "submission",
+        "seismictoss",
+        "rage",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "skullbash",
+        "rest",
+        "substitute",
+        "surf"
+      ]
+    },
+    "aerodactyl": {
+      "start": [
+        "wingattack",
+        "agility"
+      ],
+      "levelUp": [
+        {
+          "level": 33,
+          "move": "supersonic"
+        },
+        {
+          "level": 38,
+          "move": "bite"
+        },
+        {
+          "level": 45,
+          "move": "takedown"
+        },
+        {
+          "level": 54,
+          "move": "hyperbeam"
+        }
+      ],
+      "tmhm": [
+        "razorwind",
+        "whirlwind",
+        "toxic",
+        "takedown",
+        "doubleedge",
+        "hyperbeam",
+        "rage",
+        "dragonrage",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "fireblast",
+        "swift",
+        "skyattack",
+        "rest",
+        "substitute",
+        "fly"
+      ]
+    },
+    "snorlax": {
+      "start": [
+        "headbutt",
+        "amnesia",
+        "rest"
+      ],
+      "levelUp": [
+        {
+          "level": 35,
+          "move": "bodyslam"
+        },
+        {
+          "level": 41,
+          "move": "harden"
+        },
+        {
+          "level": 48,
+          "move": "doubleedge"
+        },
+        {
+          "level": 56,
+          "move": "hyperbeam"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "hyperbeam",
+        "payday",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "solarbeam",
+        "thunderbolt",
+        "thunder",
+        "earthquake",
+        "fissure",
+        "psychic",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "metronome",
+        "selfdestruct",
+        "fireblast",
+        "skullbash",
+        "rest",
+        "psywave",
+        "rockslide",
+        "substitute",
+        "surf",
+        "strength"
+      ]
+    },
+    "articuno": {
+      "start": [
+        "peck",
+        "icebeam"
+      ],
+      "levelUp": [
+        {
+          "level": 51,
+          "move": "blizzard"
+        },
+        {
+          "level": 55,
+          "move": "agility"
+        },
+        {
+          "level": 60,
+          "move": "mist"
+        }
+      ],
+      "tmhm": [
+        "razorwind",
+        "whirlwind",
+        "toxic",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "hyperbeam",
+        "rage",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "swift",
+        "skyattack",
+        "rest",
+        "substitute",
+        "fly"
+      ]
+    },
+    "zapdos": {
+      "start": [
+        "thundershock",
+        "drillpeck"
+      ],
+      "levelUp": [
+        {
+          "level": 51,
+          "move": "thunder"
+        },
+        {
+          "level": 55,
+          "move": "agility"
+        },
+        {
+          "level": 60,
+          "move": "lightscreen"
+        }
+      ],
+      "tmhm": [
+        "razorwind",
+        "whirlwind",
+        "toxic",
+        "takedown",
+        "doubleedge",
+        "hyperbeam",
+        "rage",
+        "thunderbolt",
+        "thunder",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "swift",
+        "skyattack",
+        "rest",
+        "thunderwave",
+        "substitute",
+        "fly",
+        "flash"
+      ]
+    },
+    "moltres": {
+      "start": [
+        "peck",
+        "firespin"
+      ],
+      "levelUp": [
+        {
+          "level": 51,
+          "move": "leer"
+        },
+        {
+          "level": 55,
+          "move": "agility"
+        },
+        {
+          "level": 60,
+          "move": "skyattack"
+        }
+      ],
+      "tmhm": [
+        "razorwind",
+        "whirlwind",
+        "toxic",
+        "takedown",
+        "doubleedge",
+        "hyperbeam",
+        "rage",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "fireblast",
+        "swift",
+        "skyattack",
+        "rest",
+        "substitute",
+        "fly"
+      ]
+    },
+    "dratini": {
+      "start": [
+        "wrap",
+        "leer"
+      ],
+      "levelUp": [
+        {
+          "level": 10,
+          "move": "thunderwave"
+        },
+        {
+          "level": 20,
+          "move": "agility"
+        },
+        {
+          "level": 30,
+          "move": "slam"
+        },
+        {
+          "level": 40,
+          "move": "dragonrage"
+        },
+        {
+          "level": 50,
+          "move": "hyperbeam"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "rage",
+        "dragonrage",
+        "thunderbolt",
+        "thunder",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "fireblast",
+        "swift",
+        "skullbash",
+        "rest",
+        "thunderwave",
+        "substitute",
+        "surf"
+      ]
+    },
+    "dragonair": {
+      "start": [
+        "wrap",
+        "leer",
+        "thunderwave"
+      ],
+      "levelUp": [
+        {
+          "level": 10,
+          "move": "thunderwave"
+        },
+        {
+          "level": 20,
+          "move": "agility"
+        },
+        {
+          "level": 35,
+          "move": "slam"
+        },
+        {
+          "level": 45,
+          "move": "dragonrage"
+        },
+        {
+          "level": 55,
+          "move": "hyperbeam"
+        }
+      ],
+      "tmhm": [
+        "toxic",
+        "horndrill",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "rage",
+        "dragonrage",
+        "thunderbolt",
+        "thunder",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "fireblast",
+        "swift",
+        "skullbash",
+        "rest",
+        "thunderwave",
+        "substitute",
+        "surf"
+      ]
+    },
+    "dragonite": {
+      "start": [
+        "wrap",
+        "leer",
+        "thunderwave",
+        "agility"
+      ],
+      "levelUp": [
+        {
+          "level": 10,
+          "move": "thunderwave"
+        },
+        {
+          "level": 20,
+          "move": "agility"
+        },
+        {
+          "level": 35,
+          "move": "slam"
+        },
+        {
+          "level": 45,
+          "move": "dragonrage"
+        },
+        {
+          "level": 60,
+          "move": "hyperbeam"
+        }
+      ],
+      "tmhm": [
+        "razorwind",
+        "toxic",
+        "horndrill",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "hyperbeam",
+        "rage",
+        "dragonrage",
+        "thunderbolt",
+        "thunder",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "fireblast",
+        "swift",
+        "skullbash",
+        "rest",
+        "thunderwave",
+        "substitute",
+        "surf",
+        "strength"
+      ]
+    },
+    "mewtwo": {
+      "start": [
+        "confusion",
+        "disable",
+        "swift",
+        "psychic"
+      ],
+      "levelUp": [
+        {
+          "level": 63,
+          "move": "barrier"
+        },
+        {
+          "level": 66,
+          "move": "psychic"
+        },
+        {
+          "level": 70,
+          "move": "recover"
+        },
+        {
+          "level": 75,
+          "move": "mist"
+        },
+        {
+          "level": 81,
+          "move": "amnesia"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "megakick",
+        "toxic",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "hyperbeam",
+        "payday",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "solarbeam",
+        "thunderbolt",
+        "thunder",
+        "psychic",
+        "teleport",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "metronome",
+        "selfdestruct",
+        "fireblast",
+        "skullbash",
+        "rest",
+        "thunderwave",
+        "psywave",
+        "triattack",
+        "substitute",
+        "strength",
+        "flash"
+      ]
+    },
+    "mew": {
+      "start": [
+        "pound"
+      ],
+      "levelUp": [
+        {
+          "level": 10,
+          "move": "transform"
+        },
+        {
+          "level": 20,
+          "move": "megapunch"
+        },
+        {
+          "level": 30,
+          "move": "metronome"
+        },
+        {
+          "level": 40,
+          "move": "psychic"
+        }
+      ],
+      "tmhm": [
+        "megapunch",
+        "razorwind",
+        "swordsdance",
+        "whirlwind",
+        "megakick",
+        "toxic",
+        "horndrill",
+        "bodyslam",
+        "takedown",
+        "doubleedge",
+        "bubblebeam",
+        "watergun",
+        "icebeam",
+        "blizzard",
+        "hyperbeam",
+        "payday",
+        "submission",
+        "counter",
+        "seismictoss",
+        "rage",
+        "megadrain",
+        "solarbeam",
+        "dragonrage",
+        "thunderbolt",
+        "thunder",
+        "earthquake",
+        "fissure",
+        "dig",
+        "psychic",
+        "teleport",
+        "mimic",
+        "doubleteam",
+        "reflect",
+        "bide",
+        "metronome",
+        "selfdestruct",
+        "eggbomb",
+        "fireblast",
+        "swift",
+        "skullbash",
+        "softboiled",
+        "dreameater",
+        "skyattack",
+        "rest",
+        "thunderwave",
+        "psywave",
+        "explosion",
+        "rockslide",
+        "triattack",
+        "substitute",
+        "cut",
+        "fly",
+        "surf",
+        "strength",
+        "flash"
+      ]
+    }
+  }
+}

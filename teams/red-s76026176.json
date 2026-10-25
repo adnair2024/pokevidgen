@@ -1,0 +1,4416 @@
+{
+  "id": "red-s76026176",
+  "kind": "ingame",
+  "target": "red",
+  "seed": 76026176,
+  "members": [
+    {
+      "set": {
+        "species": "slowbro",
+        "level": 56,
+        "moves": [
+          "surf",
+          "psychic",
+          "thunderwave",
+          "submission"
+        ]
+      },
+      "roles": [
+        "paralysis",
+        "bulky"
+      ],
+      "acquisition": {
+        "stage": 4,
+        "steps": [
+          {
+            "species": "slowpoke",
+            "how": "rod",
+            "where": "Celadon City (super rod)",
+            "minLevel": 15,
+            "maxLevel": 15,
+            "stage": 4,
+            "place": "Celadon City"
+          },
+          {
+            "species": "slowbro",
+            "how": "evolution",
+            "where": "Evolves from Slowpoke at level 37",
+            "stage": 4,
+            "evolution": {
+              "how": "level",
+              "level": 37
+            }
+          }
+        ],
+        "moves": [
+          {
+            "move": "surf",
+            "source": {
+              "kind": "hm",
+              "number": 3,
+              "location": "Safari Zone secret house"
+            },
+            "stage": 4
+          },
+          {
+            "move": "psychic",
+            "source": {
+              "kind": "level",
+              "level": 55,
+              "from": "slowbro"
+            },
+            "stage": 0
+          },
+          {
+            "move": "thunderwave",
+            "source": {
+              "kind": "tm",
+              "number": 45,
+              "location": "Route 24 (Nugget Bridge)"
+            },
+            "stage": 1
+          },
+          {
+            "move": "submission",
+            "source": {
+              "kind": "tm",
+              "number": 17,
+              "location": "Celadon Dept. Store 2F"
+            },
+            "stage": 3
+          }
+        ],
+        "notes": []
+      }
+    },
+    {
+      "set": {
+        "species": "parasect",
+        "level": 56,
+        "moves": [
+          "solarbeam",
+          "spore",
+          "dig",
+          "hyperbeam"
+        ]
+      },
+      "roles": [
+        "sleep"
+      ],
+      "acquisition": {
+        "stage": 6,
+        "steps": [
+          {
+            "species": "paras",
+            "how": "wild",
+            "where": "Mt. Moon 1F (grass/cave)",
+            "minLevel": 8,
+            "maxLevel": 8,
+            "stage": 1,
+            "place": "Mt. Moon 1F"
+          },
+          {
+            "species": "parasect",
+            "how": "evolution",
+            "where": "Evolves from Paras at level 24",
+            "stage": 1,
+            "evolution": {
+              "how": "level",
+              "level": 24
+            }
+          }
+        ],
+        "moves": [
+          {
+            "move": "solarbeam",
+            "source": {
+              "kind": "tm",
+              "number": 22,
+              "location": "Pokémon Mansion B1F"
+            },
+            "stage": 6
+          },
+          {
+            "move": "spore",
+            "source": {
+              "kind": "level",
+              "level": 30,
+              "from": "parasect"
+            },
+            "stage": 0
+          },
+          {
+            "move": "dig",
+            "source": {
+              "kind": "tm",
+              "number": 28,
+              "location": "Cerulean City"
+            },
+            "stage": 1
+          },
+          {
+            "move": "hyperbeam",
+            "source": {
+              "kind": "tm",
+              "number": 15,
+              "location": "Celadon Game Corner prize counter"
+            },
+            "stage": 3
+          }
+        ],
+        "notes": []
+      }
+    },
+    {
+      "set": {
+        "species": "pidgeot",
+        "level": 56,
+        "moves": [
+          "hyperbeam",
+          "skyattack",
+          "rest",
+          "takedown"
+        ]
+      },
+      "roles": [
+        "recovery"
+      ],
+      "acquisition": {
+        "stage": 8,
+        "steps": [
+          {
+            "species": "pidgey",
+            "how": "wild",
+            "where": "Route 1 (grass/cave)",
+            "minLevel": 2,
+            "maxLevel": 5,
+            "stage": 0,
+            "place": "Route 1"
+          },
+          {
+            "species": "pidgeotto",
+            "how": "evolution",
+            "where": "Evolves from Pidgey at level 18",
+            "stage": 0,
+            "evolution": {
+              "how": "level",
+              "level": 18
+            }
+          },
+          {
+            "species": "pidgeot",
+            "how": "evolution",
+            "where": "Evolves from Pidgeotto at level 36",
+            "stage": 0,
+            "evolution": {
+              "how": "level",
+              "level": 36
+            }
+          }
+        ],
+        "moves": [
+          {
+            "move": "hyperbeam",
+            "source": {
+              "kind": "tm",
+              "number": 15,
+              "location": "Celadon Game Corner prize counter"
+            },
+            "stage": 3
+          },
+          {
+            "move": "skyattack",
+            "source": {
+              "kind": "tm",
+              "number": 43,
+              "location": "Victory Road 1F"
+            },
+            "stage": 8
+          },
+          {
+            "move": "rest",
+            "source": {
+              "kind": "tm",
+              "number": 44,
+              "location": "S.S. Anne B1F rooms"
+            },
+            "stage": 2
+          },
+          {
+            "move": "takedown",
+            "source": {
+              "kind": "tm",
+              "number": 9,
+              "location": "Celadon Dept. Store 2F"
+            },
+            "stage": 3
+          }
+        ],
+        "notes": []
+      }
+    },
+    {
+      "set": {
+        "species": "raichu",
+        "level": 56,
+        "moves": [
+          "thunderbolt",
+          "submission",
+          "thunder",
+          "megakick"
+        ]
+      },
+      "roles": [
+        "fast"
+      ],
+      "acquisition": {
+        "stage": 3,
+        "steps": [
+          {
+            "species": "pikachu",
+            "how": "wild",
+            "where": "Viridian Forest (grass/cave)",
+            "minLevel": 3,
+            "maxLevel": 5,
+            "stage": 0,
+            "place": "Viridian Forest"
+          },
+          {
+            "species": "raichu",
+            "how": "evolution",
+            "where": "Evolve Pikachu with a Thunder Stone (Celadon Dept. Store 4F)",
+            "stage": 3,
+            "evolution": {
+              "how": "stone",
+              "item": "Thunder Stone"
+            }
+          }
+        ],
+        "moves": [
+          {
+            "move": "thunderbolt",
+            "source": {
+              "kind": "tm",
+              "number": 24,
+              "location": "Vermilion Gym (Lt. Surge)"
+            },
+            "stage": 3
+          },
+          {
+            "move": "submission",
+            "source": {
+              "kind": "tm",
+              "number": 17,
+              "location": "Celadon Dept. Store 2F"
+            },
+            "stage": 3
+          },
+          {
+            "move": "thunder",
+            "source": {
+              "kind": "level",
+              "level": 43,
+              "from": "pikachu"
+            },
+            "stage": 0
+          },
+          {
+            "move": "megakick",
+            "source": {
+              "kind": "tm",
+              "number": 5,
+              "location": "Celadon Dept. Store 2F"
+            },
+            "stage": 3
+          }
+        ],
+        "notes": [
+          "Hold off evolving Pikachu until level 43 to learn Thunder; Raichu can't learn it."
+        ]
+      }
+    },
+    {
+      "set": {
+        "species": "golem",
+        "level": 56,
+        "moves": [
+          "rockslide",
+          "earthquake",
+          "hyperbeam",
+          "strength"
+        ]
+      },
+      "roles": [],
+      "acquisition": {
+        "stage": 4,
+        "steps": [
+          {
+            "species": "geodude",
+            "how": "wild",
+            "where": "Mt. Moon 1F (grass/cave)",
+            "minLevel": 8,
+            "maxLevel": 10,
+            "stage": 1,
+            "place": "Mt. Moon 1F"
+          },
+          {
+            "species": "graveler",
+            "how": "evolution",
+            "where": "Evolves from Geodude at level 25",
+            "stage": 1,
+            "evolution": {
+              "how": "level",
+              "level": 25
+            }
+          },
+          {
+            "species": "golem",
+            "how": "evolution",
+            "where": "Trade-evolve Graveler (needs a link partner)",
+            "stage": 1,
+            "evolution": {
+              "how": "trade"
+            }
+          }
+        ],
+        "moves": [
+          {
+            "move": "rockslide",
+            "source": {
+              "kind": "tm",
+              "number": 48,
+              "location": "Celadon Dept. Store roof"
+            },
+            "stage": 3
+          },
+          {
+            "move": "earthquake",
+            "source": {
+              "kind": "level",
+              "level": 36,
+              "from": "graveler"
+            },
+            "stage": 0
+          },
+          {
+            "move": "hyperbeam",
+            "source": {
+              "kind": "tm",
+              "number": 15,
+              "location": "Celadon Game Corner prize counter"
+            },
+            "stage": 3
+          },
+          {
+            "move": "strength",
+            "source": {
+              "kind": "hm",
+              "number": 4,
+              "location": "Fuchsia City (Warden's house)"
+            },
+            "stage": 4
+          }
+        ],
+        "notes": [
+          "Hold off evolving Graveler until level 36 to learn Earthquake; Golem can't learn it."
+        ]
+      }
+    },
+    {
+      "set": {
+        "species": "tauros",
+        "level": 56,
+        "moves": [
+          "doubleedge",
+          "hyperbeam",
+          "stomp",
+          "strength"
+        ]
+      },
+      "roles": [
+        "fast"
+      ],
+      "acquisition": {
+        "stage": 4,
+        "steps": [
+          {
+            "species": "tauros",
+            "how": "wild",
+            "where": "Safari Zone 2 North (grass/cave)",
+            "minLevel": 28,
+            "maxLevel": 28,
+            "stage": 4,
+            "place": "Safari Zone 2 North"
+          }
+        ],
+        "moves": [
+          {
+            "move": "doubleedge",
+            "source": {
+              "kind": "tm",
+              "number": 10,
+              "location": "Rocket Hideout B3F"
+            },
+            "stage": 4
+          },
+          {
+            "move": "hyperbeam",
+            "source": {
+              "kind": "tm",
+              "number": 15,
+              "location": "Celadon Game Corner prize counter"
+            },
+            "stage": 3
+          },
+          {
+            "move": "stomp",
+            "source": {
+              "kind": "start",
+              "from": "tauros"
+            },
+            "stage": 0
+          },
+          {
+            "move": "strength",
+            "source": {
+              "kind": "hm",
+              "number": 4,
+              "location": "Fuchsia City (Warden's house)"
+            },
+            "stage": 4
+          }
+        ],
+        "notes": []
+      }
+    }
+  ],
+  "analysis": {
+    "plannedLevel": 56,
+    "constraints": {
+      "must": [],
+      "ban": [],
+      "noTrades": false,
+      "noLegendaries": false,
+      "nuzlocke": false
+    },
+    "sharedWeaknesses": [
+      "Ice"
+    ],
+    "teamDefense": {
+      "Bug": {
+        "weak": 2,
+        "resist": 1,
+        "immune": 0,
+        "neutral": 3
+      },
+      "Fire": {
+        "weak": 1,
+        "resist": 2,
+        "immune": 0,
+        "neutral": 3
+      },
+      "Ghost": {
+        "weak": 0,
+        "resist": 0,
+        "immune": 3,
+        "neutral": 3
+      },
+      "Ice": {
+        "weak": 3,
+        "resist": 1,
+        "immune": 0,
+        "neutral": 2
+      },
+      "Poison": {
+        "weak": 1,
+        "resist": 1,
+        "immune": 0,
+        "neutral": 4
+      },
+      "Psychic": {
+        "weak": 0,
+        "resist": 1,
+        "immune": 0,
+        "neutral": 5
+      },
+      "Electric": {
+        "weak": 2,
+        "resist": 2,
+        "immune": 1,
+        "neutral": 1
+      },
+      "Grass": {
+        "weak": 2,
+        "resist": 2,
+        "immune": 0,
+        "neutral": 2
+      },
+      "Dragon": {
+        "weak": 0,
+        "resist": 0,
+        "immune": 0,
+        "neutral": 6
+      },
+      "Fighting": {
+        "weak": 2,
+        "resist": 2,
+        "immune": 0,
+        "neutral": 2
+      },
+      "Flying": {
+        "weak": 1,
+        "resist": 2,
+        "immune": 0,
+        "neutral": 3
+      },
+      "Ground": {
+        "weak": 2,
+        "resist": 1,
+        "immune": 1,
+        "neutral": 2
+      },
+      "Normal": {
+        "weak": 0,
+        "resist": 1,
+        "immune": 0,
+        "neutral": 5
+      },
+      "Rock": {
+        "weak": 2,
+        "resist": 1,
+        "immune": 0,
+        "neutral": 3
+      },
+      "Water": {
+        "weak": 1,
+        "resist": 2,
+        "immune": 0,
+        "neutral": 3
+      }
+    },
+    "starter": {
+      "player": "bulbasaur",
+      "rival": "charmander",
+      "onTeam": false
+    },
+    "bosses": [
+      {
+        "boss": "rival-route22-early",
+        "name": "Rival",
+        "location": "Route 22",
+        "stage": 0,
+        "level": 9,
+        "rivalStarter": "charmander",
+        "usable": [
+          {
+            "member": "pidgeot",
+            "form": "pidgey",
+            "moves": [
+              "gust"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "pikachu",
+            "moves": [
+              "thundershock",
+              "thunderwave"
+            ]
+          }
+        ],
+        "notYet": [
+          "slowbro",
+          "parasect",
+          "golem",
+          "tauros"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgey",
+              "level": 9,
+              "moves": [
+                "gust",
+                "sandattack"
+              ]
+            },
+            "answer": {
+              "move": "thundershock",
+              "member": "raichu",
+              "form": "pikachu",
+              "minPercent": 55.6,
+              "maxPercent": 66.7,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 9 Pikachu Thunder Shock vs. Lvl 9 Pidgey: 15-18 (45.4 - 54.5%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "gust",
+              "minPercent": 28,
+              "maxPercent": 36,
+              "ko": "4.2% chance to 3HKO",
+              "description": "Lvl 9 Pidgey Gust vs. Lvl 9 Pikachu: 7-9 (23.3 - 30%) -- 4.2% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charmander",
+              "level": 8,
+              "moves": [
+                "scratch",
+                "growl"
+              ]
+            },
+            "answer": {
+              "move": "gust",
+              "member": "pidgeot",
+              "form": "pidgey",
+              "minPercent": 28,
+              "maxPercent": 36,
+              "ko": "4.2% chance to 3HKO",
+              "description": "Lvl 9 Pidgey Gust vs. Lvl 8 Charmander: 7-9 (23.3 - 30%) -- 4.2% chance to 3HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "scratch",
+              "minPercent": 19.2,
+              "maxPercent": 23.1,
+              "ko": "possible 5HKO",
+              "description": "Lvl 8 Charmander Scratch vs. Lvl 9 Pidgey: 5-6 (16.1 - 19.3%) -- possible 5HKO"
+            }
+          }
+        ],
+        "lead": "pikachu",
+        "warnings": [
+          "Weak against Charmander: best is Lvl 9 Pidgey Gust vs. Lvl 8 Charmander: 7-9 (23.3 - 30%) -- 4.2% chance to 3HKO."
+        ]
+      },
+      {
+        "boss": "rival-cerulean",
+        "name": "Rival",
+        "location": "Cerulean City",
+        "stage": 0,
+        "level": 18,
+        "rivalStarter": "charmander",
+        "usable": [
+          {
+            "member": "pidgeot",
+            "form": "pidgeotto",
+            "moves": [
+              "gust",
+              "quickattack"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "pikachu",
+            "moves": [
+              "thundershock",
+              "thunderwave",
+              "quickattack"
+            ]
+          }
+        ],
+        "notYet": [
+          "slowbro",
+          "parasect",
+          "golem",
+          "tauros"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeotto",
+              "level": 18,
+              "moves": [
+                "gust",
+                "sandattack",
+                "quickattack"
+              ]
+            },
+            "answer": {
+              "move": "thundershock",
+              "member": "raichu",
+              "form": "pikachu",
+              "minPercent": 41.5,
+              "maxPercent": 49.1,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 18 Pikachu Thunder Shock vs. Lvl 18 Pidgeotto: 22-26 (34.3 - 40.6%) -- guaranteed 3HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "gust",
+              "minPercent": 32.5,
+              "maxPercent": 40,
+              "ko": "99.4% chance to 3HKO",
+              "description": "Lvl 18 Pidgeotto Gust vs. Lvl 18 Pikachu: 13-16 (25.4 - 31.3%) -- 99.4% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "abra",
+              "level": 15,
+              "moves": [
+                "teleport"
+              ]
+            },
+            "answer": {
+              "move": "gust",
+              "member": "pidgeot",
+              "form": "pidgeotto",
+              "minPercent": 52.9,
+              "maxPercent": 64.7,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 18 Pidgeotto Gust vs. Lvl 15 Abra: 18-22 (40.9 - 50%) -- guaranteed 2HKO",
+              "outspeeds": false
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rattata",
+              "level": 15,
+              "moves": [
+                "tackle",
+                "tailwhip",
+                "quickattack",
+                "hyperfang"
+              ]
+            },
+            "answer": {
+              "move": "thundershock",
+              "member": "raichu",
+              "form": "pikachu",
+              "minPercent": 44.4,
+              "maxPercent": 52.8,
+              "ko": "14.6% chance to 2HKO",
+              "description": "Lvl 18 Pikachu Thunder Shock vs. Lvl 15 Rattata: 16-19 (35.5 - 42.2%) -- 14.6% chance to 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hyperfang",
+              "minPercent": 50,
+              "maxPercent": 60,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 15 Rattata Hyper Fang vs. Lvl 18 Pikachu: 20-24 (39.2 - 47%) -- guaranteed 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charmander",
+              "level": 17,
+              "moves": [
+                "scratch",
+                "growl",
+                "ember",
+                "leer"
+              ]
+            },
+            "answer": {
+              "move": "gust",
+              "member": "pidgeot",
+              "form": "pidgeotto",
+              "minPercent": 28.6,
+              "maxPercent": 35.7,
+              "ko": "12.9% chance to 3HKO",
+              "description": "Lvl 18 Pidgeotto Gust vs. Lvl 17 Charmander: 12-15 (22.6 - 28.3%) -- 12.9% chance to 3HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "ember",
+              "minPercent": 20,
+              "maxPercent": 24,
+              "ko": "guaranteed 5HKO",
+              "description": "Lvl 17 Charmander Ember vs. Lvl 18 Pidgeotto: 10-12 (16.1 - 19.3%) -- guaranteed 5HKO"
+            }
+          }
+        ],
+        "lead": "pikachu",
+        "warnings": [
+          "Weak against Pidgeotto: best is Lvl 18 Pikachu Thunder Shock vs. Lvl 18 Pidgeotto: 22-26 (34.3 - 40.6%) -- guaranteed 3HKO.",
+          "Weak against Charmander: best is Lvl 18 Pidgeotto Gust vs. Lvl 17 Charmander: 12-15 (22.6 - 28.3%) -- 12.9% chance to 3HKO."
+        ]
+      },
+      {
+        "boss": "brock",
+        "name": "Brock",
+        "location": "Pewter City",
+        "stage": 0,
+        "level": 14,
+        "usable": [
+          {
+            "member": "pidgeot",
+            "form": "pidgey",
+            "moves": [
+              "gust",
+              "quickattack"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "pikachu",
+            "moves": [
+              "thundershock",
+              "thunderwave"
+            ]
+          }
+        ],
+        "notYet": [
+          "slowbro",
+          "parasect",
+          "golem",
+          "tauros"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "geodude",
+              "level": 12,
+              "moves": [
+                "tackle",
+                "defensecurl"
+              ]
+            },
+            "answer": {
+              "move": "gust",
+              "member": "pidgeot",
+              "form": "pidgey",
+              "minPercent": 9.1,
+              "maxPercent": 12.1,
+              "ko": "possible 9HKO",
+              "description": "Lvl 14 Pidgey Gust vs. Lvl 12 Geodude: 3-4 (7.3 - 9.7%) -- possible 9HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "tackle",
+              "minPercent": 14.3,
+              "maxPercent": 20,
+              "ko": "possible 5HKO",
+              "description": "Lvl 12 Geodude Tackle vs. Lvl 14 Pidgey: 5-7 (11.3 - 15.9%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "onix",
+              "level": 14,
+              "moves": [
+                "tackle",
+                "screech",
+                "bide"
+              ]
+            },
+            "answer": {
+              "move": "gust",
+              "member": "pidgeot",
+              "form": "pidgey",
+              "minPercent": 5.6,
+              "maxPercent": 8.3,
+              "ko": "",
+              "description": "Lvl 14 Pidgey Gust vs. Lvl 14 Onix: 2-3 (4.5 - 6.8%)",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "tackle",
+              "minPercent": 14.3,
+              "maxPercent": 20,
+              "ko": "possible 5HKO",
+              "description": "Lvl 14 Onix Tackle vs. Lvl 14 Pidgey: 5-7 (11.3 - 15.9%) -- possible 5HKO"
+            }
+          }
+        ],
+        "lead": "pidgey",
+        "warnings": [
+          "Weak against Geodude: best is Lvl 14 Pidgey Gust vs. Lvl 12 Geodude: 3-4 (7.3 - 9.7%) -- possible 9HKO.",
+          "Weak against Onix: best is Lvl 14 Pidgey Gust vs. Lvl 14 Onix: 2-3 (4.5 - 6.8%)."
+        ]
+      },
+      {
+        "boss": "misty",
+        "name": "Misty",
+        "location": "Cerulean City",
+        "stage": 1,
+        "level": 21,
+        "usable": [
+          {
+            "member": "parasect",
+            "form": "paras",
+            "moves": [
+              "leechlife",
+              "stunspore",
+              "dig",
+              "scratch"
+            ]
+          },
+          {
+            "member": "pidgeot",
+            "form": "pidgeotto",
+            "moves": [
+              "gust",
+              "quickattack"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "pikachu",
+            "moves": [
+              "thundershock",
+              "thunderwave",
+              "megapunch",
+              "quickattack"
+            ]
+          },
+          {
+            "member": "golem",
+            "form": "geodude",
+            "moves": [
+              "rockthrow",
+              "dig",
+              "megapunch",
+              "tackle"
+            ]
+          }
+        ],
+        "notYet": [
+          "slowbro",
+          "tauros"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "staryu",
+              "level": 18,
+              "moves": [
+                "tackle",
+                "watergun"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "golem",
+              "form": "geodude",
+              "minPercent": 92.7,
+              "maxPercent": 109.8,
+              "ko": "59% chance to OHKO",
+              "description": "Lvl 21 Geodude Dig vs. Lvl 18 Staryu: 38-45 (71.6 - 84.9%) -- 59% chance to OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "watergun",
+              "minPercent": 114.9,
+              "maxPercent": 136.2,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 18 Staryu Water Gun vs. Lvl 21 Geodude: 54-64 (88.5 - 104.9%) -- guaranteed OHKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "starmie",
+              "level": 21,
+              "moves": [
+                "tackle",
+                "watergun",
+                "bubblebeam"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "golem",
+              "form": "geodude",
+              "minPercent": 44.1,
+              "maxPercent": 52.5,
+              "ko": "15.8% chance to 2HKO",
+              "description": "Lvl 21 Geodude Dig vs. Lvl 21 Starmie: 26-31 (36.1 - 43%) -- 15.8% chance to 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "bubblebeam",
+              "minPercent": 280.9,
+              "maxPercent": 331.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 21 Starmie Bubble Beam vs. Lvl 21 Geodude: 132-156 (216.3 - 255.7%) -- guaranteed OHKO"
+            }
+          }
+        ],
+        "lead": "geodude",
+        "warnings": [
+          "Staryu can KO Geodude with Water Gun.",
+          "Starmie can KO Geodude with Bubble Beam."
+        ]
+      },
+      {
+        "boss": "rival-ssanne",
+        "name": "Rival",
+        "location": "SS Anne 2F",
+        "stage": 2,
+        "level": 20,
+        "rivalStarter": "charmander",
+        "usable": [
+          {
+            "member": "parasect",
+            "form": "paras",
+            "moves": [
+              "bodyslam",
+              "stunspore",
+              "dig",
+              "leechlife"
+            ]
+          },
+          {
+            "member": "pidgeot",
+            "form": "pidgeotto",
+            "moves": [
+              "gust",
+              "rest",
+              "quickattack"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "pikachu",
+            "moves": [
+              "thundershock",
+              "thunderwave",
+              "megapunch",
+              "quickattack"
+            ]
+          },
+          {
+            "member": "golem",
+            "form": "geodude",
+            "moves": [
+              "rockthrow",
+              "dig",
+              "megapunch",
+              "tackle"
+            ]
+          }
+        ],
+        "notYet": [
+          "slowbro",
+          "tauros"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeotto",
+              "level": 19,
+              "moves": [
+                "gust",
+                "sandattack",
+                "quickattack"
+              ]
+            },
+            "answer": {
+              "move": "rockthrow",
+              "member": "golem",
+              "form": "geodude",
+              "minPercent": 67.3,
+              "maxPercent": 80,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 20 Geodude Rock Throw vs. Lvl 19 Pidgeotto: 37-44 (55.2 - 65.6%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "gust",
+              "minPercent": 8.7,
+              "maxPercent": 10.9,
+              "ko": "",
+              "description": "Lvl 19 Pidgeotto Gust vs. Lvl 20 Geodude: 4-5 (6.8 - 8.6%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "raticate",
+              "level": 16,
+              "moves": [
+                "tackle",
+                "tailwhip",
+                "quickattack",
+                "hyperfang"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "golem",
+              "form": "geodude",
+              "minPercent": 82.6,
+              "maxPercent": 97.8,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 20 Geodude Dig vs. Lvl 16 Raticate: 38-45 (67.8 - 80.3%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "hyperfang",
+              "minPercent": 13,
+              "maxPercent": 17.4,
+              "ko": "possible 6HKO",
+              "description": "Lvl 16 Raticate Hyper Fang vs. Lvl 20 Geodude: 6-8 (10.3 - 13.7%) -- possible 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "kadabra",
+              "level": 18,
+              "moves": [
+                "teleport",
+                "confusion",
+                "disable"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "golem",
+              "form": "geodude",
+              "minPercent": 100,
+              "maxPercent": 120,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 20 Geodude Dig vs. Lvl 18 Kadabra: 45-54 (80.3 - 96.4%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "confusion",
+              "minPercent": 50,
+              "maxPercent": 60.9,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 18 Kadabra Confusion vs. Lvl 20 Geodude: 23-28 (39.6 - 48.2%) -- guaranteed 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charmeleon",
+              "level": 20,
+              "moves": [
+                "scratch",
+                "growl",
+                "ember",
+                "leer"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "golem",
+              "form": "geodude",
+              "minPercent": 110.7,
+              "maxPercent": 132.1,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 20 Geodude Dig vs. Lvl 20 Charmeleon: 62-74 (89.8 - 107.2%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "ember",
+              "minPercent": 15.2,
+              "maxPercent": 19.6,
+              "ko": "possible 6HKO",
+              "description": "Lvl 20 Charmeleon Ember vs. Lvl 20 Geodude: 7-9 (12 - 15.5%) -- possible 6HKO"
+            }
+          }
+        ],
+        "lead": "geodude",
+        "warnings": []
+      },
+      {
+        "boss": "ltsurge",
+        "name": "Lt. Surge",
+        "location": "Vermilion City",
+        "stage": 2,
+        "level": 24,
+        "usable": [
+          {
+            "member": "parasect",
+            "form": "parasect",
+            "moves": [
+              "bodyslam",
+              "stunspore",
+              "dig",
+              "leechlife"
+            ]
+          },
+          {
+            "member": "pidgeot",
+            "form": "pidgeotto",
+            "moves": [
+              "gust",
+              "rest",
+              "quickattack"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "pikachu",
+            "moves": [
+              "thundershock",
+              "thunderwave",
+              "megapunch",
+              "quickattack"
+            ]
+          },
+          {
+            "member": "golem",
+            "form": "geodude",
+            "moves": [
+              "rockthrow",
+              "dig",
+              "megapunch",
+              "tackle"
+            ]
+          }
+        ],
+        "notYet": [
+          "slowbro",
+          "tauros"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "voltorb",
+              "level": 21,
+              "moves": [
+                "tackle",
+                "screech",
+                "sonicboom"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "golem",
+              "form": "geodude",
+              "minPercent": 168.6,
+              "maxPercent": 200,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 24 Geodude Dig vs. Lvl 21 Voltorb: 86-102 (134.3 - 159.3%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "tackle",
+              "minPercent": 1.9,
+              "maxPercent": 3.8,
+              "ko": "",
+              "description": "Lvl 21 Voltorb Tackle vs. Lvl 24 Geodude: 1-2 (1.4 - 2.9%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "pikachu",
+              "level": 18,
+              "moves": [
+                "thundershock",
+                "growl",
+                "thunderwave",
+                "quickattack"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "golem",
+              "form": "geodude",
+              "minPercent": 276.7,
+              "maxPercent": 325.6,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 24 Geodude Dig vs. Lvl 18 Pikachu: 119-140 (220.3 - 259.2%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "quickattack",
+              "minPercent": 1.9,
+              "maxPercent": 3.8,
+              "ko": "",
+              "description": "Lvl 18 Pikachu Quick Attack vs. Lvl 24 Geodude: 1-2 (1.4 - 2.9%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "raichu",
+              "level": 24,
+              "moves": [
+                "thundershock",
+                "growl",
+                "thunderbolt"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "golem",
+              "form": "geodude",
+              "minPercent": 110.6,
+              "maxPercent": 130.3,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 24 Geodude Dig vs. Lvl 24 Raichu: 73-86 (90.1 - 106.1%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "thundershock",
+              "minPercent": 0,
+              "maxPercent": 0,
+              "ko": "does no damage",
+              "description": "Raichu Thunder Shock vs. Geodude: 0-0 (0 - 0%) -- does no damage"
+            }
+          }
+        ],
+        "lead": "geodude",
+        "warnings": []
+      },
+      {
+        "boss": "rival-pokemontower",
+        "name": "Rival",
+        "location": "Pokémon Tower 2F",
+        "stage": 3,
+        "level": 25,
+        "rivalStarter": "charmander",
+        "usable": [
+          {
+            "member": "parasect",
+            "form": "parasect",
+            "moves": [
+              "hyperbeam",
+              "stunspore",
+              "dig",
+              "takedown"
+            ]
+          },
+          {
+            "member": "pidgeot",
+            "form": "pidgeotto",
+            "moves": [
+              "takedown",
+              "rest",
+              "gust",
+              "quickattack"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "raichu",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "golem",
+            "form": "golem",
+            "moves": [
+              "rockslide",
+              "dig",
+              "submission",
+              "hyperbeam"
+            ]
+          }
+        ],
+        "notYet": [
+          "slowbro",
+          "tauros"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeotto",
+              "level": 25,
+              "moves": [
+                "gust",
+                "sandattack",
+                "quickattack",
+                "whirlwind"
+              ]
+            },
+            "answer": {
+              "move": "thunderbolt",
+              "member": "raichu",
+              "form": "raichu",
+              "minPercent": 122.9,
+              "maxPercent": 145.7,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 25 Raichu Thunderbolt vs. Lvl 25 Pidgeotto: 86-102 (100 - 118.6%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "gust",
+              "minPercent": 23.1,
+              "maxPercent": 27.7,
+              "ko": "52.9% chance to 4HKO",
+              "description": "Lvl 25 Pidgeotto Gust vs. Lvl 25 Raichu: 15-18 (18.7 - 22.5%) -- 52.9% chance to 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "exeggcute",
+              "level": 23,
+              "moves": [
+                "barrage",
+                "hypnosis"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 65.6,
+              "maxPercent": 78.1,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 25 Golem Hyper Beam vs. Lvl 23 Exeggcute: 42-50 (53.8 - 64.1%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "barrage",
+              "minPercent": 4,
+              "maxPercent": 4,
+              "ko": "",
+              "description": "Lvl 23 Exeggcute Barrage (3 hits) vs. Lvl 25 Golem: 3-3 (3.3 - 3.3%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "gyarados",
+              "level": 22,
+              "moves": [
+                "bite",
+                "dragonrage",
+                "leer",
+                "hydropump"
+              ]
+            },
+            "answer": {
+              "move": "thunderbolt",
+              "member": "raichu",
+              "form": "raichu",
+              "minPercent": 162.3,
+              "maxPercent": 192.2,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 25 Raichu Thunderbolt vs. Lvl 22 Gyarados: 125-148 (137.3 - 162.6%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hydropump",
+              "minPercent": 46.2,
+              "maxPercent": 55.4,
+              "ko": "69% chance to 2HKO",
+              "description": "Lvl 22 Gyarados Hydro Pump vs. Lvl 25 Raichu: 30-36 (37.5 - 45%) -- 69% chance to 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "kadabra",
+              "level": 20,
+              "moves": [
+                "teleport",
+                "confusion",
+                "disable"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 157.1,
+              "maxPercent": 185.7,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 25 Golem Dig vs. Lvl 20 Kadabra: 77-91 (126.2 - 149.1%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "confusion",
+              "minPercent": 24,
+              "maxPercent": 29.3,
+              "ko": "99.2% chance to 4HKO",
+              "description": "Lvl 20 Kadabra Confusion vs. Lvl 25 Golem: 18-22 (20 - 24.4%) -- 99.2% chance to 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charmeleon",
+              "level": 25,
+              "moves": [
+                "growl",
+                "ember",
+                "leer",
+                "rage"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 136.8,
+              "maxPercent": 161.8,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 25 Golem Dig vs. Lvl 25 Charmeleon: 93-110 (112 - 132.5%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "ember",
+              "minPercent": 9.3,
+              "maxPercent": 12,
+              "ko": "possible 9HKO",
+              "description": "Lvl 25 Charmeleon Ember vs. Lvl 25 Golem: 7-9 (7.7 - 10%) -- possible 9HKO"
+            }
+          }
+        ],
+        "lead": "raichu",
+        "warnings": []
+      },
+      {
+        "boss": "erika",
+        "name": "Erika",
+        "location": "Celadon City",
+        "stage": 3,
+        "level": 29,
+        "usable": [
+          {
+            "member": "parasect",
+            "form": "parasect",
+            "moves": [
+              "hyperbeam",
+              "stunspore",
+              "dig",
+              "takedown"
+            ]
+          },
+          {
+            "member": "pidgeot",
+            "form": "pidgeotto",
+            "moves": [
+              "takedown",
+              "rest",
+              "gust",
+              "quickattack"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "raichu",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "golem",
+            "form": "golem",
+            "moves": [
+              "rockslide",
+              "dig",
+              "submission",
+              "hyperbeam"
+            ]
+          }
+        ],
+        "notYet": [
+          "slowbro",
+          "tauros"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "victreebel",
+              "level": 29,
+              "moves": [
+                "razorleaf",
+                "wrap",
+                "poisonpowder",
+                "sleeppowder"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 52.2,
+              "maxPercent": 62.2,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 29 Golem Dig vs. Lvl 29 Victreebel: 47-56 (43.5 - 51.8%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "razorleaf",
+              "minPercent": 243.5,
+              "maxPercent": 287.1,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 29 Victreebel Razor Leaf vs. Lvl 29 Golem on a critical hit: 207-244 (200.9 - 236.8%) -- guaranteed OHKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "tangela",
+              "level": 24,
+              "moves": [
+                "constrict",
+                "bind"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 56.5,
+              "maxPercent": 66.7,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 29 Golem Hyper Beam vs. Lvl 24 Tangela: 39-46 (46.4 - 54.7%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "constrict",
+              "minPercent": 1.2,
+              "maxPercent": 1.2,
+              "ko": "",
+              "description": "Lvl 24 Tangela Constrict vs. Lvl 29 Golem: 1-1 (0.9 - 0.9%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "vileplume",
+              "level": 29,
+              "moves": [
+                "petaldance",
+                "poisonpowder",
+                "megadrain",
+                "sleeppowder"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 46,
+              "maxPercent": 55.2,
+              "ko": "66.3% chance to 2HKO",
+              "description": "Lvl 29 Golem Dig vs. Lvl 29 Vileplume: 40-48 (38 - 45.7%) -- 66.3% chance to 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "petaldance",
+              "minPercent": 167.1,
+              "maxPercent": 197.6,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 29 Vileplume Petal Dance vs. Lvl 29 Golem: 142-168 (137.8 - 163.1%) -- guaranteed OHKO"
+            }
+          }
+        ],
+        "lead": "golem",
+        "warnings": [
+          "Victreebel can KO Golem with Razor Leaf.",
+          "Vileplume can KO Golem with Petal Dance."
+        ]
+      },
+      {
+        "boss": "giovanni-hideout",
+        "name": "Giovanni",
+        "location": "Rocket Hideout B4F",
+        "stage": 4,
+        "level": 29,
+        "usable": [
+          {
+            "member": "slowbro",
+            "form": "slowpoke",
+            "moves": [
+              "surf",
+              "confusion",
+              "thunderwave",
+              "dig"
+            ]
+          },
+          {
+            "member": "parasect",
+            "form": "parasect",
+            "moves": [
+              "hyperbeam",
+              "stunspore",
+              "dig",
+              "takedown"
+            ]
+          },
+          {
+            "member": "pidgeot",
+            "form": "pidgeotto",
+            "moves": [
+              "doubleedge",
+              "rest",
+              "takedown",
+              "gust"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "raichu",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "golem",
+            "form": "golem",
+            "moves": [
+              "rockslide",
+              "submission",
+              "hyperbeam",
+              "megakick"
+            ]
+          },
+          {
+            "member": "tauros",
+            "form": "tauros",
+            "moves": [
+              "hyperbeam",
+              "strength",
+              "takedown",
+              "stomp"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "onix",
+              "level": 25,
+              "moves": [
+                "screech",
+                "bind",
+                "rockthrow",
+                "rage"
+              ]
+            },
+            "answer": {
+              "move": "surf",
+              "member": "slowbro",
+              "form": "slowpoke",
+              "minPercent": 308.9,
+              "maxPercent": 364.3,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 29 Slowpoke Surf vs. Lvl 25 Onix: 173-204 (240.2 - 283.3%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "rockthrow",
+              "minPercent": 13.2,
+              "maxPercent": 16.5,
+              "ko": "possible 7HKO",
+              "description": "Lvl 25 Onix Rock Throw vs. Lvl 29 Slowpoke: 12-15 (11 - 13.7%) -- possible 7HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rhyhorn",
+              "level": 24,
+              "moves": [
+                "hornattack"
+              ]
+            },
+            "answer": {
+              "move": "surf",
+              "member": "slowbro",
+              "form": "slowpoke",
+              "minPercent": 232.9,
+              "maxPercent": 273.7,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 29 Slowpoke Surf vs. Lvl 24 Rhyhorn: 177-208 (194.5 - 228.5%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "hornattack",
+              "minPercent": 14.3,
+              "maxPercent": 17.6,
+              "ko": "possible 6HKO",
+              "description": "Lvl 24 Rhyhorn Horn Attack vs. Lvl 29 Slowpoke: 13-16 (11.9 - 14.6%) -- possible 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "kangaskhan",
+              "level": 29,
+              "moves": [
+                "cometpunch",
+                "rage",
+                "bite"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 55.8,
+              "maxPercent": 66.3,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 29 Tauros Hyper Beam vs. Lvl 29 Kangaskhan: 58-69 (47.5 - 56.5%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "cometpunch",
+              "minPercent": 25.6,
+              "maxPercent": 32.9,
+              "ko": "approx. 4HKO",
+              "description": "Lvl 29 Kangaskhan Comet Punch (3 hits) vs. Lvl 29 Tauros: 21-27 (21 - 27%) -- approx. 4HKO"
+            }
+          }
+        ],
+        "lead": "slowpoke",
+        "warnings": []
+      },
+      {
+        "boss": "koga",
+        "name": "Koga",
+        "location": "Fuchsia City",
+        "stage": 4,
+        "level": 43,
+        "usable": [
+          {
+            "member": "slowbro",
+            "form": "slowbro",
+            "moves": [
+              "surf",
+              "confusion",
+              "thunderwave",
+              "submission"
+            ]
+          },
+          {
+            "member": "parasect",
+            "form": "parasect",
+            "moves": [
+              "hyperbeam",
+              "spore",
+              "dig",
+              "slash"
+            ]
+          },
+          {
+            "member": "pidgeot",
+            "form": "pidgeot",
+            "moves": [
+              "hyperbeam",
+              "rest",
+              "takedown"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "raichu",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "golem",
+            "form": "golem",
+            "moves": [
+              "rockslide",
+              "earthquake",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "tauros",
+            "form": "tauros",
+            "moves": [
+              "hyperbeam",
+              "strength",
+              "takedown",
+              "stomp"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "koffing",
+              "level": 37,
+              "moves": [
+                "tackle",
+                "smog",
+                "sludge",
+                "smokescreen"
+              ]
+            },
+            "answer": {
+              "move": "earthquake",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 154.9,
+              "maxPercent": 182.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 43 Golem Earthquake vs. Lvl 37 Koffing: 127-150 (120.9 - 142.8%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "tackle",
+              "minPercent": 2.5,
+              "maxPercent": 3.3,
+              "ko": "",
+              "description": "Lvl 37 Koffing Tackle vs. Lvl 43 Golem: 3-4 (2 - 2.7%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "muk",
+              "level": 39,
+              "moves": [
+                "disable",
+                "poisongas",
+                "minimize",
+                "sludge"
+              ]
+            },
+            "answer": {
+              "move": "earthquake",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 101.5,
+              "maxPercent": 119.7,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 43 Golem Earthquake vs. Lvl 39 Muk: 139-164 (86.3 - 101.8%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "sludge",
+              "minPercent": 4.1,
+              "maxPercent": 5.8,
+              "ko": "",
+              "description": "Lvl 39 Muk Sludge vs. Lvl 43 Golem: 5-7 (3.3 - 4.7%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "koffing",
+              "level": 37,
+              "moves": [
+                "tackle",
+                "smog",
+                "sludge",
+                "smokescreen"
+              ]
+            },
+            "answer": {
+              "move": "earthquake",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 154.9,
+              "maxPercent": 182.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 43 Golem Earthquake vs. Lvl 37 Koffing: 127-150 (120.9 - 142.8%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "tackle",
+              "minPercent": 2.5,
+              "maxPercent": 3.3,
+              "ko": "",
+              "description": "Lvl 37 Koffing Tackle vs. Lvl 43 Golem: 3-4 (2 - 2.7%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "weezing",
+              "level": 43,
+              "moves": [
+                "smog",
+                "sludge",
+                "toxic",
+                "selfdestruct"
+              ]
+            },
+            "answer": {
+              "move": "earthquake",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 80.9,
+              "maxPercent": 95.7,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 43 Golem Earthquake vs. Lvl 43 Weezing: 93-110 (65.4 - 77.4%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "selfdestruct",
+              "minPercent": 27.3,
+              "maxPercent": 32.2,
+              "ko": "guaranteed 4HKO",
+              "description": "Lvl 43 Weezing Self-Destruct vs. Lvl 43 Golem: 33-39 (22.2 - 26.3%) -- guaranteed 4HKO"
+            }
+          }
+        ],
+        "lead": "golem",
+        "warnings": []
+      },
+      {
+        "boss": "rival-silph",
+        "name": "Rival",
+        "location": "Silph Co. 7F",
+        "stage": 5,
+        "level": 40,
+        "rivalStarter": "charmander",
+        "usable": [
+          {
+            "member": "slowbro",
+            "form": "slowbro",
+            "moves": [
+              "surf",
+              "psychic",
+              "thunderwave",
+              "submission"
+            ]
+          },
+          {
+            "member": "parasect",
+            "form": "parasect",
+            "moves": [
+              "hyperbeam",
+              "spore",
+              "dig",
+              "slash"
+            ]
+          },
+          {
+            "member": "pidgeot",
+            "form": "pidgeot",
+            "moves": [
+              "hyperbeam",
+              "rest",
+              "takedown"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "raichu",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "golem",
+            "form": "golem",
+            "moves": [
+              "rockslide",
+              "earthquake",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "tauros",
+            "form": "tauros",
+            "moves": [
+              "hyperbeam",
+              "strength",
+              "takedown",
+              "stomp"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeot",
+              "level": 37,
+              "moves": [
+                "sandattack",
+                "quickattack",
+                "whirlwind",
+                "wingattack"
+              ]
+            },
+            "answer": {
+              "move": "thunderbolt",
+              "member": "raichu",
+              "form": "raichu",
+              "minPercent": 98.2,
+              "maxPercent": 115.8,
+              "ko": "89.7% chance to OHKO",
+              "description": "Lvl 40 Raichu Thunderbolt vs. Lvl 37 Pidgeot: 112-132 (81.7 - 96.3%) -- 89.7% chance to OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "quickattack",
+              "minPercent": 21.4,
+              "maxPercent": 25.5,
+              "ko": "0.1% chance to 4HKO",
+              "description": "Lvl 37 Pidgeot Quick Attack vs. Lvl 40 Raichu: 21-25 (17 - 20.3%) -- 0.1% chance to 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "exeggcute",
+              "level": 38,
+              "moves": [
+                "reflect",
+                "leechseed",
+                "stunspore",
+                "poisonpowder"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 85.9,
+              "maxPercent": 101,
+              "ko": "7.7% chance to OHKO",
+              "description": "Lvl 40 Tauros Hyper Beam vs. Lvl 38 Exeggcute: 85-100 (69.1 - 81.3%) -- 7.7% chance to OHKO",
+              "outspeeds": true
+            }
+          },
+          {
+            "bossMon": {
+              "species": "gyarados",
+              "level": 35,
+              "moves": [
+                "bite",
+                "dragonrage",
+                "leer",
+                "hydropump"
+              ]
+            },
+            "answer": {
+              "move": "thunderbolt",
+              "member": "raichu",
+              "form": "raichu",
+              "minPercent": 165.8,
+              "maxPercent": 194.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 40 Raichu Thunderbolt vs. Lvl 35 Gyarados: 194-228 (139.5 - 164%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hydropump",
+              "minPercent": 49,
+              "maxPercent": 58.2,
+              "ko": "97.8% chance to 2HKO",
+              "description": "Lvl 35 Gyarados Hydro Pump vs. Lvl 40 Raichu: 48-57 (39 - 46.3%) -- 97.8% chance to 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "alakazam",
+              "level": 35,
+              "moves": [
+                "confusion",
+                "disable",
+                "psybeam",
+                "recover"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 140.4,
+              "maxPercent": 166.3,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 40 Tauros Hyper Beam vs. Lvl 35 Alakazam: 125-148 (112.6 - 133.3%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "psybeam",
+              "minPercent": 34.5,
+              "maxPercent": 40.9,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 35 Alakazam Psybeam vs. Lvl 40 Tauros: 38-45 (28.1 - 33.3%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charizard",
+              "level": 40,
+              "moves": [
+                "ember",
+                "leer",
+                "rage",
+                "slash"
+              ]
+            },
+            "answer": {
+              "move": "rockslide",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 150,
+              "maxPercent": 176.3,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 40 Golem Rock Slide vs. Lvl 40 Charizard: 177-208 (122.9 - 144.4%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "slash",
+              "minPercent": 13.2,
+              "maxPercent": 15.8,
+              "ko": "possible 7HKO",
+              "description": "Lvl 40 Charizard Slash vs. Lvl 40 Golem on a critical hit: 15-18 (10.7 - 12.9%) -- possible 7HKO"
+            }
+          }
+        ],
+        "lead": "raichu",
+        "warnings": []
+      },
+      {
+        "boss": "giovanni-silph",
+        "name": "Giovanni",
+        "location": "Silph Co. 11F",
+        "stage": 5,
+        "level": 41,
+        "usable": [
+          {
+            "member": "slowbro",
+            "form": "slowbro",
+            "moves": [
+              "surf",
+              "psychic",
+              "thunderwave",
+              "submission"
+            ]
+          },
+          {
+            "member": "parasect",
+            "form": "parasect",
+            "moves": [
+              "hyperbeam",
+              "spore",
+              "dig",
+              "slash"
+            ]
+          },
+          {
+            "member": "pidgeot",
+            "form": "pidgeot",
+            "moves": [
+              "hyperbeam",
+              "rest",
+              "takedown"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "raichu",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "golem",
+            "form": "golem",
+            "moves": [
+              "rockslide",
+              "earthquake",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "tauros",
+            "form": "tauros",
+            "moves": [
+              "hyperbeam",
+              "strength",
+              "takedown",
+              "stomp"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "nidorino",
+              "level": 37,
+              "moves": [
+                "hornattack",
+                "poisonsting",
+                "focusenergy",
+                "furyattack"
+              ]
+            },
+            "answer": {
+              "move": "earthquake",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 161.2,
+              "maxPercent": 189.8,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 41 Golem Earthquake vs. Lvl 37 Nidorino: 158-186 (130.5 - 153.7%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "hornattack",
+              "minPercent": 4.3,
+              "maxPercent": 6,
+              "ko": "",
+              "description": "Lvl 37 Nidorino Horn Attack vs. Lvl 41 Golem: 5-7 (3.5 - 4.9%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "kangaskhan",
+              "level": 35,
+              "moves": [
+                "cometpunch",
+                "rage",
+                "bite",
+                "tailwhip"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 76.6,
+              "maxPercent": 90.3,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 41 Tauros Hyper Beam vs. Lvl 35 Kangaskhan: 95-112 (65 - 76.7%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "cometpunch",
+              "minPercent": 18.8,
+              "maxPercent": 24.1,
+              "ko": "approx. possible 5HKO",
+              "description": "Lvl 35 Kangaskhan Comet Punch (3 hits) vs. Lvl 41 Tauros: 21-27 (15.2 - 19.5%) -- approx. possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rhyhorn",
+              "level": 37,
+              "moves": [
+                "hornattack",
+                "stomp",
+                "tailwhip"
+              ]
+            },
+            "answer": {
+              "move": "surf",
+              "member": "slowbro",
+              "form": "slowbro",
+              "minPercent": 291.1,
+              "maxPercent": 342.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 41 Slowbro Surf vs. Lvl 37 Rhyhorn: 326-384 (241.4 - 284.4%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hornattack",
+              "minPercent": 10.9,
+              "maxPercent": 13.3,
+              "ko": "possible 8HKO",
+              "description": "Lvl 37 Rhyhorn Horn Attack vs. Lvl 41 Slowbro: 14-17 (9 - 11%) -- possible 8HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "nidoqueen",
+              "level": 41,
+              "moves": [
+                "scratch",
+                "tailwhip",
+                "bodyslam",
+                "poisonsting"
+              ]
+            },
+            "answer": {
+              "move": "earthquake",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 85.5,
+              "maxPercent": 100.8,
+              "ko": "5.1% chance to OHKO",
+              "description": "Lvl 41 Golem Earthquake vs. Lvl 41 Nidoqueen: 112-132 (71.3 - 84%) -- 5.1% chance to OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "bodyslam",
+              "minPercent": 8.6,
+              "maxPercent": 10.3,
+              "ko": "",
+              "description": "Lvl 41 Nidoqueen Body Slam vs. Lvl 41 Golem: 10-12 (7 - 8.4%)"
+            }
+          }
+        ],
+        "lead": "golem",
+        "warnings": []
+      },
+      {
+        "boss": "sabrina",
+        "name": "Sabrina",
+        "location": "Saffron City",
+        "stage": 5,
+        "level": 43,
+        "usable": [
+          {
+            "member": "slowbro",
+            "form": "slowbro",
+            "moves": [
+              "surf",
+              "psychic",
+              "thunderwave",
+              "submission"
+            ]
+          },
+          {
+            "member": "parasect",
+            "form": "parasect",
+            "moves": [
+              "hyperbeam",
+              "spore",
+              "dig",
+              "slash"
+            ]
+          },
+          {
+            "member": "pidgeot",
+            "form": "pidgeot",
+            "moves": [
+              "hyperbeam",
+              "rest",
+              "takedown"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "raichu",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "golem",
+            "form": "golem",
+            "moves": [
+              "rockslide",
+              "earthquake",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "tauros",
+            "form": "tauros",
+            "moves": [
+              "hyperbeam",
+              "strength",
+              "takedown",
+              "stomp"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "kadabra",
+              "level": 38,
+              "moves": [
+                "disable",
+                "psybeam",
+                "recover",
+                "psychic"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 190.5,
+              "maxPercent": 225,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 43 Tauros Hyper Beam vs. Lvl 38 Kadabra: 160-189 (148.1 - 175%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "psychic",
+              "minPercent": 43.6,
+              "maxPercent": 51.3,
+              "ko": "4.8% chance to 2HKO",
+              "description": "Lvl 38 Kadabra Psychic vs. Lvl 43 Tauros: 51-60 (35.4 - 41.6%) -- 4.8% chance to 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "mrmime",
+              "level": 37,
+              "moves": [
+                "confusion",
+                "barrier",
+                "lightscreen",
+                "doubleslap"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 136.6,
+              "maxPercent": 161,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 43 Tauros Hyper Beam vs. Lvl 37 Mr. Mime: 112-132 (106.6 - 125.7%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "confusion",
+              "minPercent": 19.7,
+              "maxPercent": 23.9,
+              "ko": "possible 5HKO",
+              "description": "Lvl 37 Mr. Mime Confusion vs. Lvl 43 Tauros: 23-28 (15.9 - 19.4%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "venomoth",
+              "level": 38,
+              "moves": [
+                "poisonpowder",
+                "leechlife",
+                "stunspore",
+                "psybeam"
+              ]
+            },
+            "answer": {
+              "move": "rockslide",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 115.9,
+              "maxPercent": 136.4,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 43 Golem Rock Slide vs. Lvl 38 Venomoth: 124-146 (94.6 - 111.4%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "psybeam",
+              "minPercent": 19,
+              "maxPercent": 23.1,
+              "ko": "possible 5HKO",
+              "description": "Lvl 38 Venomoth Psybeam vs. Lvl 43 Golem: 23-28 (15.5 - 18.9%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "alakazam",
+              "level": 43,
+              "moves": [
+                "psybeam",
+                "recover",
+                "psywave",
+                "reflect"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 110.3,
+              "maxPercent": 129.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 43 Tauros Hyper Beam vs. Lvl 43 Alakazam: 118-139 (88 - 103.7%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "psybeam",
+              "minPercent": 43.6,
+              "maxPercent": 51.3,
+              "ko": "4.8% chance to 2HKO",
+              "description": "Lvl 43 Alakazam Psybeam vs. Lvl 43 Tauros: 51-60 (35.4 - 41.6%) -- 4.8% chance to 2HKO"
+            }
+          }
+        ],
+        "lead": "tauros",
+        "warnings": []
+      },
+      {
+        "boss": "blaine",
+        "name": "Blaine",
+        "location": "Cinnabar Island",
+        "stage": 6,
+        "level": 47,
+        "usable": [
+          {
+            "member": "slowbro",
+            "form": "slowbro",
+            "moves": [
+              "surf",
+              "psychic",
+              "thunderwave",
+              "submission"
+            ]
+          },
+          {
+            "member": "parasect",
+            "form": "parasect",
+            "moves": [
+              "solarbeam",
+              "spore",
+              "dig",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "pidgeot",
+            "form": "pidgeot",
+            "moves": [
+              "hyperbeam",
+              "rest",
+              "takedown"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "raichu",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "golem",
+            "form": "golem",
+            "moves": [
+              "rockslide",
+              "earthquake",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "tauros",
+            "form": "tauros",
+            "moves": [
+              "hyperbeam",
+              "strength",
+              "takedown",
+              "stomp"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "growlithe",
+              "level": 42,
+              "moves": [
+                "ember",
+                "leer",
+                "takedown",
+                "agility"
+              ]
+            },
+            "answer": {
+              "move": "earthquake",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 192.3,
+              "maxPercent": 226.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 47 Golem Earthquake vs. Lvl 42 Growlithe: 200-236 (152.6 - 180.1%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "ember",
+              "minPercent": 6.1,
+              "maxPercent": 7.6,
+              "ko": "",
+              "description": "Lvl 42 Growlithe Ember vs. Lvl 47 Golem: 8-10 (4.9 - 6.2%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "ponyta",
+              "level": 40,
+              "moves": [
+                "tailwhip",
+                "stomp",
+                "growl",
+                "firespin"
+              ]
+            },
+            "answer": {
+              "move": "earthquake",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 195.8,
+              "maxPercent": 231.3,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 47 Golem Earthquake vs. Lvl 40 Ponyta: 188-222 (155.3 - 183.4%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 4.5,
+              "maxPercent": 6.1,
+              "ko": "",
+              "description": "Lvl 40 Ponyta Stomp vs. Lvl 47 Golem: 6-8 (3.7 - 4.9%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rapidash",
+              "level": 42,
+              "moves": [
+                "tailwhip",
+                "stomp",
+                "growl",
+                "firespin"
+              ]
+            },
+            "answer": {
+              "move": "earthquake",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 139.8,
+              "maxPercent": 164.6,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 47 Golem Earthquake vs. Lvl 42 Rapidash: 158-186 (113.6 - 133.8%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 5.3,
+              "maxPercent": 6.8,
+              "ko": "",
+              "description": "Lvl 42 Rapidash Stomp vs. Lvl 47 Golem: 7-9 (4.3 - 5.5%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "arcanine",
+              "level": 47,
+              "moves": [
+                "roar",
+                "ember",
+                "fireblast",
+                "takedown"
+              ]
+            },
+            "answer": {
+              "move": "earthquake",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 86.6,
+              "maxPercent": 102,
+              "ko": "15.4% chance to OHKO",
+              "description": "Lvl 47 Golem Earthquake vs. Lvl 47 Arcanine: 129-152 (72.4 - 85.3%) -- 15.4% chance to OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "fireblast",
+              "minPercent": 29.5,
+              "maxPercent": 34.8,
+              "ko": "7.5% chance to 3HKO",
+              "description": "Lvl 47 Arcanine Fire Blast vs. Lvl 47 Golem: 39-46 (24.2 - 28.5%) -- 7.5% chance to 3HKO"
+            }
+          }
+        ],
+        "lead": "golem",
+        "warnings": []
+      },
+      {
+        "boss": "giovanni-gym",
+        "name": "Giovanni",
+        "location": "Viridian City",
+        "stage": 7,
+        "level": 50,
+        "usable": [
+          {
+            "member": "slowbro",
+            "form": "slowbro",
+            "moves": [
+              "surf",
+              "psychic",
+              "thunderwave",
+              "submission"
+            ]
+          },
+          {
+            "member": "parasect",
+            "form": "parasect",
+            "moves": [
+              "solarbeam",
+              "spore",
+              "dig",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "pidgeot",
+            "form": "pidgeot",
+            "moves": [
+              "hyperbeam",
+              "rest",
+              "takedown"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "raichu",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "golem",
+            "form": "golem",
+            "moves": [
+              "rockslide",
+              "earthquake",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "tauros",
+            "form": "tauros",
+            "moves": [
+              "hyperbeam",
+              "strength",
+              "takedown",
+              "stomp"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "rhyhorn",
+              "level": 45,
+              "moves": [
+                "stomp",
+                "tailwhip",
+                "furyattack",
+                "horndrill"
+              ]
+            },
+            "answer": {
+              "move": "solarbeam",
+              "member": "parasect",
+              "form": "parasect",
+              "minPercent": 375.4,
+              "maxPercent": 441.8,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 50 Parasect Solar Beam vs. Lvl 45 Rhyhorn: 503-592 (310.4 - 365.4%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 18.3,
+              "maxPercent": 21.7,
+              "ko": "possible 5HKO",
+              "description": "Lvl 45 Rhyhorn Stomp vs. Lvl 50 Parasect: 22-26 (14.5 - 17.2%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "dugtrio",
+              "level": 42,
+              "moves": [
+                "growl",
+                "dig",
+                "sandattack",
+                "slash"
+              ]
+            },
+            "answer": {
+              "move": "solarbeam",
+              "member": "parasect",
+              "form": "parasect",
+              "minPercent": 202.3,
+              "maxPercent": 238.6,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 50 Parasect Solar Beam vs. Lvl 42 Dugtrio: 178-210 (156.1 - 184.2%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "slash",
+              "minPercent": 30,
+              "maxPercent": 35.8,
+              "ko": "31% chance to 3HKO",
+              "description": "Lvl 42 Dugtrio Slash vs. Lvl 50 Parasect on a critical hit: 36-43 (23.8 - 28.4%) -- 31% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "nidoqueen",
+              "level": 44,
+              "moves": [
+                "scratch",
+                "tailwhip",
+                "bodyslam",
+                "poisonsting"
+              ]
+            },
+            "answer": {
+              "move": "earthquake",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 109.3,
+              "maxPercent": 128.6,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 50 Golem Earthquake vs. Lvl 44 Nidoqueen: 153-180 (91.6 - 107.7%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "bodyslam",
+              "minPercent": 6.4,
+              "maxPercent": 7.9,
+              "ko": "",
+              "description": "Lvl 44 Nidoqueen Body Slam vs. Lvl 50 Golem: 9-11 (5.2 - 6.4%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "nidoking",
+              "level": 45,
+              "moves": [
+                "tackle",
+                "hornattack",
+                "poisonsting",
+                "thrash"
+              ]
+            },
+            "answer": {
+              "move": "earthquake",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 120.7,
+              "maxPercent": 142.2,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 50 Golem Earthquake vs. Lvl 45 Nidoking: 163-192 (100 - 117.7%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "thrash",
+              "minPercent": 7.9,
+              "maxPercent": 9.3,
+              "ko": "",
+              "description": "Lvl 45 Nidoking Thrash vs. Lvl 50 Golem: 11-13 (6.4 - 7.6%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rhydon",
+              "level": 50,
+              "moves": [
+                "stomp",
+                "tailwhip",
+                "fissure",
+                "horndrill"
+              ]
+            },
+            "answer": {
+              "move": "solarbeam",
+              "member": "parasect",
+              "form": "parasect",
+              "minPercent": 220.2,
+              "maxPercent": 259,
+              "ko": "guaranteed OHKO",
+              "description": "Parasect Solar Beam vs. Rhydon: 381-448 (186.7 - 219.6%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 29.2,
+              "maxPercent": 35,
+              "ko": "10.2% chance to 3HKO",
+              "description": "Rhydon Stomp vs. Parasect: 35-42 (23.1 - 27.8%) -- 10.2% chance to 3HKO"
+            }
+          }
+        ],
+        "lead": "parasect",
+        "warnings": []
+      },
+      {
+        "boss": "rival-route22-late",
+        "name": "Rival",
+        "location": "Route 22",
+        "stage": 8,
+        "level": 53,
+        "rivalStarter": "charmander",
+        "usable": [
+          {
+            "member": "slowbro",
+            "form": "slowbro",
+            "moves": [
+              "surf",
+              "psychic",
+              "thunderwave",
+              "submission"
+            ]
+          },
+          {
+            "member": "parasect",
+            "form": "parasect",
+            "moves": [
+              "solarbeam",
+              "spore",
+              "dig",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "pidgeot",
+            "form": "pidgeot",
+            "moves": [
+              "hyperbeam",
+              "skyattack",
+              "rest",
+              "takedown"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "raichu",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "golem",
+            "form": "golem",
+            "moves": [
+              "rockslide",
+              "earthquake",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "tauros",
+            "form": "tauros",
+            "moves": [
+              "hyperbeam",
+              "strength",
+              "takedown",
+              "stomp"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeot",
+              "level": 47,
+              "moves": [
+                "quickattack",
+                "whirlwind",
+                "wingattack",
+                "agility"
+              ]
+            },
+            "answer": {
+              "move": "thunderbolt",
+              "member": "raichu",
+              "form": "raichu",
+              "minPercent": 104.9,
+              "maxPercent": 123.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 53 Raichu Thunderbolt vs. Lvl 47 Pidgeot: 149-176 (86.6 - 102.3%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "quickattack",
+              "minPercent": 18.3,
+              "maxPercent": 22.2,
+              "ko": "possible 5HKO",
+              "description": "Lvl 47 Pidgeot Quick Attack vs. Lvl 53 Raichu: 23-28 (14.4 - 17.6%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rhyhorn",
+              "level": 45,
+              "moves": [
+                "stomp",
+                "tailwhip",
+                "furyattack",
+                "horndrill"
+              ]
+            },
+            "answer": {
+              "move": "solarbeam",
+              "member": "parasect",
+              "form": "parasect",
+              "minPercent": 413.4,
+              "maxPercent": 486.6,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 53 Parasect Solar Beam vs. Lvl 45 Rhyhorn: 554-652 (341.9 - 402.4%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 16.7,
+              "maxPercent": 19.8,
+              "ko": "guaranteed 6HKO",
+              "description": "Lvl 45 Rhyhorn Stomp vs. Lvl 53 Parasect: 21-25 (13.2 - 15.7%) -- guaranteed 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "exeggcute",
+              "level": 45,
+              "moves": [
+                "leechseed",
+                "stunspore",
+                "poisonpowder",
+                "solarbeam"
+              ]
+            },
+            "answer": {
+              "move": "skyattack",
+              "member": "pidgeot",
+              "form": "pidgeot",
+              "minPercent": 168.1,
+              "maxPercent": 198.3,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 53 Pidgeot Sky Attack vs. Lvl 45 Exeggcute: 195-230 (135.4 - 159.7%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "solarbeam",
+              "minPercent": 16,
+              "maxPercent": 19.3,
+              "ko": "possible 6HKO",
+              "description": "Lvl 45 Exeggcute Solar Beam vs. Lvl 53 Pidgeot: 24-29 (13 - 15.7%) -- possible 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "gyarados",
+              "level": 47,
+              "moves": [
+                "bite",
+                "dragonrage",
+                "leer",
+                "hydropump"
+              ]
+            },
+            "answer": {
+              "move": "thunderbolt",
+              "member": "raichu",
+              "form": "raichu",
+              "minPercent": 155.6,
+              "maxPercent": 183,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 53 Raichu Thunderbolt vs. Lvl 47 Gyarados: 238-280 (130 - 153%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hydropump",
+              "minPercent": 46.8,
+              "maxPercent": 55.6,
+              "ko": "74.3% chance to 2HKO",
+              "description": "Lvl 47 Gyarados Hydro Pump vs. Lvl 53 Raichu: 59-70 (37.1 - 44%) -- 74.3% chance to 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "alakazam",
+              "level": 50,
+              "moves": [
+                "psybeam",
+                "recover",
+                "psychic",
+                "reflect"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 122.8,
+              "maxPercent": 144.7,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 53 Tauros Hyper Beam vs. Lvl 50 Alakazam: 151-178 (98 - 115.5%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "psychic",
+              "minPercent": 53.5,
+              "maxPercent": 63.4,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 50 Alakazam Psychic vs. Lvl 53 Tauros: 76-90 (43.4 - 51.4%) -- guaranteed 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charizard",
+              "level": 53,
+              "moves": [
+                "leer",
+                "rage",
+                "slash",
+                "flamethrower"
+              ]
+            },
+            "answer": {
+              "move": "rockslide",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 148.1,
+              "maxPercent": 174,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 53 Golem Rock Slide vs. Lvl 53 Charizard: 228-268 (121.9 - 143.3%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "flamethrower",
+              "minPercent": 24.5,
+              "maxPercent": 29.3,
+              "ko": "99.9% chance to 4HKO",
+              "description": "Lvl 53 Charizard Flamethrower vs. Lvl 53 Golem: 36-43 (19.8 - 23.7%) -- 99.9% chance to 4HKO"
+            }
+          }
+        ],
+        "lead": "raichu",
+        "warnings": []
+      },
+      {
+        "boss": "lorelei",
+        "name": "Lorelei",
+        "location": "Indigo Plateau",
+        "stage": 8,
+        "level": 56,
+        "usable": [
+          {
+            "member": "slowbro",
+            "form": "slowbro",
+            "moves": [
+              "surf",
+              "psychic",
+              "thunderwave",
+              "submission"
+            ]
+          },
+          {
+            "member": "parasect",
+            "form": "parasect",
+            "moves": [
+              "solarbeam",
+              "spore",
+              "dig",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "pidgeot",
+            "form": "pidgeot",
+            "moves": [
+              "hyperbeam",
+              "skyattack",
+              "rest",
+              "takedown"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "raichu",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "golem",
+            "form": "golem",
+            "moves": [
+              "rockslide",
+              "earthquake",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "tauros",
+            "form": "tauros",
+            "moves": [
+              "hyperbeam",
+              "strength",
+              "takedown",
+              "stomp"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "dewgong",
+              "level": 54,
+              "moves": [
+                "growl",
+                "aurorabeam",
+                "rest",
+                "takedown"
+              ]
+            },
+            "answer": {
+              "move": "solarbeam",
+              "member": "parasect",
+              "form": "parasect",
+              "minPercent": 81.1,
+              "maxPercent": 95.9,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 56 Parasect Solar Beam vs. Lvl 54 Dewgong: 137-162 (67.4 - 79.8%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "aurorabeam",
+              "minPercent": 64.7,
+              "maxPercent": 76.7,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 54 Dewgong Aurora Beam vs. Lvl 56 Parasect: 86-102 (51.1 - 60.7%) -- guaranteed 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "cloyster",
+              "level": 53,
+              "moves": [
+                "supersonic",
+                "clamp",
+                "aurorabeam",
+                "spikecannon"
+              ]
+            },
+            "answer": {
+              "move": "solarbeam",
+              "member": "parasect",
+              "form": "parasect",
+              "minPercent": 123.4,
+              "maxPercent": 145.2,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 56 Parasect Solar Beam vs. Lvl 53 Cloyster: 153-180 (97.4 - 114.6%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "aurorabeam",
+              "minPercent": 58.6,
+              "maxPercent": 69.2,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 53 Cloyster Aurora Beam vs. Lvl 56 Parasect: 78-92 (46.4 - 54.7%) -- guaranteed 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "slowbro",
+              "level": 54,
+              "moves": [
+                "growl",
+                "watergun",
+                "withdraw",
+                "amnesia"
+              ]
+            },
+            "answer": {
+              "move": "solarbeam",
+              "member": "parasect",
+              "form": "parasect",
+              "minPercent": 88,
+              "maxPercent": 104,
+              "ko": "25.6% chance to OHKO",
+              "description": "Lvl 56 Parasect Solar Beam vs. Lvl 54 Slowbro: 154-182 (73.6 - 87%) -- 25.6% chance to OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "watergun",
+              "minPercent": 8.3,
+              "maxPercent": 10.5,
+              "ko": "",
+              "description": "Lvl 54 Slowbro Water Gun vs. Lvl 56 Parasect: 11-14 (6.5 - 8.3%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "jynx",
+              "level": 56,
+              "moves": [
+                "doubleslap",
+                "icepunch",
+                "bodyslam",
+                "thrash"
+              ]
+            },
+            "answer": {
+              "move": "rockslide",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 124.5,
+              "maxPercent": 146.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 56 Golem Rock Slide vs. Lvl 56 Jynx: 183-216 (100 - 118%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "icepunch",
+              "minPercent": 85.2,
+              "maxPercent": 100.6,
+              "ko": "5.1% chance to OHKO",
+              "description": "Lvl 56 Jynx Ice Punch vs. Lvl 56 Golem: 132-156 (69.4 - 82.1%) -- 5.1% chance to OHKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "lapras",
+              "level": 56,
+              "moves": [
+                "bodyslam",
+                "confuseray",
+                "blizzard",
+                "hydropump"
+              ]
+            },
+            "answer": {
+              "move": "solarbeam",
+              "member": "parasect",
+              "form": "parasect",
+              "minPercent": 60.9,
+              "maxPercent": 71.8,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 56 Parasect Solar Beam vs. Lvl 56 Lapras: 134-158 (52.5 - 61.9%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "blizzard",
+              "minPercent": 126.3,
+              "maxPercent": 148.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 56 Lapras Blizzard vs. Lvl 56 Parasect: 168-198 (100 - 117.8%) -- guaranteed OHKO"
+            }
+          }
+        ],
+        "lead": "parasect",
+        "warnings": [
+          "Jynx can KO Golem with Ice Punch.",
+          "Lapras can KO Parasect with Blizzard."
+        ]
+      },
+      {
+        "boss": "bruno",
+        "name": "Bruno",
+        "location": "Indigo Plateau",
+        "stage": 8,
+        "level": 58,
+        "usable": [
+          {
+            "member": "slowbro",
+            "form": "slowbro",
+            "moves": [
+              "surf",
+              "psychic",
+              "thunderwave",
+              "submission"
+            ]
+          },
+          {
+            "member": "parasect",
+            "form": "parasect",
+            "moves": [
+              "solarbeam",
+              "spore",
+              "dig",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "pidgeot",
+            "form": "pidgeot",
+            "moves": [
+              "hyperbeam",
+              "skyattack",
+              "rest",
+              "takedown"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "raichu",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "golem",
+            "form": "golem",
+            "moves": [
+              "rockslide",
+              "earthquake",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "tauros",
+            "form": "tauros",
+            "moves": [
+              "hyperbeam",
+              "strength",
+              "takedown",
+              "stomp"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "onix",
+              "level": 53,
+              "moves": [
+                "rockthrow",
+                "rage",
+                "slam",
+                "harden"
+              ]
+            },
+            "answer": {
+              "move": "solarbeam",
+              "member": "parasect",
+              "form": "parasect",
+              "minPercent": 528.7,
+              "maxPercent": 622.2,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 58 Parasect Solar Beam vs. Lvl 53 Onix: 571-672 (404.9 - 476.5%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "rockthrow",
+              "minPercent": 30.7,
+              "maxPercent": 36.5,
+              "ko": "58.4% chance to 3HKO",
+              "description": "Lvl 53 Onix Rock Throw vs. Lvl 58 Parasect: 42-50 (24.1 - 28.7%) -- 58.4% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "hitmonchan",
+              "level": 55,
+              "moves": [
+                "icepunch",
+                "thunderpunch",
+                "megapunch",
+                "counter"
+              ]
+            },
+            "answer": {
+              "move": "psychic",
+              "member": "slowbro",
+              "form": "slowbro",
+              "minPercent": 151.6,
+              "maxPercent": 178.1,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 58 Slowbro Psychic vs. Lvl 55 Hitmonchan: 194-228 (119 - 139.8%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "thunderpunch",
+              "minPercent": 21.9,
+              "maxPercent": 25.8,
+              "ko": "1.1% chance to 4HKO",
+              "description": "Lvl 55 Hitmonchan Thunder Punch vs. Lvl 58 Slowbro: 39-46 (18.2 - 21.4%) -- 1.1% chance to 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "hitmonlee",
+              "level": 55,
+              "moves": [
+                "jumpkick",
+                "focusenergy",
+                "highjumpkick",
+                "megakick"
+              ]
+            },
+            "answer": {
+              "move": "skyattack",
+              "member": "pidgeot",
+              "form": "pidgeot",
+              "minPercent": 191.4,
+              "maxPercent": 225,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 58 Pidgeot Sky Attack vs. Lvl 55 Hitmonlee: 245-288 (150.3 - 176.6%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "highjumpkick",
+              "minPercent": 42.1,
+              "maxPercent": 50,
+              "ko": "0.1% chance to 2HKO",
+              "description": "Lvl 55 Hitmonlee High Jump Kick vs. Lvl 58 Pidgeot: 69-82 (34.5 - 41%) -- 0.1% chance to 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "onix",
+              "level": 56,
+              "moves": [
+                "rockthrow",
+                "rage",
+                "slam",
+                "harden"
+              ]
+            },
+            "answer": {
+              "move": "solarbeam",
+              "member": "parasect",
+              "form": "parasect",
+              "minPercent": 474.6,
+              "maxPercent": 557.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 58 Parasect Solar Beam vs. Lvl 56 Onix: 541-636 (363 - 426.8%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "rockthrow",
+              "minPercent": 32.8,
+              "maxPercent": 39.4,
+              "ko": "99.9% chance to 3HKO",
+              "description": "Lvl 56 Onix Rock Throw vs. Lvl 58 Parasect: 45-54 (25.8 - 31%) -- 99.9% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "machamp",
+              "level": 58,
+              "moves": [
+                "leer",
+                "focusenergy",
+                "fissure",
+                "submission"
+              ]
+            },
+            "answer": {
+              "move": "skyattack",
+              "member": "pidgeot",
+              "form": "pidgeot",
+              "minPercent": 101.1,
+              "maxPercent": 119.3,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 58 Pidgeot Sky Attack vs. Lvl 58 Machamp: 183-216 (83.9 - 99%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "submission",
+              "minPercent": 46.3,
+              "maxPercent": 54.9,
+              "ko": "64.4% chance to 2HKO",
+              "description": "Lvl 58 Machamp Submission vs. Lvl 58 Pidgeot: 76-90 (38 - 45%) -- 64.4% chance to 2HKO"
+            }
+          }
+        ],
+        "lead": "parasect",
+        "warnings": []
+      },
+      {
+        "boss": "agatha",
+        "name": "Agatha",
+        "location": "Indigo Plateau",
+        "stage": 8,
+        "level": 60,
+        "usable": [
+          {
+            "member": "slowbro",
+            "form": "slowbro",
+            "moves": [
+              "surf",
+              "psychic",
+              "thunderwave",
+              "submission"
+            ]
+          },
+          {
+            "member": "parasect",
+            "form": "parasect",
+            "moves": [
+              "solarbeam",
+              "spore",
+              "dig",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "pidgeot",
+            "form": "pidgeot",
+            "moves": [
+              "hyperbeam",
+              "skyattack",
+              "rest",
+              "takedown"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "raichu",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "golem",
+            "form": "golem",
+            "moves": [
+              "rockslide",
+              "earthquake",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "tauros",
+            "form": "tauros",
+            "moves": [
+              "hyperbeam",
+              "strength",
+              "takedown",
+              "stomp"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "gengar",
+              "level": 56,
+              "moves": [
+                "confuseray",
+                "nightshade",
+                "hypnosis",
+                "dreameater"
+              ]
+            },
+            "answer": {
+              "move": "earthquake",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 150.7,
+              "maxPercent": 177.5,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 60 Golem Earthquake vs. Lvl 56 Gengar: 214-252 (120.9 - 142.3%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "dreameater",
+              "minPercent": 41,
+              "maxPercent": 48.2,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 56 Gengar Dream Eater vs. Lvl 60 Golem: 68-80 (33.4 - 39.4%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "golbat",
+              "level": 56,
+              "moves": [
+                "supersonic",
+                "confuseray",
+                "wingattack",
+                "haze"
+              ]
+            },
+            "answer": {
+              "move": "thunderbolt",
+              "member": "raichu",
+              "form": "raichu",
+              "minPercent": 97.5,
+              "maxPercent": 115.2,
+              "ko": "87.2% chance to OHKO",
+              "description": "Lvl 60 Raichu Thunderbolt vs. Lvl 56 Golbat: 154-182 (79.3 - 93.8%) -- 87.2% chance to OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "wingattack",
+              "minPercent": 8.5,
+              "maxPercent": 10.6,
+              "ko": "",
+              "description": "Lvl 56 Golbat Wing Attack vs. Lvl 60 Raichu: 12-15 (6.7 - 8.3%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "haunter",
+              "level": 55,
+              "moves": [
+                "confuseray",
+                "nightshade",
+                "hypnosis",
+                "dreameater"
+              ]
+            },
+            "answer": {
+              "move": "earthquake",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 207.3,
+              "maxPercent": 243.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 60 Golem Earthquake vs. Lvl 55 Haunter: 255-300 (162.4 - 191%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "dreameater",
+              "minPercent": 36.7,
+              "maxPercent": 43.4,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 55 Haunter Dream Eater vs. Lvl 60 Golem: 61-72 (30 - 35.4%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "arbok",
+              "level": 58,
+              "moves": [
+                "bite",
+                "glare",
+                "screech",
+                "acid"
+              ]
+            },
+            "answer": {
+              "move": "earthquake",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 130.1,
+              "maxPercent": 153.4,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 60 Golem Earthquake vs. Lvl 58 Arbok: 190-224 (103.8 - 122.4%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "bite",
+              "minPercent": 5.4,
+              "maxPercent": 6.6,
+              "ko": "",
+              "description": "Lvl 58 Arbok Bite vs. Lvl 60 Golem: 9-11 (4.4 - 5.4%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "gengar",
+              "level": 60,
+              "moves": [
+                "confuseray",
+                "nightshade",
+                "toxic",
+                "dreameater"
+              ]
+            },
+            "answer": {
+              "move": "earthquake",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 132.5,
+              "maxPercent": 156.3,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 60 Golem Earthquake vs. Lvl 60 Gengar: 200-236 (105.8 - 124.8%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "dreameater",
+              "minPercent": 47.6,
+              "maxPercent": 56,
+              "ko": "81.8% chance to 2HKO",
+              "description": "Lvl 60 Gengar Dream Eater vs. Lvl 60 Golem: 79-93 (38.9 - 45.8%) -- 81.8% chance to 2HKO"
+            }
+          }
+        ],
+        "lead": "golem",
+        "warnings": []
+      },
+      {
+        "boss": "lance",
+        "name": "Lance",
+        "location": "Indigo Plateau",
+        "stage": 8,
+        "level": 62,
+        "usable": [
+          {
+            "member": "slowbro",
+            "form": "slowbro",
+            "moves": [
+              "surf",
+              "psychic",
+              "thunderwave",
+              "submission"
+            ]
+          },
+          {
+            "member": "parasect",
+            "form": "parasect",
+            "moves": [
+              "solarbeam",
+              "spore",
+              "dig",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "pidgeot",
+            "form": "pidgeot",
+            "moves": [
+              "hyperbeam",
+              "skyattack",
+              "rest",
+              "takedown"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "raichu",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "golem",
+            "form": "golem",
+            "moves": [
+              "rockslide",
+              "earthquake",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "tauros",
+            "form": "tauros",
+            "moves": [
+              "hyperbeam",
+              "strength",
+              "takedown",
+              "stomp"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "gyarados",
+              "level": 58,
+              "moves": [
+                "dragonrage",
+                "leer",
+                "hydropump",
+                "hyperbeam"
+              ]
+            },
+            "answer": {
+              "move": "thunderbolt",
+              "member": "raichu",
+              "form": "raichu",
+              "minPercent": 138,
+              "maxPercent": 162.6,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 62 Raichu Thunderbolt vs. Lvl 58 Gyarados: 258-304 (115.1 - 135.7%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hyperbeam",
+              "minPercent": 70.5,
+              "maxPercent": 83.6,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 58 Gyarados Hyper Beam vs. Lvl 62 Raichu: 103-122 (55.6 - 65.9%) -- guaranteed 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "dragonair",
+              "level": 56,
+              "moves": [
+                "agility",
+                "slam",
+                "dragonrage",
+                "hyperbeam"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 102.1,
+              "maxPercent": 120.3,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 62 Tauros Hyper Beam vs. Lvl 56 Dragonair: 146-172 (82 - 96.6%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hyperbeam",
+              "minPercent": 31.5,
+              "maxPercent": 37.6,
+              "ko": "89.4% chance to 3HKO",
+              "description": "Lvl 56 Dragonair Hyper Beam vs. Lvl 62 Tauros: 52-62 (25.4 - 30.3%) -- 89.4% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "dragonair",
+              "level": 56,
+              "moves": [
+                "agility",
+                "slam",
+                "dragonrage",
+                "hyperbeam"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 102.1,
+              "maxPercent": 120.3,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 62 Tauros Hyper Beam vs. Lvl 56 Dragonair: 146-172 (82 - 96.6%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hyperbeam",
+              "minPercent": 31.5,
+              "maxPercent": 37.6,
+              "ko": "89.4% chance to 3HKO",
+              "description": "Lvl 56 Dragonair Hyper Beam vs. Lvl 62 Tauros: 52-62 (25.4 - 30.3%) -- 89.4% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "aerodactyl",
+              "level": 60,
+              "moves": [
+                "supersonic",
+                "bite",
+                "takedown",
+                "hyperbeam"
+              ]
+            },
+            "answer": {
+              "move": "thunderbolt",
+              "member": "raichu",
+              "form": "raichu",
+              "minPercent": 97.1,
+              "maxPercent": 114.3,
+              "ko": "82.1% chance to OHKO",
+              "description": "Lvl 62 Raichu Thunderbolt vs. Lvl 60 Aerodactyl: 170-200 (79.8 - 93.8%) -- 82.1% chance to OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "hyperbeam",
+              "minPercent": 67.1,
+              "maxPercent": 79.5,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 60 Aerodactyl Hyper Beam vs. Lvl 62 Raichu: 98-116 (52.9 - 62.7%) -- guaranteed 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "dragonite",
+              "level": 62,
+              "moves": [
+                "agility",
+                "slam",
+                "barrier",
+                "hyperbeam"
+              ]
+            },
+            "answer": {
+              "move": "rockslide",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 58.8,
+              "maxPercent": 69.1,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 62 Golem Rock Slide vs. Lvl 62 Dragonite: 114-134 (48.9 - 57.5%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "hyperbeam",
+              "minPercent": 19.9,
+              "maxPercent": 24,
+              "ko": "possible 5HKO",
+              "description": "Lvl 62 Dragonite Hyper Beam vs. Lvl 62 Golem: 34-41 (16.1 - 19.5%) -- possible 5HKO"
+            }
+          }
+        ],
+        "lead": "raichu",
+        "warnings": []
+      },
+      {
+        "boss": "rival-champion",
+        "name": "Rival",
+        "location": "Indigo Plateau (Champion)",
+        "stage": 8,
+        "level": 65,
+        "rivalStarter": "charmander",
+        "usable": [
+          {
+            "member": "slowbro",
+            "form": "slowbro",
+            "moves": [
+              "surf",
+              "psychic",
+              "thunderwave",
+              "submission"
+            ]
+          },
+          {
+            "member": "parasect",
+            "form": "parasect",
+            "moves": [
+              "solarbeam",
+              "spore",
+              "dig",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "pidgeot",
+            "form": "pidgeot",
+            "moves": [
+              "hyperbeam",
+              "skyattack",
+              "rest",
+              "takedown"
+            ]
+          },
+          {
+            "member": "raichu",
+            "form": "raichu",
+            "moves": [
+              "thunderbolt",
+              "thunderwave",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "golem",
+            "form": "golem",
+            "moves": [
+              "rockslide",
+              "earthquake",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "tauros",
+            "form": "tauros",
+            "moves": [
+              "hyperbeam",
+              "strength",
+              "takedown",
+              "stomp"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeot",
+              "level": 61,
+              "moves": [
+                "whirlwind",
+                "wingattack",
+                "skyattack",
+                "mirrormove"
+              ]
+            },
+            "answer": {
+              "move": "thunderbolt",
+              "member": "raichu",
+              "form": "raichu",
+              "minPercent": 95.1,
+              "maxPercent": 112.1,
+              "ko": "71.8% chance to OHKO",
+              "description": "Lvl 65 Raichu Thunderbolt vs. Lvl 61 Pidgeot: 173-204 (78.6 - 92.7%) -- 71.8% chance to OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "skyattack",
+              "minPercent": 36.6,
+              "maxPercent": 43.1,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 61 Pidgeot Sky Attack vs. Lvl 65 Raichu: 56-66 (29 - 34.1%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "alakazam",
+              "level": 59,
+              "moves": [
+                "psybeam",
+                "recover",
+                "psychic",
+                "reflect"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 135.7,
+              "maxPercent": 159.4,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 65 Tauros Hyper Beam vs. Lvl 59 Alakazam: 194-228 (107.7 - 126.6%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "psychic",
+              "minPercent": 48.8,
+              "maxPercent": 57.6,
+              "ko": "95.9% chance to 2HKO",
+              "description": "Lvl 59 Alakazam Psychic vs. Lvl 65 Tauros: 84-99 (39.4 - 46.4%) -- 95.9% chance to 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rhydon",
+              "level": 61,
+              "moves": [
+                "tailwhip",
+                "furyattack",
+                "horndrill",
+                "leer"
+              ]
+            },
+            "answer": {
+              "move": "solarbeam",
+              "member": "parasect",
+              "form": "parasect",
+              "minPercent": 246.6,
+              "maxPercent": 290.4,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 65 Parasect Solar Beam vs. Lvl 61 Rhydon: 513-604 (207.6 - 244.5%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "furyattack",
+              "minPercent": 19.6,
+              "maxPercent": 23.5,
+              "ko": "approx. possible 5HKO",
+              "description": "Lvl 61 Rhydon Fury Attack (3 hits) vs. Lvl 65 Parasect: 30-36 (15.5 - 18.6%) -- approx. possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "exeggutor",
+              "level": 61,
+              "moves": [
+                "barrage",
+                "hypnosis",
+                "stomp"
+              ]
+            },
+            "answer": {
+              "move": "skyattack",
+              "member": "pidgeot",
+              "form": "pidgeot",
+              "minPercent": 106.6,
+              "maxPercent": 125.5,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 65 Pidgeot Sky Attack vs. Lvl 61 Exeggutor: 209-246 (88.9 - 104.6%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 18.1,
+              "maxPercent": 21.4,
+              "ko": "possible 5HKO",
+              "description": "Lvl 61 Exeggutor Stomp vs. Lvl 65 Pidgeot: 33-39 (14.7 - 17.4%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "gyarados",
+              "level": 63,
+              "moves": [
+                "dragonrage",
+                "leer",
+                "hydropump",
+                "hyperbeam"
+              ]
+            },
+            "answer": {
+              "move": "thunderbolt",
+              "member": "raichu",
+              "form": "raichu",
+              "minPercent": 132.7,
+              "maxPercent": 156.4,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 65 Raichu Thunderbolt vs. Lvl 63 Gyarados: 268-316 (110.7 - 130.5%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hyperbeam",
+              "minPercent": 75.8,
+              "maxPercent": 89.5,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 63 Gyarados Hyper Beam vs. Lvl 65 Raichu: 116-137 (60.1 - 70.9%) -- guaranteed 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charizard",
+              "level": 65,
+              "moves": [
+                "rage",
+                "slash",
+                "fireblast",
+                "firespin"
+              ]
+            },
+            "answer": {
+              "move": "rockslide",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 150,
+              "maxPercent": 176.3,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 65 Golem Rock Slide vs. Lvl 65 Charizard: 279-328 (122.9 - 144.4%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "fireblast",
+              "minPercent": 31.3,
+              "maxPercent": 36.9,
+              "ko": "73.1% chance to 3HKO",
+              "description": "Lvl 65 Charizard Fire Blast vs. Lvl 65 Golem: 56-66 (25.5 - 30.1%) -- 73.1% chance to 3HKO"
+            }
+          }
+        ],
+        "lead": "raichu",
+        "warnings": []
+      }
+    ]
+  }
+}
