@@ -1,0 +1,15 @@
+{
+  "name": "@pokevidgen/core",
+  "private": true,
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": { "typecheck": "tsc -p ." },
+  "dependencies": {
+    "@pkmn/data": "^0.9.0",
+    "@pkmn/dex": "^0.9.0",
+    "@pkmn/sets": "^5.1.0",
+    "@pkmn/sim": "^0.9.0",
+    "@smogon/calc": "^0.10.0",
+    "zod": "^3.23.0"
+  }
+}

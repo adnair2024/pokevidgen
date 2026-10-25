@@ -1,0 +1,11 @@
+node_modules/
+data/cache/
+out/
+public/voice/
+packages/video/public/voice/
+*.onnx
+*.pt
+models/
+.env
+.venv/
+__pycache__/

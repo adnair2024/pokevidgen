@@ -1,0 +1,7 @@
+{
+  "name": "@pokevidgen/cli",
+  "private": true,
+  "type": "module",
+  "scripts": { "typecheck": "tsc -p ." },
+  "dependencies": { "@pokevidgen/core": "workspace:*" }
+}

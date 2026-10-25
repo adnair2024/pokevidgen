@@ -1,0 +1,30 @@
+{
+  "name": "pokevidgen",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "pnpm@10.0.0",
+  "scripts": {
+    "data:sync": "pnpm --filter @pokevidgen/cli exec tsx src/data-sync.ts",
+    "team": "pnpm --filter @pokevidgen/cli exec tsx src/team.ts",
+    "make": "pnpm --filter @pokevidgen/cli exec tsx src/make.ts",
+    "typecheck": "pnpm -r typecheck",
+    "lint": "eslint .",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "eslint": "^9.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "typescript-eslint": "^8.0.0",
+    "vitest": "^2.1.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
+}
