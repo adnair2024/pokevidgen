@@ -128,6 +128,8 @@ Ordered so each milestone produces something runnable. See `CLAUDE.md` for the f
 ## M10: `pnpm make` and random
 - [x] One-click "Make video" on the build form and the Video tab: team (random seed unless given) -> script -> lint -> voice -> full (or half-size) render, one background job; refuses if voice isn't set up or another job runs
 - [x] `pnpm make --game red [--seed N] [--preview] [--review]` and `pnpm make --resume <id>`
+- [x] "If your favorite Pokémon is X" template: `--favorite` / a field on the build form. X is required and shown first, the hook, outro and its line change, the title reads "A team for X fans", and everything else (render, voice, TikTok) is the same video. Marked by `team.theme`
+- [ ] More concepts on the same mechanism (mono-type, "no evolutions", "beat Lance with only X")
 - [ ] Input parsing: paste, name list, description, partial teams (fuzzy name matching)
 - [ ] `--fix` / `--as-is`
 - [ ] Draft ("pick 1 of 3"), random and chaos modes, `--batch`

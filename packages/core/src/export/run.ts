@@ -111,13 +111,17 @@ export const buildRun = async (data: PlannerData, team: Team, opts: { seed?: num
   const { gen, game } = data;
   const seed = opts.seed ?? team.seed ?? 1;
   const factsBySpecies = buildFacts(data, team);
+  const favorite = team.theme?.kind === 'favorite' ? team.theme.species : undefined;
+  // The favorite is revealed first; everything else in the order you would get it.
   const ordered = team.members
     .map((m, i) => ({ m, i }))
-    .sort((a, b) => a.m.acquisition!.steps[0]!.stage - b.m.acquisition!.steps[0]!.stage || a.i - b.i)
+    .sort((a, b) =>
+      Number(b.m.set.species === favorite) - Number(a.m.set.species === favorite)
+      || a.m.acquisition!.steps[0]!.stage - b.m.acquisition!.steps[0]!.stage || a.i - b.i)
     .map(({ m }) => m);
 
   const script = writeScript({
-    gen, game, seed,
+    gen, game, seed, favorite,
     picks: ordered.map((m) => ({ species: m.set.species, facts: factsBySpecies.get(m.set.species)! })),
   });
 
@@ -140,7 +144,7 @@ export const buildRun = async (data: PlannerData, team: Team, opts: { seed?: num
 
   return RunSchema.parse({
     id: team.id,
-    title: `Building a ${game.region} team`,
+    title: favorite ? `A team for ${gen.species.get(favorite)?.name ?? favorite} fans` : `Building a ${game.region} team`,
     teamId: team.id,
     game: game.id,
     region: game.region,

@@ -17,6 +17,8 @@ export type PlannerInput = {
   seed: number;
   /** Species that must be on the team; the planner errors rather than dropping one. */
   must?: string[];
+  /** Build the team around this Pokémon ("if your favorite is X"): it is required, and the team is marked with the theme. */
+  favorite?: string;
   ban?: string[];
   noTrades?: boolean;
   noLegendaries?: boolean;
@@ -204,7 +206,8 @@ export const planIngameTeam = async (data: PlannerData, input: PlannerInput): Pr
   });
   const level = plannedLevel(data);
   const ban = new Set((input.ban ?? []).map(toID));
-  const must = (input.must ?? []).map(toID);
+  const favorite = input.favorite ? toID(input.favorite) : undefined;
+  const must = [...new Set([...(favorite ? [favorite] : []), ...(input.must ?? []).map(toID)])];
 
   // --- Candidates: obtainable, not post-game, not banned, and final forms (unless the user asked for it).
   const groupsOf = (chain: string[]) =>
@@ -377,14 +380,16 @@ export const planIngameTeam = async (data: PlannerData, input: PlannerInput): Pr
   }
 
   const types = chosen.map((c) => c.types);
-  const id = `${data.game.id}-s${input.seed}`;
-  const draft: Team = { id, kind: 'ingame', target: data.game.id, seed: input.seed, members, analysis: {} };
+  const id = favorite ? `${data.game.id}-fav-${favorite}-s${input.seed}` : `${data.game.id}-s${input.seed}`;
+  const theme = favorite ? ({ kind: 'favorite', species: favorite } as const) : undefined;
+  const draft: Team = { id, kind: 'ingame', target: data.game.id, seed: input.seed, theme, members, analysis: {} };
   const starter = chooseStarter(data, draft);
   return {
     id,
     kind: 'ingame',
     target: data.game.id,
     seed: input.seed,
+    theme,
     members,
     analysis: {
       plannedLevel: level,

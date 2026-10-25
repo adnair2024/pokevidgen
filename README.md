@@ -23,6 +23,7 @@ environment and about 500 MB of models): press "Set up voice" there, or run `pnp
 pnpm data:sync                              # fetch and cache PokeAPI / Smogon data
 pnpm run team ingame --game red --seed 1    # note: `pnpm team` is a pnpm built-in, so use `pnpm run team`
 pnpm make --game red --seed 1              # team -> script -> voice -> full render, in one command (random seed if omitted)
+pnpm make --game red --favorite charizard   # "if your favorite is Charizard" video: a team built around it, shown first
 pnpm make --game red --review              # stop after the script; edit runs/<id>.json, then: pnpm make --resume <id>
 pnpm voice generate runs/red-s1.json       # narration with Kokoro + Whisper timings (cached per line)
 pnpm video render runs/red-s1.json --scale 0.5 --manifest packages/video/public/voice/red-s1/manifest.json

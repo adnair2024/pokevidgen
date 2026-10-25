@@ -8,7 +8,7 @@ import type { Team } from '../types.js';
 import { loadDictionary, loadPronunciationWords } from './dictionary.js';
 import { buildFacts, FactSchema } from './facts.js';
 import { LIMITS, lintRun, normalize, type LintContext } from './lint.js';
-import { HOOKS, OUTROS, TARGET_WORDS, wordCount } from './templates.js';
+import { FAVORITE_HOOKS, FAVORITE_OUTROS, HOOKS, OUTROS, TARGET_WORDS, wordCount } from './templates.js';
 
 const hasCache = await exists(cacheDir('pokeapi', 'encounters'));
 
@@ -105,6 +105,47 @@ describe.skipIf(!hasCache)('script, facts and lint (needs `pnpm data:sync`)', ()
         const allowed = new Set(p.line.factIds.flatMap((id) => byId.get(id)!.mentions.numbers));
         for (const m of p.line.text.matchAll(/\d+/g)) expect(allowed.has(Number(m[0])), `${m[0]} in "${p.line.text}"`).toBe(true);
       }
+    });
+  });
+
+  describe('"if your favorite is X" template', () => {
+    const favoriteRun = async (seed: number, favorite: string, data = red) => buildRun(data, await planIngameTeam(data, { seed, favorite }));
+
+    it('says the favorite in the hook, reveals it first, and passes lint', async () => {
+      for (const [seed, fav] of [[3, 'charizard'], [4, 'pikachu'], [5, 'gyarados'], [6, 'mr. mime']] as const) {
+        const r = await favoriteRun(seed, fav);
+        const name = red.gen.species.get(fav)!.name;
+        expect(r.voiceover.hook, fav).toContain(name);
+        expect(wordCount(r.voiceover.hook)).toBeLessThanOrEqual(LIMITS.hookWords);
+        expect(FAVORITE_OUTROS).toContain(r.voiceover.outro);
+        expect(r.picks[0]!.name).toBe(name);
+        expect(r.picks[0]!.line.text).toMatch(/favorite|heart/i);
+        expect(r.picks.slice(1).some((p) => /favorite/i.test(p.line.text))).toBe(false);
+        expect(r.title).toContain(name);
+        const result = lintRun(r, ctx);
+        expect(result.issues.filter((i) => i.level === 'error'), fav).toEqual([]);
+        expect(wordCount(r.picks[0]!.line.text)).toBeLessThanOrEqual(LIMITS.pickMaxWords);
+      }
+    });
+
+    it('keeps the other picks in the order you would get them', async () => {
+      const r = await favoriteRun(3, 'charizard');
+      const stages = r.picks.slice(1).map((p) => p.stage);
+      expect(stages).toEqual([...stages].sort((a, b) => a - b));
+    });
+
+    it('keeps the hook inside the word limit even for a two-word name', () => {
+      for (const h of FAVORITE_HOOKS('Mr. Mime', 'Kanto')) expect(wordCount(h)).toBeLessThanOrEqual(12);
+      expect(FAVORITE_HOOKS('Mr. Mime', 'Kanto').length).toBeGreaterThan(0);
+    });
+
+    it('leaves ordinary scripts untouched', async () => {
+      expect(HOOKS('Kanto')).toContain(run.voiceover.hook);
+      expect(OUTROS).toContain(run.voiceover.outro);
+    });
+
+    it('is deterministic for a seed', async () => {
+      expect(await favoriteRun(3, 'charizard')).toEqual(await favoriteRun(3, 'charizard'));
     });
   });
 

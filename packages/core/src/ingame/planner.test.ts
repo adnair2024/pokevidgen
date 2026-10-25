@@ -210,6 +210,32 @@ describe.skipIf(!hasCache)('in-game planner (needs `pnpm data:sync`)', () => {
     });
   });
 
+  describe('favorite Pokémon', () => {
+    it('is on the team, marks the theme, and gets its own id', async () => {
+      const t = await plan({ seed: 3, favorite: 'Charizard' });
+      expect(t.members.map((m) => m.set.species)).toContain('charizard');
+      expect(t.theme).toEqual({ kind: 'favorite', species: 'charizard' });
+      expect(t.id).toBe('red-fav-charizard-s3');
+      expect(() => TeamSchema.parse(t)).not.toThrow();
+    });
+
+    it('is not counted twice when it is also required, and other required Pokémon are kept', async () => {
+      const t = await plan({ seed: 3, favorite: 'charizard', must: ['charizard', 'pikachu'] });
+      const species = t.members.map((m) => m.set.species);
+      expect(species.filter((s) => s === 'charizard')).toHaveLength(1);
+      expect(species).toContain('pikachu');
+    });
+
+    it('reports a favorite that cannot be obtained instead of dropping it', async () => {
+      await expect(plan({ favorite: 'mew' })).rejects.toThrow(PlannerError);
+    });
+
+    it('does not mark ordinary teams with a theme', () => {
+      expect(team.theme).toBeUndefined();
+      expect(team.id).toBe('red-s1');
+    });
+  });
+
   it('picks the rival starter that beats the player starter', () => {
     const s = team.analysis['starter'] as { player: string; rival: string };
     expect(red.bosses.rivalStarterFor[s.player]).toBe(s.rival);

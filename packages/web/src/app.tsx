@@ -42,6 +42,7 @@ const connectMessage = (connected?: string, error?: string): { kind: 'error' | '
 const BuildBody = z.object({
   game: z.string().refine((g) => gameIds().includes(g), 'Unknown game'),
   seed: z.string().trim().regex(/^\d*$/, 'Seed must be a whole number').optional().default(''),
+  favorite: z.string().trim().max(40).regex(/^[A-Za-z0-9 .'\-:♀♂é]*$/, 'Favorite must be a Pokémon name').optional().default(''),
   must: z.string().optional().default(''),
   ban: z.string().optional().default(''),
   noTrades: z.string().optional(),
@@ -107,6 +108,7 @@ export const createApp = (deps: Deps): Hono => {
     const values: BuildFormValues = {
       game: String(body['game'] ?? 'red'),
       seed: String(body['seed'] ?? ''),
+      favorite: String(body['favorite'] ?? ''),
       must: String(body['must'] ?? ''),
       ban: String(body['ban'] ?? ''),
       noTrades: body['noTrades'] === 'on',
@@ -131,6 +133,7 @@ export const createApp = (deps: Deps): Hono => {
       const team = TeamSchema.parse(
         await planIngameTeam(data, {
           seed,
+          favorite: input.favorite || undefined,
           must: list(input.must),
           ban: list(input.ban),
           noTrades: input.noTrades === 'on',

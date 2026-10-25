@@ -58,6 +58,22 @@ export const HOOKS = (region: string): string[] => [
   `Can this ${region} team really beat the Elite Four and your rival?`,
   `Only six Pokémon. Can this ${region} team really beat the Elite Four?`,
 ];
+/** "If your favorite Pokémon is X" videos. The hook has to fit the 12-word limit even with a long name. */
+export const FAVORITE_HOOKS = (name: string, region: string): string[] =>
+  [
+    `Your favorite is ${name}? Here is a ${region} team built around it.`,
+    `If your favorite is ${name}, here is a team built around it.`,
+    `${name} is your favorite? Then build your whole team around it.`,
+    `Your favorite is ${name}? Here is its team.`,
+  ].filter((h) => wordCount(h) <= 12);
+export const FAVORITE_OUTROS: string[] = [
+  `Who is your favorite? Comment it and get a team.`,
+  `Comment your favorite Pokémon and I will build its team.`,
+  `Would you swap anyone? Tell me your favorite below.`,
+];
+/** Said before the favorite's own line; it has no name, because the line itself names the Pokémon a few words in. */
+const FAVORITE_LEADS: string[] = ['Your favorite goes first.', 'Built around your favorite.', 'The heart of the team.'];
+
 export const OUTROS: string[] = [
   `That's the team. Would you run it? Drop yours in the comments.`,
   `Which Pokémon would you swap out? Tell me in the comments below.`,
@@ -102,14 +118,14 @@ const SHORT_TEMPLATES: Array<(c: PlainCtx) => string> = [
   (c) => `Our next pick is ${c.name}, and ${c.move} becomes its main weapon ${c.when}.`,
 ];
 
-export type WriterInput = { gen: Generation; game: GameConfig; picks: PickInput[]; seed: number };
+export type WriterInput = { gen: Generation; game: GameConfig; picks: PickInput[]; seed: number; /** Species id of the favorite, for the "if your favorite is X" concept. */ favorite?: string };
 
 /**
  * The template writer: no API key, deterministic for a seed. For each pick it takes the strongest facts
  * (boss matchup > calc > key move > availability), fills a template, and adds tail sentences while the
  * line stays within the word target.
  */
-export const writeScript = ({ gen, game, picks, seed }: WriterInput): Script => {
+export const writeScript = ({ gen, game, picks, seed, favorite }: WriterInput): Script => {
   const rng = makeRng(seed);
 
   // Keep the intro cards varied: at most all but two picks are about a boss (gold cards); the rest
@@ -203,9 +219,14 @@ export const writeScript = ({ gen, game, picks, seed }: WriterInput): Script => 
       }
     }
 
+    // The favorite's line starts with a short lead, so its body gets that many fewer words.
+    const lead = pick.species === favorite ? choose(rng, FAVORITE_LEADS) : '';
+    const reserve = lead ? wordCount(lead) : 0;
+    const limit = { min: TARGET_WORDS.min - reserve, max: TARGET_WORDS.max - reserve };
+
     // Keep lines inside the word window; of those, pick one with the seeded RNG so scripts vary.
-    const inWindow = candidates.filter((c) => wordCount(c.text) >= TARGET_WORDS.min && wordCount(c.text) <= TARGET_WORDS.max);
-    const fits = candidates.filter((c) => wordCount(c.text) <= TARGET_WORDS.max);
+    const inWindow = candidates.filter((c) => wordCount(c.text) >= limit.min && wordCount(c.text) <= limit.max);
+    const fits = candidates.filter((c) => wordCount(c.text) <= limit.max);
     // Never empty: if nothing fits the limit, fall back to the shortest line (lint will flag it).
     const longest = fits.length ? Math.max(...fits.map((c) => wordCount(c.text))) : 0;
     const shortest = Math.min(...candidates.map((c) => wordCount(c.text)));
@@ -226,10 +247,12 @@ export const writeScript = ({ gen, game, picks, seed }: WriterInput): Script => 
     const { text, factIds } = choose(rng, pool.filter((c) => repeats(c) === least));
     for (const c of [{ text, factIds }]) for (const m of movesOf(c)) usedMoves.add(m);
     previousTail = tailOf({ text, factIds });
-    lines.push({ species: pick.species, text: cap(text), factIds, featured });
+    lines.push({ species: pick.species, text: lead ? `${lead} ${cap(text)}` : cap(text), factIds, featured });
   }
 
-  return { hook: choose(rng, HOOKS(game.region)), outro: choose(rng, OUTROS), picks: lines };
+  const favoriteName = favorite ? gen.species.get(favorite)?.name : undefined;
+  const hook = choose(rng, favoriteName ? FAVORITE_HOOKS(favoriteName, game.region) : HOOKS(game.region));
+  return { hook, outro: choose(rng, favoriteName ? FAVORITE_OUTROS : OUTROS), picks: lines };
 };
 
 export { FACT_PRIORITY };

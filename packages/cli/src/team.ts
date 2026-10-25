@@ -24,7 +24,7 @@ const summary = (team: Team): string => {
 const [command, ...rest] = process.argv.slice(2);
 
 if (command !== 'ingame') {
-  console.error('Usage: pnpm team ingame --game <red|blue> [--seed N] [--must a,b] [--ban a,b] [--no-trades] [--no-legendaries] [--nuzlocke]');
+  console.error('Usage: pnpm team ingame --game <red|blue> [--seed N] [--favorite name] [--must a,b] [--ban a,b] [--no-trades] [--no-legendaries] [--nuzlocke]');
   process.exit(command ? 1 : 0);
 }
 
@@ -35,6 +35,7 @@ const { values } = parseArgs({
     style: { type: 'string', default: 'balanced' },
     seed: { type: 'string' },
     must: { type: 'string' },
+    favorite: { type: 'string' },
     ban: { type: 'string' },
     'no-trades': { type: 'boolean', default: false },
     'no-legendaries': { type: 'boolean', default: false },
@@ -63,6 +64,7 @@ try {
   const team = TeamSchema.parse(
     await planIngameTeam(data, {
       seed,
+      favorite: values.favorite,
       must: list(values.must),
       ban: list(values.ban),
       noTrades: values['no-trades'],

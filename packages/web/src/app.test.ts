@@ -548,6 +548,26 @@ describe.skipIf(!hasCache)('with synced data', () => {
       expect((await deps.runs.get('red-s11'))!.picks).toHaveLength(6);
     });
 
+    it('builds a favorite-Pokémon video from the form', async () => {
+      finish();
+      const res = await app.request('/build', makeForm({ game: 'red', seed: '21', favorite: 'Charizard' }));
+      expect(res.headers.get('hx-redirect')).toBe('/teams/red-fav-charizard-s21?tab=video');
+      const team = (await deps.store.get('red-fav-charizard-s21'))!;
+      expect(team.theme).toEqual({ kind: 'favorite', species: 'charizard' });
+      const run = (await deps.runs.get('red-fav-charizard-s21'))!;
+      expect(run.picks[0]!.pokemon).toBe('charizard');
+      expect(run.voiceover.hook).toContain('Charizard');
+      expect(started.at(-1)!.teamId).toBe('red-fav-charizard-s21');
+      finish();
+    });
+
+    it('reports a favorite that cannot be had, and a malformed one', async () => {
+      finish();
+      expect(await (await app.request('/build', makeForm({ game: 'red', seed: '22', favorite: 'mew' }))).text()).toContain('mew is not obtainable');
+      const bad = await app.request('/build', { ...form({ game: 'red', favorite: '<script>' }), headers: htmx });
+      expect(await bad.text()).toContain('Favorite must be a Pokémon name');
+    });
+
     it('renders half size when asked', async () => {
       finish();
       await app.request('/build', makeForm({ game: 'red', seed: '12', quick: 'on' }));
