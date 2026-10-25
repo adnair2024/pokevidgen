@@ -55,6 +55,16 @@ export const roundPercent = (n: number): number => Math.round(n / 5) * 5;
 const nameOf = (gen: Generation, id: string): string => gen.species.get(id)?.name ?? id;
 const moveNameOf = (gen: Generation, id: string): string => gen.moves.get(id)?.name ?? id;
 
+/**
+ * How narration refers to a boss. A name shared by several fights (Giovanni is met three times) says which one,
+ * since "Giovanni" alone sounds like the first time you meet him; the rival stays "your rival".
+ */
+export const spokenBossName = (boss: Boss, all: readonly Boss[]): string => {
+  if (boss.name === 'Rival') return 'your rival';
+  if (all.filter((b) => b.name === boss.name).length < 2) return boss.name;
+  return boss.kind === 'gymLeader' ? `${boss.name} at the ${boss.location.replace(/ City$/, '')} Gym` : `${boss.name} at ${boss.location}`;
+};
+
 const bossFacts = (data: PlannerData, member: Member, plans: BossPlan[]): Fact[] => {
   const { gen } = data;
   const species = member.set.species;
@@ -67,7 +77,7 @@ const bossFacts = (data: PlannerData, member: Member, plans: BossPlan[]): Fact[]
     const best = mine.reduce((a, b) => (b.answer!.maxPercent > a.answer!.maxPercent ? b : a));
     const a = best.answer!;
     if (a.maxPercent < 40) continue; // not worth bragging about
-    const bossName = plan.name === 'Rival' ? 'your rival' : plan.name;
+    const bossName = spokenBossName(boss, data.bosses.bosses);
     const common = {
       species, bossId: plan.boss, boss: bossName, bossKind: boss.kind, bossMon: best.bossMon.species,
     };

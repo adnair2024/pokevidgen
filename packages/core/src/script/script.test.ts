@@ -6,7 +6,7 @@ import { loadPlannerData, type PlannerData } from '../ingame/data.js';
 import { planIngameTeam } from '../ingame/planner.js';
 import type { Team } from '../types.js';
 import { loadDictionary, loadPronunciationWords } from './dictionary.js';
-import { buildFacts, FactSchema } from './facts.js';
+import { buildFacts, FactSchema, spokenBossName } from './facts.js';
 import { LIMITS, lintRun, normalize, type LintContext } from './lint.js';
 import { FAVORITE_HOOKS, FAVORITE_OUTROS, HOOKS, MONO_HOOKS, MONO_OUTROS, OUTROS, TARGET_WORDS, wordCount } from './templates.js';
 
@@ -168,6 +168,29 @@ describe.skipIf(!hasCache)('script, facts and lint (needs `pnpm data:sync`)', ()
       expect(r.voiceover.hook).toContain('Water-only');
       expect(wordCount(r.voiceover.hook)).toBeLessThanOrEqual(LIMITS.hookWords);
       expect(r.picks[0]!.pokemon).toBe('gyarados');
+    });
+  });
+
+  describe('boss names in the narration', () => {
+    it('says which fight when a name repeats (Giovanni is met three times), and not otherwise', () => {
+      const all = red.bosses.bosses;
+      const named = (id: string) => spokenBossName(all.find((b) => b.id === id)!, all);
+      expect(named('giovanni-gym')).toBe('Giovanni at the Viridian Gym');
+      expect(named('giovanni-hideout')).toMatch(/^Giovanni at Rocket Hideout/);
+      expect(named('giovanni-silph')).toMatch(/^Giovanni at Silph Co/);
+      expect(named('brock')).toBe('Brock');
+      expect(named('rival-cerulean')).toBe('your rival');
+    });
+
+    it('never calls a pick the answer to a boss that comes before it is obtainable', () => {
+      for (const m of team.members) {
+        const first = m.acquisition!.steps[0]!.stage;
+        for (const f of buildFacts(red, team).get(m.set.species)!) {
+          if (f.kind !== 'matchup') continue;
+          const plan = (team.analysis['bosses'] as Array<{ boss: string; stage: number }>).find((p) => p.boss === f.bossId)!;
+          expect(first, `${m.set.species} vs ${f.bossId}`).toBeLessThanOrEqual(plan.stage);
+        }
+      }
     });
   });
 
