@@ -16,13 +16,15 @@ export type Deps = {
   publish: PublishService;
   /** Where renders are written (`out/`). */
   outDir: string;
+  /** Where music files live (`packages/video/public/audio`); a run's `music` is `audio/<file>`. */
+  musicDir: string;
   /** Planner data for a game, loaded once and reused (it is a few MB of JSON). */
   data: (gameId: string) => Promise<PlannerData>;
   /** Everything `lintRun` needs for a game (the dictionary and respellings are loaded once). */
   lintContext: (gameId: string) => Promise<LintContext>;
 };
 
-export const createDeps = (opts: { teamsDir?: string; runsDir?: string; outDir?: string; jobs?: Jobs; voice?: VoiceService; publish?: PublishService } = {}): Deps => {
+export const createDeps = (opts: { teamsDir?: string; runsDir?: string; outDir?: string; musicDir?: string; jobs?: Jobs; voice?: VoiceService; publish?: PublishService } = {}): Deps => {
   const cache = new Map<string, Promise<PlannerData>>();
   const data = (gameId: string): Promise<PlannerData> => {
     let p = cache.get(gameId);
@@ -49,6 +51,7 @@ export const createDeps = (opts: { teamsDir?: string; runsDir?: string; outDir?:
     voice: opts.voice ?? createVoiceService(),
     publish: opts.publish ?? createPublishService(),
     outDir: opts.outDir ?? repoDir('out'),
+    musicDir: opts.musicDir ?? repoDir('packages', 'video', 'public', 'audio'),
     data,
     lintContext,
   };

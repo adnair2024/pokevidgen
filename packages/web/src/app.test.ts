@@ -23,6 +23,7 @@ let voiceDir: string;
 let auditionDir: string;
 let deps: Deps;
 let publishDir: string;
+let musicDir: string;
 
 /** TikTok's HTTP API, faked: records requests and answers the way the documentation says. */
 const tiktok = {
@@ -90,10 +91,13 @@ beforeAll(async () => {
   voiceDir = await mkdtemp(join(tmpdir(), 'pokevidgen-voice-'));
   auditionDir = await mkdtemp(join(tmpdir(), 'pokevidgen-audition-'));
   publishDir = await mkdtemp(join(tmpdir(), 'pokevidgen-publish-'));
+  musicDir = await mkdtemp(join(tmpdir(), 'pokevidgen-music-'));
+  await writeFile(join(musicDir, 'song-one.ogg'), '0123456789');
+  await writeFile(join(musicDir, 'notes.txt'), 'not music');
   const publish = createPublishService({
     fetch: fakeTikTok, dir: publishDir, credentials: () => ({ clientKey: 'ckey', clientSecret: 'csecret' }), redirectUri: () => 'http://127.0.0.1:3000/publish/tiktok/callback',
   });
-  deps = createDeps({ teamsDir: dir, runsDir, outDir, jobs: fakeJobs, voice: fakeVoice, publish });
+  deps = createDeps({ teamsDir: dir, runsDir, outDir, jobs: fakeJobs, voice: fakeVoice, publish, musicDir });
   app = createApp(deps);
 });
 afterAll(async () => {
@@ -103,6 +107,7 @@ afterAll(async () => {
   await rm(voiceDir, { recursive: true, force: true });
   await rm(auditionDir, { recursive: true, force: true });
   await rm(publishDir, { recursive: true, force: true });
+  await rm(musicDir, { recursive: true, force: true });
 });
 
 describe('pages that need no data', () => {
@@ -625,6 +630,42 @@ describe.skipIf(!hasCache)('with synced data', () => {
       expect(started.at(-1)!.label).toContain('red-s16');
       expect(started.at(-1)!.steps).toHaveLength(2);
       finish();
+    });
+  });
+
+  describe('music', () => {
+    const post = (path: string, body: Record<string, string>) =>
+      app.request(path, { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: new URLSearchParams(body).toString() });
+
+    it('lists only music files and saves the chosen track into the run', async () => {
+      await app.request('/teams/red-s7/run/generate', { method: 'POST' });
+      const page = await (await app.request('/teams/red-s7?tab=video')).text();
+      expect(page).toContain('song-one.ogg');
+      expect(page).not.toContain('notes.txt');
+      const res = await post('/teams/red-s7/run/music', { music: 'song-one.ogg' });
+      expect(res.status).toBe(200);
+      expect((await deps.runs.get('red-s7'))!.music).toBe('audio/song-one.ogg');
+      expect(await (await app.request('/teams/red-s7?tab=video')).text()).toContain('/music/song-one.ogg');
+    });
+
+    it('survives regenerating the picks being edited, and can be turned off', async () => {
+      await post('/teams/red-s7/run/music', { music: '' });
+      expect((await deps.runs.get('red-s7'))!.music).toBeNull();
+    });
+
+    it('refuses a file that is not in the music folder', async () => {
+      expect((await post('/teams/red-s7/run/music', { music: 'notes.txt' })).status).toBe(404);
+      expect((await post('/teams/red-s7/run/music', { music: '../package.json' })).status).toBe(404);
+      expect((await deps.runs.get('red-s7'))!.music).toBeNull();
+    });
+
+    it('serves the track with range support, and only music file names', async () => {
+      const res = await app.request('/music/song-one.ogg', { headers: { Range: 'bytes=2-4' } });
+      expect(res.status).toBe(206);
+      expect(res.headers.get('content-type')).toBe('audio/ogg');
+      expect(await res.text()).toBe('234');
+      expect((await app.request('/music/notes.txt')).status).toBe(404);
+      expect((await app.request('/music/..%2Fsecret.ogg')).status).toBe(404);
     });
   });
 

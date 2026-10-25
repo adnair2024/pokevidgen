@@ -67,6 +67,9 @@ export const DEFAULT_TIMING = {
 } as const;
 
 /** Music is ducked by this many dB while narration plays, ramping over this long. */
+/** Background music gain before ducking. Measured: at 0.6 a CC0 track sat about 14 dB under the narration, which was barely audible. */
+export const MUSIC = { volume: 0.9 } as const;
+
 export const DUCK = { db: -12, rampMs: 150 } as const;
 
 /** Mix a hex colour toward black; used for backgrounds so type colours stay readable behind cards. */

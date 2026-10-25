@@ -16,14 +16,14 @@ import type { Deps } from './deps.js';
 import { isJobName, isRenderMode, renderSteps, voicePreviewSteps, voiceSteps } from './jobs.js';
 import { PublishPage, PublishPanel } from './views/publish.js';
 import { defaultSettings, type VoiceSettings } from './voice-service.js';
-import { dataStatus, isOutputFile, isTeamId, listOutputs } from './store.js';
+import { dataStatus, isMusicFile, isOutputFile, isTeamId, listMusic, listOutputs } from './store.js';
 import { BuildPage, BuildForm, DEFAULT_FORM, type BuildFormValues } from './views/build.js';
 import { BossesPage } from './views/bosses.js';
 import { DashboardPage } from './views/dashboard.js';
 import { DataPage, JobPanel } from './views/data.js';
 import { Layout } from './views/layout.js';
 import { TeamPage, isTab } from './views/team.js';
-import { RenderPanel, VideoPanel } from './views/video.js';
+import { MusicPanel, RenderPanel, VideoPanel } from './views/video.js';
 import { PronRow, PronunciationsPage, VoicePanel, type VoiceView } from './views/voice.js';
 import { TeamsPage } from './views/teams.js';
 
@@ -181,7 +181,7 @@ export const createApp = (deps: Deps): Hono => {
     const outputs = tab === 'video' ? await listOutputs(deps.outDir, team.id) : [];
     const voice = tab === 'video' && run ? await voiceView(team.id) : undefined;
     const publish = tab === 'video' && run ? { connection: await deps.publish.connection(), record: await deps.publish.record(team.id) } : undefined;
-    return c.html(<TeamPage gen={data.gen} team={team} gameName={data.game.name} tab={tab} writeupHtml={writeupHtml} run={run} lint={lint} outputs={outputs} job={deps.jobs.latestFor(team.id)} voice={voice} publish={publish} />);
+    return c.html(<TeamPage gen={data.gen} team={team} gameName={data.game.name} tab={tab} writeupHtml={writeupHtml} run={run} lint={lint} outputs={outputs} job={deps.jobs.latestFor(team.id)} voice={voice} publish={publish} music={await listMusic(deps.musicDir)} />);
   });
 
   app.get('/teams/:id/download.md', async (c) => {
@@ -211,7 +211,7 @@ export const createApp = (deps: Deps): Hono => {
   const panel = async (teamId: string, run: Run | undefined) => {
     const team = (await deps.store.get(teamId))!;
     const lint = run ? lintRun(run, await deps.lintContext(team.target)) : undefined;
-    return <VideoPanel team={team} run={run} lint={lint} outputs={await listOutputs(deps.outDir, teamId)} job={deps.jobs.latestFor(teamId)} voice={run ? await voiceView(teamId) : undefined} />;
+    return <VideoPanel team={team} run={run} lint={lint} outputs={await listOutputs(deps.outDir, teamId)} job={deps.jobs.latestFor(teamId)} voice={run ? await voiceView(teamId) : undefined} music={await listMusic(deps.musicDir)} />;
   };
 
   app.post('/teams/:id/run/generate', async (c) => {
@@ -223,6 +223,26 @@ export const createApp = (deps: Deps): Hono => {
     const run = await buildRun(await deps.data(team.target), team, raw === '' ? {} : { seed: Number(raw) });
     await deps.runs.save(run);
     return c.html(await panel(team.id, run));
+  });
+
+  /** Choose the background track (or none). Only files that are in the music folder can be chosen. */
+  app.post('/teams/:id/run/music', async (c) => {
+    const id = c.req.param('id');
+    const run = await deps.runs.get(id);
+    const team = await deps.store.get(id);
+    if (!run || !team) return c.notFound();
+    const choice = String((await c.req.parseBody())['music'] ?? '');
+    const files = await listMusic(deps.musicDir);
+    if (choice !== '' && !files.includes(choice)) return c.notFound();
+    const next: Run = { ...run, music: choice === '' ? null : `audio/${choice}` };
+    await deps.runs.save(next);
+    return c.html(<MusicPanel team={team} run={next} files={files} />);
+  });
+
+  app.get('/music/:file', async (c) => {
+    const file = c.req.param('file');
+    const path = join(deps.musicDir, file);
+    return isMusicFile(file) && (await exists(path)) ? sendFile(c, path, typeOf(file)) : c.notFound();
   });
 
   app.post('/teams/:id/run/save', async (c) => {
@@ -311,7 +331,7 @@ export const createApp = (deps: Deps): Hono => {
     });
   };
 
-  const OUT_TYPES: Record<string, string> = { '.mp4': 'video/mp4', '.png': 'image/png', '.wav': 'audio/wav', '.mp3': 'audio/mpeg' };
+  const OUT_TYPES: Record<string, string> = { '.mp4': 'video/mp4', '.png': 'image/png', '.wav': 'audio/wav', '.mp3': 'audio/mpeg', '.ogg': 'audio/ogg' };
   const typeOf = (name: string): string => OUT_TYPES[name.slice(name.lastIndexOf('.'))] ?? 'application/octet-stream';
 
   /** Rendered files (video, frames, the joined narration). */

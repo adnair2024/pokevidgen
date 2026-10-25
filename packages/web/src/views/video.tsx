@@ -34,7 +34,7 @@ const Stats: FC<{ lint: LintResult }> = ({ lint }) => {
 
 export type PublishView = { connection: Connection; record?: UploadRecord };
 
-export const VideoPanel: FC<{ team: Team; run?: Run; lint?: LintResult; outputs?: RenderOutput[]; job?: Job; voice?: VoiceView; publish?: PublishView }> = ({ team, run, lint, outputs = [], job, voice, publish }) => {
+export const VideoPanel: FC<{ team: Team; run?: Run; lint?: LintResult; outputs?: RenderOutput[]; job?: Job; voice?: VoiceView; publish?: PublishView; music?: string[] }> = ({ team, run, lint, outputs = [], job, voice, publish, music = [] }) => {
   if (!run || !lint) {
     return (
       <div id="video-panel">
@@ -54,6 +54,7 @@ export const VideoPanel: FC<{ team: Team; run?: Run; lint?: LintResult; outputs?
     <div id="video-panel">
       <Stats lint={lint} />
       {voice && <VoicePanel view={voice} />}
+      <MusicPanel team={team} run={run} files={music} />
       <RenderPanel team={team} outputs={outputs} job={job} voiceFresh={voice?.fresh} />
       {publish && <PublishPanel team={team} connection={publish.connection} record={publish.record} full={outputs.find((o) => o.kind === 'full')} />}
       <form hx-post={`/teams/${team.id}/run/generate`} hx-target="#video-panel" hx-swap="outerHTML" class="row regen"
@@ -103,6 +104,32 @@ export const VideoPanel: FC<{ team: Team; run?: Run; lint?: LintResult; outputs?
         <button class="primary" type="submit">Save and lint</button>
       </form>
     </div>
+  );
+};
+
+/** Pick the background track (CC0 files in `packages/video/public/audio`). It is saved into the run and ducks under the narration. */
+export const MusicPanel: FC<{ team: Team; run: Run; files: string[] }> = ({ team, run, files }) => {
+  const current = run.music?.replace(/^audio\//, '');
+  return (
+    <section id="music-panel" class="card music">
+      <h2>Music</h2>
+      {files.length === 0 ? (
+        <p class="muted">No music files yet. Put licensed files (ogg, mp3 or wav) in <code>packages/video/public/audio/</code>.</p>
+      ) : (
+        <form hx-post={`/teams/${team.id}/run/music`} hx-target="#music-panel" hx-swap="outerHTML" class="row">
+          <label>
+            Track
+            <select name="music">
+              <option value="" selected={!current}>No music</option>
+              {files.map((f) => <option value={f} selected={f === current}>{f}</option>)}
+            </select>
+          </label>
+          <button type="submit">Save</button>
+          {current && files.includes(current) && <audio controls preload="none" src={`/music/${current}`} />}
+        </form>
+      )}
+      <p class="muted">Loops, drops about 12 dB under the narration, and fades out at the end. Only use music you are licensed to use; see <code>CREDITS.md</code> there.</p>
+    </section>
   );
 };
 

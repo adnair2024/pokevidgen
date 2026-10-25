@@ -201,7 +201,7 @@ const WriteupTab: FC<{ team: Team; html: string }> = ({ team, html }) => (
   </>
 );
 
-export const TeamPage: FC<{ gen: Generation; team: Team; gameName: string; tab: Tab; writeupHtml: string; run?: Run; lint?: LintResult; outputs?: RenderOutput[]; job?: Job; voice?: VoiceView; publish?: PublishView }> = ({ gen, team, gameName, tab, writeupHtml, run, lint, outputs, job, voice, publish }) => (
+export const TeamPage: FC<{ gen: Generation; team: Team; gameName: string; tab: Tab; writeupHtml: string; run?: Run; lint?: LintResult; outputs?: RenderOutput[]; job?: Job; voice?: VoiceView; publish?: PublishView; music?: string[] }> = ({ gen, team, gameName, tab, writeupHtml, run, lint, outputs, job, voice, publish, music }) => (
   <Layout title={team.id} active="/teams">
     <div class="titlebar">
       <div>
@@ -224,6 +224,6 @@ export const TeamPage: FC<{ gen: Generation; team: Team; gameName: string; tab: 
     {tab === 'defense' && <DefenseTab gen={gen} team={team} />}
     {tab === 'bosses' && <BossesTab gen={gen} team={team} />}
     {tab === 'writeup' && <WriteupTab team={team} html={writeupHtml} />}
-    {tab === 'video' && <VideoPanel team={team} run={run} lint={lint} outputs={outputs} job={job} voice={voice} publish={publish} />}
+    {tab === 'video' && <VideoPanel team={team} run={run} lint={lint} outputs={outputs} job={job} voice={voice} publish={publish} music={music} />}
   </Layout>
 );

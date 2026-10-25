@@ -1,6 +1,6 @@
 import { useMemo, type FC } from 'react';
 import { AbsoluteFill, Audio, Sequence, interpolate, interpolateColors, staticFile, useCurrentFrame, useVideoConfig } from 'remotion';
-import { duckVolume } from './audio.js';
+import { duckVolume, fadeOut } from './audio.js';
 import { backgroundKeyframes } from './background.js';
 import { estimateWords } from './captions.js';
 import { Captions } from './components/Captions.js';
@@ -9,7 +9,7 @@ import { EFFECT_FRAMES, Effect } from './components/Effects.js';
 import { PIXEL_FONT, usePixelFont } from './components/font.js';
 import { Slot, slotPosition } from './components/Slot.js';
 import type { Manifest, Run } from './run.js';
-import { DEFAULT_TIMING, LAYOUT, TEXT } from './theme.js';
+import { DEFAULT_TIMING, LAYOUT, MUSIC, TEXT } from './theme.js';
 import { buildTimeline, type WordFrames } from './timeline.js';
 
 export type DraftVideoProps = { run: Run; manifest?: Manifest };
@@ -18,7 +18,7 @@ export type DraftVideoProps = { run: Run; manifest?: Manifest };
 export const DraftVideo: FC<DraftVideoProps> = ({ run, manifest }) => {
   usePixelFont();
   const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
+  const { fps, durationInFrames } = useVideoConfig();
   const timeline = useMemo(() => buildTimeline(run, fps, manifest), [run, fps, manifest]);
   const keyframes = useMemo(() => backgroundKeyframes(timeline, run), [timeline, run]);
   const exitFrames = Math.round(DEFAULT_TIMING.cardOut * fps);
@@ -83,7 +83,7 @@ export const DraftVideo: FC<DraftVideoProps> = ({ run, manifest }) => {
           </Sequence>
         ) : null,
       )}
-      {run.music && <Audio src={staticFile(run.music)} loop volume={(f) => 0.6 * duckVolume(f, fps, voiceWindows)} />}
+      {run.music && <Audio src={staticFile(run.music)} loop volume={(f) => MUSIC.volume * duckVolume(f, fps, voiceWindows) * fadeOut(f, durationInFrames, fps)} />}
     </AbsoluteFill>
   );
 };

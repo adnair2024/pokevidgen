@@ -99,7 +99,8 @@ Ordered so each milestone produces something runnable. See `CLAUDE.md` for the f
 - [x] Rendered and inspected: stills of every card type and effect, and a full 66.9 s preview (H.264, 30 fps, 2006 frames) in 4 min 14 s
 - [x] Intro cards varied: at most four gym cards per video, the rest TM and Pokédex
 - [ ] A full-size 1080x1920 render has not been run end to end (measured ~280-370 ms/frame, so about 10-12 min)
-- [ ] Music has never been tried with a real audio file; `run.music` is null in every generated run
+- [x] Music: CC0 tracks in `packages/video/public/audio/` (credits in CREDITS.md), a picker on the Video tab saves `run.music`; loops, ducks 12 dB under narration, fades out the last 1.5 s. Rendered and measured: the track is in the mix
+- [ ] New runs start with no music (`run.music` is null); no default track is chosen
 - [ ] Voice timing is untested with real audio until M9 (the timeline logic is unit-tested with fixture manifests)
 - [ ] `pnpm video:studio` (Remotion Studio) is wired but untested here
 - [ ] No trainer sprites are available from PokeAPI, so gym leader cards use an emblem with the leader's initial and types

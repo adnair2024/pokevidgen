@@ -1,0 +1,3738 @@
+{
+  "id": "red-fav-gengar-s870873075",
+  "kind": "ingame",
+  "target": "red",
+  "seed": 870873075,
+  "theme": {
+    "favorite": "gengar"
+  },
+  "members": [
+    {
+      "set": {
+        "species": "gengar",
+        "level": 56,
+        "moves": [
+          "doubleedge",
+          "hypnosis",
+          "submission",
+          "megakick"
+        ]
+      },
+      "roles": [
+        "sleep",
+        "fast"
+      ],
+      "acquisition": {
+        "stage": 4,
+        "steps": [
+          {
+            "species": "haunter",
+            "how": "wild",
+            "where": "Pokémon Tower 3F (grass/cave)",
+            "minLevel": 25,
+            "maxLevel": 25,
+            "stage": 4,
+            "place": "Pokémon Tower 3F"
+          },
+          {
+            "species": "gengar",
+            "how": "evolution",
+            "where": "Trade-evolve Haunter (needs a link partner)",
+            "stage": 4,
+            "evolution": {
+              "how": "trade"
+            }
+          }
+        ],
+        "moves": [
+          {
+            "move": "doubleedge",
+            "source": {
+              "kind": "tm",
+              "number": 10,
+              "location": "Rocket Hideout B3F"
+            },
+            "stage": 4
+          },
+          {
+            "move": "hypnosis",
+            "source": {
+              "kind": "level",
+              "level": 29,
+              "from": "haunter"
+            },
+            "stage": 0
+          },
+          {
+            "move": "submission",
+            "source": {
+              "kind": "tm",
+              "number": 17,
+              "location": "Celadon Dept. Store 2F"
+            },
+            "stage": 3
+          },
+          {
+            "move": "megakick",
+            "source": {
+              "kind": "tm",
+              "number": 5,
+              "location": "Celadon Dept. Store 2F"
+            },
+            "stage": 3
+          }
+        ],
+        "notes": []
+      }
+    },
+    {
+      "set": {
+        "species": "slowbro",
+        "level": 56,
+        "moves": [
+          "surf",
+          "psychic",
+          "thunderwave",
+          "submission"
+        ]
+      },
+      "roles": [
+        "paralysis",
+        "bulky"
+      ],
+      "acquisition": {
+        "stage": 4,
+        "steps": [
+          {
+            "species": "slowpoke",
+            "how": "rod",
+            "where": "Celadon City (super rod)",
+            "minLevel": 15,
+            "maxLevel": 15,
+            "stage": 4,
+            "place": "Celadon City"
+          },
+          {
+            "species": "slowbro",
+            "how": "evolution",
+            "where": "Evolves from Slowpoke at level 37",
+            "stage": 4,
+            "evolution": {
+              "how": "level",
+              "level": 37
+            }
+          }
+        ],
+        "moves": [
+          {
+            "move": "surf",
+            "source": {
+              "kind": "hm",
+              "number": 3,
+              "location": "Safari Zone secret house"
+            },
+            "stage": 4
+          },
+          {
+            "move": "psychic",
+            "source": {
+              "kind": "level",
+              "level": 55,
+              "from": "slowbro"
+            },
+            "stage": 0
+          },
+          {
+            "move": "thunderwave",
+            "source": {
+              "kind": "tm",
+              "number": 45,
+              "location": "Route 24 (Nugget Bridge)"
+            },
+            "stage": 1
+          },
+          {
+            "move": "submission",
+            "source": {
+              "kind": "tm",
+              "number": 17,
+              "location": "Celadon Dept. Store 2F"
+            },
+            "stage": 3
+          }
+        ],
+        "notes": []
+      }
+    },
+    {
+      "set": {
+        "species": "snorlax",
+        "level": 56,
+        "moves": [
+          "bodyslam",
+          "rest",
+          "surf",
+          "hyperbeam"
+        ]
+      },
+      "roles": [
+        "recovery",
+        "bulky"
+      ],
+      "acquisition": {
+        "stage": 4,
+        "steps": [
+          {
+            "species": "snorlax",
+            "how": "static",
+            "where": "Static encounter in Route 12",
+            "minLevel": 30,
+            "maxLevel": 30,
+            "stage": 4,
+            "place": "Route 12"
+          }
+        ],
+        "moves": [
+          {
+            "move": "bodyslam",
+            "source": {
+              "kind": "level",
+              "level": 35,
+              "from": "snorlax"
+            },
+            "stage": 0
+          },
+          {
+            "move": "rest",
+            "source": {
+              "kind": "start",
+              "from": "snorlax"
+            },
+            "stage": 0
+          },
+          {
+            "move": "surf",
+            "source": {
+              "kind": "hm",
+              "number": 3,
+              "location": "Safari Zone secret house"
+            },
+            "stage": 4
+          },
+          {
+            "move": "hyperbeam",
+            "source": {
+              "kind": "level",
+              "level": 56,
+              "from": "snorlax"
+            },
+            "stage": 0
+          }
+        ],
+        "notes": []
+      }
+    },
+    {
+      "set": {
+        "species": "rhydon",
+        "level": 56,
+        "moves": [
+          "earthquake",
+          "rockslide",
+          "surf",
+          "strength"
+        ]
+      },
+      "roles": [
+        "bulky"
+      ],
+      "acquisition": {
+        "stage": 5,
+        "steps": [
+          {
+            "species": "rhyhorn",
+            "how": "wild",
+            "where": "Safari Zone Middle (grass/cave)",
+            "minLevel": 25,
+            "maxLevel": 25,
+            "stage": 4,
+            "place": "Safari Zone Middle"
+          },
+          {
+            "species": "rhydon",
+            "how": "evolution",
+            "where": "Evolves from Rhyhorn at level 42",
+            "stage": 4,
+            "evolution": {
+              "how": "level",
+              "level": 42
+            }
+          }
+        ],
+        "moves": [
+          {
+            "move": "earthquake",
+            "source": {
+              "kind": "tm",
+              "number": 26,
+              "location": "Silph Co. 10F"
+            },
+            "stage": 5
+          },
+          {
+            "move": "rockslide",
+            "source": {
+              "kind": "tm",
+              "number": 48,
+              "location": "Celadon Dept. Store roof"
+            },
+            "stage": 3
+          },
+          {
+            "move": "surf",
+            "source": {
+              "kind": "hm",
+              "number": 3,
+              "location": "Safari Zone secret house"
+            },
+            "stage": 4
+          },
+          {
+            "move": "strength",
+            "source": {
+              "kind": "hm",
+              "number": 4,
+              "location": "Fuchsia City (Warden's house)"
+            },
+            "stage": 4
+          }
+        ],
+        "notes": []
+      }
+    },
+    {
+      "set": {
+        "species": "articuno",
+        "level": 56,
+        "moves": [
+          "blizzard",
+          "skyattack",
+          "icebeam",
+          "takedown"
+        ]
+      },
+      "roles": [
+        "bulky"
+      ],
+      "acquisition": {
+        "stage": 8,
+        "steps": [
+          {
+            "species": "articuno",
+            "how": "static",
+            "where": "Static encounter in Seafoam Islands B4F",
+            "minLevel": 50,
+            "maxLevel": 50,
+            "stage": 6,
+            "place": "Seafoam Islands B4F"
+          }
+        ],
+        "moves": [
+          {
+            "move": "blizzard",
+            "source": {
+              "kind": "level",
+              "level": 51,
+              "from": "articuno"
+            },
+            "stage": 0
+          },
+          {
+            "move": "skyattack",
+            "source": {
+              "kind": "tm",
+              "number": 43,
+              "location": "Victory Road 1F"
+            },
+            "stage": 8
+          },
+          {
+            "move": "icebeam",
+            "source": {
+              "kind": "start",
+              "from": "articuno"
+            },
+            "stage": 0
+          },
+          {
+            "move": "takedown",
+            "source": {
+              "kind": "tm",
+              "number": 9,
+              "location": "Celadon Dept. Store 2F"
+            },
+            "stage": 3
+          }
+        ],
+        "notes": []
+      }
+    },
+    {
+      "set": {
+        "species": "exeggutor",
+        "level": 56,
+        "moves": [
+          "solarbeam",
+          "psychic",
+          "eggbomb",
+          "stomp"
+        ]
+      },
+      "roles": [
+        "bulky"
+      ],
+      "acquisition": {
+        "stage": 5,
+        "steps": [
+          {
+            "species": "exeggcute",
+            "how": "wild",
+            "where": "Safari Zone Middle (grass/cave)",
+            "minLevel": 24,
+            "maxLevel": 25,
+            "stage": 4,
+            "place": "Safari Zone Middle"
+          },
+          {
+            "species": "exeggutor",
+            "how": "evolution",
+            "where": "Evolve Exeggcute with a Leaf Stone (Celadon Dept. Store 4F)",
+            "stage": 4,
+            "evolution": {
+              "how": "stone",
+              "item": "Leaf Stone"
+            }
+          }
+        ],
+        "moves": [
+          {
+            "move": "solarbeam",
+            "source": {
+              "kind": "level",
+              "level": 42,
+              "from": "exeggcute"
+            },
+            "stage": 0
+          },
+          {
+            "move": "psychic",
+            "source": {
+              "kind": "tm",
+              "number": 29,
+              "location": "Saffron City (Mr. Psychic)"
+            },
+            "stage": 5
+          },
+          {
+            "move": "eggbomb",
+            "source": {
+              "kind": "tm",
+              "number": 37,
+              "location": "Celadon Dept. Store 2F"
+            },
+            "stage": 3
+          },
+          {
+            "move": "stomp",
+            "source": {
+              "kind": "level",
+              "level": 28,
+              "from": "exeggutor"
+            },
+            "stage": 0
+          }
+        ],
+        "notes": []
+      }
+    }
+  ],
+  "analysis": {
+    "plannedLevel": 56,
+    "constraints": {
+      "must": [
+        "gengar"
+      ],
+      "ban": [],
+      "noTrades": false,
+      "noLegendaries": false,
+      "nuzlocke": false
+    },
+    "sharedWeaknesses": [],
+    "synergy": {
+      "holes": [],
+      "severe": [],
+      "uncovered": [
+        "Ghost",
+        "Psychic"
+      ],
+      "duplicatePrimary": 0,
+      "normalMembers": 1,
+      "distinctTypes": 10,
+      "score": 1.9
+    },
+    "teamDefense": {
+      "Bug": {
+        "weak": 2,
+        "resist": 1,
+        "immune": 0,
+        "neutral": 3
+      },
+      "Fire": {
+        "weak": 2,
+        "resist": 2,
+        "immune": 0,
+        "neutral": 2
+      },
+      "Ghost": {
+        "weak": 1,
+        "resist": 0,
+        "immune": 3,
+        "neutral": 2
+      },
+      "Ice": {
+        "weak": 2,
+        "resist": 1,
+        "immune": 0,
+        "neutral": 3
+      },
+      "Poison": {
+        "weak": 1,
+        "resist": 2,
+        "immune": 0,
+        "neutral": 3
+      },
+      "Psychic": {
+        "weak": 1,
+        "resist": 2,
+        "immune": 0,
+        "neutral": 3
+      },
+      "Electric": {
+        "weak": 2,
+        "resist": 1,
+        "immune": 1,
+        "neutral": 2
+      },
+      "Grass": {
+        "weak": 2,
+        "resist": 3,
+        "immune": 0,
+        "neutral": 1
+      },
+      "Dragon": {
+        "weak": 0,
+        "resist": 0,
+        "immune": 0,
+        "neutral": 6
+      },
+      "Fighting": {
+        "weak": 2,
+        "resist": 2,
+        "immune": 1,
+        "neutral": 1
+      },
+      "Flying": {
+        "weak": 1,
+        "resist": 1,
+        "immune": 0,
+        "neutral": 4
+      },
+      "Ground": {
+        "weak": 2,
+        "resist": 1,
+        "immune": 1,
+        "neutral": 2
+      },
+      "Normal": {
+        "weak": 0,
+        "resist": 1,
+        "immune": 1,
+        "neutral": 4
+      },
+      "Rock": {
+        "weak": 1,
+        "resist": 1,
+        "immune": 0,
+        "neutral": 4
+      },
+      "Water": {
+        "weak": 1,
+        "resist": 2,
+        "immune": 0,
+        "neutral": 3
+      }
+    },
+    "starter": {
+      "player": "bulbasaur",
+      "rival": "charmander",
+      "onTeam": false
+    },
+    "bosses": [
+      {
+        "boss": "rival-route22-early",
+        "name": "Rival",
+        "location": "Route 22",
+        "stage": 0,
+        "level": 9,
+        "rivalStarter": "charmander",
+        "usable": [],
+        "notYet": [
+          "gengar",
+          "slowbro",
+          "snorlax",
+          "rhydon",
+          "articuno",
+          "exeggutor"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgey",
+              "level": 9,
+              "moves": [
+                "gust",
+                "sandattack"
+              ]
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charmander",
+              "level": 8,
+              "moves": [
+                "scratch",
+                "growl"
+              ]
+            }
+          }
+        ],
+        "warnings": [
+          "No usable damaging move against Pidgey.",
+          "No usable damaging move against Charmander."
+        ]
+      },
+      {
+        "boss": "rival-cerulean",
+        "name": "Rival",
+        "location": "Cerulean City",
+        "stage": 0,
+        "level": 18,
+        "rivalStarter": "charmander",
+        "usable": [],
+        "notYet": [
+          "gengar",
+          "slowbro",
+          "snorlax",
+          "rhydon",
+          "articuno",
+          "exeggutor"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeotto",
+              "level": 18,
+              "moves": [
+                "gust",
+                "sandattack",
+                "quickattack"
+              ]
+            }
+          },
+          {
+            "bossMon": {
+              "species": "abra",
+              "level": 15,
+              "moves": [
+                "teleport"
+              ]
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rattata",
+              "level": 15,
+              "moves": [
+                "tackle",
+                "tailwhip",
+                "quickattack",
+                "hyperfang"
+              ]
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charmander",
+              "level": 17,
+              "moves": [
+                "scratch",
+                "growl",
+                "ember",
+                "leer"
+              ]
+            }
+          }
+        ],
+        "warnings": [
+          "No usable damaging move against Pidgeotto.",
+          "No usable damaging move against Abra.",
+          "No usable damaging move against Rattata.",
+          "No usable damaging move against Charmander."
+        ]
+      },
+      {
+        "boss": "brock",
+        "name": "Brock",
+        "location": "Pewter City",
+        "stage": 0,
+        "level": 14,
+        "usable": [],
+        "notYet": [
+          "gengar",
+          "slowbro",
+          "snorlax",
+          "rhydon",
+          "articuno",
+          "exeggutor"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "geodude",
+              "level": 12,
+              "moves": [
+                "tackle",
+                "defensecurl"
+              ]
+            }
+          },
+          {
+            "bossMon": {
+              "species": "onix",
+              "level": 14,
+              "moves": [
+                "tackle",
+                "screech",
+                "bide"
+              ]
+            }
+          }
+        ],
+        "warnings": [
+          "No usable damaging move against Geodude.",
+          "No usable damaging move against Onix."
+        ]
+      },
+      {
+        "boss": "misty",
+        "name": "Misty",
+        "location": "Cerulean City",
+        "stage": 1,
+        "level": 21,
+        "usable": [],
+        "notYet": [
+          "gengar",
+          "slowbro",
+          "snorlax",
+          "rhydon",
+          "articuno",
+          "exeggutor"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "staryu",
+              "level": 18,
+              "moves": [
+                "tackle",
+                "watergun"
+              ]
+            }
+          },
+          {
+            "bossMon": {
+              "species": "starmie",
+              "level": 21,
+              "moves": [
+                "tackle",
+                "watergun",
+                "bubblebeam"
+              ]
+            }
+          }
+        ],
+        "warnings": [
+          "No usable damaging move against Staryu.",
+          "No usable damaging move against Starmie."
+        ]
+      },
+      {
+        "boss": "rival-ssanne",
+        "name": "Rival",
+        "location": "SS Anne 2F",
+        "stage": 2,
+        "level": 20,
+        "rivalStarter": "charmander",
+        "usable": [],
+        "notYet": [
+          "gengar",
+          "slowbro",
+          "snorlax",
+          "rhydon",
+          "articuno",
+          "exeggutor"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeotto",
+              "level": 19,
+              "moves": [
+                "gust",
+                "sandattack",
+                "quickattack"
+              ]
+            }
+          },
+          {
+            "bossMon": {
+              "species": "raticate",
+              "level": 16,
+              "moves": [
+                "tackle",
+                "tailwhip",
+                "quickattack",
+                "hyperfang"
+              ]
+            }
+          },
+          {
+            "bossMon": {
+              "species": "kadabra",
+              "level": 18,
+              "moves": [
+                "teleport",
+                "confusion",
+                "disable"
+              ]
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charmeleon",
+              "level": 20,
+              "moves": [
+                "scratch",
+                "growl",
+                "ember",
+                "leer"
+              ]
+            }
+          }
+        ],
+        "warnings": [
+          "No usable damaging move against Pidgeotto.",
+          "No usable damaging move against Raticate.",
+          "No usable damaging move against Kadabra.",
+          "No usable damaging move against Charmeleon."
+        ]
+      },
+      {
+        "boss": "ltsurge",
+        "name": "Lt. Surge",
+        "location": "Vermilion City",
+        "stage": 2,
+        "level": 24,
+        "usable": [],
+        "notYet": [
+          "gengar",
+          "slowbro",
+          "snorlax",
+          "rhydon",
+          "articuno",
+          "exeggutor"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "voltorb",
+              "level": 21,
+              "moves": [
+                "tackle",
+                "screech",
+                "sonicboom"
+              ]
+            }
+          },
+          {
+            "bossMon": {
+              "species": "pikachu",
+              "level": 18,
+              "moves": [
+                "thundershock",
+                "growl",
+                "thunderwave",
+                "quickattack"
+              ]
+            }
+          },
+          {
+            "bossMon": {
+              "species": "raichu",
+              "level": 24,
+              "moves": [
+                "thundershock",
+                "growl",
+                "thunderbolt"
+              ]
+            }
+          }
+        ],
+        "warnings": [
+          "No usable damaging move against Voltorb.",
+          "No usable damaging move against Pikachu.",
+          "No usable damaging move against Raichu."
+        ]
+      },
+      {
+        "boss": "rival-pokemontower",
+        "name": "Rival",
+        "location": "Pokémon Tower 2F",
+        "stage": 3,
+        "level": 25,
+        "rivalStarter": "charmander",
+        "usable": [],
+        "notYet": [
+          "gengar",
+          "slowbro",
+          "snorlax",
+          "rhydon",
+          "articuno",
+          "exeggutor"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeotto",
+              "level": 25,
+              "moves": [
+                "gust",
+                "sandattack",
+                "quickattack",
+                "whirlwind"
+              ]
+            }
+          },
+          {
+            "bossMon": {
+              "species": "exeggcute",
+              "level": 23,
+              "moves": [
+                "barrage",
+                "hypnosis"
+              ]
+            }
+          },
+          {
+            "bossMon": {
+              "species": "gyarados",
+              "level": 22,
+              "moves": [
+                "bite",
+                "dragonrage",
+                "leer",
+                "hydropump"
+              ]
+            }
+          },
+          {
+            "bossMon": {
+              "species": "kadabra",
+              "level": 20,
+              "moves": [
+                "teleport",
+                "confusion",
+                "disable"
+              ]
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charmeleon",
+              "level": 25,
+              "moves": [
+                "growl",
+                "ember",
+                "leer",
+                "rage"
+              ]
+            }
+          }
+        ],
+        "warnings": [
+          "No usable damaging move against Pidgeotto.",
+          "No usable damaging move against Exeggcute.",
+          "No usable damaging move against Gyarados.",
+          "No usable damaging move against Kadabra.",
+          "No usable damaging move against Charmeleon."
+        ]
+      },
+      {
+        "boss": "erika",
+        "name": "Erika",
+        "location": "Celadon City",
+        "stage": 3,
+        "level": 29,
+        "usable": [],
+        "notYet": [
+          "gengar",
+          "slowbro",
+          "snorlax",
+          "rhydon",
+          "articuno",
+          "exeggutor"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "victreebel",
+              "level": 29,
+              "moves": [
+                "razorleaf",
+                "wrap",
+                "poisonpowder",
+                "sleeppowder"
+              ]
+            }
+          },
+          {
+            "bossMon": {
+              "species": "tangela",
+              "level": 24,
+              "moves": [
+                "constrict",
+                "bind"
+              ]
+            }
+          },
+          {
+            "bossMon": {
+              "species": "vileplume",
+              "level": 29,
+              "moves": [
+                "petaldance",
+                "poisonpowder",
+                "megadrain",
+                "sleeppowder"
+              ]
+            }
+          }
+        ],
+        "warnings": [
+          "No usable damaging move against Victreebel.",
+          "No usable damaging move against Tangela.",
+          "No usable damaging move against Vileplume."
+        ]
+      },
+      {
+        "boss": "giovanni-hideout",
+        "name": "Giovanni",
+        "location": "Rocket Hideout B4F",
+        "stage": 4,
+        "level": 29,
+        "usable": [
+          {
+            "member": "gengar",
+            "form": "gengar",
+            "moves": [
+              "doubleedge",
+              "hypnosis",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "slowbro",
+            "form": "slowpoke",
+            "moves": [
+              "surf",
+              "confusion",
+              "thunderwave",
+              "dig"
+            ]
+          },
+          {
+            "member": "snorlax",
+            "form": "snorlax",
+            "moves": [
+              "megakick",
+              "rest",
+              "surf",
+              "submission"
+            ]
+          },
+          {
+            "member": "rhydon",
+            "form": "rhyhorn",
+            "moves": [
+              "dig",
+              "rockslide",
+              "rest",
+              "strength"
+            ]
+          },
+          {
+            "member": "exeggutor",
+            "form": "exeggutor",
+            "moves": [
+              "megadrain",
+              "hypnosis",
+              "hyperbeam",
+              "strength"
+            ]
+          }
+        ],
+        "notYet": [
+          "articuno"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "onix",
+              "level": 25,
+              "moves": [
+                "screech",
+                "bind",
+                "rockthrow",
+                "rage"
+              ]
+            },
+            "answer": {
+              "move": "surf",
+              "member": "slowbro",
+              "form": "slowpoke",
+              "minPercent": 308.9,
+              "maxPercent": 364.3,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 29 Slowpoke Surf vs. Lvl 25 Onix: 173-204 (240.2 - 283.3%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "rockthrow",
+              "minPercent": 13.2,
+              "maxPercent": 16.5,
+              "ko": "possible 7HKO",
+              "description": "Lvl 25 Onix Rock Throw vs. Lvl 29 Slowpoke: 12-15 (11 - 13.7%) -- possible 7HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rhyhorn",
+              "level": 24,
+              "moves": [
+                "hornattack"
+              ]
+            },
+            "answer": {
+              "move": "surf",
+              "member": "slowbro",
+              "form": "slowpoke",
+              "minPercent": 232.9,
+              "maxPercent": 273.7,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 29 Slowpoke Surf vs. Lvl 24 Rhyhorn: 177-208 (194.5 - 228.5%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "hornattack",
+              "minPercent": 14.3,
+              "maxPercent": 17.6,
+              "ko": "possible 6HKO",
+              "description": "Lvl 24 Rhyhorn Horn Attack vs. Lvl 29 Slowpoke: 13-16 (11.9 - 14.6%) -- possible 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "kangaskhan",
+              "level": 29,
+              "moves": [
+                "cometpunch",
+                "rage",
+                "bite"
+              ]
+            },
+            "answer": {
+              "move": "megakick",
+              "member": "snorlax",
+              "form": "snorlax",
+              "minPercent": 49,
+              "maxPercent": 57.7,
+              "ko": "96.3% chance to 2HKO",
+              "description": "Lvl 29 Snorlax Mega Kick vs. Lvl 29 Kangaskhan: 51-60 (41.8 - 49.1%) -- 96.3% chance to 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "bite",
+              "minPercent": 19.8,
+              "maxPercent": 23.7,
+              "ko": "possible 5HKO",
+              "description": "Lvl 29 Kangaskhan Bite vs. Lvl 29 Snorlax: 26-31 (17.3 - 20.6%) -- possible 5HKO"
+            }
+          }
+        ],
+        "lead": "slowpoke",
+        "warnings": []
+      },
+      {
+        "boss": "koga",
+        "name": "Koga",
+        "location": "Fuchsia City",
+        "stage": 4,
+        "level": 43,
+        "usable": [
+          {
+            "member": "gengar",
+            "form": "gengar",
+            "moves": [
+              "doubleedge",
+              "hypnosis",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "slowbro",
+            "form": "slowbro",
+            "moves": [
+              "surf",
+              "confusion",
+              "thunderwave",
+              "submission"
+            ]
+          },
+          {
+            "member": "snorlax",
+            "form": "snorlax",
+            "moves": [
+              "megakick",
+              "rest",
+              "surf",
+              "submission"
+            ]
+          },
+          {
+            "member": "rhydon",
+            "form": "rhydon",
+            "moves": [
+              "dig",
+              "rockslide",
+              "rest",
+              "surf"
+            ]
+          },
+          {
+            "member": "exeggutor",
+            "form": "exeggutor",
+            "moves": [
+              "solarbeam",
+              "hypnosis",
+              "hyperbeam",
+              "strength"
+            ]
+          }
+        ],
+        "notYet": [
+          "articuno"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "koffing",
+              "level": 37,
+              "moves": [
+                "tackle",
+                "smog",
+                "sludge",
+                "smokescreen"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 173.2,
+              "maxPercent": 204.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 43 Rhydon Dig vs. Lvl 37 Koffing: 142-168 (135.2 - 160%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "sludge",
+              "minPercent": 2.8,
+              "maxPercent": 3.5,
+              "ko": "",
+              "description": "Lvl 37 Koffing Sludge vs. Lvl 43 Rhydon: 4-5 (2.3 - 2.9%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "muk",
+              "level": 39,
+              "moves": [
+                "disable",
+                "poisongas",
+                "minimize",
+                "sludge"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 115.3,
+              "maxPercent": 135.8,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 43 Rhydon Dig vs. Lvl 39 Muk: 158-186 (98.1 - 115.5%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "sludge",
+              "minPercent": 3.5,
+              "maxPercent": 4.9,
+              "ko": "",
+              "description": "Lvl 39 Muk Sludge vs. Lvl 43 Rhydon: 5-7 (2.9 - 4.1%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "koffing",
+              "level": 37,
+              "moves": [
+                "tackle",
+                "smog",
+                "sludge",
+                "smokescreen"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 173.2,
+              "maxPercent": 204.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 43 Rhydon Dig vs. Lvl 37 Koffing: 142-168 (135.2 - 160%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "sludge",
+              "minPercent": 2.8,
+              "maxPercent": 3.5,
+              "ko": "",
+              "description": "Lvl 37 Koffing Sludge vs. Lvl 43 Rhydon: 4-5 (2.3 - 2.9%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "weezing",
+              "level": 43,
+              "moves": [
+                "smog",
+                "sludge",
+                "toxic",
+                "selfdestruct"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 93,
+              "maxPercent": 109.6,
+              "ko": "59% chance to OHKO",
+              "description": "Lvl 43 Rhydon Dig vs. Lvl 43 Weezing: 107-126 (75.3 - 88.7%) -- 59% chance to OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "selfdestruct",
+              "minPercent": 23.8,
+              "maxPercent": 28.7,
+              "ko": "98% chance to 4HKO",
+              "description": "Lvl 43 Weezing Self-Destruct vs. Lvl 43 Rhydon: 34-41 (20 - 24.1%) -- 98% chance to 4HKO"
+            }
+          }
+        ],
+        "lead": "rhydon",
+        "warnings": []
+      },
+      {
+        "boss": "rival-silph",
+        "name": "Rival",
+        "location": "Silph Co. 7F",
+        "stage": 5,
+        "level": 40,
+        "rivalStarter": "charmander",
+        "usable": [
+          {
+            "member": "gengar",
+            "form": "gengar",
+            "moves": [
+              "doubleedge",
+              "hypnosis",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "slowbro",
+            "form": "slowbro",
+            "moves": [
+              "surf",
+              "psychic",
+              "thunderwave",
+              "submission"
+            ]
+          },
+          {
+            "member": "snorlax",
+            "form": "snorlax",
+            "moves": [
+              "megakick",
+              "rest",
+              "surf",
+              "submission"
+            ]
+          },
+          {
+            "member": "rhydon",
+            "form": "rhyhorn",
+            "moves": [
+              "earthquake",
+              "rockslide",
+              "rest",
+              "strength"
+            ]
+          },
+          {
+            "member": "exeggutor",
+            "form": "exeggutor",
+            "moves": [
+              "megadrain",
+              "hypnosis",
+              "hyperbeam",
+              "strength"
+            ]
+          }
+        ],
+        "notYet": [
+          "articuno"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeot",
+              "level": 37,
+              "moves": [
+                "sandattack",
+                "quickattack",
+                "whirlwind",
+                "wingattack"
+              ]
+            },
+            "answer": {
+              "move": "rockslide",
+              "member": "rhydon",
+              "form": "rhyhorn",
+              "minPercent": 72.8,
+              "maxPercent": 86,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 40 Rhyhorn Rock Slide vs. Lvl 37 Pidgeot: 83-98 (60.5 - 71.5%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "quickattack",
+              "minPercent": 6.1,
+              "maxPercent": 7.9,
+              "ko": "",
+              "description": "Lvl 37 Pidgeot Quick Attack vs. Lvl 40 Rhyhorn: 7-9 (5 - 6.4%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "exeggcute",
+              "level": 38,
+              "moves": [
+                "reflect",
+                "leechseed",
+                "stunspore",
+                "poisonpowder"
+              ]
+            },
+            "answer": {
+              "move": "megakick",
+              "member": "snorlax",
+              "form": "snorlax",
+              "minPercent": 74.7,
+              "maxPercent": 87.9,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 40 Snorlax Mega Kick vs. Lvl 38 Exeggcute: 74-87 (60.1 - 70.7%) -- guaranteed 2HKO",
+              "outspeeds": false
+            }
+          },
+          {
+            "bossMon": {
+              "species": "gyarados",
+              "level": 35,
+              "moves": [
+                "bite",
+                "dragonrage",
+                "leer",
+                "hydropump"
+              ]
+            },
+            "answer": {
+              "move": "rockslide",
+              "member": "rhydon",
+              "form": "rhyhorn",
+              "minPercent": 73.5,
+              "maxPercent": 87.2,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 40 Rhyhorn Rock Slide vs. Lvl 35 Gyarados: 86-102 (61.8 - 73.3%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "hydropump",
+              "minPercent": 298.2,
+              "maxPercent": 350.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 35 Gyarados Hydro Pump vs. Lvl 40 Rhyhorn: 340-400 (244.6 - 287.7%) -- guaranteed OHKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "alakazam",
+              "level": 35,
+              "moves": [
+                "confusion",
+                "disable",
+                "psybeam",
+                "recover"
+              ]
+            },
+            "answer": {
+              "move": "megakick",
+              "member": "snorlax",
+              "form": "snorlax",
+              "minPercent": 121.3,
+              "maxPercent": 142.7,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 40 Snorlax Mega Kick vs. Lvl 35 Alakazam: 108-127 (97.2 - 114.4%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "psybeam",
+              "minPercent": 22.5,
+              "maxPercent": 27,
+              "ko": "34.1% chance to 4HKO",
+              "description": "Lvl 35 Alakazam Psybeam vs. Lvl 40 Snorlax: 40-48 (19.7 - 23.6%) -- 34.1% chance to 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charizard",
+              "level": 40,
+              "moves": [
+                "ember",
+                "leer",
+                "rage",
+                "slash"
+              ]
+            },
+            "answer": {
+              "move": "rockslide",
+              "member": "rhydon",
+              "form": "rhyhorn",
+              "minPercent": 129.7,
+              "maxPercent": 152.5,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 40 Rhyhorn Rock Slide vs. Lvl 40 Charizard: 153-180 (106.2 - 125%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "slash",
+              "minPercent": 16.7,
+              "maxPercent": 20.2,
+              "ko": "possible 5HKO",
+              "description": "Lvl 40 Charizard Slash vs. Lvl 40 Rhyhorn on a critical hit: 19-23 (13.6 - 16.5%) -- possible 5HKO"
+            }
+          }
+        ],
+        "lead": "rhyhorn",
+        "warnings": [
+          "Gyarados can KO Rhyhorn with Hydro Pump."
+        ]
+      },
+      {
+        "boss": "giovanni-silph",
+        "name": "Giovanni",
+        "location": "Silph Co. 11F",
+        "stage": 5,
+        "level": 41,
+        "usable": [
+          {
+            "member": "gengar",
+            "form": "gengar",
+            "moves": [
+              "doubleedge",
+              "hypnosis",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "slowbro",
+            "form": "slowbro",
+            "moves": [
+              "surf",
+              "psychic",
+              "thunderwave",
+              "submission"
+            ]
+          },
+          {
+            "member": "snorlax",
+            "form": "snorlax",
+            "moves": [
+              "megakick",
+              "rest",
+              "surf",
+              "submission"
+            ]
+          },
+          {
+            "member": "rhydon",
+            "form": "rhyhorn",
+            "moves": [
+              "earthquake",
+              "rockslide",
+              "rest",
+              "strength"
+            ]
+          },
+          {
+            "member": "exeggutor",
+            "form": "exeggutor",
+            "moves": [
+              "megadrain",
+              "hypnosis",
+              "hyperbeam",
+              "strength"
+            ]
+          }
+        ],
+        "notYet": [
+          "articuno"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "nidorino",
+              "level": 37,
+              "moves": [
+                "hornattack",
+                "poisonsting",
+                "focusenergy",
+                "furyattack"
+              ]
+            },
+            "answer": {
+              "move": "earthquake",
+              "member": "rhydon",
+              "form": "rhyhorn",
+              "minPercent": 134.7,
+              "maxPercent": 159.2,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 41 Rhyhorn Earthquake vs. Lvl 37 Nidorino: 132-156 (109 - 128.9%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "hornattack",
+              "minPercent": 5.2,
+              "maxPercent": 6.9,
+              "ko": "",
+              "description": "Lvl 37 Nidorino Horn Attack vs. Lvl 41 Rhyhorn: 6-8 (4.2 - 5.6%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "kangaskhan",
+              "level": 35,
+              "moves": [
+                "cometpunch",
+                "rage",
+                "bite",
+                "tailwhip"
+              ]
+            },
+            "answer": {
+              "move": "megakick",
+              "member": "snorlax",
+              "form": "snorlax",
+              "minPercent": 65.3,
+              "maxPercent": 77.4,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 41 Snorlax Mega Kick vs. Lvl 35 Kangaskhan: 81-96 (55.4 - 65.7%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "cometpunch",
+              "minPercent": 16.5,
+              "maxPercent": 19.8,
+              "ko": "approx. possible 6HKO",
+              "description": "Lvl 35 Kangaskhan Comet Punch (3 hits) vs. Lvl 41 Snorlax: 30-36 (14.4 - 17.3%) -- approx. possible 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rhyhorn",
+              "level": 37,
+              "moves": [
+                "hornattack",
+                "stomp",
+                "tailwhip"
+              ]
+            },
+            "answer": {
+              "move": "surf",
+              "member": "slowbro",
+              "form": "slowbro",
+              "minPercent": 291.1,
+              "maxPercent": 342.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 41 Slowbro Surf vs. Lvl 37 Rhyhorn: 326-384 (241.4 - 284.4%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hornattack",
+              "minPercent": 10.9,
+              "maxPercent": 13.3,
+              "ko": "possible 8HKO",
+              "description": "Lvl 37 Rhyhorn Horn Attack vs. Lvl 41 Slowbro: 14-17 (9 - 11%) -- possible 8HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "nidoqueen",
+              "level": 41,
+              "moves": [
+                "scratch",
+                "tailwhip",
+                "bodyslam",
+                "poisonsting"
+              ]
+            },
+            "answer": {
+              "move": "surf",
+              "member": "slowbro",
+              "form": "slowbro",
+              "minPercent": 71,
+              "maxPercent": 84,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 41 Slowbro Surf vs. Lvl 41 Nidoqueen: 93-110 (59.2 - 70%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "bodyslam",
+              "minPercent": 17.2,
+              "maxPercent": 21.1,
+              "ko": "possible 5HKO",
+              "description": "Lvl 41 Nidoqueen Body Slam vs. Lvl 41 Slowbro: 22-27 (14.2 - 17.5%) -- possible 5HKO"
+            }
+          }
+        ],
+        "lead": "rhyhorn",
+        "warnings": []
+      },
+      {
+        "boss": "sabrina",
+        "name": "Sabrina",
+        "location": "Saffron City",
+        "stage": 5,
+        "level": 43,
+        "usable": [
+          {
+            "member": "gengar",
+            "form": "gengar",
+            "moves": [
+              "doubleedge",
+              "hypnosis",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "slowbro",
+            "form": "slowbro",
+            "moves": [
+              "surf",
+              "psychic",
+              "thunderwave",
+              "submission"
+            ]
+          },
+          {
+            "member": "snorlax",
+            "form": "snorlax",
+            "moves": [
+              "megakick",
+              "rest",
+              "surf",
+              "submission"
+            ]
+          },
+          {
+            "member": "rhydon",
+            "form": "rhydon",
+            "moves": [
+              "earthquake",
+              "rockslide",
+              "rest",
+              "surf"
+            ]
+          },
+          {
+            "member": "exeggutor",
+            "form": "exeggutor",
+            "moves": [
+              "solarbeam",
+              "hypnosis",
+              "hyperbeam",
+              "strength"
+            ]
+          }
+        ],
+        "notYet": [
+          "articuno"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "kadabra",
+              "level": 38,
+              "moves": [
+                "disable",
+                "psybeam",
+                "recover",
+                "psychic"
+              ]
+            },
+            "answer": {
+              "move": "megakick",
+              "member": "snorlax",
+              "form": "snorlax",
+              "minPercent": 163.1,
+              "maxPercent": 192.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 43 Snorlax Mega Kick vs. Lvl 38 Kadabra: 137-162 (126.8 - 150%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "psychic",
+              "minPercent": 28.4,
+              "maxPercent": 33.7,
+              "ko": "0.1% chance to 3HKO",
+              "description": "Lvl 38 Kadabra Psychic vs. Lvl 43 Snorlax: 54-64 (24.8 - 29.4%) -- 0.1% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "mrmime",
+              "level": 37,
+              "moves": [
+                "confusion",
+                "barrier",
+                "lightscreen",
+                "doubleslap"
+              ]
+            },
+            "answer": {
+              "move": "megakick",
+              "member": "snorlax",
+              "form": "snorlax",
+              "minPercent": 115.9,
+              "maxPercent": 136.6,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 43 Snorlax Mega Kick vs. Lvl 37 Mr. Mime: 95-112 (90.4 - 106.6%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "confusion",
+              "minPercent": 13.2,
+              "maxPercent": 15.8,
+              "ko": "possible 7HKO",
+              "description": "Lvl 37 Mr. Mime Confusion vs. Lvl 43 Snorlax: 25-30 (11.5 - 13.8%) -- possible 7HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "venomoth",
+              "level": 38,
+              "moves": [
+                "poisonpowder",
+                "leechlife",
+                "stunspore",
+                "psybeam"
+              ]
+            },
+            "answer": {
+              "move": "rockslide",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 129.9,
+              "maxPercent": 153.3,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 43 Rhydon Rock Slide vs. Lvl 38 Venomoth: 139-164 (106.1 - 125.1%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "psybeam",
+              "minPercent": 18.2,
+              "maxPercent": 21.7,
+              "ko": "possible 5HKO",
+              "description": "Lvl 38 Venomoth Psybeam vs. Lvl 43 Rhydon: 26-31 (15.2 - 18.2%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "alakazam",
+              "level": 43,
+              "moves": [
+                "psybeam",
+                "recover",
+                "psywave",
+                "reflect"
+              ]
+            },
+            "answer": {
+              "move": "megakick",
+              "member": "snorlax",
+              "form": "snorlax",
+              "minPercent": 95.3,
+              "maxPercent": 112.1,
+              "ko": "71.8% chance to OHKO",
+              "description": "Lvl 43 Snorlax Mega Kick vs. Lvl 43 Alakazam: 102-120 (76.1 - 89.5%) -- 71.8% chance to OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "psybeam",
+              "minPercent": 27.9,
+              "maxPercent": 33.2,
+              "ko": "guaranteed 4HKO",
+              "description": "Lvl 43 Alakazam Psybeam vs. Lvl 43 Snorlax: 53-63 (24.4 - 29%) -- guaranteed 4HKO"
+            }
+          }
+        ],
+        "lead": "snorlax",
+        "warnings": []
+      },
+      {
+        "boss": "blaine",
+        "name": "Blaine",
+        "location": "Cinnabar Island",
+        "stage": 6,
+        "level": 47,
+        "usable": [
+          {
+            "member": "gengar",
+            "form": "gengar",
+            "moves": [
+              "doubleedge",
+              "hypnosis",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "slowbro",
+            "form": "slowbro",
+            "moves": [
+              "surf",
+              "psychic",
+              "thunderwave",
+              "submission"
+            ]
+          },
+          {
+            "member": "snorlax",
+            "form": "snorlax",
+            "moves": [
+              "megakick",
+              "rest",
+              "surf",
+              "submission"
+            ]
+          },
+          {
+            "member": "rhydon",
+            "form": "rhydon",
+            "moves": [
+              "earthquake",
+              "rockslide",
+              "rest",
+              "surf"
+            ]
+          },
+          {
+            "member": "articuno",
+            "form": "articuno",
+            "moves": [
+              "blizzard",
+              "icebeam",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "exeggutor",
+            "form": "exeggutor",
+            "moves": [
+              "solarbeam",
+              "hypnosis",
+              "hyperbeam",
+              "strength"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "growlithe",
+              "level": 42,
+              "moves": [
+                "ember",
+                "leer",
+                "takedown",
+                "agility"
+              ]
+            },
+            "answer": {
+              "move": "earthquake",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 217.3,
+              "maxPercent": 255.8,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 47 Rhydon Earthquake vs. Lvl 42 Growlithe: 226-266 (172.5 - 203%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "ember",
+              "minPercent": 5.8,
+              "maxPercent": 7.1,
+              "ko": "",
+              "description": "Lvl 42 Growlithe Ember vs. Lvl 47 Rhydon: 9-11 (4.8 - 5.9%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "ponyta",
+              "level": 40,
+              "moves": [
+                "tailwhip",
+                "stomp",
+                "growl",
+                "firespin"
+              ]
+            },
+            "answer": {
+              "move": "earthquake",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 222.9,
+              "maxPercent": 262.5,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 47 Rhydon Earthquake vs. Lvl 40 Ponyta: 214-252 (176.8 - 208.2%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 3.9,
+              "maxPercent": 5.2,
+              "ko": "",
+              "description": "Lvl 40 Ponyta Stomp vs. Lvl 47 Rhydon: 6-8 (3.2 - 4.3%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rapidash",
+              "level": 42,
+              "moves": [
+                "tailwhip",
+                "stomp",
+                "growl",
+                "firespin"
+              ]
+            },
+            "answer": {
+              "move": "earthquake",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 157.5,
+              "maxPercent": 185.8,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 47 Rhydon Earthquake vs. Lvl 42 Rapidash: 178-210 (128 - 151%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 5.2,
+              "maxPercent": 6.5,
+              "ko": "",
+              "description": "Lvl 42 Rapidash Stomp vs. Lvl 47 Rhydon: 8-10 (4.3 - 5.4%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "arcanine",
+              "level": 47,
+              "moves": [
+                "roar",
+                "ember",
+                "fireblast",
+                "takedown"
+              ]
+            },
+            "answer": {
+              "move": "earthquake",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 99.3,
+              "maxPercent": 116.8,
+              "ko": "94.9% chance to OHKO",
+              "description": "Lvl 47 Rhydon Earthquake vs. Lvl 47 Arcanine: 148-174 (83.1 - 97.7%) -- 94.9% chance to OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "fireblast",
+              "minPercent": 27.7,
+              "maxPercent": 32.9,
+              "ko": "guaranteed 4HKO",
+              "description": "Lvl 47 Arcanine Fire Blast vs. Lvl 47 Rhydon: 43-51 (23.2 - 27.5%) -- guaranteed 4HKO"
+            }
+          }
+        ],
+        "lead": "rhydon",
+        "warnings": []
+      },
+      {
+        "boss": "giovanni-gym",
+        "name": "Giovanni",
+        "location": "Viridian City",
+        "stage": 7,
+        "level": 50,
+        "usable": [
+          {
+            "member": "gengar",
+            "form": "gengar",
+            "moves": [
+              "doubleedge",
+              "hypnosis",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "slowbro",
+            "form": "slowbro",
+            "moves": [
+              "surf",
+              "psychic",
+              "thunderwave",
+              "submission"
+            ]
+          },
+          {
+            "member": "snorlax",
+            "form": "snorlax",
+            "moves": [
+              "doubleedge",
+              "rest",
+              "surf",
+              "submission"
+            ]
+          },
+          {
+            "member": "rhydon",
+            "form": "rhydon",
+            "moves": [
+              "earthquake",
+              "rockslide",
+              "rest",
+              "surf"
+            ]
+          },
+          {
+            "member": "articuno",
+            "form": "articuno",
+            "moves": [
+              "blizzard",
+              "icebeam",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "exeggutor",
+            "form": "exeggutor",
+            "moves": [
+              "solarbeam",
+              "sleeppowder",
+              "hyperbeam",
+              "strength"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "rhyhorn",
+              "level": 45,
+              "moves": [
+                "stomp",
+                "tailwhip",
+                "furyattack",
+                "horndrill"
+              ]
+            },
+            "answer": {
+              "move": "solarbeam",
+              "member": "exeggutor",
+              "form": "exeggutor",
+              "minPercent": 512.7,
+              "maxPercent": 603,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 50 Exeggutor Solar Beam vs. Lvl 45 Rhyhorn: 687-808 (424 - 498.7%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 13.5,
+              "maxPercent": 16.1,
+              "ko": "possible 7HKO",
+              "description": "Lvl 45 Rhyhorn Stomp vs. Lvl 50 Exeggutor: 21-25 (11.2 - 13.4%) -- possible 7HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "dugtrio",
+              "level": 42,
+              "moves": [
+                "growl",
+                "dig",
+                "sandattack",
+                "slash"
+              ]
+            },
+            "answer": {
+              "move": "blizzard",
+              "member": "articuno",
+              "form": "articuno",
+              "minPercent": 271.6,
+              "maxPercent": 320.5,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 50 Articuno Blizzard vs. Lvl 42 Dugtrio: 239-282 (209.6 - 247.3%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "slash",
+              "minPercent": 21.3,
+              "maxPercent": 25.3,
+              "ko": "0.1% chance to 4HKO",
+              "description": "Lvl 42 Dugtrio Slash vs. Lvl 50 Articuno on a critical hit: 32-38 (17.6 - 20.9%) -- 0.1% chance to 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "nidoqueen",
+              "level": 44,
+              "moves": [
+                "scratch",
+                "tailwhip",
+                "bodyslam",
+                "poisonsting"
+              ]
+            },
+            "answer": {
+              "move": "blizzard",
+              "member": "articuno",
+              "form": "articuno",
+              "minPercent": 156.4,
+              "maxPercent": 184.3,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 50 Articuno Blizzard vs. Lvl 44 Nidoqueen: 219-258 (131.1 - 154.4%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "bodyslam",
+              "minPercent": 14.7,
+              "maxPercent": 18,
+              "ko": "possible 6HKO",
+              "description": "Lvl 44 Nidoqueen Body Slam vs. Lvl 50 Articuno: 22-27 (12.1 - 14.9%) -- possible 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "nidoking",
+              "level": 45,
+              "moves": [
+                "tackle",
+                "hornattack",
+                "poisonsting",
+                "thrash"
+              ]
+            },
+            "answer": {
+              "move": "blizzard",
+              "member": "articuno",
+              "form": "articuno",
+              "minPercent": 158.5,
+              "maxPercent": 186.7,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 50 Articuno Blizzard vs. Lvl 45 Nidoking: 214-252 (131.2 - 154.6%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "thrash",
+              "minPercent": 18.7,
+              "maxPercent": 22,
+              "ko": "possible 5HKO",
+              "description": "Lvl 45 Nidoking Thrash vs. Lvl 50 Articuno: 28-33 (15.4 - 18.2%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rhydon",
+              "level": 50,
+              "moves": [
+                "stomp",
+                "tailwhip",
+                "fissure",
+                "horndrill"
+              ]
+            },
+            "answer": {
+              "move": "solarbeam",
+              "member": "exeggutor",
+              "form": "exeggutor",
+              "minPercent": 300.6,
+              "maxPercent": 353.8,
+              "ko": "guaranteed OHKO",
+              "description": "Exeggutor Solar Beam vs. Rhydon: 520-612 (254.9 - 300%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 21.9,
+              "maxPercent": 25.8,
+              "ko": "0.8% chance to 4HKO",
+              "description": "Rhydon Stomp vs. Exeggutor: 34-40 (18.2 - 21.5%) -- 0.8% chance to 4HKO"
+            }
+          }
+        ],
+        "lead": "exeggutor",
+        "warnings": []
+      },
+      {
+        "boss": "rival-route22-late",
+        "name": "Rival",
+        "location": "Route 22",
+        "stage": 8,
+        "level": 53,
+        "rivalStarter": "charmander",
+        "usable": [
+          {
+            "member": "gengar",
+            "form": "gengar",
+            "moves": [
+              "doubleedge",
+              "hypnosis",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "slowbro",
+            "form": "slowbro",
+            "moves": [
+              "surf",
+              "psychic",
+              "thunderwave",
+              "submission"
+            ]
+          },
+          {
+            "member": "snorlax",
+            "form": "snorlax",
+            "moves": [
+              "doubleedge",
+              "rest",
+              "surf",
+              "submission"
+            ]
+          },
+          {
+            "member": "rhydon",
+            "form": "rhydon",
+            "moves": [
+              "earthquake",
+              "rockslide",
+              "rest",
+              "surf"
+            ]
+          },
+          {
+            "member": "articuno",
+            "form": "articuno",
+            "moves": [
+              "blizzard",
+              "skyattack",
+              "icebeam",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "exeggutor",
+            "form": "exeggutor",
+            "moves": [
+              "solarbeam",
+              "sleeppowder",
+              "hyperbeam",
+              "strength"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeot",
+              "level": 47,
+              "moves": [
+                "quickattack",
+                "whirlwind",
+                "wingattack",
+                "agility"
+              ]
+            },
+            "answer": {
+              "move": "blizzard",
+              "member": "articuno",
+              "form": "articuno",
+              "minPercent": 168.3,
+              "maxPercent": 198.6,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 53 Articuno Blizzard vs. Lvl 47 Pidgeot: 239-282 (138.9 - 163.9%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "quickattack",
+              "minPercent": 10.8,
+              "maxPercent": 13.3,
+              "ko": "possible 8HKO",
+              "description": "Lvl 47 Pidgeot Quick Attack vs. Lvl 53 Articuno: 17-21 (8.9 - 10.9%) -- possible 8HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rhyhorn",
+              "level": 45,
+              "moves": [
+                "stomp",
+                "tailwhip",
+                "furyattack",
+                "horndrill"
+              ]
+            },
+            "answer": {
+              "move": "solarbeam",
+              "member": "exeggutor",
+              "form": "exeggutor",
+              "minPercent": 566.4,
+              "maxPercent": 665.7,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 53 Exeggutor Solar Beam vs. Lvl 45 Rhyhorn: 759-892 (468.5 - 550.6%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 12.3,
+              "maxPercent": 14.7,
+              "ko": "possible 7HKO",
+              "description": "Lvl 45 Rhyhorn Stomp vs. Lvl 53 Exeggutor: 20-24 (10.1 - 12.1%) -- possible 7HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "exeggcute",
+              "level": 45,
+              "moves": [
+                "leechseed",
+                "stunspore",
+                "poisonpowder",
+                "solarbeam"
+              ]
+            },
+            "answer": {
+              "move": "blizzard",
+              "member": "articuno",
+              "form": "articuno",
+              "minPercent": 234.5,
+              "maxPercent": 275.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 53 Articuno Blizzard vs. Lvl 45 Exeggcute: 272-320 (188.8 - 222.2%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "solarbeam",
+              "minPercent": 10.8,
+              "maxPercent": 12.7,
+              "ko": "possible 8HKO",
+              "description": "Lvl 45 Exeggcute Solar Beam vs. Lvl 53 Articuno: 17-20 (8.9 - 10.4%) -- possible 8HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "gyarados",
+              "level": 47,
+              "moves": [
+                "bite",
+                "dragonrage",
+                "leer",
+                "hydropump"
+              ]
+            },
+            "answer": {
+              "move": "rockslide",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 92.8,
+              "maxPercent": 109.8,
+              "ko": "59% chance to OHKO",
+              "description": "Lvl 53 Rhydon Rock Slide vs. Lvl 47 Gyarados: 142-168 (77.5 - 91.8%) -- 59% chance to OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "hydropump",
+              "minPercent": 206.9,
+              "maxPercent": 243.7,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 47 Gyarados Hydro Pump vs. Lvl 53 Rhydon: 360-424 (173.9 - 204.8%) -- guaranteed OHKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "alakazam",
+              "level": 50,
+              "moves": [
+                "psybeam",
+                "recover",
+                "psychic",
+                "reflect"
+              ]
+            },
+            "answer": {
+              "move": "skyattack",
+              "member": "articuno",
+              "form": "articuno",
+              "minPercent": 103.3,
+              "maxPercent": 122,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 53 Articuno Sky Attack vs. Lvl 50 Alakazam: 127-150 (82.4 - 97.4%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "psychic",
+              "minPercent": 32.3,
+              "maxPercent": 38.6,
+              "ko": "99% chance to 3HKO",
+              "description": "Lvl 50 Alakazam Psychic vs. Lvl 53 Articuno: 51-61 (26.7 - 31.9%) -- 99% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charizard",
+              "level": 53,
+              "moves": [
+                "leer",
+                "rage",
+                "slash",
+                "flamethrower"
+              ]
+            },
+            "answer": {
+              "move": "rockslide",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 167.5,
+              "maxPercent": 197.4,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 53 Rhydon Rock Slide vs. Lvl 53 Charizard: 258-304 (137.9 - 162.5%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "flamethrower",
+              "minPercent": 23,
+              "maxPercent": 27.6,
+              "ko": "68.8% chance to 4HKO",
+              "description": "Lvl 53 Charizard Flamethrower vs. Lvl 53 Rhydon: 40-48 (19.3 - 23.1%) -- 68.8% chance to 4HKO"
+            }
+          }
+        ],
+        "lead": "articuno",
+        "warnings": [
+          "Gyarados can KO Rhydon with Hydro Pump."
+        ]
+      },
+      {
+        "boss": "lorelei",
+        "name": "Lorelei",
+        "location": "Indigo Plateau",
+        "stage": 8,
+        "level": 56,
+        "usable": [
+          {
+            "member": "gengar",
+            "form": "gengar",
+            "moves": [
+              "doubleedge",
+              "hypnosis",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "slowbro",
+            "form": "slowbro",
+            "moves": [
+              "surf",
+              "psychic",
+              "thunderwave",
+              "submission"
+            ]
+          },
+          {
+            "member": "snorlax",
+            "form": "snorlax",
+            "moves": [
+              "doubleedge",
+              "rest",
+              "surf",
+              "submission"
+            ]
+          },
+          {
+            "member": "rhydon",
+            "form": "rhydon",
+            "moves": [
+              "earthquake",
+              "rockslide",
+              "rest",
+              "surf"
+            ]
+          },
+          {
+            "member": "articuno",
+            "form": "articuno",
+            "moves": [
+              "blizzard",
+              "skyattack",
+              "icebeam",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "exeggutor",
+            "form": "exeggutor",
+            "moves": [
+              "solarbeam",
+              "psychic",
+              "sleeppowder",
+              "hyperbeam"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "dewgong",
+              "level": 54,
+              "moves": [
+                "growl",
+                "aurorabeam",
+                "rest",
+                "takedown"
+              ]
+            },
+            "answer": {
+              "move": "solarbeam",
+              "member": "exeggutor",
+              "form": "exeggutor",
+              "minPercent": 111.2,
+              "maxPercent": 131.4,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 56 Exeggutor Solar Beam vs. Lvl 54 Dewgong: 188-222 (92.6 - 109.3%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "aurorabeam",
+              "minPercent": 36,
+              "maxPercent": 43,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 54 Dewgong Aurora Beam vs. Lvl 56 Exeggutor: 62-74 (29.9 - 35.7%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "cloyster",
+              "level": 53,
+              "moves": [
+                "supersonic",
+                "clamp",
+                "aurorabeam",
+                "spikecannon"
+              ]
+            },
+            "answer": {
+              "move": "solarbeam",
+              "member": "exeggutor",
+              "form": "exeggutor",
+              "minPercent": 168.5,
+              "maxPercent": 198.4,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 56 Exeggutor Solar Beam vs. Lvl 53 Cloyster: 209-246 (133.1 - 156.6%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "aurorabeam",
+              "minPercent": 33.1,
+              "maxPercent": 39.5,
+              "ko": "99.9% chance to 3HKO",
+              "description": "Lvl 53 Cloyster Aurora Beam vs. Lvl 56 Exeggutor: 57-68 (27.5 - 32.8%) -- 99.9% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "slowbro",
+              "level": 54,
+              "moves": [
+                "growl",
+                "watergun",
+                "withdraw",
+                "amnesia"
+              ]
+            },
+            "answer": {
+              "move": "solarbeam",
+              "member": "exeggutor",
+              "form": "exeggutor",
+              "minPercent": 120.6,
+              "maxPercent": 141.7,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 56 Exeggutor Solar Beam vs. Lvl 54 Slowbro: 211-248 (100.9 - 118.6%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "watergun",
+              "minPercent": 5.2,
+              "maxPercent": 6.4,
+              "ko": "",
+              "description": "Lvl 54 Slowbro Water Gun vs. Lvl 56 Exeggutor: 9-11 (4.3 - 5.3%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "jynx",
+              "level": 56,
+              "moves": [
+                "doubleslap",
+                "icepunch",
+                "bodyslam",
+                "thrash"
+              ]
+            },
+            "answer": {
+              "move": "rockslide",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 139.5,
+              "maxPercent": 164.6,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 56 Rhydon Rock Slide vs. Lvl 56 Jynx: 205-242 (112 - 132.2%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "icepunch",
+              "minPercent": 80.9,
+              "maxPercent": 95.1,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 56 Jynx Ice Punch vs. Lvl 56 Rhydon: 148-174 (67.8 - 79.8%) -- guaranteed 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "lapras",
+              "level": 56,
+              "moves": [
+                "bodyslam",
+                "confuseray",
+                "blizzard",
+                "hydropump"
+              ]
+            },
+            "answer": {
+              "move": "solarbeam",
+              "member": "exeggutor",
+              "form": "exeggutor",
+              "minPercent": 83.2,
+              "maxPercent": 98.2,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 56 Exeggutor Solar Beam vs. Lvl 56 Lapras: 183-216 (71.7 - 84.7%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "blizzard",
+              "minPercent": 72.1,
+              "maxPercent": 84.9,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 56 Lapras Blizzard vs. Lvl 56 Exeggutor: 124-146 (59.9 - 70.5%) -- guaranteed 2HKO"
+            }
+          }
+        ],
+        "lead": "exeggutor",
+        "warnings": []
+      },
+      {
+        "boss": "bruno",
+        "name": "Bruno",
+        "location": "Indigo Plateau",
+        "stage": 8,
+        "level": 58,
+        "usable": [
+          {
+            "member": "gengar",
+            "form": "gengar",
+            "moves": [
+              "doubleedge",
+              "hypnosis",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "slowbro",
+            "form": "slowbro",
+            "moves": [
+              "surf",
+              "psychic",
+              "thunderwave",
+              "submission"
+            ]
+          },
+          {
+            "member": "snorlax",
+            "form": "snorlax",
+            "moves": [
+              "doubleedge",
+              "rest",
+              "surf",
+              "submission"
+            ]
+          },
+          {
+            "member": "rhydon",
+            "form": "rhydon",
+            "moves": [
+              "earthquake",
+              "rockslide",
+              "rest",
+              "surf"
+            ]
+          },
+          {
+            "member": "articuno",
+            "form": "articuno",
+            "moves": [
+              "blizzard",
+              "skyattack",
+              "icebeam",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "exeggutor",
+            "form": "exeggutor",
+            "moves": [
+              "solarbeam",
+              "psychic",
+              "sleeppowder",
+              "hyperbeam"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "onix",
+              "level": 53,
+              "moves": [
+                "rockthrow",
+                "rage",
+                "slam",
+                "harden"
+              ]
+            },
+            "answer": {
+              "move": "solarbeam",
+              "member": "exeggutor",
+              "form": "exeggutor",
+              "minPercent": 718.5,
+              "maxPercent": 844.4,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 58 Exeggutor Solar Beam vs. Lvl 53 Onix: 776-912 (550.3 - 646.8%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "slam",
+              "minPercent": 11.8,
+              "maxPercent": 14,
+              "ko": "possible 8HKO",
+              "description": "Lvl 53 Onix Slam vs. Lvl 58 Exeggutor: 21-25 (9.8 - 11.6%) -- possible 8HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "hitmonchan",
+              "level": 55,
+              "moves": [
+                "icepunch",
+                "thunderpunch",
+                "megapunch",
+                "counter"
+              ]
+            },
+            "answer": {
+              "move": "psychic",
+              "member": "exeggutor",
+              "form": "exeggutor",
+              "minPercent": 207,
+              "maxPercent": 243.8,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 58 Exeggutor Psychic vs. Lvl 55 Hitmonchan: 265-312 (162.5 - 191.4%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "megapunch",
+              "minPercent": 20.8,
+              "maxPercent": 24.7,
+              "ko": "guaranteed 5HKO",
+              "description": "Lvl 55 Hitmonchan Mega Punch vs. Lvl 58 Exeggutor: 37-44 (17.2 - 20.5%) -- guaranteed 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "hitmonlee",
+              "level": 55,
+              "moves": [
+                "jumpkick",
+                "focusenergy",
+                "highjumpkick",
+                "megakick"
+              ]
+            },
+            "answer": {
+              "move": "psychic",
+              "member": "exeggutor",
+              "form": "exeggutor",
+              "minPercent": 207,
+              "maxPercent": 243.8,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 58 Exeggutor Psychic vs. Lvl 55 Hitmonlee: 265-312 (162.5 - 191.4%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "megakick",
+              "minPercent": 33.7,
+              "maxPercent": 39.9,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 55 Hitmonlee Mega Kick vs. Lvl 58 Exeggutor: 60-71 (28 - 33.1%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "onix",
+              "level": 56,
+              "moves": [
+                "rockthrow",
+                "rage",
+                "slam",
+                "harden"
+              ]
+            },
+            "answer": {
+              "move": "solarbeam",
+              "member": "exeggutor",
+              "form": "exeggutor",
+              "minPercent": 644.7,
+              "maxPercent": 757.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 58 Exeggutor Solar Beam vs. Lvl 56 Onix: 735-864 (493.2 - 579.8%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "rockthrow",
+              "minPercent": 12.4,
+              "maxPercent": 15.2,
+              "ko": "possible 7HKO",
+              "description": "Lvl 56 Onix Rock Throw vs. Lvl 58 Exeggutor: 22-27 (10.2 - 12.6%) -- possible 7HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "machamp",
+              "level": 58,
+              "moves": [
+                "leer",
+                "focusenergy",
+                "fissure",
+                "submission"
+              ]
+            },
+            "answer": {
+              "move": "skyattack",
+              "member": "articuno",
+              "form": "articuno",
+              "minPercent": 103.9,
+              "maxPercent": 122.7,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 58 Articuno Sky Attack vs. Lvl 58 Machamp: 188-222 (86.2 - 101.8%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "submission",
+              "minPercent": 36.6,
+              "maxPercent": 43.6,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 58 Machamp Submission vs. Lvl 58 Articuno: 63-75 (30.2 - 36%) -- guaranteed 3HKO"
+            }
+          }
+        ],
+        "lead": "exeggutor",
+        "warnings": []
+      },
+      {
+        "boss": "agatha",
+        "name": "Agatha",
+        "location": "Indigo Plateau",
+        "stage": 8,
+        "level": 60,
+        "usable": [
+          {
+            "member": "gengar",
+            "form": "gengar",
+            "moves": [
+              "doubleedge",
+              "hypnosis",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "slowbro",
+            "form": "slowbro",
+            "moves": [
+              "surf",
+              "psychic",
+              "thunderwave",
+              "submission"
+            ]
+          },
+          {
+            "member": "snorlax",
+            "form": "snorlax",
+            "moves": [
+              "doubleedge",
+              "rest",
+              "surf",
+              "submission"
+            ]
+          },
+          {
+            "member": "rhydon",
+            "form": "rhydon",
+            "moves": [
+              "earthquake",
+              "rockslide",
+              "rest",
+              "surf"
+            ]
+          },
+          {
+            "member": "articuno",
+            "form": "articuno",
+            "moves": [
+              "blizzard",
+              "skyattack",
+              "icebeam",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "exeggutor",
+            "form": "exeggutor",
+            "moves": [
+              "solarbeam",
+              "psychic",
+              "sleeppowder",
+              "hyperbeam"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "gengar",
+              "level": 56,
+              "moves": [
+                "confuseray",
+                "nightshade",
+                "hypnosis",
+                "dreameater"
+              ]
+            },
+            "answer": {
+              "move": "earthquake",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 169.7,
+              "maxPercent": 200,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 60 Rhydon Earthquake vs. Lvl 56 Gengar: 241-284 (136.1 - 160.4%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "dreameater",
+              "minPercent": 38.3,
+              "maxPercent": 45.4,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 56 Gengar Dream Eater vs. Lvl 60 Rhydon: 75-89 (32.1 - 38.1%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "golbat",
+              "level": 56,
+              "moves": [
+                "supersonic",
+                "confuseray",
+                "wingattack",
+                "haze"
+              ]
+            },
+            "answer": {
+              "move": "blizzard",
+              "member": "articuno",
+              "form": "articuno",
+              "minPercent": 155.1,
+              "maxPercent": 182.3,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 60 Articuno Blizzard vs. Lvl 56 Golbat: 245-288 (126.2 - 148.4%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "wingattack",
+              "minPercent": 10.1,
+              "maxPercent": 12.4,
+              "ko": "possible 9HKO",
+              "description": "Lvl 56 Golbat Wing Attack vs. Lvl 60 Articuno: 18-22 (8.3 - 10.2%) -- possible 9HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "haunter",
+              "level": 55,
+              "moves": [
+                "confuseray",
+                "nightshade",
+                "hypnosis",
+                "dreameater"
+              ]
+            },
+            "answer": {
+              "move": "earthquake",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 233.3,
+              "maxPercent": 274.8,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 60 Rhydon Earthquake vs. Lvl 55 Haunter: 287-338 (182.8 - 215.2%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "dreameater",
+              "minPercent": 34.7,
+              "maxPercent": 40.8,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 55 Haunter Dream Eater vs. Lvl 60 Rhydon: 68-80 (29.1 - 34.3%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "arbok",
+              "level": 58,
+              "moves": [
+                "bite",
+                "glare",
+                "screech",
+                "acid"
+              ]
+            },
+            "answer": {
+              "move": "earthquake",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 147.9,
+              "maxPercent": 174,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 60 Rhydon Earthquake vs. Lvl 58 Arbok: 216-254 (118 - 138.7%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "bite",
+              "minPercent": 5.1,
+              "maxPercent": 6.1,
+              "ko": "",
+              "description": "Lvl 58 Arbok Bite vs. Lvl 60 Rhydon: 10-12 (4.2 - 5.1%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "gengar",
+              "level": 60,
+              "moves": [
+                "confuseray",
+                "nightshade",
+                "toxic",
+                "dreameater"
+              ]
+            },
+            "answer": {
+              "move": "earthquake",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 149.7,
+              "maxPercent": 176.2,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 60 Rhydon Earthquake vs. Lvl 60 Gengar: 226-266 (119.5 - 140.7%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "dreameater",
+              "minPercent": 44.9,
+              "maxPercent": 53.1,
+              "ko": "28.2% chance to 2HKO",
+              "description": "Lvl 60 Gengar Dream Eater vs. Lvl 60 Rhydon: 88-104 (37.7 - 44.6%) -- 28.2% chance to 2HKO"
+            }
+          }
+        ],
+        "lead": "rhydon",
+        "warnings": []
+      },
+      {
+        "boss": "lance",
+        "name": "Lance",
+        "location": "Indigo Plateau",
+        "stage": 8,
+        "level": 62,
+        "usable": [
+          {
+            "member": "gengar",
+            "form": "gengar",
+            "moves": [
+              "doubleedge",
+              "hypnosis",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "slowbro",
+            "form": "slowbro",
+            "moves": [
+              "surf",
+              "psychic",
+              "thunderwave",
+              "submission"
+            ]
+          },
+          {
+            "member": "snorlax",
+            "form": "snorlax",
+            "moves": [
+              "doubleedge",
+              "rest",
+              "surf",
+              "submission"
+            ]
+          },
+          {
+            "member": "rhydon",
+            "form": "rhydon",
+            "moves": [
+              "earthquake",
+              "rockslide",
+              "rest",
+              "surf"
+            ]
+          },
+          {
+            "member": "articuno",
+            "form": "articuno",
+            "moves": [
+              "blizzard",
+              "skyattack",
+              "icebeam",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "exeggutor",
+            "form": "exeggutor",
+            "moves": [
+              "solarbeam",
+              "psychic",
+              "sleeppowder",
+              "hyperbeam"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "gyarados",
+              "level": 58,
+              "moves": [
+                "dragonrage",
+                "leer",
+                "hydropump",
+                "hyperbeam"
+              ]
+            },
+            "answer": {
+              "move": "rockslide",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 82.4,
+              "maxPercent": 97.3,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 62 Rhydon Rock Slide vs. Lvl 58 Gyarados: 154-182 (68.7 - 81.2%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "hydropump",
+              "minPercent": 234.2,
+              "maxPercent": 275.2,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 58 Gyarados Hydro Pump vs. Lvl 62 Rhydon: 473-556 (196.2 - 230.7%) -- guaranteed OHKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "dragonair",
+              "level": 56,
+              "moves": [
+                "agility",
+                "slam",
+                "dragonrage",
+                "hyperbeam"
+              ]
+            },
+            "answer": {
+              "move": "blizzard",
+              "member": "articuno",
+              "form": "articuno",
+              "minPercent": 185.3,
+              "maxPercent": 218.2,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 62 Articuno Blizzard vs. Lvl 56 Dragonair: 265-312 (148.8 - 175.2%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hyperbeam",
+              "minPercent": 27.9,
+              "maxPercent": 32.8,
+              "ko": "guaranteed 4HKO",
+              "description": "Lvl 56 Dragonair Hyper Beam vs. Lvl 62 Articuno: 51-60 (22.9 - 27%) -- guaranteed 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "dragonair",
+              "level": 56,
+              "moves": [
+                "agility",
+                "slam",
+                "dragonrage",
+                "hyperbeam"
+              ]
+            },
+            "answer": {
+              "move": "blizzard",
+              "member": "articuno",
+              "form": "articuno",
+              "minPercent": 185.3,
+              "maxPercent": 218.2,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 62 Articuno Blizzard vs. Lvl 56 Dragonair: 265-312 (148.8 - 175.2%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hyperbeam",
+              "minPercent": 27.9,
+              "maxPercent": 32.8,
+              "ko": "guaranteed 4HKO",
+              "description": "Lvl 56 Dragonair Hyper Beam vs. Lvl 62 Articuno: 51-60 (22.9 - 27%) -- guaranteed 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "aerodactyl",
+              "level": 60,
+              "moves": [
+                "supersonic",
+                "bite",
+                "takedown",
+                "hyperbeam"
+              ]
+            },
+            "answer": {
+              "move": "blizzard",
+              "member": "articuno",
+              "form": "articuno",
+              "minPercent": 154.3,
+              "maxPercent": 181.7,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 62 Articuno Blizzard vs. Lvl 60 Aerodactyl: 270-318 (126.7 - 149.2%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "hyperbeam",
+              "minPercent": 37.2,
+              "maxPercent": 43.7,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 60 Aerodactyl Hyper Beam vs. Lvl 62 Articuno: 68-80 (30.6 - 36%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "dragonite",
+              "level": 62,
+              "moves": [
+                "agility",
+                "slam",
+                "barrier",
+                "hyperbeam"
+              ]
+            },
+            "answer": {
+              "move": "blizzard",
+              "member": "articuno",
+              "form": "articuno",
+              "minPercent": 196.4,
+              "maxPercent": 230.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 62 Articuno Blizzard vs. Lvl 62 Dragonite: 381-448 (163.5 - 192.2%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hyperbeam",
+              "minPercent": 45.9,
+              "maxPercent": 54.1,
+              "ko": "48.7% chance to 2HKO",
+              "description": "Lvl 62 Dragonite Hyper Beam vs. Lvl 62 Articuno: 84-99 (37.8 - 44.5%) -- 48.7% chance to 2HKO"
+            }
+          }
+        ],
+        "lead": "rhydon",
+        "warnings": [
+          "Gyarados can KO Rhydon with Hydro Pump."
+        ]
+      },
+      {
+        "boss": "rival-champion",
+        "name": "Rival",
+        "location": "Indigo Plateau (Champion)",
+        "stage": 8,
+        "level": 65,
+        "rivalStarter": "charmander",
+        "usable": [
+          {
+            "member": "gengar",
+            "form": "gengar",
+            "moves": [
+              "doubleedge",
+              "hypnosis",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "slowbro",
+            "form": "slowbro",
+            "moves": [
+              "surf",
+              "psychic",
+              "thunderwave",
+              "submission"
+            ]
+          },
+          {
+            "member": "snorlax",
+            "form": "snorlax",
+            "moves": [
+              "doubleedge",
+              "rest",
+              "surf",
+              "submission"
+            ]
+          },
+          {
+            "member": "rhydon",
+            "form": "rhydon",
+            "moves": [
+              "earthquake",
+              "rockslide",
+              "rest",
+              "surf"
+            ]
+          },
+          {
+            "member": "articuno",
+            "form": "articuno",
+            "moves": [
+              "blizzard",
+              "skyattack",
+              "icebeam",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "exeggutor",
+            "form": "exeggutor",
+            "moves": [
+              "solarbeam",
+              "psychic",
+              "sleeppowder",
+              "hyperbeam"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeot",
+              "level": 61,
+              "moves": [
+                "whirlwind",
+                "wingattack",
+                "skyattack",
+                "mirrormove"
+              ]
+            },
+            "answer": {
+              "move": "blizzard",
+              "member": "articuno",
+              "form": "articuno",
+              "minPercent": 151.1,
+              "maxPercent": 178,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 65 Articuno Blizzard vs. Lvl 61 Pidgeot: 275-324 (125 - 147.2%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "skyattack",
+              "minPercent": 40.1,
+              "maxPercent": 47.4,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 61 Pidgeot Sky Attack vs. Lvl 65 Articuno: 77-91 (33.1 - 39.2%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "alakazam",
+              "level": 59,
+              "moves": [
+                "psybeam",
+                "recover",
+                "psychic",
+                "reflect"
+              ]
+            },
+            "answer": {
+              "move": "skyattack",
+              "member": "articuno",
+              "form": "articuno",
+              "minPercent": 112.6,
+              "maxPercent": 132.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 65 Articuno Sky Attack vs. Lvl 59 Alakazam: 161-190 (89.4 - 105.5%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "psychic",
+              "minPercent": 29.7,
+              "maxPercent": 34.9,
+              "ko": "9.4% chance to 3HKO",
+              "description": "Lvl 59 Alakazam Psychic vs. Lvl 65 Articuno: 57-67 (24.5 - 28.8%) -- 9.4% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rhydon",
+              "level": 61,
+              "moves": [
+                "tailwhip",
+                "furyattack",
+                "horndrill",
+                "leer"
+              ]
+            },
+            "answer": {
+              "move": "solarbeam",
+              "member": "exeggutor",
+              "form": "exeggutor",
+              "minPercent": 335.1,
+              "maxPercent": 394.2,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 65 Exeggutor Solar Beam vs. Lvl 61 Rhydon: 697-820 (282.1 - 331.9%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "furyattack",
+              "minPercent": 15.2,
+              "maxPercent": 18.2,
+              "ko": "approx. possible 6HKO",
+              "description": "Lvl 61 Rhydon Fury Attack (3 hits) vs. Lvl 65 Exeggutor: 30-36 (12.5 - 15%) -- approx. possible 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "exeggutor",
+              "level": 61,
+              "moves": [
+                "barrage",
+                "hypnosis",
+                "stomp"
+              ]
+            },
+            "answer": {
+              "move": "skyattack",
+              "member": "articuno",
+              "form": "articuno",
+              "minPercent": 110.2,
+              "maxPercent": 129.6,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 65 Articuno Sky Attack vs. Lvl 61 Exeggutor: 216-254 (91.9 - 108%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 14.1,
+              "maxPercent": 16.7,
+              "ko": "possible 6HKO",
+              "description": "Lvl 61 Exeggutor Stomp vs. Lvl 65 Articuno: 27-32 (11.6 - 13.7%) -- possible 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "gyarados",
+              "level": 63,
+              "moves": [
+                "dragonrage",
+                "leer",
+                "hydropump",
+                "hyperbeam"
+              ]
+            },
+            "answer": {
+              "move": "rockslide",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 78.7,
+              "maxPercent": 93.1,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 65 Rhydon Rock Slide vs. Lvl 63 Gyarados: 159-188 (65.7 - 77.6%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "hydropump",
+              "minPercent": 251.7,
+              "maxPercent": 295.7,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 63 Gyarados Hydro Pump vs. Lvl 65 Rhydon: 531-624 (210.7 - 247.6%) -- guaranteed OHKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charizard",
+              "level": 65,
+              "moves": [
+                "rage",
+                "slash",
+                "fireblast",
+                "firespin"
+              ]
+            },
+            "answer": {
+              "move": "rockslide",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 169.9,
+              "maxPercent": 200,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 65 Rhydon Rock Slide vs. Lvl 65 Charizard: 316-372 (139.2 - 163.8%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "fireblast",
+              "minPercent": 29.4,
+              "maxPercent": 35.1,
+              "ko": "13.3% chance to 3HKO",
+              "description": "Lvl 65 Charizard Fire Blast vs. Lvl 65 Rhydon: 62-74 (24.6 - 29.3%) -- 13.3% chance to 3HKO"
+            }
+          }
+        ],
+        "lead": "articuno",
+        "warnings": [
+          "Gyarados can KO Rhydon with Hydro Pump."
+        ]
+      }
+    ]
+  }
+}

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { dbToGain, duckVolume } from './audio.js';
+import { dbToGain, duckVolume, fadeOut } from './audio.js';
 import { backgroundKeyframes } from './background.js';
 import { captionAt, chunkWords, estimateWords } from './captions.js';
 import { SAMPLE_RUN } from './fixtures.js';
@@ -106,5 +106,15 @@ describe('theme', () => {
     expect(CARD_COLORS.pokedex.header).toMatch(/^#d/i);
     expect(CARD_COLORS.gymLeader.header).toMatch(/^#f/i);
     expect(CARD_COLORS.tm.header).toMatch(/^#3/i);
+  });
+});
+
+describe('fadeOut', () => {
+  it('is full volume until the last 1.5 s, then ramps to silence at the end', () => {
+    expect(fadeOut(0, 300, 30)).toBe(1);
+    expect(fadeOut(254, 300, 30)).toBe(1);
+    expect(fadeOut(300 - 22, 300, 30)).toBeCloseTo(22 / 45, 5);
+    expect(fadeOut(300, 300, 30)).toBe(0);
+    expect(fadeOut(400, 300, 30)).toBe(0);
   });
 });

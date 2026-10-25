@@ -111,3 +111,10 @@ export const listOutputs = async (outDir: string, teamId: string): Promise<Rende
 };
 
 export const isOutputFile = (name: string): boolean => /^[a-z0-9-]+(\.mp4|\.png|\.wav)$/.test(name);
+
+const MUSIC_FILE = /^[a-z0-9][a-z0-9-]*\.(ogg|mp3|wav)$/;
+export const isMusicFile = (name: string): boolean => MUSIC_FILE.test(name);
+
+/** Music files the video can use (`packages/video/public/audio/`), by file name. */
+export const listMusic = async (dir: string): Promise<string[]> =>
+  (await exists(dir)) ? (await readdir(dir)).filter(isMusicFile).sort() : [];

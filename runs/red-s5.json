@@ -5,7 +5,7 @@
   "game": "red",
   "region": "Kanto",
   "seed": 5,
-  "music": null,
+  "music": "audio/the-arplands.ogg",
   "voiceover": {
     "hook": "Only six Pokémon. Can this Kanto team really beat the Elite Four?",
     "outro": "Which Pokémon would you swap out? Tell me in the comments below."

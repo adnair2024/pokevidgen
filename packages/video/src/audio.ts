@@ -20,3 +20,9 @@ export const duckVolume = (frame: number, fps: number, windows: ReadonlyArray<{ 
   }
   return gain;
 };
+
+/** Gain that ramps from 1 to 0 over the last `seconds` of the video, so the music doesn't stop abruptly. */
+export const fadeOut = (frame: number, durationInFrames: number, fps: number, seconds = 1.5): number => {
+  const span = Math.max(1, Math.round(seconds * fps));
+  return Math.min(1, Math.max(0, (durationInFrames - frame) / span));
+};
