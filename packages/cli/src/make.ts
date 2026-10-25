@@ -9,7 +9,7 @@ import {
 await loadEnv();
 
 const USAGE = `Usage:
-  pnpm make --game <red|blue> [--seed N] [--favorite pokemon] [--must a,b] [--ban a,b] [--no-trades] [--no-legendaries] [--nuzlocke] [--preview] [--review]
+  pnpm make --game <red|blue> [--seed N] [--favorite pokemon] [--mono type] [--must a,b] [--ban a,b] [--no-trades] [--no-legendaries] [--nuzlocke] [--preview] [--review]
   pnpm make --resume <id> [--preview]
 A new team gets a random seed unless --seed is given; the seed is printed and stored, so the same command reproduces the same team.
 --review stops after the script so you can edit runs/<id>.json (or use the dashboard), then continue with --resume <id>.
@@ -17,7 +17,7 @@ A new team gets a random seed unless --seed is given; the seed is printed and st
 
 const { values } = parseArgs({
   options: {
-    game: { type: 'string' }, seed: { type: 'string' }, favorite: { type: 'string' }, must: { type: 'string' }, ban: { type: 'string' },
+    game: { type: 'string' }, seed: { type: 'string' }, favorite: { type: 'string' }, mono: { type: 'string' }, must: { type: 'string' }, ban: { type: 'string' },
     'no-trades': { type: 'boolean', default: false }, 'no-legendaries': { type: 'boolean', default: false }, nuzlocke: { type: 'boolean', default: false },
     random: { type: 'boolean', default: false }, preview: { type: 'boolean', default: false }, review: { type: 'boolean', default: false },
     resume: { type: 'string' }, help: { type: 'boolean', default: false },
@@ -59,7 +59,7 @@ try {
     const seed = values.seed !== undefined ? Number(values.seed) : undefined;
     if (seed !== undefined && (!Number.isSafeInteger(seed) || seed < 1)) fail('--seed must be a whole number of 1 or more');
     const made = await prepareMake(await loadPlannerData(getGame(values.game!)), {
-      seed, favorite: values.favorite, must: list(values.must), ban: list(values.ban), noTrades: values['no-trades'], noLegendaries: values['no-legendaries'], nuzlocke: values.nuzlocke,
+      seed, favorite: values.favorite, mono: values.mono, must: list(values.must), ban: list(values.ban), noTrades: values['no-trades'], noLegendaries: values['no-legendaries'], nuzlocke: values.nuzlocke,
     });
     if (seed === undefined) console.log(`seed: ${made.seed} (pass --seed ${made.seed} to reproduce this team)`);
     await writeCache(repoDir('teams', `${made.team.id}.json`), made.team);

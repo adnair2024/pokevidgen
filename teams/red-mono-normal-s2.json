@@ -1,0 +1,4406 @@
+{
+  "id": "red-mono-normal-s2",
+  "kind": "ingame",
+  "target": "red",
+  "seed": 2,
+  "theme": {
+    "mono": "Normal"
+  },
+  "members": [
+    {
+      "set": {
+        "species": "fearow",
+        "level": 56,
+        "moves": [
+          "doubleedge",
+          "drillpeck",
+          "rest",
+          "hyperbeam"
+        ]
+      },
+      "roles": [
+        "recovery",
+        "fast"
+      ],
+      "acquisition": {
+        "stage": 4,
+        "steps": [
+          {
+            "species": "spearow",
+            "how": "wild",
+            "where": "Route 22 (grass/cave)",
+            "minLevel": 3,
+            "maxLevel": 5,
+            "stage": 0,
+            "place": "Route 22"
+          },
+          {
+            "species": "fearow",
+            "how": "evolution",
+            "where": "Evolves from Spearow at level 20",
+            "stage": 0,
+            "evolution": {
+              "how": "level",
+              "level": 20
+            }
+          }
+        ],
+        "moves": [
+          {
+            "move": "doubleedge",
+            "source": {
+              "kind": "tm",
+              "number": 10,
+              "location": "Rocket Hideout B3F"
+            },
+            "stage": 4
+          },
+          {
+            "move": "drillpeck",
+            "source": {
+              "kind": "level",
+              "level": 34,
+              "from": "fearow"
+            },
+            "stage": 0
+          },
+          {
+            "move": "rest",
+            "source": {
+              "kind": "tm",
+              "number": 44,
+              "location": "S.S. Anne B1F rooms"
+            },
+            "stage": 2
+          },
+          {
+            "move": "hyperbeam",
+            "source": {
+              "kind": "tm",
+              "number": 15,
+              "location": "Celadon Game Corner prize counter"
+            },
+            "stage": 3
+          }
+        ],
+        "notes": []
+      }
+    },
+    {
+      "set": {
+        "species": "wigglytuff",
+        "level": 56,
+        "moves": [
+          "megakick",
+          "sing",
+          "submission",
+          "bodyslam"
+        ]
+      },
+      "roles": [
+        "sleep",
+        "bulky"
+      ],
+      "acquisition": {
+        "stage": 3,
+        "steps": [
+          {
+            "species": "jigglypuff",
+            "how": "wild",
+            "where": "Route 3 (grass/cave)",
+            "minLevel": 3,
+            "maxLevel": 7,
+            "stage": 1,
+            "place": "Route 3"
+          },
+          {
+            "species": "wigglytuff",
+            "how": "evolution",
+            "where": "Evolve Jigglypuff with a Moon Stone (Mt. Moon 1F (also Route 2 and Rocket Hideout B2F))",
+            "stage": 1,
+            "evolution": {
+              "how": "stone",
+              "item": "Moon Stone"
+            }
+          }
+        ],
+        "moves": [
+          {
+            "move": "megakick",
+            "source": {
+              "kind": "tm",
+              "number": 5,
+              "location": "Celadon Dept. Store 2F"
+            },
+            "stage": 3
+          },
+          {
+            "move": "sing",
+            "source": {
+              "kind": "start",
+              "from": "jigglypuff"
+            },
+            "stage": 0
+          },
+          {
+            "move": "submission",
+            "source": {
+              "kind": "tm",
+              "number": 17,
+              "location": "Celadon Dept. Store 2F"
+            },
+            "stage": 3
+          },
+          {
+            "move": "bodyslam",
+            "source": {
+              "kind": "level",
+              "level": 34,
+              "from": "jigglypuff"
+            },
+            "stage": 0
+          }
+        ],
+        "notes": [
+          "Hold off evolving Jigglypuff until level 34 to learn Body Slam; Wigglytuff can't learn it."
+        ]
+      }
+    },
+    {
+      "set": {
+        "species": "raticate",
+        "level": 56,
+        "moves": [
+          "takedown",
+          "dig",
+          "hyperfang",
+          "quickattack"
+        ]
+      },
+      "roles": [],
+      "acquisition": {
+        "stage": 3,
+        "steps": [
+          {
+            "species": "rattata",
+            "how": "wild",
+            "where": "Route 1 (grass/cave)",
+            "minLevel": 2,
+            "maxLevel": 4,
+            "stage": 0,
+            "place": "Route 1"
+          },
+          {
+            "species": "raticate",
+            "how": "evolution",
+            "where": "Evolves from Rattata at level 20",
+            "stage": 0,
+            "evolution": {
+              "how": "level",
+              "level": 20
+            }
+          }
+        ],
+        "moves": [
+          {
+            "move": "takedown",
+            "source": {
+              "kind": "tm",
+              "number": 9,
+              "location": "Celadon Dept. Store 2F"
+            },
+            "stage": 3
+          },
+          {
+            "move": "dig",
+            "source": {
+              "kind": "tm",
+              "number": 28,
+              "location": "Cerulean City"
+            },
+            "stage": 1
+          },
+          {
+            "move": "hyperfang",
+            "source": {
+              "kind": "level",
+              "level": 14,
+              "from": "rattata"
+            },
+            "stage": 0
+          },
+          {
+            "move": "quickattack",
+            "source": {
+              "kind": "level",
+              "level": 7,
+              "from": "rattata"
+            },
+            "stage": 0
+          }
+        ],
+        "notes": []
+      }
+    },
+    {
+      "set": {
+        "species": "kangaskhan",
+        "level": 56,
+        "moves": [
+          "strength",
+          "surf",
+          "submission",
+          "megakick"
+        ]
+      },
+      "roles": [
+        "bulky"
+      ],
+      "acquisition": {
+        "stage": 4,
+        "steps": [
+          {
+            "species": "kangaskhan",
+            "how": "wild",
+            "where": "Safari Zone 1 East (grass/cave)",
+            "minLevel": 25,
+            "maxLevel": 25,
+            "stage": 4,
+            "place": "Safari Zone 1 East"
+          }
+        ],
+        "moves": [
+          {
+            "move": "strength",
+            "source": {
+              "kind": "hm",
+              "number": 4,
+              "location": "Fuchsia City (Warden's house)"
+            },
+            "stage": 4
+          },
+          {
+            "move": "surf",
+            "source": {
+              "kind": "hm",
+              "number": 3,
+              "location": "Safari Zone secret house"
+            },
+            "stage": 4
+          },
+          {
+            "move": "submission",
+            "source": {
+              "kind": "tm",
+              "number": 17,
+              "location": "Celadon Dept. Store 2F"
+            },
+            "stage": 3
+          },
+          {
+            "move": "megakick",
+            "source": {
+              "kind": "tm",
+              "number": 5,
+              "location": "Celadon Dept. Store 2F"
+            },
+            "stage": 3
+          }
+        ],
+        "notes": []
+      }
+    },
+    {
+      "set": {
+        "species": "clefable",
+        "level": 56,
+        "moves": [
+          "triattack",
+          "thunderwave",
+          "megapunch",
+          "strength"
+        ]
+      },
+      "roles": [
+        "paralysis",
+        "bulky"
+      ],
+      "acquisition": {
+        "stage": 4,
+        "steps": [
+          {
+            "species": "clefairy",
+            "how": "wild",
+            "where": "Mt. Moon 1F (grass/cave)",
+            "minLevel": 8,
+            "maxLevel": 8,
+            "stage": 1,
+            "place": "Mt. Moon 1F"
+          },
+          {
+            "species": "clefable",
+            "how": "evolution",
+            "where": "Evolve Clefairy with a Moon Stone (Mt. Moon 1F (also Route 2 and Rocket Hideout B2F))",
+            "stage": 1,
+            "evolution": {
+              "how": "stone",
+              "item": "Moon Stone"
+            }
+          }
+        ],
+        "moves": [
+          {
+            "move": "triattack",
+            "source": {
+              "kind": "tm",
+              "number": 49,
+              "location": "Celadon Dept. Store roof"
+            },
+            "stage": 3
+          },
+          {
+            "move": "thunderwave",
+            "source": {
+              "kind": "tm",
+              "number": 45,
+              "location": "Route 24 (Nugget Bridge)"
+            },
+            "stage": 1
+          },
+          {
+            "move": "megapunch",
+            "source": {
+              "kind": "tm",
+              "number": 1,
+              "location": "Mt. Moon B2F"
+            },
+            "stage": 1
+          },
+          {
+            "move": "strength",
+            "source": {
+              "kind": "hm",
+              "number": 4,
+              "location": "Fuchsia City (Warden's house)"
+            },
+            "stage": 4
+          }
+        ],
+        "notes": []
+      }
+    },
+    {
+      "set": {
+        "species": "tauros",
+        "level": 56,
+        "moves": [
+          "bodyslam",
+          "stomp",
+          "takedown",
+          "strength"
+        ]
+      },
+      "roles": [
+        "fast"
+      ],
+      "acquisition": {
+        "stage": 4,
+        "steps": [
+          {
+            "species": "tauros",
+            "how": "wild",
+            "where": "Safari Zone 2 North (grass/cave)",
+            "minLevel": 28,
+            "maxLevel": 28,
+            "stage": 4,
+            "place": "Safari Zone 2 North"
+          }
+        ],
+        "moves": [
+          {
+            "move": "bodyslam",
+            "source": {
+              "kind": "tm",
+              "number": 8,
+              "location": "S.S. Anne 1F rooms"
+            },
+            "stage": 2
+          },
+          {
+            "move": "stomp",
+            "source": {
+              "kind": "start",
+              "from": "tauros"
+            },
+            "stage": 0
+          },
+          {
+            "move": "takedown",
+            "source": {
+              "kind": "level",
+              "level": 51,
+              "from": "tauros"
+            },
+            "stage": 0
+          },
+          {
+            "move": "strength",
+            "source": {
+              "kind": "hm",
+              "number": 4,
+              "location": "Fuchsia City (Warden's house)"
+            },
+            "stage": 4
+          }
+        ],
+        "notes": []
+      }
+    }
+  ],
+  "analysis": {
+    "plannedLevel": 56,
+    "constraints": {
+      "must": [],
+      "mono": "Normal",
+      "ban": [],
+      "noTrades": false,
+      "noLegendaries": false,
+      "nuzlocke": false
+    },
+    "sharedWeaknesses": [
+      "Fighting"
+    ],
+    "synergy": {
+      "holes": [
+        "Fighting"
+      ],
+      "severe": [
+        "Fighting"
+      ],
+      "uncovered": [
+        "Ghost",
+        "Psychic",
+        "Dragon",
+        "Flying",
+        "Water"
+      ],
+      "duplicatePrimary": 5,
+      "normalMembers": 6,
+      "distinctTypes": 2,
+      "score": -1.9500000000000002
+    },
+    "teamDefense": {
+      "Bug": {
+        "weak": 0,
+        "resist": 1,
+        "immune": 0,
+        "neutral": 5
+      },
+      "Fire": {
+        "weak": 0,
+        "resist": 0,
+        "immune": 0,
+        "neutral": 6
+      },
+      "Ghost": {
+        "weak": 0,
+        "resist": 0,
+        "immune": 6,
+        "neutral": 0
+      },
+      "Ice": {
+        "weak": 1,
+        "resist": 0,
+        "immune": 0,
+        "neutral": 5
+      },
+      "Poison": {
+        "weak": 0,
+        "resist": 0,
+        "immune": 0,
+        "neutral": 6
+      },
+      "Psychic": {
+        "weak": 0,
+        "resist": 0,
+        "immune": 0,
+        "neutral": 6
+      },
+      "Electric": {
+        "weak": 1,
+        "resist": 0,
+        "immune": 0,
+        "neutral": 5
+      },
+      "Grass": {
+        "weak": 0,
+        "resist": 1,
+        "immune": 0,
+        "neutral": 5
+      },
+      "Dragon": {
+        "weak": 0,
+        "resist": 0,
+        "immune": 0,
+        "neutral": 6
+      },
+      "Fighting": {
+        "weak": 5,
+        "resist": 0,
+        "immune": 0,
+        "neutral": 1
+      },
+      "Flying": {
+        "weak": 0,
+        "resist": 0,
+        "immune": 0,
+        "neutral": 6
+      },
+      "Ground": {
+        "weak": 0,
+        "resist": 0,
+        "immune": 1,
+        "neutral": 5
+      },
+      "Normal": {
+        "weak": 0,
+        "resist": 0,
+        "immune": 0,
+        "neutral": 6
+      },
+      "Rock": {
+        "weak": 1,
+        "resist": 0,
+        "immune": 0,
+        "neutral": 5
+      },
+      "Water": {
+        "weak": 0,
+        "resist": 0,
+        "immune": 0,
+        "neutral": 6
+      }
+    },
+    "starter": {
+      "player": "bulbasaur",
+      "rival": "charmander",
+      "onTeam": false
+    },
+    "bosses": [
+      {
+        "boss": "rival-route22-early",
+        "name": "Rival",
+        "location": "Route 22",
+        "stage": 0,
+        "level": 9,
+        "rivalStarter": "charmander",
+        "usable": [
+          {
+            "member": "fearow",
+            "form": "spearow",
+            "moves": [
+              "peck"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "rattata",
+            "moves": [
+              "quickattack",
+              "tackle"
+            ]
+          }
+        ],
+        "notYet": [
+          "wigglytuff",
+          "kangaskhan",
+          "clefable",
+          "tauros"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgey",
+              "level": 9,
+              "moves": [
+                "gust",
+                "sandattack"
+              ]
+            },
+            "answer": {
+              "move": "peck",
+              "member": "fearow",
+              "form": "spearow",
+              "minPercent": 25.9,
+              "maxPercent": 33.3,
+              "ko": "0.1% chance to 3HKO",
+              "description": "Lvl 9 Spearow Peck vs. Lvl 9 Pidgey: 7-9 (21.2 - 27.2%) -- 0.1% chance to 3HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "gust",
+              "minPercent": 26.9,
+              "maxPercent": 34.6,
+              "ko": "0.1% chance to 3HKO",
+              "description": "Lvl 9 Pidgey Gust vs. Lvl 9 Spearow: 7-9 (22.5 - 29%) -- 0.1% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charmander",
+              "level": 8,
+              "moves": [
+                "scratch",
+                "growl"
+              ]
+            },
+            "answer": {
+              "move": "peck",
+              "member": "fearow",
+              "form": "spearow",
+              "minPercent": 28,
+              "maxPercent": 36,
+              "ko": "4.2% chance to 3HKO",
+              "description": "Lvl 9 Spearow Peck vs. Lvl 8 Charmander: 7-9 (23.3 - 30%) -- 4.2% chance to 3HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "scratch",
+              "minPercent": 19.2,
+              "maxPercent": 23.1,
+              "ko": "possible 5HKO",
+              "description": "Lvl 8 Charmander Scratch vs. Lvl 9 Spearow: 5-6 (16.1 - 19.3%) -- possible 5HKO"
+            }
+          }
+        ],
+        "lead": "spearow",
+        "warnings": [
+          "Weak against Pidgey: best is Lvl 9 Spearow Peck vs. Lvl 9 Pidgey: 7-9 (21.2 - 27.2%) -- 0.1% chance to 3HKO.",
+          "Weak against Charmander: best is Lvl 9 Spearow Peck vs. Lvl 8 Charmander: 7-9 (23.3 - 30%) -- 4.2% chance to 3HKO."
+        ]
+      },
+      {
+        "boss": "rival-cerulean",
+        "name": "Rival",
+        "location": "Cerulean City",
+        "stage": 0,
+        "level": 18,
+        "rivalStarter": "charmander",
+        "usable": [
+          {
+            "member": "fearow",
+            "form": "spearow",
+            "moves": [
+              "peck",
+              "furyattack"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "rattata",
+            "moves": [
+              "hyperfang",
+              "quickattack",
+              "tackle"
+            ]
+          }
+        ],
+        "notYet": [
+          "wigglytuff",
+          "kangaskhan",
+          "clefable",
+          "tauros"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeotto",
+              "level": 18,
+              "moves": [
+                "gust",
+                "sandattack",
+                "quickattack"
+              ]
+            },
+            "answer": {
+              "move": "hyperfang",
+              "member": "raticate",
+              "form": "rattata",
+              "minPercent": 37.7,
+              "maxPercent": 45.3,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 18 Rattata Hyper Fang vs. Lvl 18 Pidgeotto: 20-24 (31.2 - 37.5%) -- guaranteed 3HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "gust",
+              "minPercent": 34.2,
+              "maxPercent": 42.1,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 18 Pidgeotto Gust vs. Lvl 18 Rattata: 13-16 (26 - 32%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "abra",
+              "level": 15,
+              "moves": [
+                "teleport"
+              ]
+            },
+            "answer": {
+              "move": "hyperfang",
+              "member": "raticate",
+              "form": "rattata",
+              "minPercent": 102.9,
+              "maxPercent": 123.5,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 18 Rattata Hyper Fang vs. Lvl 15 Abra: 35-42 (79.5 - 95.4%) -- guaranteed OHKO",
+              "outspeeds": false
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rattata",
+              "level": 15,
+              "moves": [
+                "tackle",
+                "tailwhip",
+                "quickattack",
+                "hyperfang"
+              ]
+            },
+            "answer": {
+              "move": "hyperfang",
+              "member": "raticate",
+              "form": "rattata",
+              "minPercent": 77.8,
+              "maxPercent": 91.7,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 18 Rattata Hyper Fang vs. Lvl 15 Rattata: 28-33 (62.2 - 73.3%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hyperfang",
+              "minPercent": 47.4,
+              "maxPercent": 57.9,
+              "ko": "93.2% chance to 2HKO",
+              "description": "Lvl 15 Rattata Hyper Fang vs. Lvl 18 Rattata: 18-22 (36 - 44%) -- 93.2% chance to 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charmander",
+              "level": 17,
+              "moves": [
+                "scratch",
+                "growl",
+                "ember",
+                "leer"
+              ]
+            },
+            "answer": {
+              "move": "hyperfang",
+              "member": "raticate",
+              "form": "rattata",
+              "minPercent": 54.8,
+              "maxPercent": 66.7,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 18 Rattata Hyper Fang vs. Lvl 17 Charmander: 23-28 (43.3 - 52.8%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "ember",
+              "minPercent": 31.6,
+              "maxPercent": 39.5,
+              "ko": "98.5% chance to 3HKO",
+              "description": "Lvl 17 Charmander Ember vs. Lvl 18 Rattata: 12-15 (24 - 30%) -- 98.5% chance to 3HKO"
+            }
+          }
+        ],
+        "lead": "rattata",
+        "warnings": [
+          "Weak against Pidgeotto: best is Lvl 18 Rattata Hyper Fang vs. Lvl 18 Pidgeotto: 20-24 (31.2 - 37.5%) -- guaranteed 3HKO."
+        ]
+      },
+      {
+        "boss": "brock",
+        "name": "Brock",
+        "location": "Pewter City",
+        "stage": 0,
+        "level": 14,
+        "usable": [
+          {
+            "member": "fearow",
+            "form": "spearow",
+            "moves": [
+              "peck"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "rattata",
+            "moves": [
+              "hyperfang",
+              "quickattack",
+              "tackle"
+            ]
+          }
+        ],
+        "notYet": [
+          "wigglytuff",
+          "kangaskhan",
+          "clefable",
+          "tauros"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "geodude",
+              "level": 12,
+              "moves": [
+                "tackle",
+                "defensecurl"
+              ]
+            },
+            "answer": {
+              "move": "hyperfang",
+              "member": "raticate",
+              "form": "rattata",
+              "minPercent": 18.2,
+              "maxPercent": 24.2,
+              "ko": "possible 5HKO",
+              "description": "Lvl 14 Rattata Hyper Fang vs. Lvl 12 Geodude: 6-8 (14.6 - 19.5%) -- possible 5HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "tackle",
+              "minPercent": 15.6,
+              "maxPercent": 21.9,
+              "ko": "possible 5HKO",
+              "description": "Lvl 12 Geodude Tackle vs. Lvl 14 Rattata: 5-7 (12.1 - 17%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "onix",
+              "level": 14,
+              "moves": [
+                "tackle",
+                "screech",
+                "bide"
+              ]
+            },
+            "answer": {
+              "move": "hyperfang",
+              "member": "raticate",
+              "form": "rattata",
+              "minPercent": 11.1,
+              "maxPercent": 13.9,
+              "ko": "possible 8HKO",
+              "description": "Lvl 14 Rattata Hyper Fang vs. Lvl 14 Onix: 4-5 (9 - 11.3%) -- possible 8HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "tackle",
+              "minPercent": 15.6,
+              "maxPercent": 21.9,
+              "ko": "possible 5HKO",
+              "description": "Lvl 14 Onix Tackle vs. Lvl 14 Rattata: 5-7 (12.1 - 17%) -- possible 5HKO"
+            }
+          }
+        ],
+        "lead": "rattata",
+        "warnings": [
+          "Weak against Geodude: best is Lvl 14 Rattata Hyper Fang vs. Lvl 12 Geodude: 6-8 (14.6 - 19.5%) -- possible 5HKO.",
+          "Weak against Onix: best is Lvl 14 Rattata Hyper Fang vs. Lvl 14 Onix: 4-5 (9 - 11.3%) -- possible 8HKO."
+        ]
+      },
+      {
+        "boss": "misty",
+        "name": "Misty",
+        "location": "Cerulean City",
+        "stage": 1,
+        "level": 21,
+        "usable": [
+          {
+            "member": "fearow",
+            "form": "fearow",
+            "moves": [
+              "peck",
+              "furyattack"
+            ]
+          },
+          {
+            "member": "wigglytuff",
+            "form": "wigglytuff",
+            "moves": [
+              "megapunch",
+              "sing",
+              "pound"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "raticate",
+            "moves": [
+              "hyperfang",
+              "dig",
+              "quickattack",
+              "tackle"
+            ]
+          },
+          {
+            "member": "clefable",
+            "form": "clefable",
+            "moves": [
+              "megapunch",
+              "sing",
+              "pound"
+            ]
+          }
+        ],
+        "notYet": [
+          "kangaskhan",
+          "tauros"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "staryu",
+              "level": 18,
+              "moves": [
+                "tackle",
+                "watergun"
+              ]
+            },
+            "answer": {
+              "move": "hyperfang",
+              "member": "raticate",
+              "form": "raticate",
+              "minPercent": 73.2,
+              "maxPercent": 87.8,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 21 Raticate Hyper Fang vs. Lvl 18 Staryu: 30-36 (56.6 - 67.9%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "watergun",
+              "minPercent": 20.4,
+              "maxPercent": 24.1,
+              "ko": "guaranteed 5HKO",
+              "description": "Lvl 18 Staryu Water Gun vs. Lvl 21 Raticate: 11-13 (16.4 - 19.4%) -- guaranteed 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "starmie",
+              "level": 21,
+              "moves": [
+                "tackle",
+                "watergun",
+                "bubblebeam"
+              ]
+            },
+            "answer": {
+              "move": "hyperfang",
+              "member": "raticate",
+              "form": "raticate",
+              "minPercent": 35.6,
+              "maxPercent": 42.4,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 21 Raticate Hyper Fang vs. Lvl 21 Starmie: 21-25 (29.1 - 34.7%) -- guaranteed 3HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "bubblebeam",
+              "minPercent": 48.1,
+              "maxPercent": 57.4,
+              "ko": "91.3% chance to 2HKO",
+              "description": "Lvl 21 Starmie Bubble Beam vs. Lvl 21 Raticate: 26-31 (38.8 - 46.2%) -- 91.3% chance to 2HKO"
+            }
+          }
+        ],
+        "lead": "raticate",
+        "warnings": [
+          "Weak against Starmie: best is Lvl 21 Raticate Hyper Fang vs. Lvl 21 Starmie: 21-25 (29.1 - 34.7%) -- guaranteed 3HKO."
+        ]
+      },
+      {
+        "boss": "rival-ssanne",
+        "name": "Rival",
+        "location": "SS Anne 2F",
+        "stage": 2,
+        "level": 20,
+        "rivalStarter": "charmander",
+        "usable": [
+          {
+            "member": "fearow",
+            "form": "fearow",
+            "moves": [
+              "peck",
+              "rest",
+              "furyattack"
+            ]
+          },
+          {
+            "member": "wigglytuff",
+            "form": "wigglytuff",
+            "moves": [
+              "bodyslam",
+              "sing",
+              "megapunch",
+              "pound"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "raticate",
+            "moves": [
+              "hyperfang",
+              "dig",
+              "quickattack",
+              "tackle"
+            ]
+          },
+          {
+            "member": "clefable",
+            "form": "clefable",
+            "moves": [
+              "megapunch",
+              "sing",
+              "pound"
+            ]
+          }
+        ],
+        "notYet": [
+          "kangaskhan",
+          "tauros"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeotto",
+              "level": 19,
+              "moves": [
+                "gust",
+                "sandattack",
+                "quickattack"
+              ]
+            },
+            "answer": {
+              "move": "hyperfang",
+              "member": "raticate",
+              "form": "raticate",
+              "minPercent": 50.9,
+              "maxPercent": 61.8,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 20 Raticate Hyper Fang vs. Lvl 19 Pidgeotto: 28-34 (41.7 - 50.7%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "gust",
+              "minPercent": 21.2,
+              "maxPercent": 25,
+              "ko": "0.1% chance to 4HKO",
+              "description": "Lvl 19 Pidgeotto Gust vs. Lvl 20 Raticate: 11-13 (17.1 - 20.3%) -- 0.1% chance to 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "raticate",
+              "level": 16,
+              "moves": [
+                "tackle",
+                "tailwhip",
+                "quickattack",
+                "hyperfang"
+              ]
+            },
+            "answer": {
+              "move": "hyperfang",
+              "member": "raticate",
+              "form": "raticate",
+              "minPercent": 67.4,
+              "maxPercent": 80.4,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 20 Raticate Hyper Fang vs. Lvl 16 Raticate: 31-37 (55.3 - 66%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hyperfang",
+              "minPercent": 32.7,
+              "maxPercent": 40.4,
+              "ko": "99.9% chance to 3HKO",
+              "description": "Lvl 16 Raticate Hyper Fang vs. Lvl 20 Raticate: 17-21 (26.5 - 32.8%) -- 99.9% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "kadabra",
+              "level": 18,
+              "moves": [
+                "teleport",
+                "confusion",
+                "disable"
+              ]
+            },
+            "answer": {
+              "move": "hyperfang",
+              "member": "raticate",
+              "form": "raticate",
+              "minPercent": 84.4,
+              "maxPercent": 100,
+              "ko": "2.6% chance to OHKO",
+              "description": "Lvl 20 Raticate Hyper Fang vs. Lvl 18 Kadabra: 38-45 (67.8 - 80.3%) -- 2.6% chance to OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "confusion",
+              "minPercent": 34.6,
+              "maxPercent": 42.3,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 18 Kadabra Confusion vs. Lvl 20 Raticate: 18-22 (28.1 - 34.3%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charmeleon",
+              "level": 20,
+              "moves": [
+                "scratch",
+                "growl",
+                "ember",
+                "leer"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "raticate",
+              "form": "raticate",
+              "minPercent": 78.6,
+              "maxPercent": 92.9,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 20 Raticate Dig vs. Lvl 20 Charmeleon: 44-52 (63.7 - 75.3%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "ember",
+              "minPercent": 25,
+              "maxPercent": 30.8,
+              "ko": "guaranteed 4HKO",
+              "description": "Lvl 20 Charmeleon Ember vs. Lvl 20 Raticate: 13-16 (20.3 - 25%) -- guaranteed 4HKO"
+            }
+          }
+        ],
+        "lead": "raticate",
+        "warnings": []
+      },
+      {
+        "boss": "ltsurge",
+        "name": "Lt. Surge",
+        "location": "Vermilion City",
+        "stage": 2,
+        "level": 24,
+        "usable": [
+          {
+            "member": "fearow",
+            "form": "fearow",
+            "moves": [
+              "peck",
+              "rest",
+              "furyattack"
+            ]
+          },
+          {
+            "member": "wigglytuff",
+            "form": "wigglytuff",
+            "moves": [
+              "bodyslam",
+              "sing",
+              "megapunch",
+              "pound"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "raticate",
+            "moves": [
+              "hyperfang",
+              "dig",
+              "quickattack",
+              "tackle"
+            ]
+          },
+          {
+            "member": "clefable",
+            "form": "clefable",
+            "moves": [
+              "megapunch",
+              "sing",
+              "pound"
+            ]
+          }
+        ],
+        "notYet": [
+          "kangaskhan",
+          "tauros"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "voltorb",
+              "level": 21,
+              "moves": [
+                "tackle",
+                "screech",
+                "sonicboom"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "raticate",
+              "form": "raticate",
+              "minPercent": 111.8,
+              "maxPercent": 133.3,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 24 Raticate Dig vs. Lvl 21 Voltorb: 57-68 (89 - 106.2%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "tackle",
+              "minPercent": 8.3,
+              "maxPercent": 10,
+              "ko": "",
+              "description": "Lvl 21 Voltorb Tackle vs. Lvl 24 Raticate: 5-6 (6.6 - 8%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "pikachu",
+              "level": 18,
+              "moves": [
+                "thundershock",
+                "growl",
+                "thunderwave",
+                "quickattack"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "raticate",
+              "form": "raticate",
+              "minPercent": 183.7,
+              "maxPercent": 218.6,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 24 Raticate Dig vs. Lvl 18 Pikachu: 79-94 (146.2 - 174%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "thundershock",
+              "minPercent": 13.3,
+              "maxPercent": 16.7,
+              "ko": "possible 6HKO",
+              "description": "Lvl 18 Pikachu Thunder Shock vs. Lvl 24 Raticate: 8-10 (10.6 - 13.3%) -- possible 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "raichu",
+              "level": 24,
+              "moves": [
+                "thundershock",
+                "growl",
+                "thunderbolt"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "raticate",
+              "form": "raticate",
+              "minPercent": 74.2,
+              "maxPercent": 87.9,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 24 Raticate Dig vs. Lvl 24 Raichu: 49-58 (60.4 - 71.6%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "thunderbolt",
+              "minPercent": 65,
+              "maxPercent": 76.7,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 24 Raichu Thunderbolt vs. Lvl 24 Raticate: 39-46 (52 - 61.3%) -- guaranteed 2HKO"
+            }
+          }
+        ],
+        "lead": "raticate",
+        "warnings": []
+      },
+      {
+        "boss": "rival-pokemontower",
+        "name": "Rival",
+        "location": "Pokémon Tower 2F",
+        "stage": 3,
+        "level": 25,
+        "rivalStarter": "charmander",
+        "usable": [
+          {
+            "member": "fearow",
+            "form": "fearow",
+            "moves": [
+              "hyperbeam",
+              "rest",
+              "peck",
+              "takedown"
+            ]
+          },
+          {
+            "member": "wigglytuff",
+            "form": "wigglytuff",
+            "moves": [
+              "megakick",
+              "sing",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "raticate",
+            "moves": [
+              "bodyslam",
+              "dig",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "clefable",
+            "form": "clefable",
+            "moves": [
+              "megakick",
+              "sing",
+              "submission",
+              "hyperbeam"
+            ]
+          }
+        ],
+        "notYet": [
+          "kangaskhan",
+          "tauros"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeotto",
+              "level": 25,
+              "moves": [
+                "gust",
+                "sandattack",
+                "quickattack",
+                "whirlwind"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "fearow",
+              "form": "fearow",
+              "minPercent": 88.6,
+              "maxPercent": 104.3,
+              "ko": "28.2% chance to OHKO",
+              "description": "Lvl 25 Fearow Hyper Beam vs. Lvl 25 Pidgeotto: 62-73 (72 - 84.8%) -- 28.2% chance to OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "gust",
+              "minPercent": 19.4,
+              "maxPercent": 23.9,
+              "ko": "possible 5HKO",
+              "description": "Lvl 25 Pidgeotto Gust vs. Lvl 25 Fearow: 13-16 (15.6 - 19.2%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "exeggcute",
+              "level": 23,
+              "moves": [
+                "barrage",
+                "hypnosis"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "fearow",
+              "form": "fearow",
+              "minPercent": 87.5,
+              "maxPercent": 103.1,
+              "ko": "20.5% chance to OHKO",
+              "description": "Lvl 25 Fearow Hyper Beam vs. Lvl 23 Exeggcute: 56-66 (71.7 - 84.6%) -- 20.5% chance to OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "barrage",
+              "minPercent": 13.4,
+              "maxPercent": 17.9,
+              "ko": "approx. possible 6HKO",
+              "description": "Lvl 23 Exeggcute Barrage (3 hits) vs. Lvl 25 Fearow: 9-12 (10.8 - 14.4%) -- approx. possible 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "gyarados",
+              "level": 22,
+              "moves": [
+                "bite",
+                "dragonrage",
+                "leer",
+                "hydropump"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "fearow",
+              "form": "fearow",
+              "minPercent": 74,
+              "maxPercent": 87,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 25 Fearow Hyper Beam vs. Lvl 22 Gyarados: 57-67 (62.6 - 73.6%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hydropump",
+              "minPercent": 56.7,
+              "maxPercent": 67.2,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 22 Gyarados Hydro Pump vs. Lvl 25 Fearow: 38-45 (45.7 - 54.2%) -- guaranteed 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "kadabra",
+              "level": 20,
+              "moves": [
+                "teleport",
+                "confusion",
+                "disable"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "fearow",
+              "form": "fearow",
+              "minPercent": 204.1,
+              "maxPercent": 240.8,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 25 Fearow Hyper Beam vs. Lvl 20 Kadabra: 100-118 (163.9 - 193.4%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "confusion",
+              "minPercent": 25.4,
+              "maxPercent": 31.3,
+              "ko": "guaranteed 4HKO",
+              "description": "Lvl 20 Kadabra Confusion vs. Lvl 25 Fearow: 17-21 (20.4 - 25.3%) -- guaranteed 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charmeleon",
+              "level": 25,
+              "moves": [
+                "growl",
+                "ember",
+                "leer",
+                "rage"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "fearow",
+              "form": "fearow",
+              "minPercent": 89.7,
+              "maxPercent": 105.9,
+              "ko": "38.5% chance to OHKO",
+              "description": "Lvl 25 Fearow Hyper Beam vs. Lvl 25 Charmeleon: 61-72 (73.4 - 86.7%) -- 38.5% chance to OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "ember",
+              "minPercent": 19.4,
+              "maxPercent": 23.9,
+              "ko": "possible 5HKO",
+              "description": "Lvl 25 Charmeleon Ember vs. Lvl 25 Fearow: 13-16 (15.6 - 19.2%) -- possible 5HKO"
+            }
+          }
+        ],
+        "lead": "fearow",
+        "warnings": []
+      },
+      {
+        "boss": "erika",
+        "name": "Erika",
+        "location": "Celadon City",
+        "stage": 3,
+        "level": 29,
+        "usable": [
+          {
+            "member": "fearow",
+            "form": "fearow",
+            "moves": [
+              "hyperbeam",
+              "rest",
+              "peck",
+              "takedown"
+            ]
+          },
+          {
+            "member": "wigglytuff",
+            "form": "wigglytuff",
+            "moves": [
+              "megakick",
+              "sing",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "raticate",
+            "moves": [
+              "bodyslam",
+              "dig",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "clefable",
+            "form": "clefable",
+            "moves": [
+              "megakick",
+              "sing",
+              "submission",
+              "hyperbeam"
+            ]
+          }
+        ],
+        "notYet": [
+          "kangaskhan",
+          "tauros"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "victreebel",
+              "level": 29,
+              "moves": [
+                "razorleaf",
+                "wrap",
+                "poisonpowder",
+                "sleeppowder"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "fearow",
+              "form": "fearow",
+              "minPercent": 70,
+              "maxPercent": 83.3,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 29 Fearow Hyper Beam vs. Lvl 29 Victreebel: 63-75 (58.3 - 69.4%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "razorleaf",
+              "minPercent": 31.6,
+              "maxPercent": 38.2,
+              "ko": "93.8% chance to 3HKO",
+              "description": "Lvl 29 Victreebel Razor Leaf vs. Lvl 29 Fearow on a critical hit: 24-29 (25.5 - 30.8%) -- 93.8% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "tangela",
+              "level": 24,
+              "moves": [
+                "constrict",
+                "bind"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "fearow",
+              "form": "fearow",
+              "minPercent": 73.9,
+              "maxPercent": 88.4,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 29 Fearow Hyper Beam vs. Lvl 24 Tangela: 51-61 (60.7 - 72.6%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "bind",
+              "minPercent": 3.9,
+              "maxPercent": 5.3,
+              "ko": "possible 9HKO after trapping damage",
+              "description": "Lvl 24 Tangela Bind vs. Lvl 29 Fearow: 3-4 (3.1 - 4.2%) -- possible 9HKO after trapping damage"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "vileplume",
+              "level": 29,
+              "moves": [
+                "petaldance",
+                "poisonpowder",
+                "megadrain",
+                "sleeppowder"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "fearow",
+              "form": "fearow",
+              "minPercent": 60.9,
+              "maxPercent": 72.4,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 29 Fearow Hyper Beam vs. Lvl 29 Vileplume: 53-63 (50.4 - 60%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "petaldance",
+              "minPercent": 21.1,
+              "maxPercent": 25,
+              "ko": "0.1% chance to 4HKO",
+              "description": "Lvl 29 Vileplume Petal Dance vs. Lvl 29 Fearow: 16-19 (17 - 20.2%) -- 0.1% chance to 4HKO"
+            }
+          }
+        ],
+        "lead": "fearow",
+        "warnings": []
+      },
+      {
+        "boss": "giovanni-hideout",
+        "name": "Giovanni",
+        "location": "Rocket Hideout B4F",
+        "stage": 4,
+        "level": 29,
+        "usable": [
+          {
+            "member": "fearow",
+            "form": "fearow",
+            "moves": [
+              "doubleedge",
+              "rest",
+              "peck",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "wigglytuff",
+            "form": "wigglytuff",
+            "moves": [
+              "megakick",
+              "sing",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "raticate",
+            "moves": [
+              "bodyslam",
+              "dig",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "kangaskhan",
+            "form": "kangaskhan",
+            "moves": [
+              "megakick",
+              "surf",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "clefable",
+            "form": "clefable",
+            "moves": [
+              "megakick",
+              "sing",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "tauros",
+            "form": "tauros",
+            "moves": [
+              "hyperbeam",
+              "strength",
+              "takedown",
+              "stomp"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "onix",
+              "level": 25,
+              "moves": [
+                "screech",
+                "bind",
+                "rockthrow",
+                "rage"
+              ]
+            },
+            "answer": {
+              "move": "surf",
+              "member": "kangaskhan",
+              "form": "kangaskhan",
+              "minPercent": 205.4,
+              "maxPercent": 242.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 29 Kangaskhan Surf vs. Lvl 25 Onix: 115-136 (159.7 - 188.8%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "rockthrow",
+              "minPercent": 11.1,
+              "maxPercent": 13.1,
+              "ko": "possible 8HKO",
+              "description": "Lvl 25 Onix Rock Throw vs. Lvl 29 Kangaskhan: 11-13 (9.3 - 11%) -- possible 8HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rhyhorn",
+              "level": 24,
+              "moves": [
+                "hornattack"
+              ]
+            },
+            "answer": {
+              "move": "surf",
+              "member": "kangaskhan",
+              "form": "kangaskhan",
+              "minPercent": 156.6,
+              "maxPercent": 184.2,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 29 Kangaskhan Surf vs. Lvl 24 Rhyhorn: 119-140 (130.7 - 153.8%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hornattack",
+              "minPercent": 11.1,
+              "maxPercent": 14.1,
+              "ko": "possible 8HKO",
+              "description": "Lvl 24 Rhyhorn Horn Attack vs. Lvl 29 Kangaskhan: 11-14 (9.3 - 11.8%) -- possible 8HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "kangaskhan",
+              "level": 29,
+              "moves": [
+                "cometpunch",
+                "rage",
+                "bite"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 55.8,
+              "maxPercent": 66.3,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 29 Tauros Hyper Beam vs. Lvl 29 Kangaskhan: 58-69 (47.5 - 56.5%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "cometpunch",
+              "minPercent": 25.6,
+              "maxPercent": 32.9,
+              "ko": "approx. 4HKO",
+              "description": "Lvl 29 Kangaskhan Comet Punch (3 hits) vs. Lvl 29 Tauros: 21-27 (21 - 27%) -- approx. 4HKO"
+            }
+          }
+        ],
+        "lead": "kangaskhan",
+        "warnings": []
+      },
+      {
+        "boss": "koga",
+        "name": "Koga",
+        "location": "Fuchsia City",
+        "stage": 4,
+        "level": 43,
+        "usable": [
+          {
+            "member": "fearow",
+            "form": "fearow",
+            "moves": [
+              "doubleedge",
+              "drillpeck",
+              "rest",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "wigglytuff",
+            "form": "wigglytuff",
+            "moves": [
+              "doubleedge",
+              "sing",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "raticate",
+            "moves": [
+              "bodyslam",
+              "dig",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "kangaskhan",
+            "form": "kangaskhan",
+            "moves": [
+              "megakick",
+              "surf",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "clefable",
+            "form": "clefable",
+            "moves": [
+              "megakick",
+              "sing",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "tauros",
+            "form": "tauros",
+            "moves": [
+              "hyperbeam",
+              "strength",
+              "takedown",
+              "stomp"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "koffing",
+              "level": 37,
+              "moves": [
+                "tackle",
+                "smog",
+                "sludge",
+                "smokescreen"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 106.1,
+              "maxPercent": 125.6,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 43 Tauros Hyper Beam vs. Lvl 37 Koffing: 87-103 (82.8 - 98%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "sludge",
+              "minPercent": 17.1,
+              "maxPercent": 20.5,
+              "ko": "possible 5HKO",
+              "description": "Lvl 37 Koffing Sludge vs. Lvl 43 Tauros: 20-24 (13.8 - 16.6%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "muk",
+              "level": 39,
+              "moves": [
+                "disable",
+                "poisongas",
+                "minimize",
+                "sludge"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 70.8,
+              "maxPercent": 83.9,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 43 Tauros Hyper Beam vs. Lvl 39 Muk: 97-115 (60.2 - 71.4%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "sludge",
+              "minPercent": 23.9,
+              "maxPercent": 29.1,
+              "ko": "99.5% chance to 4HKO",
+              "description": "Lvl 39 Muk Sludge vs. Lvl 43 Tauros: 28-34 (19.4 - 23.6%) -- 99.5% chance to 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "koffing",
+              "level": 37,
+              "moves": [
+                "tackle",
+                "smog",
+                "sludge",
+                "smokescreen"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 106.1,
+              "maxPercent": 125.6,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 43 Tauros Hyper Beam vs. Lvl 37 Koffing: 87-103 (82.8 - 98%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "sludge",
+              "minPercent": 17.1,
+              "maxPercent": 20.5,
+              "ko": "possible 5HKO",
+              "description": "Lvl 37 Koffing Sludge vs. Lvl 43 Tauros: 20-24 (13.8 - 16.6%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "weezing",
+              "level": 43,
+              "moves": [
+                "smog",
+                "sludge",
+                "toxic",
+                "selfdestruct"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 55.7,
+              "maxPercent": 66.1,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 43 Tauros Hyper Beam vs. Lvl 43 Weezing: 64-76 (45 - 53.5%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "selfdestruct",
+              "minPercent": 70.9,
+              "maxPercent": 83.8,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 43 Weezing Self-Destruct vs. Lvl 43 Tauros: 83-98 (57.6 - 68%) -- guaranteed 2HKO"
+            }
+          }
+        ],
+        "lead": "tauros",
+        "warnings": []
+      },
+      {
+        "boss": "rival-silph",
+        "name": "Rival",
+        "location": "Silph Co. 7F",
+        "stage": 5,
+        "level": 40,
+        "rivalStarter": "charmander",
+        "usable": [
+          {
+            "member": "fearow",
+            "form": "fearow",
+            "moves": [
+              "doubleedge",
+              "drillpeck",
+              "rest",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "wigglytuff",
+            "form": "wigglytuff",
+            "moves": [
+              "doubleedge",
+              "sing",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "raticate",
+            "moves": [
+              "bodyslam",
+              "dig",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "kangaskhan",
+            "form": "kangaskhan",
+            "moves": [
+              "megakick",
+              "surf",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "clefable",
+            "form": "clefable",
+            "moves": [
+              "megakick",
+              "sing",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "tauros",
+            "form": "tauros",
+            "moves": [
+              "hyperbeam",
+              "strength",
+              "takedown",
+              "stomp"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeot",
+              "level": 37,
+              "moves": [
+                "sandattack",
+                "quickattack",
+                "whirlwind",
+                "wingattack"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 79.8,
+              "maxPercent": 94.7,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 40 Tauros Hyper Beam vs. Lvl 37 Pidgeot: 91-108 (66.4 - 78.8%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "quickattack",
+              "minPercent": 13.6,
+              "maxPercent": 16.4,
+              "ko": "possible 7HKO",
+              "description": "Lvl 37 Pidgeot Quick Attack vs. Lvl 40 Tauros: 15-18 (11.1 - 13.3%) -- possible 7HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "exeggcute",
+              "level": 38,
+              "moves": [
+                "reflect",
+                "leechseed",
+                "stunspore",
+                "poisonpowder"
+              ]
+            },
+            "answer": {
+              "move": "drillpeck",
+              "member": "fearow",
+              "form": "fearow",
+              "minPercent": 86.9,
+              "maxPercent": 103,
+              "ko": "20.5% chance to OHKO",
+              "description": "Lvl 40 Fearow Drill Peck vs. Lvl 38 Exeggcute: 86-102 (69.9 - 82.9%) -- 20.5% chance to OHKO",
+              "outspeeds": true
+            }
+          },
+          {
+            "bossMon": {
+              "species": "gyarados",
+              "level": 35,
+              "moves": [
+                "bite",
+                "dragonrage",
+                "leer",
+                "hydropump"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 80.3,
+              "maxPercent": 94.9,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 40 Tauros Hyper Beam vs. Lvl 35 Gyarados: 94-111 (67.6 - 79.8%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hydropump",
+              "minPercent": 50.9,
+              "maxPercent": 60,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 35 Gyarados Hydro Pump vs. Lvl 40 Tauros: 56-66 (41.4 - 48.8%) -- guaranteed 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "alakazam",
+              "level": 35,
+              "moves": [
+                "confusion",
+                "disable",
+                "psybeam",
+                "recover"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 140.4,
+              "maxPercent": 166.3,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 40 Tauros Hyper Beam vs. Lvl 35 Alakazam: 125-148 (112.6 - 133.3%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "psybeam",
+              "minPercent": 34.5,
+              "maxPercent": 40.9,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 35 Alakazam Psybeam vs. Lvl 40 Tauros: 38-45 (28.1 - 33.3%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charizard",
+              "level": 40,
+              "moves": [
+                "ember",
+                "leer",
+                "rage",
+                "slash"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 69.5,
+              "maxPercent": 82.2,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 40 Tauros Hyper Beam vs. Lvl 40 Charizard: 82-97 (56.9 - 67.3%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "slash",
+              "minPercent": 35.5,
+              "maxPercent": 41.8,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 40 Charizard Slash vs. Lvl 40 Tauros on a critical hit: 39-46 (28.8 - 34%) -- guaranteed 3HKO"
+            }
+          }
+        ],
+        "lead": "tauros",
+        "warnings": []
+      },
+      {
+        "boss": "giovanni-silph",
+        "name": "Giovanni",
+        "location": "Silph Co. 11F",
+        "stage": 5,
+        "level": 41,
+        "usable": [
+          {
+            "member": "fearow",
+            "form": "fearow",
+            "moves": [
+              "doubleedge",
+              "drillpeck",
+              "rest",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "wigglytuff",
+            "form": "wigglytuff",
+            "moves": [
+              "doubleedge",
+              "sing",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "raticate",
+            "moves": [
+              "bodyslam",
+              "dig",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "kangaskhan",
+            "form": "kangaskhan",
+            "moves": [
+              "megakick",
+              "surf",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "clefable",
+            "form": "clefable",
+            "moves": [
+              "megakick",
+              "sing",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "tauros",
+            "form": "tauros",
+            "moves": [
+              "hyperbeam",
+              "strength",
+              "takedown",
+              "stomp"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "nidorino",
+              "level": 37,
+              "moves": [
+                "hornattack",
+                "poisonsting",
+                "focusenergy",
+                "furyattack"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 111.2,
+              "maxPercent": 131.6,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 41 Tauros Hyper Beam vs. Lvl 37 Nidorino: 109-129 (90 - 106.6%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hornattack",
+              "minPercent": 12.5,
+              "maxPercent": 15.2,
+              "ko": "possible 7HKO",
+              "description": "Lvl 37 Nidorino Horn Attack vs. Lvl 41 Tauros: 14-17 (10.1 - 12.3%) -- possible 7HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "kangaskhan",
+              "level": 35,
+              "moves": [
+                "cometpunch",
+                "rage",
+                "bite",
+                "tailwhip"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 76.6,
+              "maxPercent": 90.3,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 41 Tauros Hyper Beam vs. Lvl 35 Kangaskhan: 95-112 (65 - 76.7%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "cometpunch",
+              "minPercent": 18.8,
+              "maxPercent": 24.1,
+              "ko": "approx. possible 5HKO",
+              "description": "Lvl 35 Kangaskhan Comet Punch (3 hits) vs. Lvl 41 Tauros: 21-27 (15.2 - 19.5%) -- approx. possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rhyhorn",
+              "level": 37,
+              "moves": [
+                "hornattack",
+                "stomp",
+                "tailwhip"
+              ]
+            },
+            "answer": {
+              "move": "surf",
+              "member": "kangaskhan",
+              "form": "kangaskhan",
+              "minPercent": 133,
+              "maxPercent": 157.1,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 41 Kangaskhan Surf vs. Lvl 37 Rhyhorn: 149-176 (110.3 - 130.3%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hornattack",
+              "minPercent": 12.4,
+              "maxPercent": 15.3,
+              "ko": "possible 7HKO",
+              "description": "Lvl 37 Rhyhorn Horn Attack vs. Lvl 41 Kangaskhan: 17-21 (10.4 - 12.9%) -- possible 7HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "nidoqueen",
+              "level": 41,
+              "moves": [
+                "scratch",
+                "tailwhip",
+                "bodyslam",
+                "poisonsting"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 58.8,
+              "maxPercent": 69.5,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 41 Tauros Hyper Beam vs. Lvl 41 Nidoqueen: 77-91 (49 - 57.9%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "bodyslam",
+              "minPercent": 21.4,
+              "maxPercent": 25.9,
+              "ko": "0.7% chance to 4HKO",
+              "description": "Lvl 41 Nidoqueen Body Slam vs. Lvl 41 Tauros: 24-29 (17.3 - 21%) -- 0.7% chance to 4HKO"
+            }
+          }
+        ],
+        "lead": "tauros",
+        "warnings": []
+      },
+      {
+        "boss": "sabrina",
+        "name": "Sabrina",
+        "location": "Saffron City",
+        "stage": 5,
+        "level": 43,
+        "usable": [
+          {
+            "member": "fearow",
+            "form": "fearow",
+            "moves": [
+              "doubleedge",
+              "drillpeck",
+              "rest",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "wigglytuff",
+            "form": "wigglytuff",
+            "moves": [
+              "doubleedge",
+              "sing",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "raticate",
+            "moves": [
+              "bodyslam",
+              "dig",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "kangaskhan",
+            "form": "kangaskhan",
+            "moves": [
+              "megakick",
+              "surf",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "clefable",
+            "form": "clefable",
+            "moves": [
+              "megakick",
+              "sing",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "tauros",
+            "form": "tauros",
+            "moves": [
+              "hyperbeam",
+              "strength",
+              "takedown",
+              "stomp"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "kadabra",
+              "level": 38,
+              "moves": [
+                "disable",
+                "psybeam",
+                "recover",
+                "psychic"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 190.5,
+              "maxPercent": 225,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 43 Tauros Hyper Beam vs. Lvl 38 Kadabra: 160-189 (148.1 - 175%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "psychic",
+              "minPercent": 43.6,
+              "maxPercent": 51.3,
+              "ko": "4.8% chance to 2HKO",
+              "description": "Lvl 38 Kadabra Psychic vs. Lvl 43 Tauros: 51-60 (35.4 - 41.6%) -- 4.8% chance to 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "mrmime",
+              "level": 37,
+              "moves": [
+                "confusion",
+                "barrier",
+                "lightscreen",
+                "doubleslap"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 136.6,
+              "maxPercent": 161,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 43 Tauros Hyper Beam vs. Lvl 37 Mr. Mime: 112-132 (106.6 - 125.7%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "confusion",
+              "minPercent": 19.7,
+              "maxPercent": 23.9,
+              "ko": "possible 5HKO",
+              "description": "Lvl 37 Mr. Mime Confusion vs. Lvl 43 Tauros: 23-28 (15.9 - 19.4%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "venomoth",
+              "level": 38,
+              "moves": [
+                "poisonpowder",
+                "leechlife",
+                "stunspore",
+                "psybeam"
+              ]
+            },
+            "answer": {
+              "move": "drillpeck",
+              "member": "fearow",
+              "form": "fearow",
+              "minPercent": 109.3,
+              "maxPercent": 129,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 43 Fearow Drill Peck vs. Lvl 38 Venomoth: 117-138 (89.3 - 105.3%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "psybeam",
+              "minPercent": 20.4,
+              "maxPercent": 25,
+              "ko": "0.1% chance to 4HKO",
+              "description": "Lvl 38 Venomoth Psybeam vs. Lvl 43 Fearow: 22-27 (16.2 - 20%) -- 0.1% chance to 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "alakazam",
+              "level": 43,
+              "moves": [
+                "psybeam",
+                "recover",
+                "psywave",
+                "reflect"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 110.3,
+              "maxPercent": 129.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 43 Tauros Hyper Beam vs. Lvl 43 Alakazam: 118-139 (88 - 103.7%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "psybeam",
+              "minPercent": 43.6,
+              "maxPercent": 51.3,
+              "ko": "4.8% chance to 2HKO",
+              "description": "Lvl 43 Alakazam Psybeam vs. Lvl 43 Tauros: 51-60 (35.4 - 41.6%) -- 4.8% chance to 2HKO"
+            }
+          }
+        ],
+        "lead": "tauros",
+        "warnings": []
+      },
+      {
+        "boss": "blaine",
+        "name": "Blaine",
+        "location": "Cinnabar Island",
+        "stage": 6,
+        "level": 47,
+        "usable": [
+          {
+            "member": "fearow",
+            "form": "fearow",
+            "moves": [
+              "doubleedge",
+              "drillpeck",
+              "rest",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "wigglytuff",
+            "form": "wigglytuff",
+            "moves": [
+              "doubleedge",
+              "sing",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "raticate",
+            "moves": [
+              "bodyslam",
+              "dig",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "kangaskhan",
+            "form": "kangaskhan",
+            "moves": [
+              "megakick",
+              "surf",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "clefable",
+            "form": "clefable",
+            "moves": [
+              "megakick",
+              "sing",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "tauros",
+            "form": "tauros",
+            "moves": [
+              "hyperbeam",
+              "strength",
+              "takedown",
+              "stomp"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "growlithe",
+              "level": 42,
+              "moves": [
+                "ember",
+                "leer",
+                "takedown",
+                "agility"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 134.6,
+              "maxPercent": 158.7,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 47 Tauros Hyper Beam vs. Lvl 42 Growlithe: 140-165 (106.8 - 125.9%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "takedown",
+              "minPercent": 16.5,
+              "maxPercent": 19.7,
+              "ko": "possible 6HKO",
+              "description": "Lvl 42 Growlithe Take Down vs. Lvl 47 Tauros: 21-25 (13.3 - 15.9%) -- possible 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "ponyta",
+              "level": 40,
+              "moves": [
+                "tailwhip",
+                "stomp",
+                "growl",
+                "firespin"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 137.5,
+              "maxPercent": 162.5,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 47 Tauros Hyper Beam vs. Lvl 40 Ponyta: 132-156 (109 - 128.9%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 13.4,
+              "maxPercent": 15.7,
+              "ko": "possible 7HKO",
+              "description": "Lvl 40 Ponyta Stomp vs. Lvl 47 Tauros: 17-20 (10.8 - 12.7%) -- possible 7HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rapidash",
+              "level": 42,
+              "moves": [
+                "tailwhip",
+                "stomp",
+                "growl",
+                "firespin"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 97.3,
+              "maxPercent": 115,
+              "ko": "87.2% chance to OHKO",
+              "description": "Lvl 47 Tauros Hyper Beam vs. Lvl 42 Rapidash: 110-130 (79.1 - 93.5%) -- 87.2% chance to OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 15,
+              "maxPercent": 18.1,
+              "ko": "possible 6HKO",
+              "description": "Lvl 42 Rapidash Stomp vs. Lvl 47 Tauros: 19-23 (12.1 - 14.6%) -- possible 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "arcanine",
+              "level": 47,
+              "moves": [
+                "roar",
+                "ember",
+                "fireblast",
+                "takedown"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 60.4,
+              "maxPercent": 71.1,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 47 Tauros Hyper Beam vs. Lvl 47 Arcanine: 90-106 (50.5 - 59.5%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "fireblast",
+              "minPercent": 53.5,
+              "maxPercent": 63.8,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 47 Arcanine Fire Blast vs. Lvl 47 Tauros: 68-81 (43.3 - 51.5%) -- guaranteed 2HKO"
+            }
+          }
+        ],
+        "lead": "tauros",
+        "warnings": []
+      },
+      {
+        "boss": "giovanni-gym",
+        "name": "Giovanni",
+        "location": "Viridian City",
+        "stage": 7,
+        "level": 50,
+        "usable": [
+          {
+            "member": "fearow",
+            "form": "fearow",
+            "moves": [
+              "doubleedge",
+              "drillpeck",
+              "rest",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "wigglytuff",
+            "form": "wigglytuff",
+            "moves": [
+              "doubleedge",
+              "sing",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "raticate",
+            "moves": [
+              "bodyslam",
+              "dig",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "kangaskhan",
+            "form": "kangaskhan",
+            "moves": [
+              "megakick",
+              "surf",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "clefable",
+            "form": "clefable",
+            "moves": [
+              "megakick",
+              "sing",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "tauros",
+            "form": "tauros",
+            "moves": [
+              "hyperbeam",
+              "strength",
+              "takedown",
+              "stomp"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "rhyhorn",
+              "level": 45,
+              "moves": [
+                "stomp",
+                "tailwhip",
+                "furyattack",
+                "horndrill"
+              ]
+            },
+            "answer": {
+              "move": "surf",
+              "member": "kangaskhan",
+              "form": "kangaskhan",
+              "minPercent": 136.6,
+              "maxPercent": 161.2,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 50 Kangaskhan Surf vs. Lvl 45 Rhyhorn: 183-216 (112.9 - 133.3%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 13.3,
+              "maxPercent": 15.8,
+              "ko": "possible 7HKO",
+              "description": "Lvl 45 Rhyhorn Stomp vs. Lvl 50 Kangaskhan: 22-26 (11.2 - 13.2%) -- possible 7HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "dugtrio",
+              "level": 42,
+              "moves": [
+                "growl",
+                "dig",
+                "sandattack",
+                "slash"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 173.9,
+              "maxPercent": 204.5,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 50 Tauros Hyper Beam vs. Lvl 42 Dugtrio: 153-180 (134.2 - 157.8%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "dig",
+              "minPercent": 26.7,
+              "maxPercent": 31.9,
+              "ko": "guaranteed 4HKO",
+              "description": "Lvl 42 Dugtrio Dig vs. Lvl 50 Tauros: 36-43 (21.6 - 25.9%) -- guaranteed 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "nidoqueen",
+              "level": 44,
+              "moves": [
+                "scratch",
+                "tailwhip",
+                "bodyslam",
+                "poisonsting"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 75,
+              "maxPercent": 88.6,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 50 Tauros Hyper Beam vs. Lvl 44 Nidoqueen: 105-124 (62.8 - 74.2%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "bodyslam",
+              "minPercent": 17,
+              "maxPercent": 20.7,
+              "ko": "possible 5HKO",
+              "description": "Lvl 44 Nidoqueen Body Slam vs. Lvl 50 Tauros: 23-28 (13.8 - 16.8%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "nidoking",
+              "level": 45,
+              "moves": [
+                "tackle",
+                "hornattack",
+                "poisonsting",
+                "thrash"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 83.7,
+              "maxPercent": 98.5,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 50 Tauros Hyper Beam vs. Lvl 45 Nidoking: 113-133 (69.3 - 81.5%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "thrash",
+              "minPercent": 20.7,
+              "maxPercent": 25.2,
+              "ko": "0.1% chance to 4HKO",
+              "description": "Lvl 45 Nidoking Thrash vs. Lvl 50 Tauros: 28-34 (16.8 - 20.4%) -- 0.1% chance to 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rhydon",
+              "level": 50,
+              "moves": [
+                "stomp",
+                "tailwhip",
+                "fissure",
+                "horndrill"
+              ]
+            },
+            "answer": {
+              "move": "surf",
+              "member": "kangaskhan",
+              "form": "kangaskhan",
+              "minPercent": 80.3,
+              "maxPercent": 94.8,
+              "ko": "guaranteed 2HKO",
+              "description": "Kangaskhan Surf vs. Rhydon: 139-164 (68.1 - 80.3%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 21.2,
+              "maxPercent": 25.5,
+              "ko": "0.1% chance to 4HKO",
+              "description": "Rhydon Stomp vs. Kangaskhan: 35-42 (17.8 - 21.4%) -- 0.1% chance to 4HKO"
+            }
+          }
+        ],
+        "lead": "kangaskhan",
+        "warnings": []
+      },
+      {
+        "boss": "rival-route22-late",
+        "name": "Rival",
+        "location": "Route 22",
+        "stage": 8,
+        "level": 53,
+        "rivalStarter": "charmander",
+        "usable": [
+          {
+            "member": "fearow",
+            "form": "fearow",
+            "moves": [
+              "doubleedge",
+              "drillpeck",
+              "rest",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "wigglytuff",
+            "form": "wigglytuff",
+            "moves": [
+              "doubleedge",
+              "sing",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "raticate",
+            "moves": [
+              "bodyslam",
+              "dig",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "kangaskhan",
+            "form": "kangaskhan",
+            "moves": [
+              "megakick",
+              "surf",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "clefable",
+            "form": "clefable",
+            "moves": [
+              "megakick",
+              "sing",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "tauros",
+            "form": "tauros",
+            "moves": [
+              "hyperbeam",
+              "strength",
+              "takedown",
+              "stomp"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeot",
+              "level": 47,
+              "moves": [
+                "quickattack",
+                "whirlwind",
+                "wingattack",
+                "agility"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 84.5,
+              "maxPercent": 100,
+              "ko": "2.6% chance to OHKO",
+              "description": "Lvl 53 Tauros Hyper Beam vs. Lvl 47 Pidgeot: 120-142 (69.7 - 82.5%) -- 2.6% chance to OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "quickattack",
+              "minPercent": 12,
+              "maxPercent": 14.8,
+              "ko": "possible 7HKO",
+              "description": "Lvl 47 Pidgeot Quick Attack vs. Lvl 53 Tauros: 17-21 (9.7 - 12%) -- possible 7HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rhyhorn",
+              "level": 45,
+              "moves": [
+                "stomp",
+                "tailwhip",
+                "furyattack",
+                "horndrill"
+              ]
+            },
+            "answer": {
+              "move": "surf",
+              "member": "kangaskhan",
+              "form": "kangaskhan",
+              "minPercent": 152.2,
+              "maxPercent": 179.1,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 53 Kangaskhan Surf vs. Lvl 45 Rhyhorn: 204-240 (125.9 - 148.1%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 12.1,
+              "maxPercent": 14.4,
+              "ko": "possible 7HKO",
+              "description": "Lvl 45 Rhyhorn Stomp vs. Lvl 53 Kangaskhan: 21-25 (10.1 - 12%) -- possible 7HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "exeggcute",
+              "level": 45,
+              "moves": [
+                "leechseed",
+                "stunspore",
+                "poisonpowder",
+                "solarbeam"
+              ]
+            },
+            "answer": {
+              "move": "drillpeck",
+              "member": "fearow",
+              "form": "fearow",
+              "minPercent": 105.2,
+              "maxPercent": 124.1,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 53 Fearow Drill Peck vs. Lvl 45 Exeggcute: 122-144 (84.7 - 100%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "solarbeam",
+              "minPercent": 19.8,
+              "maxPercent": 23.7,
+              "ko": "possible 5HKO",
+              "description": "Lvl 45 Exeggcute Solar Beam vs. Lvl 53 Fearow: 26-31 (15.7 - 18.7%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "gyarados",
+              "level": 47,
+              "moves": [
+                "bite",
+                "dragonrage",
+                "leer",
+                "hydropump"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 76.5,
+              "maxPercent": 90.2,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 53 Tauros Hyper Beam vs. Lvl 47 Gyarados: 117-138 (63.9 - 75.4%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hydropump",
+              "minPercent": 48.6,
+              "maxPercent": 57.7,
+              "ko": "96.8% chance to 2HKO",
+              "description": "Lvl 47 Gyarados Hydro Pump vs. Lvl 53 Tauros: 69-82 (39.4 - 46.8%) -- 96.8% chance to 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "alakazam",
+              "level": 50,
+              "moves": [
+                "psybeam",
+                "recover",
+                "psychic",
+                "reflect"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 122.8,
+              "maxPercent": 144.7,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 53 Tauros Hyper Beam vs. Lvl 50 Alakazam: 151-178 (98 - 115.5%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "psychic",
+              "minPercent": 53.5,
+              "maxPercent": 63.4,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 50 Alakazam Psychic vs. Lvl 53 Tauros: 76-90 (43.4 - 51.4%) -- guaranteed 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charizard",
+              "level": 53,
+              "moves": [
+                "leer",
+                "rage",
+                "slash",
+                "flamethrower"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 68.2,
+              "maxPercent": 80.5,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 53 Tauros Hyper Beam vs. Lvl 53 Charizard: 105-124 (56.1 - 66.3%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "flamethrower",
+              "minPercent": 45.1,
+              "maxPercent": 53.5,
+              "ko": "36% chance to 2HKO",
+              "description": "Lvl 53 Charizard Flamethrower vs. Lvl 53 Tauros: 64-76 (36.5 - 43.4%) -- 36% chance to 2HKO"
+            }
+          }
+        ],
+        "lead": "tauros",
+        "warnings": []
+      },
+      {
+        "boss": "lorelei",
+        "name": "Lorelei",
+        "location": "Indigo Plateau",
+        "stage": 8,
+        "level": 56,
+        "usable": [
+          {
+            "member": "fearow",
+            "form": "fearow",
+            "moves": [
+              "doubleedge",
+              "drillpeck",
+              "rest",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "wigglytuff",
+            "form": "wigglytuff",
+            "moves": [
+              "doubleedge",
+              "sing",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "raticate",
+            "moves": [
+              "bodyslam",
+              "dig",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "kangaskhan",
+            "form": "kangaskhan",
+            "moves": [
+              "megakick",
+              "surf",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "clefable",
+            "form": "clefable",
+            "moves": [
+              "megakick",
+              "sing",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "tauros",
+            "form": "tauros",
+            "moves": [
+              "hyperbeam",
+              "strength",
+              "takedown",
+              "stomp"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "dewgong",
+              "level": 54,
+              "moves": [
+                "growl",
+                "aurorabeam",
+                "rest",
+                "takedown"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 66.3,
+              "maxPercent": 78.1,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 56 Tauros Hyper Beam vs. Lvl 54 Dewgong: 112-132 (55.1 - 65%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "aurorabeam",
+              "minPercent": 30.7,
+              "maxPercent": 36.7,
+              "ko": "65% chance to 3HKO",
+              "description": "Lvl 54 Dewgong Aurora Beam vs. Lvl 56 Tauros: 46-55 (24.8 - 29.7%) -- 65% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "cloyster",
+              "level": 53,
+              "moves": [
+                "supersonic",
+                "clamp",
+                "aurorabeam",
+                "spikecannon"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 50.8,
+              "maxPercent": 60.5,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 56 Tauros Hyper Beam vs. Lvl 53 Cloyster: 63-75 (40.1 - 47.7%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "aurorabeam",
+              "minPercent": 28.7,
+              "maxPercent": 34,
+              "ko": "0.7% chance to 3HKO",
+              "description": "Lvl 53 Cloyster Aurora Beam vs. Lvl 56 Tauros: 43-51 (23.2 - 27.5%) -- 0.7% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "slowbro",
+              "level": 54,
+              "moves": [
+                "growl",
+                "watergun",
+                "withdraw",
+                "amnesia"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 51.4,
+              "maxPercent": 60.6,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 56 Tauros Hyper Beam vs. Lvl 54 Slowbro: 90-106 (43 - 50.7%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "watergun",
+              "minPercent": 17.3,
+              "maxPercent": 20.7,
+              "ko": "possible 5HKO",
+              "description": "Lvl 54 Slowbro Water Gun vs. Lvl 56 Tauros: 26-31 (14 - 16.7%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "jynx",
+              "level": 56,
+              "moves": [
+                "doubleslap",
+                "icepunch",
+                "bodyslam",
+                "thrash"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 115,
+              "maxPercent": 135.4,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 56 Tauros Hyper Beam vs. Lvl 56 Jynx: 169-199 (92.3 - 108.7%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "icepunch",
+              "minPercent": 38,
+              "maxPercent": 44.7,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 56 Jynx Ice Punch vs. Lvl 56 Tauros: 57-67 (30.8 - 36.2%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "lapras",
+              "level": 56,
+              "moves": [
+                "bodyslam",
+                "confuseray",
+                "blizzard",
+                "hydropump"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 49.5,
+              "maxPercent": 58.6,
+              "ko": "99.7% chance to 2HKO",
+              "description": "Lvl 56 Tauros Hyper Beam vs. Lvl 56 Lapras: 109-129 (42.7 - 50.5%) -- 99.7% chance to 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "blizzard",
+              "minPercent": 60.7,
+              "maxPercent": 72,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 56 Lapras Blizzard vs. Lvl 56 Tauros: 91-108 (49.1 - 58.3%) -- guaranteed 2HKO"
+            }
+          }
+        ],
+        "lead": "tauros",
+        "warnings": []
+      },
+      {
+        "boss": "bruno",
+        "name": "Bruno",
+        "location": "Indigo Plateau",
+        "stage": 8,
+        "level": 58,
+        "usable": [
+          {
+            "member": "fearow",
+            "form": "fearow",
+            "moves": [
+              "doubleedge",
+              "drillpeck",
+              "rest",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "wigglytuff",
+            "form": "wigglytuff",
+            "moves": [
+              "doubleedge",
+              "sing",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "raticate",
+            "moves": [
+              "bodyslam",
+              "dig",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "kangaskhan",
+            "form": "kangaskhan",
+            "moves": [
+              "megakick",
+              "surf",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "clefable",
+            "form": "clefable",
+            "moves": [
+              "megakick",
+              "sing",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "tauros",
+            "form": "tauros",
+            "moves": [
+              "hyperbeam",
+              "strength",
+              "takedown",
+              "stomp"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "onix",
+              "level": 53,
+              "moves": [
+                "rockthrow",
+                "rage",
+                "slam",
+                "harden"
+              ]
+            },
+            "answer": {
+              "move": "surf",
+              "member": "kangaskhan",
+              "form": "kangaskhan",
+              "minPercent": 191.7,
+              "maxPercent": 225.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 58 Kangaskhan Surf vs. Lvl 53 Onix: 207-244 (146.8 - 173%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "slam",
+              "minPercent": 11.6,
+              "maxPercent": 13.8,
+              "ko": "possible 8HKO",
+              "description": "Lvl 53 Onix Slam vs. Lvl 58 Kangaskhan: 22-26 (9.7 - 11.5%) -- possible 8HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "hitmonchan",
+              "level": 55,
+              "moves": [
+                "icepunch",
+                "thunderpunch",
+                "megapunch",
+                "counter"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 93,
+              "maxPercent": 110.2,
+              "ko": "61.5% chance to OHKO",
+              "description": "Lvl 58 Tauros Hyper Beam vs. Lvl 55 Hitmonchan: 119-141 (73 - 86.5%) -- 61.5% chance to OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "megapunch",
+              "minPercent": 21.9,
+              "maxPercent": 26.5,
+              "ko": "10.7% chance to 4HKO",
+              "description": "Lvl 55 Hitmonchan Mega Punch vs. Lvl 58 Tauros: 34-41 (17.8 - 21.4%) -- 10.7% chance to 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "hitmonlee",
+              "level": 55,
+              "moves": [
+                "jumpkick",
+                "focusenergy",
+                "highjumpkick",
+                "megakick"
+              ]
+            },
+            "answer": {
+              "move": "drillpeck",
+              "member": "fearow",
+              "form": "fearow",
+              "minPercent": 119.5,
+              "maxPercent": 140.6,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 58 Fearow Drill Peck vs. Lvl 55 Hitmonlee: 153-180 (93.8 - 110.4%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "highjumpkick",
+              "minPercent": 53.1,
+              "maxPercent": 62.9,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 55 Hitmonlee High Jump Kick vs. Lvl 58 Fearow: 76-90 (42.4 - 50.2%) -- guaranteed 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "onix",
+              "level": 56,
+              "moves": [
+                "rockthrow",
+                "rage",
+                "slam",
+                "harden"
+              ]
+            },
+            "answer": {
+              "move": "surf",
+              "member": "kangaskhan",
+              "form": "kangaskhan",
+              "minPercent": 172.8,
+              "maxPercent": 203.5,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 58 Kangaskhan Surf vs. Lvl 56 Onix: 197-232 (132.2 - 155.7%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "slam",
+              "minPercent": 12.2,
+              "maxPercent": 14.8,
+              "ko": "possible 7HKO",
+              "description": "Lvl 56 Onix Slam vs. Lvl 58 Kangaskhan: 23-28 (10.1 - 12.3%) -- possible 7HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "machamp",
+              "level": 58,
+              "moves": [
+                "leer",
+                "focusenergy",
+                "fissure",
+                "submission"
+              ]
+            },
+            "answer": {
+              "move": "drillpeck",
+              "member": "fearow",
+              "form": "fearow",
+              "minPercent": 63,
+              "maxPercent": 74,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 58 Fearow Drill Peck vs. Lvl 58 Machamp: 114-134 (52.2 - 61.4%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "submission",
+              "minPercent": 58.7,
+              "maxPercent": 69.2,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 58 Machamp Submission vs. Lvl 58 Fearow: 84-99 (46.9 - 55.3%) -- guaranteed 2HKO"
+            }
+          }
+        ],
+        "lead": "kangaskhan",
+        "warnings": []
+      },
+      {
+        "boss": "agatha",
+        "name": "Agatha",
+        "location": "Indigo Plateau",
+        "stage": 8,
+        "level": 60,
+        "usable": [
+          {
+            "member": "fearow",
+            "form": "fearow",
+            "moves": [
+              "doubleedge",
+              "drillpeck",
+              "rest",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "wigglytuff",
+            "form": "wigglytuff",
+            "moves": [
+              "doubleedge",
+              "sing",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "raticate",
+            "moves": [
+              "bodyslam",
+              "dig",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "kangaskhan",
+            "form": "kangaskhan",
+            "moves": [
+              "megakick",
+              "surf",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "clefable",
+            "form": "clefable",
+            "moves": [
+              "megakick",
+              "sing",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "tauros",
+            "form": "tauros",
+            "moves": [
+              "hyperbeam",
+              "strength",
+              "takedown",
+              "stomp"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "gengar",
+              "level": 56,
+              "moves": [
+                "confuseray",
+                "nightshade",
+                "hypnosis",
+                "dreameater"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "raticate",
+              "form": "raticate",
+              "minPercent": 81,
+              "maxPercent": 95.8,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 60 Raticate Dig vs. Lvl 56 Gengar: 115-136 (64.9 - 76.8%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "dreameater",
+              "minPercent": 52.9,
+              "maxPercent": 62.5,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 56 Gengar Dream Eater vs. Lvl 60 Raticate: 72-85 (41.6 - 49.1%) -- guaranteed 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "golbat",
+              "level": 56,
+              "moves": [
+                "supersonic",
+                "confuseray",
+                "wingattack",
+                "haze"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 86.1,
+              "maxPercent": 101.3,
+              "ko": "10.3% chance to OHKO",
+              "description": "Lvl 60 Tauros Hyper Beam vs. Lvl 56 Golbat: 136-160 (70.1 - 82.4%) -- 10.3% chance to OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "wingattack",
+              "minPercent": 12.5,
+              "maxPercent": 15,
+              "ko": "possible 7HKO",
+              "description": "Lvl 56 Golbat Wing Attack vs. Lvl 60 Tauros: 20-24 (10.1 - 12.1%) -- possible 7HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "haunter",
+              "level": 55,
+              "moves": [
+                "confuseray",
+                "nightshade",
+                "hypnosis",
+                "dreameater"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "raticate",
+              "form": "raticate",
+              "minPercent": 111.4,
+              "maxPercent": 131.7,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 60 Raticate Dig vs. Lvl 55 Haunter: 137-162 (87.2 - 103.1%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "dreameater",
+              "minPercent": 47.1,
+              "maxPercent": 55.9,
+              "ko": "79.2% chance to 2HKO",
+              "description": "Lvl 55 Haunter Dream Eater vs. Lvl 60 Raticate: 64-76 (36.9 - 43.9%) -- 79.2% chance to 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "arbok",
+              "level": 58,
+              "moves": [
+                "bite",
+                "glare",
+                "screech",
+                "acid"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 91.1,
+              "maxPercent": 107.5,
+              "ko": "46.2% chance to OHKO",
+              "description": "Lvl 60 Tauros Hyper Beam vs. Lvl 58 Arbok: 133-157 (72.6 - 85.7%) -- 46.2% chance to OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "acid",
+              "minPercent": 15.6,
+              "maxPercent": 18.8,
+              "ko": "possible 6HKO",
+              "description": "Lvl 58 Arbok Acid vs. Lvl 60 Tauros: 25-30 (12.6 - 15.2%) -- possible 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "gengar",
+              "level": 60,
+              "moves": [
+                "confuseray",
+                "nightshade",
+                "toxic",
+                "dreameater"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "raticate",
+              "form": "raticate",
+              "minPercent": 71.5,
+              "maxPercent": 84.8,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 60 Raticate Dig vs. Lvl 60 Gengar: 108-128 (57.1 - 67.7%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "dreameater",
+              "minPercent": 61,
+              "maxPercent": 72.1,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 60 Gengar Dream Eater vs. Lvl 60 Raticate: 83-98 (47.9 - 56.6%) -- guaranteed 2HKO"
+            }
+          }
+        ],
+        "lead": "raticate",
+        "warnings": []
+      },
+      {
+        "boss": "lance",
+        "name": "Lance",
+        "location": "Indigo Plateau",
+        "stage": 8,
+        "level": 62,
+        "usable": [
+          {
+            "member": "fearow",
+            "form": "fearow",
+            "moves": [
+              "doubleedge",
+              "drillpeck",
+              "rest",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "wigglytuff",
+            "form": "wigglytuff",
+            "moves": [
+              "doubleedge",
+              "sing",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "raticate",
+            "moves": [
+              "bodyslam",
+              "dig",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "kangaskhan",
+            "form": "kangaskhan",
+            "moves": [
+              "megakick",
+              "surf",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "clefable",
+            "form": "clefable",
+            "moves": [
+              "megakick",
+              "sing",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "tauros",
+            "form": "tauros",
+            "moves": [
+              "hyperbeam",
+              "strength",
+              "takedown",
+              "stomp"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "gyarados",
+              "level": 58,
+              "moves": [
+                "dragonrage",
+                "leer",
+                "hydropump",
+                "hyperbeam"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 66.8,
+              "maxPercent": 79.1,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 62 Tauros Hyper Beam vs. Lvl 58 Gyarados: 125-148 (55.8 - 66%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hydropump",
+              "minPercent": 55.8,
+              "maxPercent": 66.1,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 58 Gyarados Hydro Pump vs. Lvl 62 Tauros: 92-109 (45 - 53.4%) -- guaranteed 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "dragonair",
+              "level": 56,
+              "moves": [
+                "agility",
+                "slam",
+                "dragonrage",
+                "hyperbeam"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 102.1,
+              "maxPercent": 120.3,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 62 Tauros Hyper Beam vs. Lvl 56 Dragonair: 146-172 (82 - 96.6%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hyperbeam",
+              "minPercent": 31.5,
+              "maxPercent": 37.6,
+              "ko": "89.4% chance to 3HKO",
+              "description": "Lvl 56 Dragonair Hyper Beam vs. Lvl 62 Tauros: 52-62 (25.4 - 30.3%) -- 89.4% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "dragonair",
+              "level": 56,
+              "moves": [
+                "agility",
+                "slam",
+                "dragonrage",
+                "hyperbeam"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 102.1,
+              "maxPercent": 120.3,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 62 Tauros Hyper Beam vs. Lvl 56 Dragonair: 146-172 (82 - 96.6%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hyperbeam",
+              "minPercent": 31.5,
+              "maxPercent": 37.6,
+              "ko": "89.4% chance to 3HKO",
+              "description": "Lvl 56 Dragonair Hyper Beam vs. Lvl 62 Tauros: 52-62 (25.4 - 30.3%) -- 89.4% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "aerodactyl",
+              "level": 60,
+              "moves": [
+                "supersonic",
+                "bite",
+                "takedown",
+                "hyperbeam"
+              ]
+            },
+            "answer": {
+              "move": "surf",
+              "member": "kangaskhan",
+              "form": "kangaskhan",
+              "minPercent": 41.7,
+              "maxPercent": 49.1,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 62 Kangaskhan Surf vs. Lvl 60 Aerodactyl: 73-86 (34.2 - 40.3%) -- guaranteed 3HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "hyperbeam",
+              "minPercent": 39.1,
+              "maxPercent": 46,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 60 Aerodactyl Hyper Beam vs. Lvl 62 Kangaskhan: 79-93 (32.7 - 38.5%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "dragonite",
+              "level": 62,
+              "moves": [
+                "agility",
+                "slam",
+                "barrier",
+                "hyperbeam"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 53.6,
+              "maxPercent": 63.4,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 62 Tauros Hyper Beam vs. Lvl 62 Dragonite: 104-123 (44.6 - 52.7%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hyperbeam",
+              "minPercent": 52.1,
+              "maxPercent": 61.8,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 62 Dragonite Hyper Beam vs. Lvl 62 Tauros: 86-102 (42.1 - 50%) -- guaranteed 2HKO"
+            }
+          }
+        ],
+        "lead": "tauros",
+        "warnings": [
+          "Weak against Aerodactyl: best is Lvl 62 Kangaskhan Surf vs. Lvl 60 Aerodactyl: 73-86 (34.2 - 40.3%) -- guaranteed 3HKO."
+        ]
+      },
+      {
+        "boss": "rival-champion",
+        "name": "Rival",
+        "location": "Indigo Plateau (Champion)",
+        "stage": 8,
+        "level": 65,
+        "rivalStarter": "charmander",
+        "usable": [
+          {
+            "member": "fearow",
+            "form": "fearow",
+            "moves": [
+              "doubleedge",
+              "drillpeck",
+              "rest",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "wigglytuff",
+            "form": "wigglytuff",
+            "moves": [
+              "doubleedge",
+              "sing",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "raticate",
+            "form": "raticate",
+            "moves": [
+              "bodyslam",
+              "dig",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "kangaskhan",
+            "form": "kangaskhan",
+            "moves": [
+              "megakick",
+              "surf",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "clefable",
+            "form": "clefable",
+            "moves": [
+              "megakick",
+              "sing",
+              "submission",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "tauros",
+            "form": "tauros",
+            "moves": [
+              "hyperbeam",
+              "strength",
+              "takedown",
+              "stomp"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeot",
+              "level": 61,
+              "moves": [
+                "whirlwind",
+                "wingattack",
+                "skyattack",
+                "mirrormove"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 76.9,
+              "maxPercent": 90.7,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 65 Tauros Hyper Beam vs. Lvl 61 Pidgeot: 140-165 (63.6 - 75%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "skyattack",
+              "minPercent": 45.9,
+              "maxPercent": 54.7,
+              "ko": "59.6% chance to 2HKO",
+              "description": "Lvl 61 Pidgeot Sky Attack vs. Lvl 65 Tauros: 79-94 (37 - 44.1%) -- 59.6% chance to 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "alakazam",
+              "level": 59,
+              "moves": [
+                "psybeam",
+                "recover",
+                "psychic",
+                "reflect"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 135.7,
+              "maxPercent": 159.4,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 65 Tauros Hyper Beam vs. Lvl 59 Alakazam: 194-228 (107.7 - 126.6%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "psychic",
+              "minPercent": 48.8,
+              "maxPercent": 57.6,
+              "ko": "95.9% chance to 2HKO",
+              "description": "Lvl 59 Alakazam Psychic vs. Lvl 65 Tauros: 84-99 (39.4 - 46.4%) -- 95.9% chance to 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rhydon",
+              "level": 61,
+              "moves": [
+                "tailwhip",
+                "furyattack",
+                "horndrill",
+                "leer"
+              ]
+            },
+            "answer": {
+              "move": "surf",
+              "member": "kangaskhan",
+              "form": "kangaskhan",
+              "minPercent": 89.9,
+              "maxPercent": 105.8,
+              "ko": "35.9% chance to OHKO",
+              "description": "Lvl 65 Kangaskhan Surf vs. Lvl 61 Rhydon: 187-220 (75.7 - 89%) -- 35.9% chance to OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "furyattack",
+              "minPercent": 14.2,
+              "maxPercent": 17.1,
+              "ko": "approx. possible 6HKO",
+              "description": "Lvl 61 Rhydon Fury Attack (3 hits) vs. Lvl 65 Kangaskhan: 30-36 (11.9 - 14.2%) -- approx. possible 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "exeggutor",
+              "level": 61,
+              "moves": [
+                "barrage",
+                "hypnosis",
+                "stomp"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 66.3,
+              "maxPercent": 78.1,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 65 Tauros Hyper Beam vs. Lvl 61 Exeggutor: 130-153 (55.3 - 65.1%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 16.3,
+              "maxPercent": 19.8,
+              "ko": "possible 6HKO",
+              "description": "Lvl 61 Exeggutor Stomp vs. Lvl 65 Tauros: 28-34 (13.1 - 15.9%) -- possible 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "gyarados",
+              "level": 63,
+              "moves": [
+                "dragonrage",
+                "leer",
+                "hydropump",
+                "hyperbeam"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 64.9,
+              "maxPercent": 76.2,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 65 Tauros Hyper Beam vs. Lvl 63 Gyarados: 131-154 (54.1 - 63.6%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hydropump",
+              "minPercent": 59.3,
+              "maxPercent": 70.3,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 63 Gyarados Hydro Pump vs. Lvl 65 Tauros: 102-121 (47.8 - 56.8%) -- guaranteed 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charizard",
+              "level": 65,
+              "moves": [
+                "rage",
+                "slash",
+                "fireblast",
+                "firespin"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "tauros",
+              "form": "tauros",
+              "minPercent": 68.8,
+              "maxPercent": 81.2,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 65 Tauros Hyper Beam vs. Lvl 65 Charizard: 128-151 (56.3 - 66.5%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "fireblast",
+              "minPercent": 56.4,
+              "maxPercent": 66.9,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 65 Charizard Fire Blast vs. Lvl 65 Tauros: 97-115 (45.5 - 53.9%) -- guaranteed 2HKO"
+            }
+          }
+        ],
+        "lead": "tauros",
+        "warnings": []
+      }
+    ]
+  }
+}

@@ -8,7 +8,7 @@ import type { Team } from '../types.js';
 import { loadDictionary, loadPronunciationWords } from './dictionary.js';
 import { buildFacts, FactSchema } from './facts.js';
 import { LIMITS, lintRun, normalize, type LintContext } from './lint.js';
-import { FAVORITE_HOOKS, FAVORITE_OUTROS, HOOKS, OUTROS, TARGET_WORDS, wordCount } from './templates.js';
+import { FAVORITE_HOOKS, FAVORITE_OUTROS, HOOKS, MONO_HOOKS, MONO_OUTROS, OUTROS, TARGET_WORDS, wordCount } from './templates.js';
 
 const hasCache = await exists(cacheDir('pokeapi', 'encounters'));
 
@@ -146,6 +146,28 @@ describe.skipIf(!hasCache)('script, facts and lint (needs `pnpm data:sync`)', ()
 
     it('is deterministic for a seed', async () => {
       expect(await favoriteRun(3, 'charizard')).toEqual(await favoriteRun(3, 'charizard'));
+    });
+  });
+
+  describe('mono-type template', () => {
+    it('says the type in the hook and title, stays inside the limits, and passes lint', async () => {
+      for (const [seed, type] of [[2, 'Psychic'], [3, 'Poison'], [4, 'Water']] as const) {
+        const t = await planIngameTeam(red, { seed, mono: type });
+        const r = await buildRun(red, t);
+        expect(MONO_HOOKS(type, 'Kanto')).toContain(r.voiceover.hook);
+        expect(MONO_OUTROS).toContain(r.voiceover.outro);
+        expect(r.title).toContain(type);
+        expect(r.picks).toHaveLength(6);
+        expect(lintRun(r, ctx).issues.filter((i) => i.level === 'error'), type).toEqual([]);
+      }
+    });
+
+    it('combines with a favorite: the favorite hook mentions the type', async () => {
+      const r = await buildRun(red, await planIngameTeam(red, { seed: 2, mono: 'Water', favorite: 'gyarados' }));
+      expect(r.voiceover.hook).toContain('Gyarados');
+      expect(r.voiceover.hook).toContain('Water-only');
+      expect(wordCount(r.voiceover.hook)).toBeLessThanOrEqual(LIMITS.hookWords);
+      expect(r.picks[0]!.pokemon).toBe('gyarados');
     });
   });
 

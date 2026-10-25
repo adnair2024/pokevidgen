@@ -1,11 +1,16 @@
 import type { FC } from 'hono/jsx';
+import { forGen } from '@pokevidgen/core';
 import { Notice } from './components.js';
 import { Layout } from './layout.js';
+
+/** Types a Gen 1 game has, for the mono-type picker. */
+const MONO_TYPES: string[] = [...forGen(1).types].filter((t) => t.exists).map((t) => t.name);
 
 export type BuildFormValues = {
   game: string;
   seed: string;
   favorite: string;
+  mono: string;
   must: string;
   ban: string;
   noTrades: boolean;
@@ -13,7 +18,7 @@ export type BuildFormValues = {
   nuzlocke: boolean;
 };
 
-export const DEFAULT_FORM: BuildFormValues = { game: 'red', seed: '', favorite: '', must: '', ban: '', noTrades: false, noLegendaries: false, nuzlocke: false };
+export const DEFAULT_FORM: BuildFormValues = { game: 'red', seed: '', favorite: '', mono: '', must: '', ban: '', noTrades: false, noLegendaries: false, nuzlocke: false };
 
 /** The form is a fragment so htmx can swap it in place when there is an error. */
 export const BuildForm: FC<{ games: string[]; values: BuildFormValues; error?: string; compact?: boolean }> = ({ games, values, error, compact }) => (
@@ -34,6 +39,13 @@ export const BuildForm: FC<{ games: string[]; values: BuildFormValues; error?: s
     <label>
       Favorite Pokémon <small>(optional: makes an "if your favorite is X" video, with X built into the team and shown first)</small>
       <input name="favorite" value={values.favorite} placeholder="e.g. charizard" />
+    </label>
+    <label>
+      Mono type <small>(optional: every member shares this type; some types can't fill six slots in these games)</small>
+      <select name="mono">
+        <option value="" selected={!values.mono}>Any types</option>
+        {MONO_TYPES.map((t) => <option value={t} selected={t === values.mono}>{t}</option>)}
+      </select>
     </label>
     {!compact && (
       <div class="row">

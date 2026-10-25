@@ -19,6 +19,8 @@ export type PlannerInput = {
   must?: string[];
   /** Build the team around this Pokémon ("if your favorite is X"): it is required, and the team is marked with the theme. */
   favorite?: string;
+  /** Mono-type: every member has this type (as either of its types). */
+  mono?: string;
   ban?: string[];
   noTrades?: boolean;
   noLegendaries?: boolean;
@@ -208,6 +210,10 @@ export const planIngameTeam = async (data: PlannerData, input: PlannerInput): Pr
   const ban = new Set((input.ban ?? []).map(toID));
   const favorite = input.favorite ? toID(input.favorite) : undefined;
   const must = [...new Set([...(favorite ? [favorite] : []), ...(input.must ?? []).map(toID)])];
+  const monoType = input.mono ? gen.types.get(toID(input.mono)) : undefined;
+  if (input.mono && !monoType?.exists) throw new PlannerError(`"${input.mono}" is not a gen ${gen.num} type.`);
+  const mono = monoType?.name;
+  const hasMono = (id: string): boolean => !mono || (gen.species.get(id)!.types as string[]).includes(mono);
 
   // --- Candidates: obtainable, not post-game, not banned, and final forms (unless the user asked for it).
   const groupsOf = (chain: string[]) =>
@@ -255,11 +261,12 @@ export const planIngameTeam = async (data: PlannerData, input: PlannerInput): Pr
     const o = avail.get(id);
     if (!o) throw new PlannerError(`${id} is not obtainable in ${data.game.name} with these constraints.`);
     if (o.stage > END_STAGE) throw new PlannerError(`${id} is only available after the Elite Four in ${data.game.name}.`);
+    if (!hasMono(id)) throw new PlannerError(`${id} is not ${mono}-type, so it cannot be on a mono-${mono} team.`);
   }
   if (must.length > 6) throw new PlannerError('At most 6 species can be required.');
 
   const finalIds = [...avail.keys()].filter(
-    (id) => avail.get(id)!.stage <= END_STAGE && evolutionsOf(gen, id).every((e) => !avail.has(e)),
+    (id) => avail.get(id)!.stage <= END_STAGE && evolutionsOf(gen, id).every((e) => !avail.has(e)) && hasMono(id),
   );
   const ids = [...new Set([...must, ...finalIds])].filter((id) => !ban.has(id) || must.includes(id));
   const candidates = new Map<string, Candidate>();
@@ -298,7 +305,7 @@ export const planIngameTeam = async (data: PlannerData, input: PlannerInput): Pr
   // One objective for the whole team: each member's own merits, how well the team covers the bosses, the roles
   // it fills, and its synergy (defensive holes, offensive reach, variety). Picks add to it greedily; a repair
   // pass below swaps members out when the result still has a hole.
-  const synergyOf = (team: Candidate[]) => teamSynergy(gen, team.map((m) => ({ types: m.types, reach: m.reach })));
+  const synergyOf = (team: Candidate[]) => teamSynergy(gen, team.map((m) => ({ types: m.types, reach: m.reach })), { variety: !mono });
   const timingOf = (c: Candidate) => 0.5 * (1 - c.lineStage / END_STAGE) + 0.5 * (1 - c.stage / END_STAGE);
   const ownMerit = (c: Candidate) => WEIGHTS.timing * timingOf(c) + WEIGHTS.stats * c.stats + WEIGHTS.movepool * c.movepool;
   const bossCoverage = (team: Candidate[]) =>
@@ -327,7 +334,7 @@ export const planIngameTeam = async (data: PlannerData, input: PlannerInput): Pr
   // While the team has a hole (or two members sharing a primary type), make the single swap (never a required member) that raises the objective most.
   // Teams without holes are left alone, which keeps different seeds producing different teams.
   if (chosen.length === 6) {
-    const flawed = () => { const r = synergyOf(chosen); return r.holes.length > 0 || r.duplicatePrimary > 0; };
+    const flawed = () => { const r = synergyOf(chosen); return r.holes.length > 0 || (!mono && r.duplicatePrimary > 0); };
     for (let pass = 0; pass < 4 && flawed(); pass++) {
       let best: { index: number; c: Candidate; gain: number } | undefined;
       const base = objective(chosen);
@@ -345,6 +352,9 @@ export const planIngameTeam = async (data: PlannerData, input: PlannerInput): Pr
     }
   }
   if (chosen.length === 0) throw new PlannerError('No candidates satisfy these constraints.');
+  if (mono && chosen.length < 6) {
+    throw new PlannerError(`Only ${chosen.length} ${mono}-type Pokémon from different lines can be combined in ${data.game.name} with these constraints; a mono team needs 6.`);
+  }
 
   // --- Sets: moves from what is actually learnable by the planned level, TMs single-use.
   const tmUses = new Map<number, number>();
@@ -380,8 +390,8 @@ export const planIngameTeam = async (data: PlannerData, input: PlannerInput): Pr
   }
 
   const types = chosen.map((c) => c.types);
-  const id = favorite ? `${data.game.id}-fav-${favorite}-s${input.seed}` : `${data.game.id}-s${input.seed}`;
-  const theme = favorite ? ({ kind: 'favorite', species: favorite } as const) : undefined;
+  const id = [data.game.id, mono && `mono-${toID(mono)}`, favorite && `fav-${favorite}`, `s${input.seed}`].filter(Boolean).join('-');
+  const theme = favorite || mono ? { favorite, mono } : undefined;
   const draft: Team = { id, kind: 'ingame', target: data.game.id, seed: input.seed, theme, members, analysis: {} };
   const starter = chooseStarter(data, draft);
   return {
@@ -393,14 +403,14 @@ export const planIngameTeam = async (data: PlannerData, input: PlannerInput): Pr
     members,
     analysis: {
       plannedLevel: level,
-      constraints: { must, ban: [...ban], noTrades: !!input.noTrades, noLegendaries: !!input.noLegendaries, nuzlocke: !!input.nuzlocke },
+      constraints: { must, mono, ban: [...ban], noTrades: !!input.noTrades, noLegendaries: !!input.noLegendaries, nuzlocke: !!input.nuzlocke },
       sharedWeaknesses: sharedWeaknesses(gen, types, 3),
       // Computed from the moves actually chosen, not each Pokémon's potential, so it describes the real team.
       synergy: (({ holes, severe, uncovered, duplicatePrimary, normalMembers, distinctTypes, score }) => ({ holes, severe, uncovered, duplicatePrimary, normalMembers, distinctTypes, score }))(
         teamSynergy(gen, members.map((m) => ({
           types: gen.species.get(m.set.species)!.types as string[],
           reach: reachOf(gen, m.set.moves.map((id) => gen.moves.get(id)!).filter((mv) => mv.basePower > 1).map((mv) => mv.type as string)),
-        }))),
+        })), { variety: !mono }),
       ),
       teamDefense: teamDefense(gen, types),
       starter,

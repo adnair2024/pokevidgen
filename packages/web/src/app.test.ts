@@ -553,12 +553,30 @@ describe.skipIf(!hasCache)('with synced data', () => {
       const res = await app.request('/build', makeForm({ game: 'red', seed: '21', favorite: 'Charizard' }));
       expect(res.headers.get('hx-redirect')).toBe('/teams/red-fav-charizard-s21?tab=video');
       const team = (await deps.store.get('red-fav-charizard-s21'))!;
-      expect(team.theme).toEqual({ kind: 'favorite', species: 'charizard' });
+      expect(team.theme).toEqual({ favorite: 'charizard', mono: undefined });
       const run = (await deps.runs.get('red-fav-charizard-s21'))!;
       expect(run.picks[0]!.pokemon).toBe('charizard');
       expect(run.voiceover.hook).toContain('Charizard');
       expect(started.at(-1)!.teamId).toBe('red-fav-charizard-s21');
       finish();
+    });
+
+    it('offers the mono-type picker and builds a mono video from the form', async () => {
+      finish();
+      const page = await (await app.request('/build')).text();
+      expect(page).toContain('name="favorite"');
+      expect(page).toContain('name="mono"');
+      expect(page).toContain('<option value="Psychic"');
+      expect(page).not.toContain('<option value="Fairy"');
+      const res = await app.request('/build', makeForm({ game: 'red', seed: '23', mono: 'Psychic' }));
+      expect(res.headers.get('hx-redirect')).toBe('/teams/red-mono-psychic-s23?tab=video');
+      expect((await deps.store.get('red-mono-psychic-s23'))!.theme?.mono).toBe('Psychic');
+      finish();
+    });
+
+    it('reports a type the game cannot fill', async () => {
+      finish();
+      expect(await (await app.request('/build', makeForm({ game: 'red', seed: '24', mono: 'Dragon' }))).text()).toContain('Only 1 Dragon-type');
     });
 
     it('reports a favorite that cannot be had, and a malformed one', async () => {

@@ -83,8 +83,8 @@ export const TeamSchema = z
     /** Game id (e.g. "crystal") for in-game teams, format id (e.g. "gen9ou") for competitive. */
     target: z.string(),
     seed: z.number().int().optional(),
-    /** A video concept this team was built for, e.g. "if your favorite Pokémon is X". */
-    theme: z.object({ kind: z.literal('favorite'), species: z.string() }).optional(),
+    /** The concept this team was built for: a favorite Pokémon ("if your favorite is X"), a single type, or both. */
+    theme: z.object({ favorite: z.string().optional(), mono: z.string().optional() }).optional(),
     members: z.array(MemberSchema).min(1).max(6),
     analysis: z.record(z.unknown()).default({}),
   });

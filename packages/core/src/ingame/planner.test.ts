@@ -214,7 +214,7 @@ describe.skipIf(!hasCache)('in-game planner (needs `pnpm data:sync`)', () => {
     it('is on the team, marks the theme, and gets its own id', async () => {
       const t = await plan({ seed: 3, favorite: 'Charizard' });
       expect(t.members.map((m) => m.set.species)).toContain('charizard');
-      expect(t.theme).toEqual({ kind: 'favorite', species: 'charizard' });
+      expect(t.theme).toEqual({ favorite: 'charizard', mono: undefined });
       expect(t.id).toBe('red-fav-charizard-s3');
       expect(() => TeamSchema.parse(t)).not.toThrow();
     });
@@ -233,6 +233,40 @@ describe.skipIf(!hasCache)('in-game planner (needs `pnpm data:sync`)', () => {
     it('does not mark ordinary teams with a theme', () => {
       expect(team.theme).toBeUndefined();
       expect(team.id).toBe('red-s1');
+    });
+  });
+
+  describe('mono type', () => {
+    it('gives six members that all have the type, and marks the theme and id', async () => {
+      const t = await plan({ seed: 2, mono: 'psychic' }, blue);
+      expect(t.members).toHaveLength(6);
+      for (const m of t.members) expect(blue.gen.species.get(m.set.species)!.types as string[]).toContain('Psychic');
+      expect(t.theme).toEqual({ favorite: undefined, mono: 'Psychic' });
+      expect(t.id).toBe('blue-mono-psychic-s2');
+      expect(() => TeamSchema.parse(t)).not.toThrow();
+    });
+
+    it('still varies between seeds', async () => {
+      const teams = await Promise.all([1, 2, 3, 4, 5, 6].map((seed) => plan({ seed, mono: 'Poison' })));
+      expect(new Set(teams.map((t) => t.members.map((m) => m.set.species).sort().join())).size).toBeGreaterThan(1);
+    });
+
+    it('accepts a favorite of that type, and rejects one of another type', async () => {
+      const ok = await plan({ seed: 2, mono: 'water', favorite: 'gyarados' });
+      expect(ok.members.map((m) => m.set.species)).toContain('gyarados');
+      expect(ok.id).toBe('red-mono-water-fav-gyarados-s2');
+      await expect(plan({ mono: 'water', favorite: 'charizard' })).rejects.toThrow(/not Water-type/);
+    });
+
+    it('says so when the game cannot fill six slots, and for an unknown type', async () => {
+      // Red and Blue have exactly one Dragon line (Dratini) and no Fairy type at all.
+      await expect(plan({ mono: 'dragon' })).rejects.toThrow(/Only \d+ Dragon-type/);
+      await expect(plan({ mono: 'fairy' })).rejects.toThrow(/not a gen 1 type/);
+    });
+
+    it('does not penalise the variety terms that a shared type makes unavoidable', () => {
+      const members = [0, 1, 2].map(() => ({ types: ['Water'], reach: new Set<string>() }));
+      expect(teamSynergy(red.gen, members, { variety: false }).score).toBeGreaterThan(teamSynergy(red.gen, members).score);
     });
   });
 

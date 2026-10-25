@@ -59,13 +59,27 @@ export const HOOKS = (region: string): string[] => [
   `Only six Pokémon. Can this ${region} team really beat the Elite Four?`,
 ];
 /** "If your favorite Pokémon is X" videos. The hook has to fit the 12-word limit even with a long name. */
-export const FAVORITE_HOOKS = (name: string, region: string): string[] =>
-  [
-    `Your favorite is ${name}? Here is a ${region} team built around it.`,
-    `If your favorite is ${name}, here is a team built around it.`,
-    `${name} is your favorite? Then build your whole team around it.`,
-    `Your favorite is ${name}? Here is its team.`,
-  ].filter((h) => wordCount(h) <= 12);
+export const FAVORITE_HOOKS = (name: string, region: string, mono?: string): string[] =>
+  (mono
+    ? [`Your favorite is ${name}? Here is a ${mono}-only team.`, `If your favorite is ${name}, here is its ${mono}-only team.`]
+    : [
+        `Your favorite is ${name}? Here is a ${region} team built around it.`,
+        `If your favorite is ${name}, here is a team built around it.`,
+        `${name} is your favorite? Then build your whole team around it.`,
+        `Your favorite is ${name}? Here is its team.`,
+      ]
+  ).filter((h) => wordCount(h) <= 12);
+
+/** Mono-type videos: every member shares one type. */
+export const MONO_HOOKS = (type: string, region: string): string[] => [
+  `Only ${type} types. Can this ${region} team beat the Elite Four?`,
+  `Can a ${type}-only ${region} team really beat the Elite Four?`,
+  `Six ${type} Pokémon, no exceptions. Can they beat the Elite Four?`,
+];
+export const MONO_OUTROS: string[] = [
+  `Which type should I try next? Tell me in the comments.`,
+  `Would you run this team? Name the next type below.`,
+];
 export const FAVORITE_OUTROS: string[] = [
   `Who is your favorite? Comment it and get a team.`,
   `Comment your favorite Pokémon and I will build its team.`,
@@ -118,14 +132,14 @@ const SHORT_TEMPLATES: Array<(c: PlainCtx) => string> = [
   (c) => `Our next pick is ${c.name}, and ${c.move} becomes its main weapon ${c.when}.`,
 ];
 
-export type WriterInput = { gen: Generation; game: GameConfig; picks: PickInput[]; seed: number; /** Species id of the favorite, for the "if your favorite is X" concept. */ favorite?: string };
+export type WriterInput = { gen: Generation; game: GameConfig; picks: PickInput[]; seed: number; /** Species id of the favorite, for the "if your favorite is X" concept. */ favorite?: string; /** The type every member shares, for mono-type videos. */ mono?: string };
 
 /**
  * The template writer: no API key, deterministic for a seed. For each pick it takes the strongest facts
  * (boss matchup > calc > key move > availability), fills a template, and adds tail sentences while the
  * line stays within the word target.
  */
-export const writeScript = ({ gen, game, picks, seed, favorite }: WriterInput): Script => {
+export const writeScript = ({ gen, game, picks, seed, favorite, mono }: WriterInput): Script => {
   const rng = makeRng(seed);
 
   // Keep the intro cards varied: at most all but two picks are about a boss (gold cards); the rest
@@ -251,8 +265,9 @@ export const writeScript = ({ gen, game, picks, seed, favorite }: WriterInput): 
   }
 
   const favoriteName = favorite ? gen.species.get(favorite)?.name : undefined;
-  const hook = choose(rng, favoriteName ? FAVORITE_HOOKS(favoriteName, game.region) : HOOKS(game.region));
-  return { hook, outro: choose(rng, favoriteName ? FAVORITE_OUTROS : OUTROS), picks: lines };
+  const hook = choose(rng, favoriteName ? FAVORITE_HOOKS(favoriteName, game.region, mono) : mono ? MONO_HOOKS(mono, game.region) : HOOKS(game.region));
+  const outro = choose(rng, favoriteName ? FAVORITE_OUTROS : mono ? MONO_OUTROS : OUTROS);
+  return { hook, outro, picks: lines };
 };
 
 export { FACT_PRIORITY };

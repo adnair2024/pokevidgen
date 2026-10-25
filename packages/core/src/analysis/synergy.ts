@@ -48,7 +48,7 @@ export type SynergyReport = {
 };
 
 /** Defensive balance, offensive reach and variety of a team, as a number and as the facts behind it. */
-export const teamSynergy = (gen: Generation, members: readonly SynergyMember[]): SynergyReport => {
+export const teamSynergy = (gen: Generation, members: readonly SynergyMember[], opts: { variety?: boolean } = {}): SynergyReport => {
   const types = typeNames(gen);
   const defense: Record<string, DefenseCell> = {};
   const holes: string[] = [];
@@ -77,7 +77,8 @@ export const teamSynergy = (gen: Generation, members: readonly SynergyMember[]):
   const duplicatePrimary = primaries.length - new Set(primaries).size;
   const normalMembers = members.filter((m) => m.types.includes('Normal')).length;
   const distinctTypes = new Set(members.flatMap((m) => m.types)).size;
-  score += SYNERGY.duplicatePrimary * duplicatePrimary + SYNERGY.extraNormal * Math.max(0, normalMembers - 1) + SYNERGY.distinctType * distinctTypes;
+  // A mono-type team shares its types on purpose, so variety is not scored for it.
+  if (opts.variety !== false) score += SYNERGY.duplicatePrimary * duplicatePrimary + SYNERGY.extraNormal * Math.max(0, normalMembers - 1) + SYNERGY.distinctType * distinctTypes;
 
   return { defense, holes, severe, uncovered, duplicatePrimary, normalMembers, distinctTypes, score };
 };

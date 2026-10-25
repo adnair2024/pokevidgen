@@ -1,0 +1,4166 @@
+{
+  "id": "blue-mono-fire-s2",
+  "kind": "ingame",
+  "target": "blue",
+  "seed": 2,
+  "theme": {
+    "mono": "Fire"
+  },
+  "members": [
+    {
+      "set": {
+        "species": "flareon",
+        "level": 56,
+        "moves": [
+          "fireblast",
+          "rest",
+          "flamethrower",
+          "hyperbeam"
+        ]
+      },
+      "roles": [
+        "recovery"
+      ],
+      "acquisition": {
+        "stage": 7,
+        "steps": [
+          {
+            "species": "eevee",
+            "how": "gift",
+            "where": "Gift in Celadon City Celadon Mansion",
+            "minLevel": 25,
+            "maxLevel": 25,
+            "stage": 3,
+            "place": "Celadon City Celadon Mansion"
+          },
+          {
+            "species": "flareon",
+            "how": "evolution",
+            "where": "Evolve Eevee with a Fire Stone (Celadon Dept. Store 4F)",
+            "stage": 3,
+            "evolution": {
+              "how": "stone",
+              "item": "Fire Stone"
+            }
+          }
+        ],
+        "moves": [
+          {
+            "move": "fireblast",
+            "source": {
+              "kind": "tm",
+              "number": 38,
+              "location": "Cinnabar Gym (Blaine)"
+            },
+            "stage": 7
+          },
+          {
+            "move": "rest",
+            "source": {
+              "kind": "tm",
+              "number": 44,
+              "location": "S.S. Anne B1F rooms"
+            },
+            "stage": 2
+          },
+          {
+            "move": "flamethrower",
+            "source": {
+              "kind": "level",
+              "level": 54,
+              "from": "flareon"
+            },
+            "stage": 0
+          },
+          {
+            "move": "hyperbeam",
+            "source": {
+              "kind": "tm",
+              "number": 15,
+              "location": "Celadon Game Corner prize counter"
+            },
+            "stage": 3
+          }
+        ],
+        "notes": []
+      }
+    },
+    {
+      "set": {
+        "species": "charizard",
+        "level": 56,
+        "moves": [
+          "flamethrower",
+          "dig",
+          "submission",
+          "megakick"
+        ]
+      },
+      "roles": [
+        "fast"
+      ],
+      "acquisition": {
+        "stage": 3,
+        "steps": [
+          {
+            "species": "charmander",
+            "how": "gift",
+            "where": "Gift in Pallet Town",
+            "minLevel": 5,
+            "maxLevel": 5,
+            "stage": 0,
+            "place": "Pallet Town"
+          },
+          {
+            "species": "charmeleon",
+            "how": "evolution",
+            "where": "Evolves from Charmander at level 16",
+            "stage": 0,
+            "evolution": {
+              "how": "level",
+              "level": 16
+            }
+          },
+          {
+            "species": "charizard",
+            "how": "evolution",
+            "where": "Evolves from Charmeleon at level 36",
+            "stage": 0,
+            "evolution": {
+              "how": "level",
+              "level": 36
+            }
+          }
+        ],
+        "moves": [
+          {
+            "move": "flamethrower",
+            "source": {
+              "kind": "level",
+              "level": 46,
+              "from": "charizard"
+            },
+            "stage": 0
+          },
+          {
+            "move": "dig",
+            "source": {
+              "kind": "tm",
+              "number": 28,
+              "location": "Cerulean City"
+            },
+            "stage": 1
+          },
+          {
+            "move": "submission",
+            "source": {
+              "kind": "tm",
+              "number": 17,
+              "location": "Celadon Dept. Store 2F"
+            },
+            "stage": 3
+          },
+          {
+            "move": "megakick",
+            "source": {
+              "kind": "tm",
+              "number": 5,
+              "location": "Celadon Dept. Store 2F"
+            },
+            "stage": 3
+          }
+        ],
+        "notes": []
+      }
+    },
+    {
+      "set": {
+        "species": "magmar",
+        "level": 56,
+        "moves": [
+          "firepunch",
+          "submission",
+          "flamethrower",
+          "strength"
+        ]
+      },
+      "roles": [],
+      "acquisition": {
+        "stage": 6,
+        "steps": [
+          {
+            "species": "magmar",
+            "how": "wild",
+            "where": "Pokémon Mansion 3F (grass/cave)",
+            "minLevel": 34,
+            "maxLevel": 34,
+            "stage": 6,
+            "place": "Pokémon Mansion 3F"
+          }
+        ],
+        "moves": [
+          {
+            "move": "firepunch",
+            "source": {
+              "kind": "level",
+              "level": 43,
+              "from": "magmar"
+            },
+            "stage": 0
+          },
+          {
+            "move": "submission",
+            "source": {
+              "kind": "tm",
+              "number": 17,
+              "location": "Celadon Dept. Store 2F"
+            },
+            "stage": 3
+          },
+          {
+            "move": "flamethrower",
+            "source": {
+              "kind": "level",
+              "level": 55,
+              "from": "magmar"
+            },
+            "stage": 0
+          },
+          {
+            "move": "strength",
+            "source": {
+              "kind": "hm",
+              "number": 4,
+              "location": "Fuchsia City (Warden's house)"
+            },
+            "stage": 4
+          }
+        ],
+        "notes": []
+      }
+    },
+    {
+      "set": {
+        "species": "rapidash",
+        "level": 56,
+        "moves": [
+          "ember",
+          "takedown",
+          "stomp"
+        ]
+      },
+      "roles": [
+        "fast"
+      ],
+      "acquisition": {
+        "stage": 6,
+        "steps": [
+          {
+            "species": "ponyta",
+            "how": "wild",
+            "where": "Pokémon Mansion 1F (grass/cave)",
+            "minLevel": 28,
+            "maxLevel": 34,
+            "stage": 6,
+            "place": "Pokémon Mansion 1F"
+          },
+          {
+            "species": "rapidash",
+            "how": "evolution",
+            "where": "Evolves from Ponyta at level 40",
+            "stage": 6,
+            "evolution": {
+              "how": "level",
+              "level": 40
+            }
+          }
+        ],
+        "moves": [
+          {
+            "move": "ember",
+            "source": {
+              "kind": "start",
+              "from": "ponyta"
+            },
+            "stage": 0
+          },
+          {
+            "move": "takedown",
+            "source": {
+              "kind": "level",
+              "level": 47,
+              "from": "rapidash"
+            },
+            "stage": 0
+          },
+          {
+            "move": "stomp",
+            "source": {
+              "kind": "level",
+              "level": 32,
+              "from": "ponyta"
+            },
+            "stage": 0
+          }
+        ],
+        "notes": []
+      }
+    },
+    {
+      "set": {
+        "species": "moltres",
+        "level": 56,
+        "moves": [
+          "skyattack",
+          "takedown",
+          "peck",
+          "fly"
+        ]
+      },
+      "roles": [
+        "bulky"
+      ],
+      "acquisition": {
+        "stage": 8,
+        "steps": [
+          {
+            "species": "moltres",
+            "how": "static",
+            "where": "Static encounter in Victory Road 2 2F",
+            "minLevel": 50,
+            "maxLevel": 50,
+            "stage": 8,
+            "place": "Victory Road 2 2F"
+          }
+        ],
+        "moves": [
+          {
+            "move": "skyattack",
+            "source": {
+              "kind": "tm",
+              "number": 43,
+              "location": "Victory Road 1F"
+            },
+            "stage": 8
+          },
+          {
+            "move": "takedown",
+            "source": {
+              "kind": "tm",
+              "number": 9,
+              "location": "Celadon Dept. Store 2F"
+            },
+            "stage": 3
+          },
+          {
+            "move": "peck",
+            "source": {
+              "kind": "start",
+              "from": "moltres"
+            },
+            "stage": 0
+          },
+          {
+            "move": "fly",
+            "source": {
+              "kind": "hm",
+              "number": 2,
+              "location": "Route 16 house"
+            },
+            "stage": 4
+          }
+        ],
+        "notes": []
+      }
+    },
+    {
+      "set": {
+        "species": "ninetales",
+        "level": 56,
+        "moves": [
+          "flamethrower",
+          "dig",
+          "takedown",
+          "ember"
+        ]
+      },
+      "roles": [
+        "fast"
+      ],
+      "acquisition": {
+        "stage": 3,
+        "steps": [
+          {
+            "species": "vulpix",
+            "how": "wild",
+            "where": "Route 7 (grass/cave)",
+            "minLevel": 18,
+            "maxLevel": 20,
+            "stage": 3,
+            "place": "Route 7"
+          },
+          {
+            "species": "ninetales",
+            "how": "evolution",
+            "where": "Evolve Vulpix with a Fire Stone (Celadon Dept. Store 4F)",
+            "stage": 3,
+            "evolution": {
+              "how": "stone",
+              "item": "Fire Stone"
+            }
+          }
+        ],
+        "moves": [
+          {
+            "move": "flamethrower",
+            "source": {
+              "kind": "level",
+              "level": 35,
+              "from": "vulpix"
+            },
+            "stage": 0
+          },
+          {
+            "move": "dig",
+            "source": {
+              "kind": "tm",
+              "number": 28,
+              "location": "Cerulean City"
+            },
+            "stage": 1
+          },
+          {
+            "move": "takedown",
+            "source": {
+              "kind": "tm",
+              "number": 9,
+              "location": "Celadon Dept. Store 2F"
+            },
+            "stage": 3
+          },
+          {
+            "move": "ember",
+            "source": {
+              "kind": "start",
+              "from": "vulpix"
+            },
+            "stage": 0
+          }
+        ],
+        "notes": [
+          "Hold off evolving Vulpix until level 35 to learn Flamethrower; Ninetales can't learn it."
+        ]
+      }
+    }
+  ],
+  "analysis": {
+    "plannedLevel": 56,
+    "constraints": {
+      "must": [],
+      "mono": "Fire",
+      "ban": [],
+      "noTrades": false,
+      "noLegendaries": false,
+      "nuzlocke": false
+    },
+    "sharedWeaknesses": [
+      "Ground",
+      "Rock",
+      "Water"
+    ],
+    "synergy": {
+      "holes": [
+        "Ice",
+        "Electric",
+        "Ground",
+        "Rock",
+        "Water"
+      ],
+      "severe": [
+        "Ground",
+        "Rock",
+        "Water"
+      ],
+      "uncovered": [
+        "Ghost",
+        "Psychic",
+        "Dragon",
+        "Flying",
+        "Ground",
+        "Water"
+      ],
+      "duplicatePrimary": 5,
+      "normalMembers": 0,
+      "distinctTypes": 2,
+      "score": -10.049999999999999
+    },
+    "teamDefense": {
+      "Bug": {
+        "weak": 0,
+        "resist": 6,
+        "immune": 0,
+        "neutral": 0
+      },
+      "Fire": {
+        "weak": 0,
+        "resist": 6,
+        "immune": 0,
+        "neutral": 0
+      },
+      "Ghost": {
+        "weak": 0,
+        "resist": 0,
+        "immune": 0,
+        "neutral": 6
+      },
+      "Ice": {
+        "weak": 2,
+        "resist": 0,
+        "immune": 0,
+        "neutral": 4
+      },
+      "Poison": {
+        "weak": 0,
+        "resist": 0,
+        "immune": 0,
+        "neutral": 6
+      },
+      "Psychic": {
+        "weak": 0,
+        "resist": 0,
+        "immune": 0,
+        "neutral": 6
+      },
+      "Electric": {
+        "weak": 2,
+        "resist": 0,
+        "immune": 0,
+        "neutral": 4
+      },
+      "Grass": {
+        "weak": 0,
+        "resist": 6,
+        "immune": 0,
+        "neutral": 0
+      },
+      "Dragon": {
+        "weak": 0,
+        "resist": 0,
+        "immune": 0,
+        "neutral": 6
+      },
+      "Fighting": {
+        "weak": 0,
+        "resist": 2,
+        "immune": 0,
+        "neutral": 4
+      },
+      "Flying": {
+        "weak": 0,
+        "resist": 0,
+        "immune": 0,
+        "neutral": 6
+      },
+      "Ground": {
+        "weak": 4,
+        "resist": 0,
+        "immune": 2,
+        "neutral": 0
+      },
+      "Normal": {
+        "weak": 0,
+        "resist": 0,
+        "immune": 0,
+        "neutral": 6
+      },
+      "Rock": {
+        "weak": 6,
+        "resist": 0,
+        "immune": 0,
+        "neutral": 0
+      },
+      "Water": {
+        "weak": 6,
+        "resist": 0,
+        "immune": 0,
+        "neutral": 0
+      }
+    },
+    "starter": {
+      "player": "charmander",
+      "rival": "squirtle",
+      "onTeam": true
+    },
+    "bosses": [
+      {
+        "boss": "rival-route22-early",
+        "name": "Rival",
+        "location": "Route 22",
+        "stage": 0,
+        "level": 9,
+        "rivalStarter": "squirtle",
+        "usable": [
+          {
+            "member": "charizard",
+            "form": "charmander",
+            "moves": [
+              "ember",
+              "scratch"
+            ]
+          }
+        ],
+        "notYet": [
+          "flareon",
+          "magmar",
+          "rapidash",
+          "moltres",
+          "ninetales"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgey",
+              "level": 9,
+              "moves": [
+                "gust",
+                "sandattack"
+              ]
+            },
+            "answer": {
+              "move": "ember",
+              "member": "charizard",
+              "form": "charmander",
+              "minPercent": 25.9,
+              "maxPercent": 33.3,
+              "ko": "0.1% chance to 3HKO",
+              "description": "Lvl 9 Charmander Ember vs. Lvl 9 Pidgey: 7-9 (21.2 - 27.2%) -- 0.1% chance to 3HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "gust",
+              "minPercent": 26.9,
+              "maxPercent": 34.6,
+              "ko": "0.1% chance to 3HKO",
+              "description": "Lvl 9 Pidgey Gust vs. Lvl 9 Charmander: 7-9 (22.5 - 29%) -- 0.1% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "squirtle",
+              "level": 8,
+              "moves": [
+                "tackle",
+                "tailwhip",
+                "bubble"
+              ]
+            },
+            "answer": {
+              "move": "scratch",
+              "member": "charizard",
+              "form": "charmander",
+              "minPercent": 19.2,
+              "maxPercent": 23.1,
+              "ko": "possible 5HKO",
+              "description": "Lvl 9 Charmander Scratch vs. Lvl 8 Squirtle: 5-6 (16.1 - 19.3%) -- possible 5HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "bubble",
+              "minPercent": 23.1,
+              "maxPercent": 30.8,
+              "ko": "98.1% chance to 4HKO",
+              "description": "Lvl 8 Squirtle Bubble vs. Lvl 9 Charmander: 6-8 (19.3 - 25.8%) -- 98.1% chance to 4HKO"
+            }
+          }
+        ],
+        "lead": "charmander",
+        "warnings": [
+          "Weak against Pidgey: best is Lvl 9 Charmander Ember vs. Lvl 9 Pidgey: 7-9 (21.2 - 27.2%) -- 0.1% chance to 3HKO.",
+          "Weak against Squirtle: best is Lvl 9 Charmander Scratch vs. Lvl 8 Squirtle: 5-6 (16.1 - 19.3%) -- possible 5HKO."
+        ]
+      },
+      {
+        "boss": "rival-cerulean",
+        "name": "Rival",
+        "location": "Cerulean City",
+        "stage": 0,
+        "level": 18,
+        "rivalStarter": "squirtle",
+        "usable": [
+          {
+            "member": "charizard",
+            "form": "charmeleon",
+            "moves": [
+              "ember",
+              "scratch"
+            ]
+          }
+        ],
+        "notYet": [
+          "flareon",
+          "magmar",
+          "rapidash",
+          "moltres",
+          "ninetales"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeotto",
+              "level": 18,
+              "moves": [
+                "gust",
+                "sandattack",
+                "quickattack"
+              ]
+            },
+            "answer": {
+              "move": "ember",
+              "member": "charizard",
+              "form": "charmeleon",
+              "minPercent": 22.6,
+              "maxPercent": 28.3,
+              "ko": "77.5% chance to 4HKO",
+              "description": "Lvl 18 Charmeleon Ember vs. Lvl 18 Pidgeotto: 12-15 (18.7 - 23.4%) -- 77.5% chance to 4HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "gust",
+              "minPercent": 22.9,
+              "maxPercent": 27.1,
+              "ko": "10.8% chance to 4HKO",
+              "description": "Lvl 18 Pidgeotto Gust vs. Lvl 18 Charmeleon: 11-13 (18.3 - 21.6%) -- 10.8% chance to 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "abra",
+              "level": 15,
+              "moves": [
+                "teleport"
+              ]
+            },
+            "answer": {
+              "move": "scratch",
+              "member": "charizard",
+              "form": "charmeleon",
+              "minPercent": 38.2,
+              "maxPercent": 47.1,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 18 Charmeleon Scratch vs. Lvl 15 Abra: 13-16 (29.5 - 36.3%) -- guaranteed 3HKO",
+              "outspeeds": true
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rattata",
+              "level": 15,
+              "moves": [
+                "tackle",
+                "tailwhip",
+                "quickattack",
+                "hyperfang"
+              ]
+            },
+            "answer": {
+              "move": "ember",
+              "member": "charizard",
+              "form": "charmeleon",
+              "minPercent": 47.2,
+              "maxPercent": 58.3,
+              "ko": "96.6% chance to 2HKO",
+              "description": "Lvl 18 Charmeleon Ember vs. Lvl 15 Rattata: 17-21 (37.7 - 46.6%) -- 96.6% chance to 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hyperfang",
+              "minPercent": 31.3,
+              "maxPercent": 37.5,
+              "ko": "74.2% chance to 3HKO",
+              "description": "Lvl 15 Rattata Hyper Fang vs. Lvl 18 Charmeleon: 15-18 (25 - 30%) -- 74.2% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "squirtle",
+              "level": 17,
+              "moves": [
+                "tackle",
+                "tailwhip",
+                "bubble",
+                "watergun"
+              ]
+            },
+            "answer": {
+              "move": "scratch",
+              "member": "charizard",
+              "form": "charmeleon",
+              "minPercent": 15.9,
+              "maxPercent": 20.5,
+              "ko": "possible 5HKO",
+              "description": "Lvl 18 Charmeleon Scratch vs. Lvl 17 Squirtle: 7-9 (12.7 - 16.3%) -- possible 5HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "watergun",
+              "minPercent": 35.4,
+              "maxPercent": 41.7,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 17 Squirtle Water Gun vs. Lvl 18 Charmeleon: 17-20 (28.3 - 33.3%) -- guaranteed 3HKO"
+            }
+          }
+        ],
+        "lead": "charmeleon",
+        "warnings": [
+          "Weak against Pidgeotto: best is Lvl 18 Charmeleon Ember vs. Lvl 18 Pidgeotto: 12-15 (18.7 - 23.4%) -- 77.5% chance to 4HKO.",
+          "Weak against Abra: best is Lvl 18 Charmeleon Scratch vs. Lvl 15 Abra: 13-16 (29.5 - 36.3%) -- guaranteed 3HKO.",
+          "Weak against Squirtle: best is Lvl 18 Charmeleon Scratch vs. Lvl 17 Squirtle: 7-9 (12.7 - 16.3%) -- possible 5HKO."
+        ]
+      },
+      {
+        "boss": "brock",
+        "name": "Brock",
+        "location": "Pewter City",
+        "stage": 0,
+        "level": 14,
+        "usable": [
+          {
+            "member": "charizard",
+            "form": "charmander",
+            "moves": [
+              "ember",
+              "scratch"
+            ]
+          }
+        ],
+        "notYet": [
+          "flareon",
+          "magmar",
+          "rapidash",
+          "moltres",
+          "ninetales"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "geodude",
+              "level": 12,
+              "moves": [
+                "tackle",
+                "defensecurl"
+              ]
+            },
+            "answer": {
+              "move": "ember",
+              "member": "charizard",
+              "form": "charmander",
+              "minPercent": 15.2,
+              "maxPercent": 21.2,
+              "ko": "possible 5HKO",
+              "description": "Lvl 14 Charmander Ember vs. Lvl 12 Geodude: 5-7 (12.1 - 17%) -- possible 5HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "tackle",
+              "minPercent": 14.7,
+              "maxPercent": 17.6,
+              "ko": "possible 6HKO",
+              "description": "Lvl 12 Geodude Tackle vs. Lvl 14 Charmander: 5-6 (11.6 - 13.9%) -- possible 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "onix",
+              "level": 14,
+              "moves": [
+                "tackle",
+                "screech",
+                "bide"
+              ]
+            },
+            "answer": {
+              "move": "ember",
+              "member": "charizard",
+              "form": "charmander",
+              "minPercent": 13.9,
+              "maxPercent": 16.7,
+              "ko": "possible 6HKO",
+              "description": "Lvl 14 Charmander Ember vs. Lvl 14 Onix: 5-6 (11.3 - 13.6%) -- possible 6HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "tackle",
+              "minPercent": 14.7,
+              "maxPercent": 17.6,
+              "ko": "possible 6HKO",
+              "description": "Lvl 14 Onix Tackle vs. Lvl 14 Charmander: 5-6 (11.6 - 13.9%) -- possible 6HKO"
+            }
+          }
+        ],
+        "lead": "charmander",
+        "warnings": [
+          "Weak against Geodude: best is Lvl 14 Charmander Ember vs. Lvl 12 Geodude: 5-7 (12.1 - 17%) -- possible 5HKO.",
+          "Weak against Onix: best is Lvl 14 Charmander Ember vs. Lvl 14 Onix: 5-6 (11.3 - 13.6%) -- possible 6HKO."
+        ]
+      },
+      {
+        "boss": "misty",
+        "name": "Misty",
+        "location": "Cerulean City",
+        "stage": 1,
+        "level": 21,
+        "usable": [
+          {
+            "member": "charizard",
+            "form": "charmeleon",
+            "moves": [
+              "ember",
+              "dig",
+              "megapunch",
+              "scratch"
+            ]
+          }
+        ],
+        "notYet": [
+          "flareon",
+          "magmar",
+          "rapidash",
+          "moltres",
+          "ninetales"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "staryu",
+              "level": 18,
+              "moves": [
+                "tackle",
+                "watergun"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "charizard",
+              "form": "charmeleon",
+              "minPercent": 53.7,
+              "maxPercent": 63.4,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 21 Charmeleon Dig vs. Lvl 18 Staryu: 22-26 (41.5 - 49%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "watergun",
+              "minPercent": 36.4,
+              "maxPercent": 43.6,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 18 Staryu Water Gun vs. Lvl 21 Charmeleon: 20-24 (29.4 - 35.2%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "starmie",
+              "level": 21,
+              "moves": [
+                "tackle",
+                "watergun",
+                "bubblebeam"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "charizard",
+              "form": "charmeleon",
+              "minPercent": 25.4,
+              "maxPercent": 30.5,
+              "ko": "guaranteed 4HKO",
+              "description": "Lvl 21 Charmeleon Dig vs. Lvl 21 Starmie: 15-18 (20.8 - 25%) -- guaranteed 4HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "bubblebeam",
+              "minPercent": 85.5,
+              "maxPercent": 101.8,
+              "ko": "12.8% chance to OHKO",
+              "description": "Lvl 21 Starmie Bubble Beam vs. Lvl 21 Charmeleon: 47-56 (69.1 - 82.3%) -- 12.8% chance to OHKO"
+            }
+          }
+        ],
+        "lead": "charmeleon",
+        "warnings": [
+          "Weak against Starmie: best is Lvl 21 Charmeleon Dig vs. Lvl 21 Starmie: 15-18 (20.8 - 25%) -- guaranteed 4HKO.",
+          "Starmie can KO Charmeleon with Bubble Beam."
+        ]
+      },
+      {
+        "boss": "rival-ssanne",
+        "name": "Rival",
+        "location": "SS Anne 2F",
+        "stage": 2,
+        "level": 20,
+        "rivalStarter": "squirtle",
+        "usable": [
+          {
+            "member": "charizard",
+            "form": "charmeleon",
+            "moves": [
+              "ember",
+              "rest",
+              "dig",
+              "megapunch"
+            ]
+          }
+        ],
+        "notYet": [
+          "flareon",
+          "magmar",
+          "rapidash",
+          "moltres",
+          "ninetales"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeotto",
+              "level": 19,
+              "moves": [
+                "gust",
+                "sandattack",
+                "quickattack"
+              ]
+            },
+            "answer": {
+              "move": "megapunch",
+              "member": "charizard",
+              "form": "charmeleon",
+              "minPercent": 30.9,
+              "maxPercent": 36.4,
+              "ko": "38.7% chance to 3HKO",
+              "description": "Lvl 20 Charmeleon Mega Punch vs. Lvl 19 Pidgeotto: 17-20 (25.3 - 29.8%) -- 38.7% chance to 3HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "gust",
+              "minPercent": 20.8,
+              "maxPercent": 24.5,
+              "ko": "guaranteed 5HKO",
+              "description": "Lvl 19 Pidgeotto Gust vs. Lvl 20 Charmeleon: 11-13 (16.9 - 20%) -- guaranteed 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "raticate",
+              "level": 16,
+              "moves": [
+                "tackle",
+                "tailwhip",
+                "quickattack",
+                "hyperfang"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "charizard",
+              "form": "charmeleon",
+              "minPercent": 47.8,
+              "maxPercent": 58.7,
+              "ko": "98.8% chance to 2HKO",
+              "description": "Lvl 20 Charmeleon Dig vs. Lvl 16 Raticate: 22-27 (39.2 - 48.2%) -- 98.8% chance to 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hyperfang",
+              "minPercent": 32.1,
+              "maxPercent": 39.6,
+              "ko": "99.7% chance to 3HKO",
+              "description": "Lvl 16 Raticate Hyper Fang vs. Lvl 20 Charmeleon: 17-21 (26.1 - 32.3%) -- 99.7% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "kadabra",
+              "level": 18,
+              "moves": [
+                "teleport",
+                "confusion",
+                "disable"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "charizard",
+              "form": "charmeleon",
+              "minPercent": 60,
+              "maxPercent": 71.1,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 20 Charmeleon Dig vs. Lvl 18 Kadabra: 27-32 (48.2 - 57.1%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "confusion",
+              "minPercent": 32.1,
+              "maxPercent": 39.6,
+              "ko": "99.7% chance to 3HKO",
+              "description": "Lvl 18 Kadabra Confusion vs. Lvl 20 Charmeleon: 17-21 (26.1 - 32.3%) -- 99.7% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "wartortle",
+              "level": 20,
+              "moves": [
+                "tackle",
+                "tailwhip",
+                "bubble",
+                "watergun"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "charizard",
+              "form": "charmeleon",
+              "minPercent": 28.6,
+              "maxPercent": 33.9,
+              "ko": "0.1% chance to 3HKO",
+              "description": "Lvl 20 Charmeleon Dig vs. Lvl 20 Wartortle: 16-19 (23.1 - 27.5%) -- 0.1% chance to 3HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "watergun",
+              "minPercent": 47.2,
+              "maxPercent": 56.6,
+              "ko": "84.7% chance to 2HKO",
+              "description": "Lvl 20 Wartortle Water Gun vs. Lvl 20 Charmeleon: 25-30 (38.4 - 46.1%) -- 84.7% chance to 2HKO"
+            }
+          }
+        ],
+        "lead": "charmeleon",
+        "warnings": [
+          "Weak against Pidgeotto: best is Lvl 20 Charmeleon Mega Punch vs. Lvl 19 Pidgeotto: 17-20 (25.3 - 29.8%) -- 38.7% chance to 3HKO.",
+          "Weak against Wartortle: best is Lvl 20 Charmeleon Dig vs. Lvl 20 Wartortle: 16-19 (23.1 - 27.5%) -- 0.1% chance to 3HKO."
+        ]
+      },
+      {
+        "boss": "ltsurge",
+        "name": "Lt. Surge",
+        "location": "Vermilion City",
+        "stage": 2,
+        "level": 24,
+        "usable": [
+          {
+            "member": "charizard",
+            "form": "charmeleon",
+            "moves": [
+              "ember",
+              "rest",
+              "dig",
+              "megapunch"
+            ]
+          }
+        ],
+        "notYet": [
+          "flareon",
+          "magmar",
+          "rapidash",
+          "moltres",
+          "ninetales"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "voltorb",
+              "level": 21,
+              "moves": [
+                "tackle",
+                "screech",
+                "sonicboom"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "charizard",
+              "form": "charmeleon",
+              "minPercent": 100,
+              "maxPercent": 117.6,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 24 Charmeleon Dig vs. Lvl 21 Voltorb: 51-60 (79.6 - 93.7%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "tackle",
+              "minPercent": 8.2,
+              "maxPercent": 9.8,
+              "ko": "",
+              "description": "Lvl 21 Voltorb Tackle vs. Lvl 24 Charmeleon: 5-6 (6.5 - 7.8%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "pikachu",
+              "level": 18,
+              "moves": [
+                "thundershock",
+                "growl",
+                "thunderwave",
+                "quickattack"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "charizard",
+              "form": "charmeleon",
+              "minPercent": 160.5,
+              "maxPercent": 190.7,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 24 Charmeleon Dig vs. Lvl 18 Pikachu: 69-82 (127.7 - 151.8%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "thundershock",
+              "minPercent": 11.5,
+              "maxPercent": 14.8,
+              "ko": "possible 7HKO",
+              "description": "Lvl 18 Pikachu Thunder Shock vs. Lvl 24 Charmeleon: 7-9 (9.2 - 11.8%) -- possible 7HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "raichu",
+              "level": 24,
+              "moves": [
+                "thundershock",
+                "growl",
+                "thunderbolt"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "charizard",
+              "form": "charmeleon",
+              "minPercent": 63.6,
+              "maxPercent": 75.8,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 24 Charmeleon Dig vs. Lvl 24 Raichu: 42-50 (51.8 - 61.7%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "thunderbolt",
+              "minPercent": 55.7,
+              "maxPercent": 65.6,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 24 Raichu Thunderbolt vs. Lvl 24 Charmeleon: 34-40 (44.7 - 52.6%) -- guaranteed 2HKO"
+            }
+          }
+        ],
+        "lead": "charmeleon",
+        "warnings": []
+      },
+      {
+        "boss": "rival-pokemontower",
+        "name": "Rival",
+        "location": "Pokémon Tower 2F",
+        "stage": 3,
+        "level": 25,
+        "rivalStarter": "squirtle",
+        "usable": [
+          {
+            "member": "flareon",
+            "form": "flareon",
+            "moves": [
+              "bodyslam",
+              "rest",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "charizard",
+            "form": "charmeleon",
+            "moves": [
+              "ember",
+              "dig",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "ninetales",
+            "form": "ninetales",
+            "moves": [
+              "ember",
+              "dig",
+              "hyperbeam",
+              "takedown"
+            ]
+          }
+        ],
+        "notYet": [
+          "magmar",
+          "rapidash",
+          "moltres"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeotto",
+              "level": 25,
+              "moves": [
+                "gust",
+                "sandattack",
+                "quickattack",
+                "whirlwind"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "flareon",
+              "form": "flareon",
+              "minPercent": 75.7,
+              "maxPercent": 90,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 25 Flareon Hyper Beam vs. Lvl 25 Pidgeotto: 53-63 (61.6 - 73.2%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "gust",
+              "minPercent": 19.4,
+              "maxPercent": 23.9,
+              "ko": "possible 5HKO",
+              "description": "Lvl 25 Pidgeotto Gust vs. Lvl 25 Flareon: 13-16 (15.6 - 19.2%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "growlithe",
+              "level": 23,
+              "moves": [
+                "bite",
+                "roar",
+                "ember",
+                "leer"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "flareon",
+              "form": "flareon",
+              "minPercent": 104.9,
+              "maxPercent": 124.6,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 25 Flareon Hyper Beam vs. Lvl 23 Growlithe: 64-76 (84.2 - 100%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "bite",
+              "minPercent": 17.9,
+              "maxPercent": 22.4,
+              "ko": "possible 5HKO",
+              "description": "Lvl 23 Growlithe Bite vs. Lvl 25 Flareon: 12-15 (14.4 - 18%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "exeggcute",
+              "level": 22,
+              "moves": [
+                "barrage",
+                "hypnosis"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "flareon",
+              "form": "flareon",
+              "minPercent": 80.3,
+              "maxPercent": 95.1,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 25 Flareon Hyper Beam vs. Lvl 22 Exeggcute: 49-58 (65.3 - 77.3%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "barrage",
+              "minPercent": 13.4,
+              "maxPercent": 17.9,
+              "ko": "approx. possible 6HKO",
+              "description": "Lvl 22 Exeggcute Barrage (3 hits) vs. Lvl 25 Flareon: 9-12 (10.8 - 14.4%) -- approx. possible 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "kadabra",
+              "level": 20,
+              "moves": [
+                "teleport",
+                "confusion",
+                "disable"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "flareon",
+              "form": "flareon",
+              "minPercent": 175.5,
+              "maxPercent": 208.2,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 25 Flareon Hyper Beam vs. Lvl 20 Kadabra: 86-102 (140.9 - 167.2%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "confusion",
+              "minPercent": 17.9,
+              "maxPercent": 22.4,
+              "ko": "possible 5HKO",
+              "description": "Lvl 20 Kadabra Confusion vs. Lvl 25 Flareon: 12-15 (14.4 - 18%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "wartortle",
+              "level": 25,
+              "moves": [
+                "tailwhip",
+                "bubble",
+                "watergun",
+                "bite"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "flareon",
+              "form": "flareon",
+              "minPercent": 64.7,
+              "maxPercent": 76.5,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 25 Flareon Hyper Beam vs. Lvl 25 Wartortle: 44-52 (52.3 - 61.9%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "watergun",
+              "minPercent": 29.9,
+              "maxPercent": 35.8,
+              "ko": "23.7% chance to 3HKO",
+              "description": "Lvl 25 Wartortle Water Gun vs. Lvl 25 Flareon: 20-24 (24 - 28.9%) -- 23.7% chance to 3HKO"
+            }
+          }
+        ],
+        "lead": "flareon",
+        "warnings": []
+      },
+      {
+        "boss": "erika",
+        "name": "Erika",
+        "location": "Celadon City",
+        "stage": 3,
+        "level": 29,
+        "usable": [
+          {
+            "member": "flareon",
+            "form": "flareon",
+            "moves": [
+              "bodyslam",
+              "rest",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "charizard",
+            "form": "charmeleon",
+            "moves": [
+              "ember",
+              "dig",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "ninetales",
+            "form": "ninetales",
+            "moves": [
+              "ember",
+              "dig",
+              "hyperbeam",
+              "takedown"
+            ]
+          }
+        ],
+        "notYet": [
+          "magmar",
+          "rapidash",
+          "moltres"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "victreebel",
+              "level": 29,
+              "moves": [
+                "razorleaf",
+                "wrap",
+                "poisonpowder",
+                "sleeppowder"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "flareon",
+              "form": "flareon",
+              "minPercent": 58.9,
+              "maxPercent": 70,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 29 Flareon Hyper Beam vs. Lvl 29 Victreebel: 53-63 (49 - 58.3%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "razorleaf",
+              "minPercent": 22.4,
+              "maxPercent": 26.3,
+              "ko": "2.4% chance to 4HKO",
+              "description": "Lvl 29 Victreebel Razor Leaf vs. Lvl 29 Flareon on a critical hit: 17-20 (18 - 21.2%) -- 2.4% chance to 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "tangela",
+              "level": 24,
+              "moves": [
+                "constrict",
+                "bind"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "flareon",
+              "form": "flareon",
+              "minPercent": 63.8,
+              "maxPercent": 75.4,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 29 Flareon Hyper Beam vs. Lvl 24 Tangela: 44-52 (52.3 - 61.9%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "bind",
+              "minPercent": 3.9,
+              "maxPercent": 5.3,
+              "ko": "possible 9HKO after trapping damage",
+              "description": "Lvl 24 Tangela Bind vs. Lvl 29 Flareon: 3-4 (3.1 - 4.2%) -- possible 9HKO after trapping damage"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "vileplume",
+              "level": 29,
+              "moves": [
+                "petaldance",
+                "poisonpowder",
+                "megadrain",
+                "sleeppowder"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "flareon",
+              "form": "flareon",
+              "minPercent": 51.7,
+              "maxPercent": 62.1,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 29 Flareon Hyper Beam vs. Lvl 29 Vileplume: 45-54 (42.8 - 51.4%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "petaldance",
+              "minPercent": 14.5,
+              "maxPercent": 18.4,
+              "ko": "possible 6HKO",
+              "description": "Lvl 29 Vileplume Petal Dance vs. Lvl 29 Flareon: 11-14 (11.7 - 14.8%) -- possible 6HKO"
+            }
+          }
+        ],
+        "lead": "flareon",
+        "warnings": []
+      },
+      {
+        "boss": "giovanni-hideout",
+        "name": "Giovanni",
+        "location": "Rocket Hideout B4F",
+        "stage": 4,
+        "level": 29,
+        "usable": [
+          {
+            "member": "flareon",
+            "form": "flareon",
+            "moves": [
+              "doubleedge",
+              "rest",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "charizard",
+            "form": "charmeleon",
+            "moves": [
+              "ember",
+              "dig",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "ninetales",
+            "form": "ninetales",
+            "moves": [
+              "ember",
+              "dig",
+              "hyperbeam",
+              "takedown"
+            ]
+          }
+        ],
+        "notYet": [
+          "magmar",
+          "rapidash",
+          "moltres"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "onix",
+              "level": 25,
+              "moves": [
+                "screech",
+                "bind",
+                "rockthrow",
+                "rage"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "ninetales",
+              "form": "ninetales",
+              "minPercent": 57.1,
+              "maxPercent": 67.9,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 29 Ninetales Dig vs. Lvl 25 Onix: 32-38 (44.4 - 52.7%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "rockthrow",
+              "minPercent": 27.2,
+              "maxPercent": 32.1,
+              "ko": "guaranteed 4HKO",
+              "description": "Lvl 25 Onix Rock Throw vs. Lvl 29 Ninetales: 22-26 (22.2 - 26.2%) -- guaranteed 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rhyhorn",
+              "level": 24,
+              "moves": [
+                "hornattack"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "ninetales",
+              "form": "ninetales",
+              "minPercent": 61.8,
+              "maxPercent": 73.7,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 29 Ninetales Dig vs. Lvl 24 Rhyhorn: 47-56 (51.6 - 61.5%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hornattack",
+              "minPercent": 14.8,
+              "maxPercent": 18.5,
+              "ko": "possible 6HKO",
+              "description": "Lvl 24 Rhyhorn Horn Attack vs. Lvl 29 Ninetales: 12-15 (12.1 - 15.1%) -- possible 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "kangaskhan",
+              "level": 29,
+              "moves": [
+                "cometpunch",
+                "rage",
+                "bite"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "flareon",
+              "form": "flareon",
+              "minPercent": 45.2,
+              "maxPercent": 53.8,
+              "ko": "41% chance to 2HKO",
+              "description": "Lvl 29 Flareon Hyper Beam vs. Lvl 29 Kangaskhan: 47-56 (38.5 - 45.9%) -- 41% chance to 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "cometpunch",
+              "minPercent": 39.5,
+              "maxPercent": 47.4,
+              "ko": "approx. 3HKO",
+              "description": "Lvl 29 Kangaskhan Comet Punch (3 hits) vs. Lvl 29 Flareon: 30-36 (31.9 - 38.2%) -- approx. 3HKO"
+            }
+          }
+        ],
+        "lead": "ninetales",
+        "warnings": []
+      },
+      {
+        "boss": "koga",
+        "name": "Koga",
+        "location": "Fuchsia City",
+        "stage": 4,
+        "level": 43,
+        "usable": [
+          {
+            "member": "flareon",
+            "form": "flareon",
+            "moves": [
+              "ember",
+              "rest",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "charizard",
+            "form": "charizard",
+            "moves": [
+              "ember",
+              "dig",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "ninetales",
+            "form": "ninetales",
+            "moves": [
+              "flamethrower",
+              "dig",
+              "hyperbeam",
+              "takedown"
+            ]
+          }
+        ],
+        "notYet": [
+          "magmar",
+          "rapidash",
+          "moltres"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "koffing",
+              "level": 37,
+              "moves": [
+                "tackle",
+                "smog",
+                "sludge",
+                "smokescreen"
+              ]
+            },
+            "answer": {
+              "move": "flamethrower",
+              "member": "ninetales",
+              "form": "ninetales",
+              "minPercent": 90.2,
+              "maxPercent": 107.3,
+              "ko": "46.2% chance to OHKO",
+              "description": "Lvl 43 Ninetales Flamethrower vs. Lvl 37 Koffing: 74-88 (70.4 - 83.8%) -- 46.2% chance to OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "sludge",
+              "minPercent": 19.1,
+              "maxPercent": 23.5,
+              "ko": "possible 5HKO",
+              "description": "Lvl 37 Koffing Sludge vs. Lvl 43 Ninetales: 22-27 (15.4 - 19%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "muk",
+              "level": 39,
+              "moves": [
+                "disable",
+                "poisongas",
+                "minimize",
+                "sludge"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "flareon",
+              "form": "flareon",
+              "minPercent": 56.9,
+              "maxPercent": 67.2,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 43 Flareon Hyper Beam vs. Lvl 39 Muk: 78-92 (48.4 - 57.1%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "sludge",
+              "minPercent": 35.2,
+              "maxPercent": 41.7,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 39 Muk Sludge vs. Lvl 43 Flareon: 38-45 (28.1 - 33.3%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "koffing",
+              "level": 37,
+              "moves": [
+                "tackle",
+                "smog",
+                "sludge",
+                "smokescreen"
+              ]
+            },
+            "answer": {
+              "move": "flamethrower",
+              "member": "ninetales",
+              "form": "ninetales",
+              "minPercent": 90.2,
+              "maxPercent": 107.3,
+              "ko": "46.2% chance to OHKO",
+              "description": "Lvl 43 Ninetales Flamethrower vs. Lvl 37 Koffing: 74-88 (70.4 - 83.8%) -- 46.2% chance to OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "sludge",
+              "minPercent": 19.1,
+              "maxPercent": 23.5,
+              "ko": "possible 5HKO",
+              "description": "Lvl 37 Koffing Sludge vs. Lvl 43 Ninetales: 22-27 (15.4 - 19%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "weezing",
+              "level": 43,
+              "moves": [
+                "smog",
+                "sludge",
+                "toxic",
+                "selfdestruct"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "flareon",
+              "form": "flareon",
+              "minPercent": 45.2,
+              "maxPercent": 53.9,
+              "ko": "42.8% chance to 2HKO",
+              "description": "Lvl 43 Flareon Hyper Beam vs. Lvl 43 Weezing: 52-62 (36.6 - 43.6%) -- 42.8% chance to 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "selfdestruct",
+              "minPercent": 101.9,
+              "maxPercent": 120.4,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 43 Weezing Self-Destruct vs. Lvl 43 Flareon: 110-130 (81.4 - 96.2%) -- guaranteed OHKO"
+            }
+          }
+        ],
+        "lead": "ninetales",
+        "warnings": [
+          "Weezing can KO Flareon with Self-Destruct."
+        ]
+      },
+      {
+        "boss": "rival-silph",
+        "name": "Rival",
+        "location": "Silph Co. 7F",
+        "stage": 5,
+        "level": 40,
+        "rivalStarter": "squirtle",
+        "usable": [
+          {
+            "member": "flareon",
+            "form": "flareon",
+            "moves": [
+              "ember",
+              "rest",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "charizard",
+            "form": "charizard",
+            "moves": [
+              "ember",
+              "dig",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "ninetales",
+            "form": "ninetales",
+            "moves": [
+              "flamethrower",
+              "dig",
+              "hyperbeam",
+              "takedown"
+            ]
+          }
+        ],
+        "notYet": [
+          "magmar",
+          "rapidash",
+          "moltres"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeot",
+              "level": 37,
+              "moves": [
+                "sandattack",
+                "quickattack",
+                "whirlwind",
+                "wingattack"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "flareon",
+              "form": "flareon",
+              "minPercent": 64,
+              "maxPercent": 75.4,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 40 Flareon Hyper Beam vs. Lvl 37 Pidgeot: 73-86 (53.2 - 62.7%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "quickattack",
+              "minPercent": 19.6,
+              "maxPercent": 23.5,
+              "ko": "possible 5HKO",
+              "description": "Lvl 37 Pidgeot Quick Attack vs. Lvl 40 Flareon: 20-24 (15.7 - 18.8%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "growlithe",
+              "level": 38,
+              "moves": [
+                "roar",
+                "ember",
+                "leer",
+                "takedown"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "flareon",
+              "form": "flareon",
+              "minPercent": 98.9,
+              "maxPercent": 116.8,
+              "ko": "94.9% chance to OHKO",
+              "description": "Lvl 40 Flareon Hyper Beam vs. Lvl 38 Growlithe: 94-111 (78.9 - 93.2%) -- 94.9% chance to OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "takedown",
+              "minPercent": 27.5,
+              "maxPercent": 33.3,
+              "ko": "0.1% chance to 3HKO",
+              "description": "Lvl 38 Growlithe Take Down vs. Lvl 40 Flareon: 28-34 (22 - 26.7%) -- 0.1% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "exeggcute",
+              "level": 35,
+              "moves": [
+                "hypnosis",
+                "reflect",
+                "leechseed",
+                "stunspore"
+              ]
+            },
+            "answer": {
+              "move": "flamethrower",
+              "member": "ninetales",
+              "form": "ninetales",
+              "minPercent": 151.1,
+              "maxPercent": 178.3,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 40 Ninetales Flamethrower vs. Lvl 35 Exeggcute: 139-164 (121.9 - 143.8%) -- guaranteed OHKO",
+              "outspeeds": true
+            }
+          },
+          {
+            "bossMon": {
+              "species": "alakazam",
+              "level": 35,
+              "moves": [
+                "confusion",
+                "disable",
+                "psybeam",
+                "recover"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "flareon",
+              "form": "flareon",
+              "minPercent": 114.6,
+              "maxPercent": 134.8,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 40 Flareon Hyper Beam vs. Lvl 35 Alakazam: 102-120 (91.8 - 108.1%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "psybeam",
+              "minPercent": 27.5,
+              "maxPercent": 33.3,
+              "ko": "0.1% chance to 3HKO",
+              "description": "Lvl 35 Alakazam Psybeam vs. Lvl 40 Flareon: 28-34 (22 - 26.7%) -- 0.1% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "blastoise",
+              "level": 40,
+              "moves": [
+                "bubble",
+                "watergun",
+                "bite",
+                "withdraw"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "flareon",
+              "form": "flareon",
+              "minPercent": 47.9,
+              "maxPercent": 56.3,
+              "ko": "84.7% chance to 2HKO",
+              "description": "Lvl 40 Flareon Hyper Beam vs. Lvl 40 Blastoise: 57-67 (39.5 - 46.5%) -- 84.7% chance to 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "watergun",
+              "minPercent": 34.3,
+              "maxPercent": 41.2,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 40 Blastoise Water Gun vs. Lvl 40 Flareon: 35-42 (27.5 - 33%) -- guaranteed 3HKO"
+            }
+          }
+        ],
+        "lead": "flareon",
+        "warnings": []
+      },
+      {
+        "boss": "giovanni-silph",
+        "name": "Giovanni",
+        "location": "Silph Co. 11F",
+        "stage": 5,
+        "level": 41,
+        "usable": [
+          {
+            "member": "flareon",
+            "form": "flareon",
+            "moves": [
+              "ember",
+              "rest",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "charizard",
+            "form": "charizard",
+            "moves": [
+              "ember",
+              "dig",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "ninetales",
+            "form": "ninetales",
+            "moves": [
+              "flamethrower",
+              "dig",
+              "hyperbeam",
+              "takedown"
+            ]
+          }
+        ],
+        "notYet": [
+          "magmar",
+          "rapidash",
+          "moltres"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "nidorino",
+              "level": 37,
+              "moves": [
+                "hornattack",
+                "poisonsting",
+                "focusenergy",
+                "furyattack"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "charizard",
+              "form": "charizard",
+              "minPercent": 89.8,
+              "maxPercent": 106.1,
+              "ko": "38.5% chance to OHKO",
+              "description": "Lvl 41 Charizard Dig vs. Lvl 37 Nidorino: 88-104 (72.7 - 85.9%) -- 38.5% chance to OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hornattack",
+              "minPercent": 14.9,
+              "maxPercent": 17.5,
+              "ko": "possible 6HKO",
+              "description": "Lvl 37 Nidorino Horn Attack vs. Lvl 41 Charizard: 17-20 (12.1 - 14.2%) -- possible 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "kangaskhan",
+              "level": 35,
+              "moves": [
+                "cometpunch",
+                "rage",
+                "bite",
+                "tailwhip"
+              ]
+            },
+            "answer": {
+              "move": "flamethrower",
+              "member": "ninetales",
+              "form": "ninetales",
+              "minPercent": 70.2,
+              "maxPercent": 83.1,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 41 Ninetales Flamethrower vs. Lvl 35 Kangaskhan: 87-103 (59.5 - 70.5%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "bite",
+              "minPercent": 23.6,
+              "maxPercent": 28.2,
+              "ko": "86.5% chance to 4HKO",
+              "description": "Lvl 35 Kangaskhan Bite vs. Lvl 41 Ninetales: 26-31 (19.1 - 22.7%) -- 86.5% chance to 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rhyhorn",
+              "level": 37,
+              "moves": [
+                "hornattack",
+                "stomp",
+                "tailwhip"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "charizard",
+              "form": "charizard",
+              "minPercent": 57.1,
+              "maxPercent": 67.9,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 41 Charizard Dig vs. Lvl 37 Rhyhorn: 64-76 (47.4 - 56.2%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hornattack",
+              "minPercent": 14.9,
+              "maxPercent": 18.4,
+              "ko": "possible 6HKO",
+              "description": "Lvl 37 Rhyhorn Horn Attack vs. Lvl 41 Charizard: 17-21 (12.1 - 15%) -- possible 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "nidoqueen",
+              "level": 41,
+              "moves": [
+                "scratch",
+                "tailwhip",
+                "bodyslam",
+                "poisonsting"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "charizard",
+              "form": "charizard",
+              "minPercent": 47.3,
+              "maxPercent": 56.5,
+              "ko": "86.8% chance to 2HKO",
+              "description": "Lvl 41 Charizard Dig vs. Lvl 41 Nidoqueen: 62-74 (39.4 - 47.1%) -- 86.8% chance to 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "bodyslam",
+              "minPercent": 24.6,
+              "maxPercent": 28.9,
+              "ko": "99.2% chance to 4HKO",
+              "description": "Lvl 41 Nidoqueen Body Slam vs. Lvl 41 Charizard: 28-33 (20 - 23.5%) -- 99.2% chance to 4HKO"
+            }
+          }
+        ],
+        "lead": "charizard",
+        "warnings": []
+      },
+      {
+        "boss": "sabrina",
+        "name": "Sabrina",
+        "location": "Saffron City",
+        "stage": 5,
+        "level": 43,
+        "usable": [
+          {
+            "member": "flareon",
+            "form": "flareon",
+            "moves": [
+              "ember",
+              "rest",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "charizard",
+            "form": "charizard",
+            "moves": [
+              "ember",
+              "dig",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "ninetales",
+            "form": "ninetales",
+            "moves": [
+              "flamethrower",
+              "dig",
+              "hyperbeam",
+              "takedown"
+            ]
+          }
+        ],
+        "notYet": [
+          "magmar",
+          "rapidash",
+          "moltres"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "kadabra",
+              "level": 38,
+              "moves": [
+                "disable",
+                "psybeam",
+                "recover",
+                "psychic"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "flareon",
+              "form": "flareon",
+              "minPercent": 153.6,
+              "maxPercent": 181,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 43 Flareon Hyper Beam vs. Lvl 38 Kadabra: 129-152 (119.4 - 140.7%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "psychic",
+              "minPercent": 35.2,
+              "maxPercent": 41.7,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 38 Kadabra Psychic vs. Lvl 43 Flareon: 38-45 (28.1 - 33.3%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "mrmime",
+              "level": 37,
+              "moves": [
+                "confusion",
+                "barrier",
+                "lightscreen",
+                "doubleslap"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "flareon",
+              "form": "flareon",
+              "minPercent": 109.8,
+              "maxPercent": 129.3,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 43 Flareon Hyper Beam vs. Lvl 37 Mr. Mime: 90-106 (85.7 - 100.9%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "confusion",
+              "minPercent": 15.7,
+              "maxPercent": 19.4,
+              "ko": "possible 6HKO",
+              "description": "Lvl 37 Mr. Mime Confusion vs. Lvl 43 Flareon: 17-21 (12.5 - 15.5%) -- possible 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "venomoth",
+              "level": 38,
+              "moves": [
+                "poisonpowder",
+                "leechlife",
+                "stunspore",
+                "psybeam"
+              ]
+            },
+            "answer": {
+              "move": "flamethrower",
+              "member": "ninetales",
+              "form": "ninetales",
+              "minPercent": 106.5,
+              "maxPercent": 125.2,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 43 Ninetales Flamethrower vs. Lvl 38 Venomoth: 114-134 (87 - 102.2%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "psybeam",
+              "minPercent": 14.8,
+              "maxPercent": 17.4,
+              "ko": "possible 6HKO",
+              "description": "Lvl 38 Venomoth Psybeam vs. Lvl 43 Ninetales: 17-20 (11.9 - 14%) -- possible 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "alakazam",
+              "level": 43,
+              "moves": [
+                "psybeam",
+                "recover",
+                "psywave",
+                "reflect"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "flareon",
+              "form": "flareon",
+              "minPercent": 89.7,
+              "maxPercent": 105.6,
+              "ko": "35.9% chance to OHKO",
+              "description": "Lvl 43 Flareon Hyper Beam vs. Lvl 43 Alakazam: 96-113 (71.6 - 84.3%) -- 35.9% chance to OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "psybeam",
+              "minPercent": 35.2,
+              "maxPercent": 41.7,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 43 Alakazam Psybeam vs. Lvl 43 Flareon: 38-45 (28.1 - 33.3%) -- guaranteed 3HKO"
+            }
+          }
+        ],
+        "lead": "flareon",
+        "warnings": []
+      },
+      {
+        "boss": "blaine",
+        "name": "Blaine",
+        "location": "Cinnabar Island",
+        "stage": 6,
+        "level": 47,
+        "usable": [
+          {
+            "member": "flareon",
+            "form": "flareon",
+            "moves": [
+              "ember",
+              "rest",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "charizard",
+            "form": "charizard",
+            "moves": [
+              "flamethrower",
+              "dig",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "magmar",
+            "form": "magmar",
+            "moves": [
+              "firepunch",
+              "submission",
+              "megakick",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "rapidash",
+            "form": "rapidash",
+            "moves": [
+              "ember",
+              "hyperbeam",
+              "takedown",
+              "stomp"
+            ]
+          },
+          {
+            "member": "ninetales",
+            "form": "ninetales",
+            "moves": [
+              "flamethrower",
+              "dig",
+              "hyperbeam",
+              "takedown"
+            ]
+          }
+        ],
+        "notYet": [
+          "moltres"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "growlithe",
+              "level": 42,
+              "moves": [
+                "ember",
+                "leer",
+                "takedown",
+                "agility"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "flareon",
+              "form": "flareon",
+              "minPercent": 108.7,
+              "maxPercent": 127.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 47 Flareon Hyper Beam vs. Lvl 42 Growlithe: 113-133 (86.2 - 101.5%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "takedown",
+              "minPercent": 23.7,
+              "maxPercent": 28.8,
+              "ko": "98.6% chance to 4HKO",
+              "description": "Lvl 42 Growlithe Take Down vs. Lvl 47 Flareon: 28-34 (19 - 23.1%) -- 98.6% chance to 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "ponyta",
+              "level": 40,
+              "moves": [
+                "tailwhip",
+                "stomp",
+                "growl",
+                "firespin"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "flareon",
+              "form": "flareon",
+              "minPercent": 110.4,
+              "maxPercent": 130.2,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 47 Flareon Hyper Beam vs. Lvl 40 Ponyta: 106-125 (87.6 - 103.3%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 18.6,
+              "maxPercent": 22.9,
+              "ko": "possible 5HKO",
+              "description": "Lvl 40 Ponyta Stomp vs. Lvl 47 Flareon: 22-27 (14.9 - 18.3%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rapidash",
+              "level": 42,
+              "moves": [
+                "tailwhip",
+                "stomp",
+                "growl",
+                "firespin"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "flareon",
+              "form": "flareon",
+              "minPercent": 77.9,
+              "maxPercent": 92,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 47 Flareon Hyper Beam vs. Lvl 42 Rapidash: 88-104 (63.3 - 74.8%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 22,
+              "maxPercent": 26.3,
+              "ko": "4.7% chance to 4HKO",
+              "description": "Lvl 42 Rapidash Stomp vs. Lvl 47 Flareon: 26-31 (17.6 - 21%) -- 4.7% chance to 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "arcanine",
+              "level": 47,
+              "moves": [
+                "roar",
+                "ember",
+                "fireblast",
+                "takedown"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "flareon",
+              "form": "flareon",
+              "minPercent": 49,
+              "maxPercent": 57.7,
+              "ko": "96.4% chance to 2HKO",
+              "description": "Lvl 47 Flareon Hyper Beam vs. Lvl 47 Arcanine: 73-86 (41 - 48.3%) -- 96.4% chance to 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "takedown",
+              "minPercent": 39,
+              "maxPercent": 46.6,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 47 Arcanine Take Down vs. Lvl 47 Flareon: 46-55 (31.2 - 37.4%) -- guaranteed 3HKO"
+            }
+          }
+        ],
+        "lead": "flareon",
+        "warnings": []
+      },
+      {
+        "boss": "giovanni-gym",
+        "name": "Giovanni",
+        "location": "Viridian City",
+        "stage": 7,
+        "level": 50,
+        "usable": [
+          {
+            "member": "flareon",
+            "form": "flareon",
+            "moves": [
+              "fireblast",
+              "rest",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "charizard",
+            "form": "charizard",
+            "moves": [
+              "flamethrower",
+              "dig",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "magmar",
+            "form": "magmar",
+            "moves": [
+              "firepunch",
+              "submission",
+              "megakick",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "rapidash",
+            "form": "rapidash",
+            "moves": [
+              "ember",
+              "hyperbeam",
+              "takedown",
+              "stomp"
+            ]
+          },
+          {
+            "member": "ninetales",
+            "form": "ninetales",
+            "moves": [
+              "flamethrower",
+              "dig",
+              "hyperbeam",
+              "takedown"
+            ]
+          }
+        ],
+        "notYet": [
+          "moltres"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "rhyhorn",
+              "level": 45,
+              "moves": [
+                "stomp",
+                "tailwhip",
+                "furyattack",
+                "horndrill"
+              ]
+            },
+            "answer": {
+              "move": "fireblast",
+              "member": "flareon",
+              "form": "flareon",
+              "minPercent": 58.2,
+              "maxPercent": 68.7,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 50 Flareon Fire Blast vs. Lvl 45 Rhyhorn: 78-92 (48.1 - 56.7%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 20.8,
+              "maxPercent": 24.8,
+              "ko": "guaranteed 5HKO",
+              "description": "Lvl 45 Rhyhorn Stomp vs. Lvl 50 Flareon: 26-31 (16.6 - 19.8%) -- guaranteed 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "dugtrio",
+              "level": 42,
+              "moves": [
+                "growl",
+                "dig",
+                "sandattack",
+                "slash"
+              ]
+            },
+            "answer": {
+              "move": "hyperbeam",
+              "member": "flareon",
+              "form": "flareon",
+              "minPercent": 139.8,
+              "maxPercent": 164.8,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 50 Flareon Hyper Beam vs. Lvl 42 Dugtrio: 123-145 (107.8 - 127.1%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "dig",
+              "minPercent": 77.6,
+              "maxPercent": 91.2,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 42 Dugtrio Dig vs. Lvl 50 Flareon: 97-114 (62.1 - 73%) -- guaranteed 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "nidoqueen",
+              "level": 44,
+              "moves": [
+                "scratch",
+                "tailwhip",
+                "bodyslam",
+                "poisonsting"
+              ]
+            },
+            "answer": {
+              "move": "fireblast",
+              "member": "flareon",
+              "form": "flareon",
+              "minPercent": 71.4,
+              "maxPercent": 84.3,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 50 Flareon Fire Blast vs. Lvl 44 Nidoqueen: 100-118 (59.8 - 70.6%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "bodyslam",
+              "minPercent": 24,
+              "maxPercent": 28.8,
+              "ko": "98.4% chance to 4HKO",
+              "description": "Lvl 44 Nidoqueen Body Slam vs. Lvl 50 Flareon: 30-36 (19.2 - 23%) -- 98.4% chance to 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "nidoking",
+              "level": 45,
+              "moves": [
+                "tackle",
+                "hornattack",
+                "poisonsting",
+                "thrash"
+              ]
+            },
+            "answer": {
+              "move": "fireblast",
+              "member": "flareon",
+              "form": "flareon",
+              "minPercent": 71.9,
+              "maxPercent": 85.2,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 50 Flareon Fire Blast vs. Lvl 45 Nidoking: 97-115 (59.5 - 70.5%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "thrash",
+              "minPercent": 29.6,
+              "maxPercent": 35.2,
+              "ko": "13.6% chance to 3HKO",
+              "description": "Lvl 45 Nidoking Thrash vs. Lvl 50 Flareon: 37-44 (23.7 - 28.2%) -- 13.6% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rhydon",
+              "level": 50,
+              "moves": [
+                "stomp",
+                "tailwhip",
+                "fissure",
+                "horndrill"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "charizard",
+              "form": "charizard",
+              "minPercent": 35.3,
+              "maxPercent": 41.6,
+              "ko": "guaranteed 3HKO",
+              "description": "Charizard Dig vs. Rhydon: 61-72 (29.9 - 35.2%) -- guaranteed 3HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 26.1,
+              "maxPercent": 31.2,
+              "ko": "guaranteed 4HKO",
+              "description": "Rhydon Stomp vs. Charizard: 36-43 (21.3 - 25.4%) -- guaranteed 4HKO"
+            }
+          }
+        ],
+        "lead": "flareon",
+        "warnings": [
+          "Weak against Rhydon: best is Charizard Dig vs. Rhydon: 61-72 (29.9 - 35.2%) -- guaranteed 3HKO."
+        ]
+      },
+      {
+        "boss": "rival-route22-late",
+        "name": "Rival",
+        "location": "Route 22",
+        "stage": 8,
+        "level": 53,
+        "rivalStarter": "squirtle",
+        "usable": [
+          {
+            "member": "flareon",
+            "form": "flareon",
+            "moves": [
+              "fireblast",
+              "rest",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "charizard",
+            "form": "charizard",
+            "moves": [
+              "flamethrower",
+              "dig",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "magmar",
+            "form": "magmar",
+            "moves": [
+              "firepunch",
+              "submission",
+              "megakick",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "rapidash",
+            "form": "rapidash",
+            "moves": [
+              "ember",
+              "hyperbeam",
+              "takedown",
+              "stomp"
+            ]
+          },
+          {
+            "member": "moltres",
+            "form": "moltres",
+            "moves": [
+              "skyattack",
+              "hyperbeam",
+              "takedown",
+              "peck"
+            ]
+          },
+          {
+            "member": "ninetales",
+            "form": "ninetales",
+            "moves": [
+              "flamethrower",
+              "dig",
+              "hyperbeam",
+              "takedown"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeot",
+              "level": 47,
+              "moves": [
+                "quickattack",
+                "whirlwind",
+                "wingattack",
+                "agility"
+              ]
+            },
+            "answer": {
+              "move": "skyattack",
+              "member": "moltres",
+              "form": "moltres",
+              "minPercent": 79.6,
+              "maxPercent": 93.7,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 53 Moltres Sky Attack vs. Lvl 47 Pidgeot: 113-133 (65.6 - 77.3%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "quickattack",
+              "minPercent": 11.4,
+              "maxPercent": 13.9,
+              "ko": "possible 8HKO",
+              "description": "Lvl 47 Pidgeot Quick Attack vs. Lvl 53 Moltres: 18-22 (9.4 - 11.5%) -- possible 8HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rhyhorn",
+              "level": 45,
+              "moves": [
+                "stomp",
+                "tailwhip",
+                "furyattack",
+                "horndrill"
+              ]
+            },
+            "answer": {
+              "move": "fireblast",
+              "member": "flareon",
+              "form": "flareon",
+              "minPercent": 64.2,
+              "maxPercent": 76.1,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 53 Flareon Fire Blast vs. Lvl 45 Rhyhorn: 86-102 (53 - 62.9%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 18.3,
+              "maxPercent": 22.1,
+              "ko": "possible 5HKO",
+              "description": "Lvl 45 Rhyhorn Stomp vs. Lvl 53 Flareon: 24-29 (14.5 - 17.5%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "growlithe",
+              "level": 45,
+              "moves": [
+                "ember",
+                "leer",
+                "takedown",
+                "agility"
+              ]
+            },
+            "answer": {
+              "move": "skyattack",
+              "member": "moltres",
+              "form": "moltres",
+              "minPercent": 139.6,
+              "maxPercent": 164.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 53 Moltres Sky Attack vs. Lvl 45 Growlithe: 155-183 (110.7 - 130.7%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "takedown",
+              "minPercent": 14.6,
+              "maxPercent": 17.7,
+              "ko": "possible 6HKO",
+              "description": "Lvl 45 Growlithe Take Down vs. Lvl 53 Moltres: 23-28 (12 - 14.6%) -- possible 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "exeggcute",
+              "level": 47,
+              "moves": [
+                "leechseed",
+                "stunspore",
+                "poisonpowder",
+                "solarbeam"
+              ]
+            },
+            "answer": {
+              "move": "fireblast",
+              "member": "flareon",
+              "form": "flareon",
+              "minPercent": 196.7,
+              "maxPercent": 231.7,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 53 Flareon Fire Blast vs. Lvl 47 Exeggcute: 236-278 (157.3 - 185.3%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "solarbeam",
+              "minPercent": 13.7,
+              "maxPercent": 16.8,
+              "ko": "possible 6HKO",
+              "description": "Lvl 47 Exeggcute Solar Beam vs. Lvl 53 Flareon: 18-22 (10.9 - 13.3%) -- possible 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "alakazam",
+              "level": 50,
+              "moves": [
+                "psybeam",
+                "recover",
+                "psychic",
+                "reflect"
+              ]
+            },
+            "answer": {
+              "move": "skyattack",
+              "member": "moltres",
+              "form": "moltres",
+              "minPercent": 114.6,
+              "maxPercent": 135,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 53 Moltres Sky Attack vs. Lvl 50 Alakazam: 141-166 (91.5 - 107.7%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "psychic",
+              "minPercent": 32.3,
+              "maxPercent": 38.6,
+              "ko": "99% chance to 3HKO",
+              "description": "Lvl 50 Alakazam Psychic vs. Lvl 53 Moltres: 51-61 (26.7 - 31.9%) -- 99% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "blastoise",
+              "level": 53,
+              "moves": [
+                "bite",
+                "withdraw",
+                "skullbash",
+                "hydropump"
+              ]
+            },
+            "answer": {
+              "move": "skyattack",
+              "member": "moltres",
+              "form": "moltres",
+              "minPercent": 54.2,
+              "maxPercent": 63.9,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 53 Moltres Sky Attack vs. Lvl 53 Blastoise: 84-99 (44.6 - 52.6%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hydropump",
+              "minPercent": 68.4,
+              "maxPercent": 81,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 53 Blastoise Hydro Pump vs. Lvl 53 Moltres: 108-128 (56.5 - 67%) -- guaranteed 2HKO"
+            }
+          }
+        ],
+        "lead": "moltres",
+        "warnings": []
+      },
+      {
+        "boss": "lorelei",
+        "name": "Lorelei",
+        "location": "Indigo Plateau",
+        "stage": 8,
+        "level": 56,
+        "usable": [
+          {
+            "member": "flareon",
+            "form": "flareon",
+            "moves": [
+              "fireblast",
+              "rest",
+              "flamethrower",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "charizard",
+            "form": "charizard",
+            "moves": [
+              "flamethrower",
+              "dig",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "magmar",
+            "form": "magmar",
+            "moves": [
+              "flamethrower",
+              "submission",
+              "firepunch",
+              "megakick"
+            ]
+          },
+          {
+            "member": "rapidash",
+            "form": "rapidash",
+            "moves": [
+              "ember",
+              "hyperbeam",
+              "takedown",
+              "stomp"
+            ]
+          },
+          {
+            "member": "moltres",
+            "form": "moltres",
+            "moves": [
+              "skyattack",
+              "hyperbeam",
+              "takedown",
+              "peck"
+            ]
+          },
+          {
+            "member": "ninetales",
+            "form": "ninetales",
+            "moves": [
+              "flamethrower",
+              "dig",
+              "hyperbeam",
+              "takedown"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "dewgong",
+              "level": 54,
+              "moves": [
+                "growl",
+                "aurorabeam",
+                "rest",
+                "takedown"
+              ]
+            },
+            "answer": {
+              "move": "skyattack",
+              "member": "moltres",
+              "form": "moltres",
+              "minPercent": 61.5,
+              "maxPercent": 72.8,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 56 Moltres Sky Attack vs. Lvl 54 Dewgong: 104-123 (51.2 - 60.5%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "aurorabeam",
+              "minPercent": 37.3,
+              "maxPercent": 44.6,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 54 Dewgong Aurora Beam vs. Lvl 56 Moltres: 62-74 (30.6 - 36.6%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "cloyster",
+              "level": 53,
+              "moves": [
+                "supersonic",
+                "clamp",
+                "aurorabeam",
+                "spikecannon"
+              ]
+            },
+            "answer": {
+              "move": "fireblast",
+              "member": "flareon",
+              "form": "flareon",
+              "minPercent": 75,
+              "maxPercent": 88.7,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 56 Flareon Fire Blast vs. Lvl 53 Cloyster: 93-110 (59.2 - 70%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "clamp",
+              "minPercent": 25.4,
+              "maxPercent": 30.4,
+              "ko": "25.4% chance to 3HKO after trapping damage",
+              "description": "Lvl 53 Cloyster Clamp vs. Lvl 56 Flareon: 35-42 (20.1 - 24.1%) -- 25.4% chance to 3HKO after trapping damage"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "slowbro",
+              "level": 54,
+              "moves": [
+                "growl",
+                "watergun",
+                "withdraw",
+                "amnesia"
+              ]
+            },
+            "answer": {
+              "move": "skyattack",
+              "member": "moltres",
+              "form": "moltres",
+              "minPercent": 48.6,
+              "maxPercent": 57.1,
+              "ko": "93.3% chance to 2HKO",
+              "description": "Lvl 56 Moltres Sky Attack vs. Lvl 54 Slowbro: 85-100 (40.6 - 47.8%) -- 93.3% chance to 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "watergun",
+              "minPercent": 22.3,
+              "maxPercent": 26.5,
+              "ko": "12.4% chance to 4HKO",
+              "description": "Lvl 54 Slowbro Water Gun vs. Lvl 56 Moltres: 37-44 (18.3 - 21.7%) -- 12.4% chance to 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "jynx",
+              "level": 56,
+              "moves": [
+                "doubleslap",
+                "icepunch",
+                "bodyslam",
+                "thrash"
+              ]
+            },
+            "answer": {
+              "move": "fireblast",
+              "member": "flareon",
+              "form": "flareon",
+              "minPercent": 112.2,
+              "maxPercent": 132,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 56 Flareon Fire Blast vs. Lvl 56 Jynx: 165-194 (90.1 - 106%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "icepunch",
+              "minPercent": 31.2,
+              "maxPercent": 37,
+              "ko": "75.9% chance to 3HKO",
+              "description": "Lvl 56 Jynx Ice Punch vs. Lvl 56 Flareon: 43-51 (24.7 - 29.3%) -- 75.9% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "lapras",
+              "level": 56,
+              "moves": [
+                "bodyslam",
+                "confuseray",
+                "blizzard",
+                "hydropump"
+              ]
+            },
+            "answer": {
+              "move": "skyattack",
+              "member": "moltres",
+              "form": "moltres",
+              "minPercent": 46.4,
+              "maxPercent": 54.5,
+              "ko": "58.8% chance to 2HKO",
+              "description": "Lvl 56 Moltres Sky Attack vs. Lvl 56 Lapras: 102-120 (40 - 47%) -- 58.8% chance to 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "blizzard",
+              "minPercent": 74.7,
+              "maxPercent": 88,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 56 Lapras Blizzard vs. Lvl 56 Moltres: 124-146 (61.3 - 72.2%) -- guaranteed 2HKO"
+            }
+          }
+        ],
+        "lead": "moltres",
+        "warnings": []
+      },
+      {
+        "boss": "bruno",
+        "name": "Bruno",
+        "location": "Indigo Plateau",
+        "stage": 8,
+        "level": 58,
+        "usable": [
+          {
+            "member": "flareon",
+            "form": "flareon",
+            "moves": [
+              "fireblast",
+              "rest",
+              "flamethrower",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "charizard",
+            "form": "charizard",
+            "moves": [
+              "flamethrower",
+              "dig",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "magmar",
+            "form": "magmar",
+            "moves": [
+              "flamethrower",
+              "submission",
+              "firepunch",
+              "megakick"
+            ]
+          },
+          {
+            "member": "rapidash",
+            "form": "rapidash",
+            "moves": [
+              "ember",
+              "hyperbeam",
+              "takedown",
+              "stomp"
+            ]
+          },
+          {
+            "member": "moltres",
+            "form": "moltres",
+            "moves": [
+              "skyattack",
+              "hyperbeam",
+              "takedown",
+              "peck"
+            ]
+          },
+          {
+            "member": "ninetales",
+            "form": "ninetales",
+            "moves": [
+              "flamethrower",
+              "dig",
+              "hyperbeam",
+              "takedown"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "onix",
+              "level": 53,
+              "moves": [
+                "rockthrow",
+                "rage",
+                "slam",
+                "harden"
+              ]
+            },
+            "answer": {
+              "move": "fireblast",
+              "member": "flareon",
+              "form": "flareon",
+              "minPercent": 80.6,
+              "maxPercent": 95.4,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 58 Flareon Fire Blast vs. Lvl 53 Onix: 87-103 (61.7 - 73%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "rockthrow",
+              "minPercent": 35.7,
+              "maxPercent": 42,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 53 Onix Rock Throw vs. Lvl 58 Flareon: 51-60 (28.4 - 33.5%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "hitmonchan",
+              "level": 55,
+              "moves": [
+                "icepunch",
+                "thunderpunch",
+                "megapunch",
+                "counter"
+              ]
+            },
+            "answer": {
+              "move": "skyattack",
+              "member": "moltres",
+              "form": "moltres",
+              "minPercent": 175,
+              "maxPercent": 206.3,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 58 Moltres Sky Attack vs. Lvl 55 Hitmonchan: 224-264 (137.4 - 161.9%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "megapunch",
+              "minPercent": 20.3,
+              "maxPercent": 24.4,
+              "ko": "guaranteed 5HKO",
+              "description": "Lvl 55 Hitmonchan Mega Punch vs. Lvl 58 Moltres: 35-42 (16.8 - 20.1%) -- guaranteed 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "hitmonlee",
+              "level": 55,
+              "moves": [
+                "jumpkick",
+                "focusenergy",
+                "highjumpkick",
+                "megakick"
+              ]
+            },
+            "answer": {
+              "move": "skyattack",
+              "member": "moltres",
+              "form": "moltres",
+              "minPercent": 220.3,
+              "maxPercent": 259.4,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 58 Moltres Sky Attack vs. Lvl 55 Hitmonlee: 282-332 (173 - 203.6%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "megakick",
+              "minPercent": 33.7,
+              "maxPercent": 40.1,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 55 Hitmonlee Mega Kick vs. Lvl 58 Moltres: 58-69 (27.8 - 33.1%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "onix",
+              "level": 56,
+              "moves": [
+                "rockthrow",
+                "rage",
+                "slam",
+                "harden"
+              ]
+            },
+            "answer": {
+              "move": "fireblast",
+              "member": "flareon",
+              "form": "flareon",
+              "minPercent": 73.7,
+              "maxPercent": 86.8,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 58 Flareon Fire Blast vs. Lvl 56 Onix: 84-99 (56.3 - 66.4%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "rockthrow",
+              "minPercent": 39.2,
+              "maxPercent": 46.2,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 56 Onix Rock Throw vs. Lvl 58 Flareon: 56-66 (31.2 - 36.8%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "machamp",
+              "level": 58,
+              "moves": [
+                "leer",
+                "focusenergy",
+                "fissure",
+                "submission"
+              ]
+            },
+            "answer": {
+              "move": "skyattack",
+              "member": "moltres",
+              "form": "moltres",
+              "minPercent": 116.6,
+              "maxPercent": 137,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 58 Moltres Sky Attack vs. Lvl 58 Machamp: 211-248 (96.7 - 113.7%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "submission",
+              "minPercent": 19.8,
+              "maxPercent": 23.3,
+              "ko": "possible 5HKO",
+              "description": "Lvl 58 Machamp Submission vs. Lvl 58 Moltres: 34-40 (16.3 - 19.2%) -- possible 5HKO"
+            }
+          }
+        ],
+        "lead": "flareon",
+        "warnings": []
+      },
+      {
+        "boss": "agatha",
+        "name": "Agatha",
+        "location": "Indigo Plateau",
+        "stage": 8,
+        "level": 60,
+        "usable": [
+          {
+            "member": "flareon",
+            "form": "flareon",
+            "moves": [
+              "fireblast",
+              "rest",
+              "flamethrower",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "charizard",
+            "form": "charizard",
+            "moves": [
+              "flamethrower",
+              "dig",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "magmar",
+            "form": "magmar",
+            "moves": [
+              "flamethrower",
+              "submission",
+              "firepunch",
+              "megakick"
+            ]
+          },
+          {
+            "member": "rapidash",
+            "form": "rapidash",
+            "moves": [
+              "ember",
+              "hyperbeam",
+              "takedown",
+              "stomp"
+            ]
+          },
+          {
+            "member": "moltres",
+            "form": "moltres",
+            "moves": [
+              "skyattack",
+              "hyperbeam",
+              "takedown",
+              "peck"
+            ]
+          },
+          {
+            "member": "ninetales",
+            "form": "ninetales",
+            "moves": [
+              "flamethrower",
+              "dig",
+              "hyperbeam",
+              "takedown"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "gengar",
+              "level": 56,
+              "moves": [
+                "confuseray",
+                "nightshade",
+                "hypnosis",
+                "dreameater"
+              ]
+            },
+            "answer": {
+              "move": "skyattack",
+              "member": "moltres",
+              "form": "moltres",
+              "minPercent": 97.2,
+              "maxPercent": 114.8,
+              "ko": "84.6% chance to OHKO",
+              "description": "Lvl 60 Moltres Sky Attack vs. Lvl 56 Gengar: 138-163 (77.9 - 92%) -- 84.6% chance to OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "dreameater",
+              "minPercent": 22.5,
+              "maxPercent": 27,
+              "ko": "34.1% chance to 4HKO",
+              "description": "Lvl 56 Gengar Dream Eater vs. Lvl 60 Moltres: 40-48 (18.6 - 22.3%) -- 34.1% chance to 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "golbat",
+              "level": 56,
+              "moves": [
+                "supersonic",
+                "confuseray",
+                "wingattack",
+                "haze"
+              ]
+            },
+            "answer": {
+              "move": "skyattack",
+              "member": "moltres",
+              "form": "moltres",
+              "minPercent": 80.4,
+              "maxPercent": 94.9,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 60 Moltres Sky Attack vs. Lvl 56 Golbat: 127-150 (65.4 - 77.3%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "wingattack",
+              "minPercent": 11.2,
+              "maxPercent": 13.5,
+              "ko": "possible 8HKO",
+              "description": "Lvl 56 Golbat Wing Attack vs. Lvl 60 Moltres: 20-24 (9.3 - 11.1%) -- possible 8HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "haunter",
+              "level": 55,
+              "moves": [
+                "confuseray",
+                "nightshade",
+                "hypnosis",
+                "dreameater"
+              ]
+            },
+            "answer": {
+              "move": "skyattack",
+              "member": "moltres",
+              "form": "moltres",
+              "minPercent": 135,
+              "maxPercent": 159.3,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 60 Moltres Sky Attack vs. Lvl 55 Haunter: 166-196 (105.7 - 124.8%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "dreameater",
+              "minPercent": 20.2,
+              "maxPercent": 24.2,
+              "ko": "guaranteed 5HKO",
+              "description": "Lvl 55 Haunter Dream Eater vs. Lvl 60 Moltres: 36-43 (16.7 - 20%) -- guaranteed 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "arbok",
+              "level": 58,
+              "moves": [
+                "bite",
+                "glare",
+                "screech",
+                "acid"
+              ]
+            },
+            "answer": {
+              "move": "skyattack",
+              "member": "moltres",
+              "form": "moltres",
+              "minPercent": 85.6,
+              "maxPercent": 100.7,
+              "ko": "5.1% chance to OHKO",
+              "description": "Lvl 60 Moltres Sky Attack vs. Lvl 58 Arbok: 125-147 (68.3 - 80.3%) -- 5.1% chance to OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "bite",
+              "minPercent": 14,
+              "maxPercent": 16.9,
+              "ko": "possible 6HKO",
+              "description": "Lvl 58 Arbok Bite vs. Lvl 60 Moltres: 25-30 (11.6 - 13.9%) -- possible 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "gengar",
+              "level": 60,
+              "moves": [
+                "confuseray",
+                "nightshade",
+                "toxic",
+                "dreameater"
+              ]
+            },
+            "answer": {
+              "move": "skyattack",
+              "member": "moltres",
+              "form": "moltres",
+              "minPercent": 86.1,
+              "maxPercent": 101.3,
+              "ko": "10.3% chance to OHKO",
+              "description": "Lvl 60 Moltres Sky Attack vs. Lvl 60 Gengar: 130-153 (68.7 - 80.9%) -- 10.3% chance to OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "dreameater",
+              "minPercent": 25.8,
+              "maxPercent": 30.9,
+              "ko": "guaranteed 4HKO",
+              "description": "Lvl 60 Gengar Dream Eater vs. Lvl 60 Moltres: 46-55 (21.3 - 25.5%) -- guaranteed 4HKO"
+            }
+          }
+        ],
+        "lead": "moltres",
+        "warnings": []
+      },
+      {
+        "boss": "lance",
+        "name": "Lance",
+        "location": "Indigo Plateau",
+        "stage": 8,
+        "level": 62,
+        "usable": [
+          {
+            "member": "flareon",
+            "form": "flareon",
+            "moves": [
+              "fireblast",
+              "rest",
+              "flamethrower",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "charizard",
+            "form": "charizard",
+            "moves": [
+              "flamethrower",
+              "dig",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "magmar",
+            "form": "magmar",
+            "moves": [
+              "flamethrower",
+              "submission",
+              "firepunch",
+              "megakick"
+            ]
+          },
+          {
+            "member": "rapidash",
+            "form": "rapidash",
+            "moves": [
+              "ember",
+              "hyperbeam",
+              "takedown",
+              "stomp"
+            ]
+          },
+          {
+            "member": "moltres",
+            "form": "moltres",
+            "moves": [
+              "skyattack",
+              "hyperbeam",
+              "takedown",
+              "peck"
+            ]
+          },
+          {
+            "member": "ninetales",
+            "form": "ninetales",
+            "moves": [
+              "flamethrower",
+              "dig",
+              "hyperbeam",
+              "takedown"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "gyarados",
+              "level": 58,
+              "moves": [
+                "dragonrage",
+                "leer",
+                "hydropump",
+                "hyperbeam"
+              ]
+            },
+            "answer": {
+              "move": "skyattack",
+              "member": "moltres",
+              "form": "moltres",
+              "minPercent": 62.6,
+              "maxPercent": 73.8,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 62 Moltres Sky Attack vs. Lvl 58 Gyarados: 117-138 (52.2 - 61.6%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hydropump",
+              "minPercent": 67.8,
+              "maxPercent": 79.8,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 58 Gyarados Hydro Pump vs. Lvl 62 Moltres: 124-146 (55.8 - 65.7%) -- guaranteed 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "dragonair",
+              "level": 56,
+              "moves": [
+                "agility",
+                "slam",
+                "dragonrage",
+                "hyperbeam"
+              ]
+            },
+            "answer": {
+              "move": "skyattack",
+              "member": "moltres",
+              "form": "moltres",
+              "minPercent": 95.1,
+              "maxPercent": 111.9,
+              "ko": "71.8% chance to OHKO",
+              "description": "Lvl 62 Moltres Sky Attack vs. Lvl 56 Dragonair: 136-160 (76.4 - 89.8%) -- 71.8% chance to OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hyperbeam",
+              "minPercent": 29.5,
+              "maxPercent": 35,
+              "ko": "9.7% chance to 3HKO",
+              "description": "Lvl 56 Dragonair Hyper Beam vs. Lvl 62 Moltres: 54-64 (24.3 - 28.8%) -- 9.7% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "dragonair",
+              "level": 56,
+              "moves": [
+                "agility",
+                "slam",
+                "dragonrage",
+                "hyperbeam"
+              ]
+            },
+            "answer": {
+              "move": "skyattack",
+              "member": "moltres",
+              "form": "moltres",
+              "minPercent": 95.1,
+              "maxPercent": 111.9,
+              "ko": "71.8% chance to OHKO",
+              "description": "Lvl 62 Moltres Sky Attack vs. Lvl 56 Dragonair: 136-160 (76.4 - 89.8%) -- 71.8% chance to OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hyperbeam",
+              "minPercent": 29.5,
+              "maxPercent": 35,
+              "ko": "9.7% chance to 3HKO",
+              "description": "Lvl 56 Dragonair Hyper Beam vs. Lvl 62 Moltres: 54-64 (24.3 - 28.8%) -- 9.7% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "aerodactyl",
+              "level": 60,
+              "moves": [
+                "supersonic",
+                "bite",
+                "takedown",
+                "hyperbeam"
+              ]
+            },
+            "answer": {
+              "move": "skyattack",
+              "member": "moltres",
+              "form": "moltres",
+              "minPercent": 36,
+              "maxPercent": 42.9,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 62 Moltres Sky Attack vs. Lvl 60 Aerodactyl: 63-75 (29.5 - 35.2%) -- guaranteed 3HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "hyperbeam",
+              "minPercent": 39.9,
+              "maxPercent": 47,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 60 Aerodactyl Hyper Beam vs. Lvl 62 Moltres: 73-86 (32.8 - 38.7%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "dragonite",
+              "level": 62,
+              "moves": [
+                "agility",
+                "slam",
+                "barrier",
+                "hyperbeam"
+              ]
+            },
+            "answer": {
+              "move": "skyattack",
+              "member": "moltres",
+              "form": "moltres",
+              "minPercent": 50,
+              "maxPercent": 59.3,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 62 Moltres Sky Attack vs. Lvl 62 Dragonite: 97-115 (41.6 - 49.3%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hyperbeam",
+              "minPercent": 49.2,
+              "maxPercent": 57.9,
+              "ko": "97.8% chance to 2HKO",
+              "description": "Lvl 62 Dragonite Hyper Beam vs. Lvl 62 Moltres: 90-106 (40.5 - 47.7%) -- 97.8% chance to 2HKO"
+            }
+          }
+        ],
+        "lead": "moltres",
+        "warnings": [
+          "Weak against Aerodactyl: best is Lvl 62 Moltres Sky Attack vs. Lvl 60 Aerodactyl: 63-75 (29.5 - 35.2%) -- guaranteed 3HKO."
+        ]
+      },
+      {
+        "boss": "rival-champion",
+        "name": "Rival",
+        "location": "Indigo Plateau (Champion)",
+        "stage": 8,
+        "level": 65,
+        "rivalStarter": "squirtle",
+        "usable": [
+          {
+            "member": "flareon",
+            "form": "flareon",
+            "moves": [
+              "fireblast",
+              "rest",
+              "flamethrower",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "charizard",
+            "form": "charizard",
+            "moves": [
+              "flamethrower",
+              "dig",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "magmar",
+            "form": "magmar",
+            "moves": [
+              "flamethrower",
+              "submission",
+              "firepunch",
+              "megakick"
+            ]
+          },
+          {
+            "member": "rapidash",
+            "form": "rapidash",
+            "moves": [
+              "ember",
+              "hyperbeam",
+              "takedown",
+              "stomp"
+            ]
+          },
+          {
+            "member": "moltres",
+            "form": "moltres",
+            "moves": [
+              "skyattack",
+              "hyperbeam",
+              "takedown",
+              "peck"
+            ]
+          },
+          {
+            "member": "ninetales",
+            "form": "ninetales",
+            "moves": [
+              "flamethrower",
+              "dig",
+              "hyperbeam",
+              "takedown"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeot",
+              "level": 61,
+              "moves": [
+                "whirlwind",
+                "wingattack",
+                "skyattack",
+                "mirrormove"
+              ]
+            },
+            "answer": {
+              "move": "skyattack",
+              "member": "moltres",
+              "form": "moltres",
+              "minPercent": 72,
+              "maxPercent": 84.6,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 65 Moltres Sky Attack vs. Lvl 61 Pidgeot: 131-154 (59.5 - 70%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "skyattack",
+              "minPercent": 42.7,
+              "maxPercent": 50.5,
+              "ko": "1% chance to 2HKO",
+              "description": "Lvl 61 Pidgeot Sky Attack vs. Lvl 65 Moltres: 82-97 (35.3 - 41.8%) -- 1% chance to 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "alakazam",
+              "level": 59,
+              "moves": [
+                "psybeam",
+                "recover",
+                "psychic",
+                "reflect"
+              ]
+            },
+            "answer": {
+              "move": "skyattack",
+              "member": "moltres",
+              "form": "moltres",
+              "minPercent": 126.6,
+              "maxPercent": 149,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 65 Moltres Sky Attack vs. Lvl 59 Alakazam: 181-213 (100.5 - 118.3%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "psychic",
+              "minPercent": 29.7,
+              "maxPercent": 34.9,
+              "ko": "9.4% chance to 3HKO",
+              "description": "Lvl 59 Alakazam Psychic vs. Lvl 65 Moltres: 57-67 (24.5 - 28.8%) -- 9.4% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rhydon",
+              "level": 61,
+              "moves": [
+                "tailwhip",
+                "furyattack",
+                "horndrill",
+                "leer"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "charizard",
+              "form": "charizard",
+              "minPercent": 38.9,
+              "maxPercent": 46.2,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 65 Charizard Dig vs. Lvl 61 Rhydon: 81-96 (32.7 - 38.8%) -- guaranteed 3HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "furyattack",
+              "minPercent": 17,
+              "maxPercent": 20.5,
+              "ko": "approx. possible 5HKO",
+              "description": "Lvl 61 Rhydon Fury Attack (3 hits) vs. Lvl 65 Charizard: 30-36 (13.8 - 16.5%) -- approx. possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "arcanine",
+              "level": 61,
+              "moves": [
+                "roar",
+                "ember",
+                "leer",
+                "takedown"
+              ]
+            },
+            "answer": {
+              "move": "skyattack",
+              "member": "moltres",
+              "form": "moltres",
+              "minPercent": 65.8,
+              "maxPercent": 77.9,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 65 Moltres Sky Attack vs. Lvl 61 Arcanine: 125-148 (54.8 - 64.9%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "takedown",
+              "minPercent": 22.9,
+              "maxPercent": 27.1,
+              "ko": "41.2% chance to 4HKO",
+              "description": "Lvl 61 Arcanine Take Down vs. Lvl 65 Moltres: 44-52 (18.9 - 22.4%) -- 41.2% chance to 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "exeggutor",
+              "level": 63,
+              "moves": [
+                "barrage",
+                "hypnosis",
+                "stomp"
+              ]
+            },
+            "answer": {
+              "move": "skyattack",
+              "member": "moltres",
+              "form": "moltres",
+              "minPercent": 115.8,
+              "maxPercent": 136.6,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 65 Moltres Sky Attack vs. Lvl 63 Exeggutor: 234-276 (96.6 - 114%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 16.1,
+              "maxPercent": 19.3,
+              "ko": "possible 6HKO",
+              "description": "Lvl 63 Exeggutor Stomp vs. Lvl 65 Moltres: 31-37 (13.3 - 15.9%) -- possible 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "blastoise",
+              "level": 65,
+              "moves": [
+                "bite",
+                "withdraw",
+                "blizzard",
+                "hydropump"
+              ]
+            },
+            "answer": {
+              "move": "skyattack",
+              "member": "moltres",
+              "form": "moltres",
+              "minPercent": 54.3,
+              "maxPercent": 63.8,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 65 Moltres Sky Attack vs. Lvl 65 Blastoise: 102-120 (44.5 - 52.4%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hydropump",
+              "minPercent": 69.8,
+              "maxPercent": 82.3,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 65 Blastoise Hydro Pump vs. Lvl 65 Moltres: 134-158 (57.7 - 68.1%) -- guaranteed 2HKO"
+            }
+          }
+        ],
+        "lead": "moltres",
+        "warnings": [
+          "Weak against Rhydon: best is Lvl 65 Charizard Dig vs. Lvl 61 Rhydon: 81-96 (32.7 - 38.8%) -- guaranteed 3HKO."
+        ]
+      }
+    ]
+  }
+}

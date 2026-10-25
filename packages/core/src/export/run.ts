@@ -111,7 +111,8 @@ export const buildRun = async (data: PlannerData, team: Team, opts: { seed?: num
   const { gen, game } = data;
   const seed = opts.seed ?? team.seed ?? 1;
   const factsBySpecies = buildFacts(data, team);
-  const favorite = team.theme?.kind === 'favorite' ? team.theme.species : undefined;
+  const favorite = team.theme?.favorite;
+  const mono = team.theme?.mono;
   // The favorite is revealed first; everything else in the order you would get it.
   const ordered = team.members
     .map((m, i) => ({ m, i }))
@@ -121,7 +122,7 @@ export const buildRun = async (data: PlannerData, team: Team, opts: { seed?: num
     .map(({ m }) => m);
 
   const script = writeScript({
-    gen, game, seed, favorite,
+    gen, game, seed, favorite, mono,
     picks: ordered.map((m) => ({ species: m.set.species, facts: factsBySpecies.get(m.set.species)! })),
   });
 
@@ -144,7 +145,7 @@ export const buildRun = async (data: PlannerData, team: Team, opts: { seed?: num
 
   return RunSchema.parse({
     id: team.id,
-    title: favorite ? `A team for ${gen.species.get(favorite)?.name ?? favorite} fans` : `Building a ${game.region} team`,
+    title: favorite ? `A team for ${gen.species.get(favorite)?.name ?? favorite} fans` : mono ? `Mono ${mono} ${game.region} team` : `Building a ${game.region} team`,
     teamId: team.id,
     game: game.id,
     region: game.region,

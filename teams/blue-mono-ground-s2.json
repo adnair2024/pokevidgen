@@ -1,0 +1,4430 @@
+{
+  "id": "blue-mono-ground-s2",
+  "kind": "ingame",
+  "target": "blue",
+  "seed": 2,
+  "theme": {
+    "mono": "Ground"
+  },
+  "members": [
+    {
+      "set": {
+        "species": "sandslash",
+        "level": 56,
+        "moves": [
+          "earthquake",
+          "rest",
+          "submission",
+          "slash"
+        ]
+      },
+      "roles": [
+        "recovery"
+      ],
+      "acquisition": {
+        "stage": 5,
+        "steps": [
+          {
+            "species": "sandshrew",
+            "how": "wild",
+            "where": "Route 4 (grass/cave)",
+            "minLevel": 6,
+            "maxLevel": 12,
+            "stage": 1,
+            "place": "Route 4"
+          },
+          {
+            "species": "sandslash",
+            "how": "evolution",
+            "where": "Evolves from Sandshrew at level 22",
+            "stage": 1,
+            "evolution": {
+              "how": "level",
+              "level": 22
+            }
+          }
+        ],
+        "moves": [
+          {
+            "move": "earthquake",
+            "source": {
+              "kind": "tm",
+              "number": 26,
+              "location": "Silph Co. 10F"
+            },
+            "stage": 5
+          },
+          {
+            "move": "rest",
+            "source": {
+              "kind": "tm",
+              "number": 44,
+              "location": "S.S. Anne B1F rooms"
+            },
+            "stage": 2
+          },
+          {
+            "move": "submission",
+            "source": {
+              "kind": "tm",
+              "number": 17,
+              "location": "Celadon Dept. Store 2F"
+            },
+            "stage": 3
+          },
+          {
+            "move": "slash",
+            "source": {
+              "kind": "level",
+              "level": 17,
+              "from": "sandshrew"
+            },
+            "stage": 0
+          }
+        ],
+        "notes": []
+      }
+    },
+    {
+      "set": {
+        "species": "golem",
+        "level": 56,
+        "moves": [
+          "rockslide",
+          "earthquake",
+          "submission",
+          "megakick"
+        ]
+      },
+      "roles": [],
+      "acquisition": {
+        "stage": 3,
+        "steps": [
+          {
+            "species": "geodude",
+            "how": "wild",
+            "where": "Mt. Moon 1F (grass/cave)",
+            "minLevel": 8,
+            "maxLevel": 10,
+            "stage": 1,
+            "place": "Mt. Moon 1F"
+          },
+          {
+            "species": "graveler",
+            "how": "evolution",
+            "where": "Evolves from Geodude at level 25",
+            "stage": 1,
+            "evolution": {
+              "how": "level",
+              "level": 25
+            }
+          },
+          {
+            "species": "golem",
+            "how": "evolution",
+            "where": "Trade-evolve Graveler (needs a link partner)",
+            "stage": 1,
+            "evolution": {
+              "how": "trade"
+            }
+          }
+        ],
+        "moves": [
+          {
+            "move": "rockslide",
+            "source": {
+              "kind": "tm",
+              "number": 48,
+              "location": "Celadon Dept. Store roof"
+            },
+            "stage": 3
+          },
+          {
+            "move": "earthquake",
+            "source": {
+              "kind": "level",
+              "level": 36,
+              "from": "graveler"
+            },
+            "stage": 0
+          },
+          {
+            "move": "submission",
+            "source": {
+              "kind": "tm",
+              "number": 17,
+              "location": "Celadon Dept. Store 2F"
+            },
+            "stage": 3
+          },
+          {
+            "move": "megakick",
+            "source": {
+              "kind": "tm",
+              "number": 5,
+              "location": "Celadon Dept. Store 2F"
+            },
+            "stage": 3
+          }
+        ],
+        "notes": [
+          "Hold off evolving Graveler until level 36 to learn Earthquake; Golem can't learn it."
+        ]
+      }
+    },
+    {
+      "set": {
+        "species": "dugtrio",
+        "level": 56,
+        "moves": [
+          "earthquake",
+          "hyperbeam",
+          "takedown",
+          "dig"
+        ]
+      },
+      "roles": [
+        "fast"
+      ],
+      "acquisition": {
+        "stage": 3,
+        "steps": [
+          {
+            "species": "dugtrio",
+            "how": "wild",
+            "where": "Digletts Cave (grass/cave)",
+            "minLevel": 29,
+            "maxLevel": 31,
+            "stage": 2,
+            "place": "Digletts Cave"
+          }
+        ],
+        "moves": [
+          {
+            "move": "earthquake",
+            "source": {
+              "kind": "level",
+              "level": 47,
+              "from": "dugtrio"
+            },
+            "stage": 0
+          },
+          {
+            "move": "hyperbeam",
+            "source": {
+              "kind": "tm",
+              "number": 15,
+              "location": "Celadon Game Corner prize counter"
+            },
+            "stage": 3
+          },
+          {
+            "move": "takedown",
+            "source": {
+              "kind": "tm",
+              "number": 9,
+              "location": "Celadon Dept. Store 2F"
+            },
+            "stage": 3
+          },
+          {
+            "move": "dig",
+            "source": {
+              "kind": "start",
+              "from": "dugtrio"
+            },
+            "stage": 0
+          }
+        ],
+        "notes": []
+      }
+    },
+    {
+      "set": {
+        "species": "marowak",
+        "level": 56,
+        "moves": [
+          "boneclub",
+          "submission",
+          "thrash",
+          "strength"
+        ]
+      },
+      "roles": [],
+      "acquisition": {
+        "stage": 4,
+        "steps": [
+          {
+            "species": "cubone",
+            "how": "wild",
+            "where": "Pokémon Tower 3F (grass/cave)",
+            "minLevel": 20,
+            "maxLevel": 22,
+            "stage": 4,
+            "place": "Pokémon Tower 3F"
+          },
+          {
+            "species": "marowak",
+            "how": "evolution",
+            "where": "Evolves from Cubone at level 28",
+            "stage": 4,
+            "evolution": {
+              "how": "level",
+              "level": 28
+            }
+          }
+        ],
+        "moves": [
+          {
+            "move": "boneclub",
+            "source": {
+              "kind": "start",
+              "from": "cubone"
+            },
+            "stage": 0
+          },
+          {
+            "move": "submission",
+            "source": {
+              "kind": "tm",
+              "number": 17,
+              "location": "Celadon Dept. Store 2F"
+            },
+            "stage": 3
+          },
+          {
+            "move": "thrash",
+            "source": {
+              "kind": "level",
+              "level": 41,
+              "from": "marowak"
+            },
+            "stage": 0
+          },
+          {
+            "move": "strength",
+            "source": {
+              "kind": "hm",
+              "number": 4,
+              "location": "Fuchsia City (Warden's house)"
+            },
+            "stage": 4
+          }
+        ],
+        "notes": []
+      }
+    },
+    {
+      "set": {
+        "species": "nidoqueen",
+        "level": 56,
+        "moves": [
+          "blizzard",
+          "surf",
+          "bodyslam",
+          "megakick"
+        ]
+      },
+      "roles": [
+        "bulky"
+      ],
+      "acquisition": {
+        "stage": 6,
+        "steps": [
+          {
+            "species": "nidoranf",
+            "how": "wild",
+            "where": "Route 22 (grass/cave)",
+            "minLevel": 2,
+            "maxLevel": 4,
+            "stage": 0,
+            "place": "Route 22"
+          },
+          {
+            "species": "nidorina",
+            "how": "evolution",
+            "where": "Evolves from Nidoran-F at level 16",
+            "stage": 0,
+            "evolution": {
+              "how": "level",
+              "level": 16
+            }
+          },
+          {
+            "species": "nidoqueen",
+            "how": "evolution",
+            "where": "Evolve Nidorina with a Moon Stone (Mt. Moon 1F (also Route 2 and Rocket Hideout B2F))",
+            "stage": 1,
+            "evolution": {
+              "how": "stone",
+              "item": "Moon Stone"
+            }
+          }
+        ],
+        "moves": [
+          {
+            "move": "blizzard",
+            "source": {
+              "kind": "tm",
+              "number": 14,
+              "location": "Pokémon Mansion B1F"
+            },
+            "stage": 6
+          },
+          {
+            "move": "surf",
+            "source": {
+              "kind": "hm",
+              "number": 3,
+              "location": "Safari Zone secret house"
+            },
+            "stage": 4
+          },
+          {
+            "move": "bodyslam",
+            "source": {
+              "kind": "level",
+              "level": 23,
+              "from": "nidoqueen"
+            },
+            "stage": 0
+          },
+          {
+            "move": "megakick",
+            "source": {
+              "kind": "tm",
+              "number": 5,
+              "location": "Celadon Dept. Store 2F"
+            },
+            "stage": 3
+          }
+        ],
+        "notes": []
+      }
+    },
+    {
+      "set": {
+        "species": "rhydon",
+        "level": 56,
+        "moves": [
+          "dig",
+          "surf",
+          "megapunch",
+          "hornattack"
+        ]
+      },
+      "roles": [
+        "bulky"
+      ],
+      "acquisition": {
+        "stage": 4,
+        "steps": [
+          {
+            "species": "rhyhorn",
+            "how": "wild",
+            "where": "Safari Zone Middle (grass/cave)",
+            "minLevel": 25,
+            "maxLevel": 25,
+            "stage": 4,
+            "place": "Safari Zone Middle"
+          },
+          {
+            "species": "rhydon",
+            "how": "evolution",
+            "where": "Evolves from Rhyhorn at level 42",
+            "stage": 4,
+            "evolution": {
+              "how": "level",
+              "level": 42
+            }
+          }
+        ],
+        "moves": [
+          {
+            "move": "dig",
+            "source": {
+              "kind": "tm",
+              "number": 28,
+              "location": "Cerulean City"
+            },
+            "stage": 1
+          },
+          {
+            "move": "surf",
+            "source": {
+              "kind": "hm",
+              "number": 3,
+              "location": "Safari Zone secret house"
+            },
+            "stage": 4
+          },
+          {
+            "move": "megapunch",
+            "source": {
+              "kind": "tm",
+              "number": 1,
+              "location": "Mt. Moon B2F"
+            },
+            "stage": 1
+          },
+          {
+            "move": "hornattack",
+            "source": {
+              "kind": "start",
+              "from": "rhyhorn"
+            },
+            "stage": 0
+          }
+        ],
+        "notes": []
+      }
+    }
+  ],
+  "analysis": {
+    "plannedLevel": 56,
+    "constraints": {
+      "must": [],
+      "mono": "Ground",
+      "ban": [],
+      "noTrades": false,
+      "noLegendaries": false,
+      "nuzlocke": false
+    },
+    "sharedWeaknesses": [
+      "Ice",
+      "Grass",
+      "Ground",
+      "Water"
+    ],
+    "synergy": {
+      "holes": [
+        "Ice",
+        "Grass",
+        "Ground",
+        "Water"
+      ],
+      "severe": [
+        "Ice",
+        "Grass",
+        "Ground",
+        "Water"
+      ],
+      "uncovered": [
+        "Ghost",
+        "Psychic",
+        "Fighting",
+        "Water"
+      ],
+      "duplicatePrimary": 3,
+      "normalMembers": 0,
+      "distinctTypes": 3,
+      "score": -10.750000000000002
+    },
+    "teamDefense": {
+      "Bug": {
+        "weak": 1,
+        "resist": 0,
+        "immune": 0,
+        "neutral": 5
+      },
+      "Fire": {
+        "weak": 0,
+        "resist": 2,
+        "immune": 0,
+        "neutral": 4
+      },
+      "Ghost": {
+        "weak": 0,
+        "resist": 0,
+        "immune": 0,
+        "neutral": 6
+      },
+      "Ice": {
+        "weak": 6,
+        "resist": 0,
+        "immune": 0,
+        "neutral": 0
+      },
+      "Poison": {
+        "weak": 0,
+        "resist": 6,
+        "immune": 0,
+        "neutral": 0
+      },
+      "Psychic": {
+        "weak": 1,
+        "resist": 0,
+        "immune": 0,
+        "neutral": 5
+      },
+      "Electric": {
+        "weak": 0,
+        "resist": 0,
+        "immune": 6,
+        "neutral": 0
+      },
+      "Grass": {
+        "weak": 5,
+        "resist": 0,
+        "immune": 0,
+        "neutral": 1
+      },
+      "Dragon": {
+        "weak": 0,
+        "resist": 0,
+        "immune": 0,
+        "neutral": 6
+      },
+      "Fighting": {
+        "weak": 2,
+        "resist": 1,
+        "immune": 0,
+        "neutral": 3
+      },
+      "Flying": {
+        "weak": 0,
+        "resist": 2,
+        "immune": 0,
+        "neutral": 4
+      },
+      "Ground": {
+        "weak": 3,
+        "resist": 0,
+        "immune": 0,
+        "neutral": 3
+      },
+      "Normal": {
+        "weak": 0,
+        "resist": 2,
+        "immune": 0,
+        "neutral": 4
+      },
+      "Rock": {
+        "weak": 0,
+        "resist": 6,
+        "immune": 0,
+        "neutral": 0
+      },
+      "Water": {
+        "weak": 6,
+        "resist": 0,
+        "immune": 0,
+        "neutral": 0
+      }
+    },
+    "starter": {
+      "player": "bulbasaur",
+      "rival": "charmander",
+      "onTeam": false
+    },
+    "bosses": [
+      {
+        "boss": "rival-route22-early",
+        "name": "Rival",
+        "location": "Route 22",
+        "stage": 0,
+        "level": 9,
+        "rivalStarter": "charmander",
+        "usable": [
+          {
+            "member": "nidoqueen",
+            "form": "nidoranf",
+            "moves": [
+              "scratch",
+              "tackle"
+            ]
+          }
+        ],
+        "notYet": [
+          "sandslash",
+          "golem",
+          "dugtrio",
+          "marowak",
+          "rhydon"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgey",
+              "level": 9,
+              "moves": [
+                "gust",
+                "sandattack"
+              ]
+            },
+            "answer": {
+              "move": "scratch",
+              "member": "nidoqueen",
+              "form": "nidoranf",
+              "minPercent": 18.5,
+              "maxPercent": 22.2,
+              "ko": "possible 5HKO",
+              "description": "Lvl 9 Nidoran-F Scratch vs. Lvl 9 Pidgey: 5-6 (15.1 - 18.1%) -- possible 5HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "gust",
+              "minPercent": 17.9,
+              "maxPercent": 25,
+              "ko": "0.1% chance to 4HKO",
+              "description": "Lvl 9 Pidgey Gust vs. Lvl 9 Nidoran-F: 5-7 (14.7 - 20.5%) -- 0.1% chance to 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charmander",
+              "level": 8,
+              "moves": [
+                "scratch",
+                "growl"
+              ]
+            },
+            "answer": {
+              "move": "scratch",
+              "member": "nidoqueen",
+              "form": "nidoranf",
+              "minPercent": 20,
+              "maxPercent": 24,
+              "ko": "guaranteed 5HKO",
+              "description": "Lvl 9 Nidoran-F Scratch vs. Lvl 8 Charmander: 5-6 (16.6 - 20%) -- guaranteed 5HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "scratch",
+              "minPercent": 14.3,
+              "maxPercent": 17.9,
+              "ko": "possible 6HKO",
+              "description": "Lvl 8 Charmander Scratch vs. Lvl 9 Nidoran-F: 4-5 (11.7 - 14.7%) -- possible 6HKO"
+            }
+          }
+        ],
+        "lead": "nidoranf",
+        "warnings": [
+          "Weak against Pidgey: best is Lvl 9 Nidoran-F Scratch vs. Lvl 9 Pidgey: 5-6 (15.1 - 18.1%) -- possible 5HKO.",
+          "Weak against Charmander: best is Lvl 9 Nidoran-F Scratch vs. Lvl 8 Charmander: 5-6 (16.6 - 20%) -- guaranteed 5HKO."
+        ]
+      },
+      {
+        "boss": "rival-cerulean",
+        "name": "Rival",
+        "location": "Cerulean City",
+        "stage": 0,
+        "level": 18,
+        "rivalStarter": "charmander",
+        "usable": [
+          {
+            "member": "nidoqueen",
+            "form": "nidorina",
+            "moves": [
+              "poisonsting",
+              "scratch",
+              "tackle"
+            ]
+          }
+        ],
+        "notYet": [
+          "sandslash",
+          "golem",
+          "dugtrio",
+          "marowak",
+          "rhydon"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeotto",
+              "level": 18,
+              "moves": [
+                "gust",
+                "sandattack",
+                "quickattack"
+              ]
+            },
+            "answer": {
+              "move": "scratch",
+              "member": "nidoqueen",
+              "form": "nidorina",
+              "minPercent": 13.2,
+              "maxPercent": 17,
+              "ko": "possible 6HKO",
+              "description": "Lvl 18 Nidorina Scratch vs. Lvl 18 Pidgeotto: 7-9 (10.9 - 14%) -- possible 6HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "gust",
+              "minPercent": 18.9,
+              "maxPercent": 22.6,
+              "ko": "possible 5HKO",
+              "description": "Lvl 18 Pidgeotto Gust vs. Lvl 18 Nidorina: 10-12 (15.6 - 18.7%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "abra",
+              "level": 15,
+              "moves": [
+                "teleport"
+              ]
+            },
+            "answer": {
+              "move": "scratch",
+              "member": "nidoqueen",
+              "form": "nidorina",
+              "minPercent": 38.2,
+              "maxPercent": 47.1,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 18 Nidorina Scratch vs. Lvl 15 Abra: 13-16 (29.5 - 36.3%) -- guaranteed 3HKO",
+              "outspeeds": false
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rattata",
+              "level": 15,
+              "moves": [
+                "tackle",
+                "tailwhip",
+                "quickattack",
+                "hyperfang"
+              ]
+            },
+            "answer": {
+              "move": "scratch",
+              "member": "nidoqueen",
+              "form": "nidorina",
+              "minPercent": 27.8,
+              "maxPercent": 33.3,
+              "ko": "0.1% chance to 3HKO",
+              "description": "Lvl 18 Nidorina Scratch vs. Lvl 15 Rattata: 10-12 (22.2 - 26.6%) -- 0.1% chance to 3HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "hyperfang",
+              "minPercent": 24.5,
+              "maxPercent": 30.2,
+              "ko": "99.9% chance to 4HKO",
+              "description": "Lvl 15 Rattata Hyper Fang vs. Lvl 18 Nidorina: 13-16 (20.3 - 25%) -- 99.9% chance to 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charmander",
+              "level": 17,
+              "moves": [
+                "scratch",
+                "growl",
+                "ember",
+                "leer"
+              ]
+            },
+            "answer": {
+              "move": "scratch",
+              "member": "nidoqueen",
+              "form": "nidorina",
+              "minPercent": 19,
+              "maxPercent": 23.8,
+              "ko": "possible 5HKO",
+              "description": "Lvl 18 Nidorina Scratch vs. Lvl 17 Charmander: 8-10 (15 - 18.8%) -- possible 5HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "ember",
+              "minPercent": 15.1,
+              "maxPercent": 18.9,
+              "ko": "possible 6HKO",
+              "description": "Lvl 17 Charmander Ember vs. Lvl 18 Nidorina: 8-10 (12.5 - 15.6%) -- possible 6HKO"
+            }
+          }
+        ],
+        "lead": "nidorina",
+        "warnings": [
+          "Weak against Pidgeotto: best is Lvl 18 Nidorina Scratch vs. Lvl 18 Pidgeotto: 7-9 (10.9 - 14%) -- possible 6HKO.",
+          "Weak against Abra: best is Lvl 18 Nidorina Scratch vs. Lvl 15 Abra: 13-16 (29.5 - 36.3%) -- guaranteed 3HKO.",
+          "Weak against Rattata: best is Lvl 18 Nidorina Scratch vs. Lvl 15 Rattata: 10-12 (22.2 - 26.6%) -- 0.1% chance to 3HKO.",
+          "Weak against Charmander: best is Lvl 18 Nidorina Scratch vs. Lvl 17 Charmander: 8-10 (15 - 18.8%) -- possible 5HKO."
+        ]
+      },
+      {
+        "boss": "brock",
+        "name": "Brock",
+        "location": "Pewter City",
+        "stage": 0,
+        "level": 14,
+        "usable": [
+          {
+            "member": "nidoqueen",
+            "form": "nidoranf",
+            "moves": [
+              "poisonsting",
+              "scratch",
+              "tackle"
+            ]
+          }
+        ],
+        "notYet": [
+          "sandslash",
+          "golem",
+          "dugtrio",
+          "marowak",
+          "rhydon"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "geodude",
+              "level": 12,
+              "moves": [
+                "tackle",
+                "defensecurl"
+              ]
+            },
+            "answer": {
+              "move": "scratch",
+              "member": "nidoqueen",
+              "form": "nidoranf",
+              "minPercent": 6.1,
+              "maxPercent": 9.1,
+              "ko": "",
+              "description": "Lvl 14 Nidoran-F Scratch vs. Lvl 12 Geodude: 2-3 (4.8 - 7.3%)",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "tackle",
+              "minPercent": 12.8,
+              "maxPercent": 15.4,
+              "ko": "possible 7HKO",
+              "description": "Lvl 12 Geodude Tackle vs. Lvl 14 Nidoran-F: 5-6 (10.4 - 12.5%) -- possible 7HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "onix",
+              "level": 14,
+              "moves": [
+                "tackle",
+                "screech",
+                "bide"
+              ]
+            },
+            "answer": {
+              "move": "scratch",
+              "member": "nidoqueen",
+              "form": "nidoranf",
+              "minPercent": 2.8,
+              "maxPercent": 5.6,
+              "ko": "",
+              "description": "Lvl 14 Nidoran-F Scratch vs. Lvl 14 Onix: 1-2 (2.2 - 4.5%)",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "tackle",
+              "minPercent": 12.8,
+              "maxPercent": 15.4,
+              "ko": "possible 7HKO",
+              "description": "Lvl 14 Onix Tackle vs. Lvl 14 Nidoran-F: 5-6 (10.4 - 12.5%) -- possible 7HKO"
+            }
+          }
+        ],
+        "lead": "nidoranf",
+        "warnings": [
+          "Weak against Geodude: best is Lvl 14 Nidoran-F Scratch vs. Lvl 12 Geodude: 2-3 (4.8 - 7.3%).",
+          "Weak against Onix: best is Lvl 14 Nidoran-F Scratch vs. Lvl 14 Onix: 1-2 (2.2 - 4.5%)."
+        ]
+      },
+      {
+        "boss": "misty",
+        "name": "Misty",
+        "location": "Cerulean City",
+        "stage": 1,
+        "level": 21,
+        "usable": [
+          {
+            "member": "sandslash",
+            "form": "sandshrew",
+            "moves": [
+              "dig",
+              "slash",
+              "scratch"
+            ]
+          },
+          {
+            "member": "golem",
+            "form": "geodude",
+            "moves": [
+              "rockthrow",
+              "dig",
+              "megapunch",
+              "tackle"
+            ]
+          },
+          {
+            "member": "nidoqueen",
+            "form": "nidoqueen",
+            "moves": [
+              "megapunch",
+              "scratch",
+              "tackle"
+            ]
+          }
+        ],
+        "notYet": [
+          "dugtrio",
+          "marowak",
+          "rhydon"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "staryu",
+              "level": 18,
+              "moves": [
+                "tackle",
+                "watergun"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "golem",
+              "form": "geodude",
+              "minPercent": 92.7,
+              "maxPercent": 109.8,
+              "ko": "59% chance to OHKO",
+              "description": "Lvl 21 Geodude Dig vs. Lvl 18 Staryu: 38-45 (71.6 - 84.9%) -- 59% chance to OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "watergun",
+              "minPercent": 114.9,
+              "maxPercent": 136.2,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 18 Staryu Water Gun vs. Lvl 21 Geodude: 54-64 (88.5 - 104.9%) -- guaranteed OHKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "starmie",
+              "level": 21,
+              "moves": [
+                "tackle",
+                "watergun",
+                "bubblebeam"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "golem",
+              "form": "geodude",
+              "minPercent": 44.1,
+              "maxPercent": 52.5,
+              "ko": "15.8% chance to 2HKO",
+              "description": "Lvl 21 Geodude Dig vs. Lvl 21 Starmie: 26-31 (36.1 - 43%) -- 15.8% chance to 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "bubblebeam",
+              "minPercent": 280.9,
+              "maxPercent": 331.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 21 Starmie Bubble Beam vs. Lvl 21 Geodude: 132-156 (216.3 - 255.7%) -- guaranteed OHKO"
+            }
+          }
+        ],
+        "lead": "geodude",
+        "warnings": [
+          "Staryu can KO Geodude with Water Gun.",
+          "Starmie can KO Geodude with Bubble Beam."
+        ]
+      },
+      {
+        "boss": "rival-ssanne",
+        "name": "Rival",
+        "location": "SS Anne 2F",
+        "stage": 2,
+        "level": 20,
+        "rivalStarter": "charmander",
+        "usable": [
+          {
+            "member": "sandslash",
+            "form": "sandshrew",
+            "moves": [
+              "dig",
+              "rest",
+              "slash",
+              "cut"
+            ]
+          },
+          {
+            "member": "golem",
+            "form": "geodude",
+            "moves": [
+              "rockthrow",
+              "dig",
+              "megapunch",
+              "tackle"
+            ]
+          },
+          {
+            "member": "dugtrio",
+            "form": "dugtrio",
+            "moves": [
+              "dig",
+              "scratch"
+            ]
+          },
+          {
+            "member": "nidoqueen",
+            "form": "nidoqueen",
+            "moves": [
+              "bodyslam",
+              "megapunch",
+              "scratch",
+              "tackle"
+            ]
+          }
+        ],
+        "notYet": [
+          "marowak",
+          "rhydon"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeotto",
+              "level": 19,
+              "moves": [
+                "gust",
+                "sandattack",
+                "quickattack"
+              ]
+            },
+            "answer": {
+              "move": "rockthrow",
+              "member": "golem",
+              "form": "geodude",
+              "minPercent": 67.3,
+              "maxPercent": 80,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 20 Geodude Rock Throw vs. Lvl 19 Pidgeotto: 37-44 (55.2 - 65.6%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "gust",
+              "minPercent": 8.7,
+              "maxPercent": 10.9,
+              "ko": "",
+              "description": "Lvl 19 Pidgeotto Gust vs. Lvl 20 Geodude: 4-5 (6.8 - 8.6%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "raticate",
+              "level": 16,
+              "moves": [
+                "tackle",
+                "tailwhip",
+                "quickattack",
+                "hyperfang"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "golem",
+              "form": "geodude",
+              "minPercent": 82.6,
+              "maxPercent": 97.8,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 20 Geodude Dig vs. Lvl 16 Raticate: 38-45 (67.8 - 80.3%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "hyperfang",
+              "minPercent": 13,
+              "maxPercent": 17.4,
+              "ko": "possible 6HKO",
+              "description": "Lvl 16 Raticate Hyper Fang vs. Lvl 20 Geodude: 6-8 (10.3 - 13.7%) -- possible 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "kadabra",
+              "level": 18,
+              "moves": [
+                "teleport",
+                "confusion",
+                "disable"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "golem",
+              "form": "geodude",
+              "minPercent": 100,
+              "maxPercent": 120,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 20 Geodude Dig vs. Lvl 18 Kadabra: 45-54 (80.3 - 96.4%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "confusion",
+              "minPercent": 50,
+              "maxPercent": 60.9,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 18 Kadabra Confusion vs. Lvl 20 Geodude: 23-28 (39.6 - 48.2%) -- guaranteed 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charmeleon",
+              "level": 20,
+              "moves": [
+                "scratch",
+                "growl",
+                "ember",
+                "leer"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "golem",
+              "form": "geodude",
+              "minPercent": 110.7,
+              "maxPercent": 132.1,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 20 Geodude Dig vs. Lvl 20 Charmeleon: 62-74 (89.8 - 107.2%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "ember",
+              "minPercent": 15.2,
+              "maxPercent": 19.6,
+              "ko": "possible 6HKO",
+              "description": "Lvl 20 Charmeleon Ember vs. Lvl 20 Geodude: 7-9 (12 - 15.5%) -- possible 6HKO"
+            }
+          }
+        ],
+        "lead": "geodude",
+        "warnings": []
+      },
+      {
+        "boss": "ltsurge",
+        "name": "Lt. Surge",
+        "location": "Vermilion City",
+        "stage": 2,
+        "level": 24,
+        "usable": [
+          {
+            "member": "sandslash",
+            "form": "sandslash",
+            "moves": [
+              "dig",
+              "rest",
+              "slash",
+              "cut"
+            ]
+          },
+          {
+            "member": "golem",
+            "form": "geodude",
+            "moves": [
+              "rockthrow",
+              "dig",
+              "megapunch",
+              "tackle"
+            ]
+          },
+          {
+            "member": "dugtrio",
+            "form": "dugtrio",
+            "moves": [
+              "dig",
+              "scratch"
+            ]
+          },
+          {
+            "member": "nidoqueen",
+            "form": "nidoqueen",
+            "moves": [
+              "bodyslam",
+              "megapunch",
+              "scratch",
+              "tackle"
+            ]
+          }
+        ],
+        "notYet": [
+          "marowak",
+          "rhydon"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "voltorb",
+              "level": 21,
+              "moves": [
+                "tackle",
+                "screech",
+                "sonicboom"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "sandslash",
+              "form": "sandslash",
+              "minPercent": 192.2,
+              "maxPercent": 227.5,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 24 Sandslash Dig vs. Lvl 21 Voltorb: 98-116 (153.1 - 181.2%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "tackle",
+              "minPercent": 5.7,
+              "maxPercent": 7.1,
+              "ko": "",
+              "description": "Lvl 21 Voltorb Tackle vs. Lvl 24 Sandslash: 4-5 (4.7 - 5.8%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "pikachu",
+              "level": 18,
+              "moves": [
+                "thundershock",
+                "growl",
+                "thunderwave",
+                "quickattack"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "sandslash",
+              "form": "sandslash",
+              "minPercent": 318.6,
+              "maxPercent": 376.7,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 24 Sandslash Dig vs. Lvl 18 Pikachu: 137-162 (253.7 - 300%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "quickattack",
+              "minPercent": 5.7,
+              "maxPercent": 7.1,
+              "ko": "",
+              "description": "Lvl 18 Pikachu Quick Attack vs. Lvl 24 Sandslash: 4-5 (4.7 - 5.8%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "raichu",
+              "level": 24,
+              "moves": [
+                "thundershock",
+                "growl",
+                "thunderbolt"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "sandslash",
+              "form": "sandslash",
+              "minPercent": 125.8,
+              "maxPercent": 148.5,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 24 Sandslash Dig vs. Lvl 24 Raichu: 83-98 (102.4 - 120.9%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "thundershock",
+              "minPercent": 0,
+              "maxPercent": 0,
+              "ko": "does no damage",
+              "description": "Raichu Thunder Shock vs. Sandslash: 0-0 (0 - 0%) -- does no damage"
+            }
+          }
+        ],
+        "lead": "sandslash",
+        "warnings": []
+      },
+      {
+        "boss": "rival-pokemontower",
+        "name": "Rival",
+        "location": "Pokémon Tower 2F",
+        "stage": 3,
+        "level": 25,
+        "rivalStarter": "charmander",
+        "usable": [
+          {
+            "member": "sandslash",
+            "form": "sandslash",
+            "moves": [
+              "dig",
+              "rest",
+              "submission",
+              "slash"
+            ]
+          },
+          {
+            "member": "golem",
+            "form": "golem",
+            "moves": [
+              "rockslide",
+              "dig",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "dugtrio",
+            "form": "dugtrio",
+            "moves": [
+              "dig",
+              "hyperbeam",
+              "takedown",
+              "scratch"
+            ]
+          },
+          {
+            "member": "nidoqueen",
+            "form": "nidoqueen",
+            "moves": [
+              "icebeam",
+              "submission",
+              "megakick",
+              "bodyslam"
+            ]
+          }
+        ],
+        "notYet": [
+          "marowak",
+          "rhydon"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeotto",
+              "level": 25,
+              "moves": [
+                "gust",
+                "sandattack",
+                "quickattack",
+                "whirlwind"
+              ]
+            },
+            "answer": {
+              "move": "rockslide",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 104.3,
+              "maxPercent": 122.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 25 Golem Rock Slide vs. Lvl 25 Pidgeotto: 73-86 (84.8 - 100%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "gust",
+              "minPercent": 5.3,
+              "maxPercent": 6.7,
+              "ko": "",
+              "description": "Lvl 25 Pidgeotto Gust vs. Lvl 25 Golem: 4-5 (4.4 - 5.5%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "exeggcute",
+              "level": 23,
+              "moves": [
+                "barrage",
+                "hypnosis"
+              ]
+            },
+            "answer": {
+              "move": "icebeam",
+              "member": "nidoqueen",
+              "form": "nidoqueen",
+              "minPercent": 79.7,
+              "maxPercent": 93.8,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 25 Nidoqueen Ice Beam vs. Lvl 23 Exeggcute: 51-60 (65.3 - 76.9%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "barrage",
+              "minPercent": 11.3,
+              "maxPercent": 15,
+              "ko": "approx. possible 7HKO",
+              "description": "Lvl 23 Exeggcute Barrage (3 hits) vs. Lvl 25 Nidoqueen: 9-12 (9.4 - 12.6%) -- approx. possible 7HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "gyarados",
+              "level": 22,
+              "moves": [
+                "bite",
+                "dragonrage",
+                "leer",
+                "hydropump"
+              ]
+            },
+            "answer": {
+              "move": "rockslide",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 85.7,
+              "maxPercent": 101.3,
+              "ko": "10.3% chance to OHKO",
+              "description": "Lvl 25 Golem Rock Slide vs. Lvl 22 Gyarados: 66-78 (72.5 - 85.7%) -- 10.3% chance to OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "hydropump",
+              "minPercent": 217.3,
+              "maxPercent": 256,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 22 Gyarados Hydro Pump vs. Lvl 25 Golem: 163-192 (181.1 - 213.3%) -- guaranteed OHKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "kadabra",
+              "level": 20,
+              "moves": [
+                "teleport",
+                "confusion",
+                "disable"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 157.1,
+              "maxPercent": 185.7,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 25 Golem Dig vs. Lvl 20 Kadabra: 77-91 (126.2 - 149.1%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "confusion",
+              "minPercent": 24,
+              "maxPercent": 29.3,
+              "ko": "99.2% chance to 4HKO",
+              "description": "Lvl 20 Kadabra Confusion vs. Lvl 25 Golem: 18-22 (20 - 24.4%) -- 99.2% chance to 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charmeleon",
+              "level": 25,
+              "moves": [
+                "growl",
+                "ember",
+                "leer",
+                "rage"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 136.8,
+              "maxPercent": 161.8,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 25 Golem Dig vs. Lvl 25 Charmeleon: 93-110 (112 - 132.5%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "ember",
+              "minPercent": 9.3,
+              "maxPercent": 12,
+              "ko": "possible 9HKO",
+              "description": "Lvl 25 Charmeleon Ember vs. Lvl 25 Golem: 7-9 (7.7 - 10%) -- possible 9HKO"
+            }
+          }
+        ],
+        "lead": "golem",
+        "warnings": [
+          "Gyarados can KO Golem with Hydro Pump."
+        ]
+      },
+      {
+        "boss": "erika",
+        "name": "Erika",
+        "location": "Celadon City",
+        "stage": 3,
+        "level": 29,
+        "usable": [
+          {
+            "member": "sandslash",
+            "form": "sandslash",
+            "moves": [
+              "dig",
+              "rest",
+              "submission",
+              "slash"
+            ]
+          },
+          {
+            "member": "golem",
+            "form": "golem",
+            "moves": [
+              "rockslide",
+              "dig",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "dugtrio",
+            "form": "dugtrio",
+            "moves": [
+              "dig",
+              "hyperbeam",
+              "takedown",
+              "scratch"
+            ]
+          },
+          {
+            "member": "nidoqueen",
+            "form": "nidoqueen",
+            "moves": [
+              "icebeam",
+              "submission",
+              "megakick",
+              "bodyslam"
+            ]
+          }
+        ],
+        "notYet": [
+          "marowak",
+          "rhydon"
+        ],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "victreebel",
+              "level": 29,
+              "moves": [
+                "razorleaf",
+                "wrap",
+                "poisonpowder",
+                "sleeppowder"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 52.2,
+              "maxPercent": 62.2,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 29 Golem Dig vs. Lvl 29 Victreebel: 47-56 (43.5 - 51.8%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "razorleaf",
+              "minPercent": 243.5,
+              "maxPercent": 287.1,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 29 Victreebel Razor Leaf vs. Lvl 29 Golem on a critical hit: 207-244 (200.9 - 236.8%) -- guaranteed OHKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "tangela",
+              "level": 24,
+              "moves": [
+                "constrict",
+                "bind"
+              ]
+            },
+            "answer": {
+              "move": "icebeam",
+              "member": "nidoqueen",
+              "form": "nidoqueen",
+              "minPercent": 63.8,
+              "maxPercent": 75.4,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 29 Nidoqueen Ice Beam vs. Lvl 24 Tangela: 44-52 (52.3 - 61.9%) -- guaranteed 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "bind",
+              "minPercent": 3.3,
+              "maxPercent": 4.4,
+              "ko": "",
+              "description": "Lvl 24 Tangela Bind vs. Lvl 29 Nidoqueen: 3-4 (2.7 - 3.6%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "vileplume",
+              "level": 29,
+              "moves": [
+                "petaldance",
+                "poisonpowder",
+                "megadrain",
+                "sleeppowder"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 46,
+              "maxPercent": 55.2,
+              "ko": "66.3% chance to 2HKO",
+              "description": "Lvl 29 Golem Dig vs. Lvl 29 Vileplume: 40-48 (38 - 45.7%) -- 66.3% chance to 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "petaldance",
+              "minPercent": 167.1,
+              "maxPercent": 197.6,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 29 Vileplume Petal Dance vs. Lvl 29 Golem: 142-168 (137.8 - 163.1%) -- guaranteed OHKO"
+            }
+          }
+        ],
+        "lead": "golem",
+        "warnings": [
+          "Victreebel can KO Golem with Razor Leaf.",
+          "Vileplume can KO Golem with Petal Dance."
+        ]
+      },
+      {
+        "boss": "giovanni-hideout",
+        "name": "Giovanni",
+        "location": "Rocket Hideout B4F",
+        "stage": 4,
+        "level": 29,
+        "usable": [
+          {
+            "member": "sandslash",
+            "form": "sandslash",
+            "moves": [
+              "dig",
+              "rest",
+              "submission",
+              "slash"
+            ]
+          },
+          {
+            "member": "golem",
+            "form": "golem",
+            "moves": [
+              "rockslide",
+              "dig",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "dugtrio",
+            "form": "dugtrio",
+            "moves": [
+              "dig",
+              "hyperbeam",
+              "takedown",
+              "scratch"
+            ]
+          },
+          {
+            "member": "marowak",
+            "form": "marowak",
+            "moves": [
+              "boneclub",
+              "submission",
+              "megakick",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "nidoqueen",
+            "form": "nidoqueen",
+            "moves": [
+              "doubleedge",
+              "surf",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "rhydon",
+            "form": "rhyhorn",
+            "moves": [
+              "thunderbolt",
+              "strength",
+              "takedown",
+              "hornattack"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "onix",
+              "level": 25,
+              "moves": [
+                "screech",
+                "bind",
+                "rockthrow",
+                "rage"
+              ]
+            },
+            "answer": {
+              "move": "surf",
+              "member": "nidoqueen",
+              "form": "nidoqueen",
+              "minPercent": 278.6,
+              "maxPercent": 328.6,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 29 Nidoqueen Surf vs. Lvl 25 Onix: 156-184 (216.6 - 255.5%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "rockthrow",
+              "minPercent": 5.5,
+              "maxPercent": 6.6,
+              "ko": "",
+              "description": "Lvl 25 Onix Rock Throw vs. Lvl 29 Nidoqueen: 5-6 (4.5 - 5.5%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rhyhorn",
+              "level": 24,
+              "moves": [
+                "hornattack"
+              ]
+            },
+            "answer": {
+              "move": "surf",
+              "member": "nidoqueen",
+              "form": "nidoqueen",
+              "minPercent": 214.5,
+              "maxPercent": 252.6,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 29 Nidoqueen Surf vs. Lvl 24 Rhyhorn: 163-192 (179.1 - 210.9%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hornattack",
+              "minPercent": 12.1,
+              "maxPercent": 14.3,
+              "ko": "possible 7HKO",
+              "description": "Lvl 24 Rhyhorn Horn Attack vs. Lvl 29 Nidoqueen: 11-13 (10 - 11.9%) -- possible 7HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "kangaskhan",
+              "level": 29,
+              "moves": [
+                "cometpunch",
+                "rage",
+                "bite"
+              ]
+            },
+            "answer": {
+              "move": "submission",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 43.3,
+              "maxPercent": 51.9,
+              "ko": "10.4% chance to 2HKO",
+              "description": "Lvl 29 Golem Submission vs. Lvl 29 Kangaskhan: 45-54 (36.8 - 44.2%) -- 10.4% chance to 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "bite",
+              "minPercent": 9.4,
+              "maxPercent": 11.8,
+              "ko": "possible 9HKO",
+              "description": "Lvl 29 Kangaskhan Bite vs. Lvl 29 Golem: 8-10 (7.7 - 9.7%) -- possible 9HKO"
+            }
+          }
+        ],
+        "lead": "nidoqueen",
+        "warnings": []
+      },
+      {
+        "boss": "koga",
+        "name": "Koga",
+        "location": "Fuchsia City",
+        "stage": 4,
+        "level": 43,
+        "usable": [
+          {
+            "member": "sandslash",
+            "form": "sandslash",
+            "moves": [
+              "dig",
+              "rest",
+              "submission",
+              "slash"
+            ]
+          },
+          {
+            "member": "golem",
+            "form": "golem",
+            "moves": [
+              "rockslide",
+              "earthquake",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "dugtrio",
+            "form": "dugtrio",
+            "moves": [
+              "dig",
+              "slash",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "marowak",
+            "form": "marowak",
+            "moves": [
+              "boneclub",
+              "submission",
+              "megakick",
+              "thrash"
+            ]
+          },
+          {
+            "member": "nidoqueen",
+            "form": "nidoqueen",
+            "moves": [
+              "doubleedge",
+              "surf",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "rhydon",
+            "form": "rhydon",
+            "moves": [
+              "dig",
+              "submission",
+              "surf",
+              "megakick"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "koffing",
+              "level": 37,
+              "moves": [
+                "tackle",
+                "smog",
+                "sludge",
+                "smokescreen"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 173.2,
+              "maxPercent": 204.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 43 Rhydon Dig vs. Lvl 37 Koffing: 142-168 (135.2 - 160%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "sludge",
+              "minPercent": 2.8,
+              "maxPercent": 3.5,
+              "ko": "",
+              "description": "Lvl 37 Koffing Sludge vs. Lvl 43 Rhydon: 4-5 (2.3 - 2.9%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "muk",
+              "level": 39,
+              "moves": [
+                "disable",
+                "poisongas",
+                "minimize",
+                "sludge"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 115.3,
+              "maxPercent": 135.8,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 43 Rhydon Dig vs. Lvl 39 Muk: 158-186 (98.1 - 115.5%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "sludge",
+              "minPercent": 3.5,
+              "maxPercent": 4.9,
+              "ko": "",
+              "description": "Lvl 39 Muk Sludge vs. Lvl 43 Rhydon: 5-7 (2.9 - 4.1%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "koffing",
+              "level": 37,
+              "moves": [
+                "tackle",
+                "smog",
+                "sludge",
+                "smokescreen"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 173.2,
+              "maxPercent": 204.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 43 Rhydon Dig vs. Lvl 37 Koffing: 142-168 (135.2 - 160%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "sludge",
+              "minPercent": 2.8,
+              "maxPercent": 3.5,
+              "ko": "",
+              "description": "Lvl 37 Koffing Sludge vs. Lvl 43 Rhydon: 4-5 (2.3 - 2.9%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "weezing",
+              "level": 43,
+              "moves": [
+                "smog",
+                "sludge",
+                "toxic",
+                "selfdestruct"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 93,
+              "maxPercent": 109.6,
+              "ko": "59% chance to OHKO",
+              "description": "Lvl 43 Rhydon Dig vs. Lvl 43 Weezing: 107-126 (75.3 - 88.7%) -- 59% chance to OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "selfdestruct",
+              "minPercent": 23.8,
+              "maxPercent": 28.7,
+              "ko": "98% chance to 4HKO",
+              "description": "Lvl 43 Weezing Self-Destruct vs. Lvl 43 Rhydon: 34-41 (20 - 24.1%) -- 98% chance to 4HKO"
+            }
+          }
+        ],
+        "lead": "rhydon",
+        "warnings": []
+      },
+      {
+        "boss": "rival-silph",
+        "name": "Rival",
+        "location": "Silph Co. 7F",
+        "stage": 5,
+        "level": 40,
+        "rivalStarter": "charmander",
+        "usable": [
+          {
+            "member": "sandslash",
+            "form": "sandslash",
+            "moves": [
+              "earthquake",
+              "rest",
+              "submission",
+              "slash"
+            ]
+          },
+          {
+            "member": "golem",
+            "form": "golem",
+            "moves": [
+              "rockslide",
+              "earthquake",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "dugtrio",
+            "form": "dugtrio",
+            "moves": [
+              "dig",
+              "slash",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "marowak",
+            "form": "marowak",
+            "moves": [
+              "boneclub",
+              "submission",
+              "megakick",
+              "hyperbeam"
+            ]
+          },
+          {
+            "member": "nidoqueen",
+            "form": "nidoqueen",
+            "moves": [
+              "doubleedge",
+              "surf",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "rhydon",
+            "form": "rhyhorn",
+            "moves": [
+              "dig",
+              "strength",
+              "takedown",
+              "hornattack"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeot",
+              "level": 37,
+              "moves": [
+                "sandattack",
+                "quickattack",
+                "whirlwind",
+                "wingattack"
+              ]
+            },
+            "answer": {
+              "move": "rockslide",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 86,
+              "maxPercent": 101.8,
+              "ko": "12.8% chance to OHKO",
+              "description": "Lvl 40 Golem Rock Slide vs. Lvl 37 Pidgeot: 98-116 (71.5 - 84.6%) -- 12.8% chance to OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "quickattack",
+              "minPercent": 4.4,
+              "maxPercent": 6.1,
+              "ko": "",
+              "description": "Lvl 37 Pidgeot Quick Attack vs. Lvl 40 Golem: 5-7 (3.5 - 5%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "exeggcute",
+              "level": 38,
+              "moves": [
+                "reflect",
+                "leechseed",
+                "stunspore",
+                "poisonpowder"
+              ]
+            },
+            "answer": {
+              "move": "slash",
+              "member": "sandslash",
+              "form": "sandslash",
+              "minPercent": 51.5,
+              "maxPercent": 60.6,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 40 Sandslash Slash vs. Lvl 38 Exeggcute on a critical hit: 51-60 (41.4 - 48.7%) -- guaranteed 2HKO",
+              "outspeeds": true
+            }
+          },
+          {
+            "bossMon": {
+              "species": "gyarados",
+              "level": 35,
+              "moves": [
+                "bite",
+                "dragonrage",
+                "leer",
+                "hydropump"
+              ]
+            },
+            "answer": {
+              "move": "rockslide",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 87.2,
+              "maxPercent": 102.6,
+              "ko": "17.9% chance to OHKO",
+              "description": "Lvl 40 Golem Rock Slide vs. Lvl 35 Gyarados: 102-120 (73.3 - 86.3%) -- 17.9% chance to OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "hydropump",
+              "minPercent": 223.7,
+              "maxPercent": 263.2,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 35 Gyarados Hydro Pump vs. Lvl 40 Golem: 255-300 (183.4 - 215.8%) -- guaranteed OHKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "alakazam",
+              "level": 35,
+              "moves": [
+                "confusion",
+                "disable",
+                "psybeam",
+                "recover"
+              ]
+            },
+            "answer": {
+              "move": "earthquake",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 101.1,
+              "maxPercent": 119.1,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 40 Golem Earthquake vs. Lvl 35 Alakazam: 90-106 (81 - 95.4%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "psybeam",
+              "minPercent": 38.6,
+              "maxPercent": 45.6,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 35 Alakazam Psybeam vs. Lvl 40 Golem: 44-52 (31.6 - 37.4%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charizard",
+              "level": 40,
+              "moves": [
+                "ember",
+                "leer",
+                "rage",
+                "slash"
+              ]
+            },
+            "answer": {
+              "move": "rockslide",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 150,
+              "maxPercent": 176.3,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 40 Golem Rock Slide vs. Lvl 40 Charizard: 177-208 (122.9 - 144.4%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "slash",
+              "minPercent": 13.2,
+              "maxPercent": 15.8,
+              "ko": "possible 7HKO",
+              "description": "Lvl 40 Charizard Slash vs. Lvl 40 Golem on a critical hit: 15-18 (10.7 - 12.9%) -- possible 7HKO"
+            }
+          }
+        ],
+        "lead": "golem",
+        "warnings": [
+          "Gyarados can KO Golem with Hydro Pump."
+        ]
+      },
+      {
+        "boss": "giovanni-silph",
+        "name": "Giovanni",
+        "location": "Silph Co. 11F",
+        "stage": 5,
+        "level": 41,
+        "usable": [
+          {
+            "member": "sandslash",
+            "form": "sandslash",
+            "moves": [
+              "earthquake",
+              "rest",
+              "submission",
+              "slash"
+            ]
+          },
+          {
+            "member": "golem",
+            "form": "golem",
+            "moves": [
+              "rockslide",
+              "earthquake",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "dugtrio",
+            "form": "dugtrio",
+            "moves": [
+              "dig",
+              "slash",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "marowak",
+            "form": "marowak",
+            "moves": [
+              "boneclub",
+              "submission",
+              "megakick",
+              "thrash"
+            ]
+          },
+          {
+            "member": "nidoqueen",
+            "form": "nidoqueen",
+            "moves": [
+              "doubleedge",
+              "surf",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "rhydon",
+            "form": "rhyhorn",
+            "moves": [
+              "dig",
+              "strength",
+              "takedown",
+              "hornattack"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "nidorino",
+              "level": 37,
+              "moves": [
+                "hornattack",
+                "poisonsting",
+                "focusenergy",
+                "furyattack"
+              ]
+            },
+            "answer": {
+              "move": "earthquake",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 161.2,
+              "maxPercent": 189.8,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 41 Golem Earthquake vs. Lvl 37 Nidorino: 158-186 (130.5 - 153.7%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "hornattack",
+              "minPercent": 4.3,
+              "maxPercent": 6,
+              "ko": "",
+              "description": "Lvl 37 Nidorino Horn Attack vs. Lvl 41 Golem: 5-7 (3.5 - 4.9%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "kangaskhan",
+              "level": 35,
+              "moves": [
+                "cometpunch",
+                "rage",
+                "bite",
+                "tailwhip"
+              ]
+            },
+            "answer": {
+              "move": "submission",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 58.9,
+              "maxPercent": 69.4,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 41 Golem Submission vs. Lvl 35 Kangaskhan: 73-86 (50 - 58.9%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "bite",
+              "minPercent": 7.8,
+              "maxPercent": 9.5,
+              "ko": "",
+              "description": "Lvl 35 Kangaskhan Bite vs. Lvl 41 Golem: 9-11 (6.3 - 7.7%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rhyhorn",
+              "level": 37,
+              "moves": [
+                "hornattack",
+                "stomp",
+                "tailwhip"
+              ]
+            },
+            "answer": {
+              "move": "surf",
+              "member": "nidoqueen",
+              "form": "nidoqueen",
+              "minPercent": 184.8,
+              "maxPercent": 217.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 41 Nidoqueen Surf vs. Lvl 37 Rhyhorn: 207-244 (153.3 - 180.7%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hornattack",
+              "minPercent": 13.7,
+              "maxPercent": 16.1,
+              "ko": "possible 7HKO",
+              "description": "Lvl 37 Rhyhorn Horn Attack vs. Lvl 41 Nidoqueen: 17-20 (11.3 - 13.3%) -- possible 7HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "nidoqueen",
+              "level": 41,
+              "moves": [
+                "scratch",
+                "tailwhip",
+                "bodyslam",
+                "poisonsting"
+              ]
+            },
+            "answer": {
+              "move": "earthquake",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 85.5,
+              "maxPercent": 100.8,
+              "ko": "5.1% chance to OHKO",
+              "description": "Lvl 41 Golem Earthquake vs. Lvl 41 Nidoqueen: 112-132 (71.3 - 84%) -- 5.1% chance to OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "bodyslam",
+              "minPercent": 8.6,
+              "maxPercent": 10.3,
+              "ko": "",
+              "description": "Lvl 41 Nidoqueen Body Slam vs. Lvl 41 Golem: 10-12 (7 - 8.4%)"
+            }
+          }
+        ],
+        "lead": "golem",
+        "warnings": []
+      },
+      {
+        "boss": "sabrina",
+        "name": "Sabrina",
+        "location": "Saffron City",
+        "stage": 5,
+        "level": 43,
+        "usable": [
+          {
+            "member": "sandslash",
+            "form": "sandslash",
+            "moves": [
+              "earthquake",
+              "rest",
+              "submission",
+              "slash"
+            ]
+          },
+          {
+            "member": "golem",
+            "form": "golem",
+            "moves": [
+              "rockslide",
+              "earthquake",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "dugtrio",
+            "form": "dugtrio",
+            "moves": [
+              "dig",
+              "slash",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "marowak",
+            "form": "marowak",
+            "moves": [
+              "boneclub",
+              "submission",
+              "megakick",
+              "thrash"
+            ]
+          },
+          {
+            "member": "nidoqueen",
+            "form": "nidoqueen",
+            "moves": [
+              "doubleedge",
+              "surf",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "rhydon",
+            "form": "rhydon",
+            "moves": [
+              "dig",
+              "submission",
+              "surf",
+              "megakick"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "kadabra",
+              "level": 38,
+              "moves": [
+                "disable",
+                "psybeam",
+                "recover",
+                "psychic"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 154.8,
+              "maxPercent": 182.1,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 43 Rhydon Dig vs. Lvl 38 Kadabra: 130-153 (120.3 - 141.6%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "psychic",
+              "minPercent": 46.2,
+              "maxPercent": 54.5,
+              "ko": "56.9% chance to 2HKO",
+              "description": "Lvl 38 Kadabra Psychic vs. Lvl 43 Rhydon: 66-78 (38.8 - 45.8%) -- 56.9% chance to 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "mrmime",
+              "level": 37,
+              "moves": [
+                "confusion",
+                "barrier",
+                "lightscreen",
+                "doubleslap"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 109.8,
+              "maxPercent": 129.3,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 43 Rhydon Dig vs. Lvl 37 Mr. Mime: 90-106 (85.7 - 100.9%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "confusion",
+              "minPercent": 21,
+              "maxPercent": 25.2,
+              "ko": "0.1% chance to 4HKO",
+              "description": "Lvl 37 Mr. Mime Confusion vs. Lvl 43 Rhydon: 30-36 (17.6 - 21.1%) -- 0.1% chance to 4HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "venomoth",
+              "level": 38,
+              "moves": [
+                "poisonpowder",
+                "leechlife",
+                "stunspore",
+                "psybeam"
+              ]
+            },
+            "answer": {
+              "move": "rockslide",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 115.9,
+              "maxPercent": 136.4,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 43 Golem Rock Slide vs. Lvl 38 Venomoth: 124-146 (94.6 - 111.4%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "psybeam",
+              "minPercent": 19,
+              "maxPercent": 23.1,
+              "ko": "possible 5HKO",
+              "description": "Lvl 38 Venomoth Psybeam vs. Lvl 43 Golem: 23-28 (15.5 - 18.9%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "alakazam",
+              "level": 43,
+              "moves": [
+                "psybeam",
+                "recover",
+                "psywave",
+                "reflect"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 90.7,
+              "maxPercent": 106.5,
+              "ko": "41% chance to OHKO",
+              "description": "Lvl 43 Rhydon Dig vs. Lvl 43 Alakazam: 97-114 (72.3 - 85%) -- 41% chance to OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "psybeam",
+              "minPercent": 44.8,
+              "maxPercent": 53.1,
+              "ko": "29.1% chance to 2HKO",
+              "description": "Lvl 43 Alakazam Psybeam vs. Lvl 43 Rhydon: 64-76 (37.6 - 44.7%) -- 29.1% chance to 2HKO"
+            }
+          }
+        ],
+        "lead": "rhydon",
+        "warnings": []
+      },
+      {
+        "boss": "blaine",
+        "name": "Blaine",
+        "location": "Cinnabar Island",
+        "stage": 6,
+        "level": 47,
+        "usable": [
+          {
+            "member": "sandslash",
+            "form": "sandslash",
+            "moves": [
+              "earthquake",
+              "rest",
+              "submission",
+              "slash"
+            ]
+          },
+          {
+            "member": "golem",
+            "form": "golem",
+            "moves": [
+              "rockslide",
+              "earthquake",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "dugtrio",
+            "form": "dugtrio",
+            "moves": [
+              "earthquake",
+              "slash",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "marowak",
+            "form": "marowak",
+            "moves": [
+              "boneclub",
+              "submission",
+              "megakick",
+              "thrash"
+            ]
+          },
+          {
+            "member": "nidoqueen",
+            "form": "nidoqueen",
+            "moves": [
+              "blizzard",
+              "submission",
+              "surf",
+              "megakick"
+            ]
+          },
+          {
+            "member": "rhydon",
+            "form": "rhydon",
+            "moves": [
+              "dig",
+              "submission",
+              "surf",
+              "megakick"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "growlithe",
+              "level": 42,
+              "moves": [
+                "ember",
+                "leer",
+                "takedown",
+                "agility"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 217.3,
+              "maxPercent": 255.8,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 47 Rhydon Dig vs. Lvl 42 Growlithe: 226-266 (172.5 - 203%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "ember",
+              "minPercent": 5.8,
+              "maxPercent": 7.1,
+              "ko": "",
+              "description": "Lvl 42 Growlithe Ember vs. Lvl 47 Rhydon: 9-11 (4.8 - 5.9%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "ponyta",
+              "level": 40,
+              "moves": [
+                "tailwhip",
+                "stomp",
+                "growl",
+                "firespin"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 222.9,
+              "maxPercent": 262.5,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 47 Rhydon Dig vs. Lvl 40 Ponyta: 214-252 (176.8 - 208.2%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 3.9,
+              "maxPercent": 5.2,
+              "ko": "",
+              "description": "Lvl 40 Ponyta Stomp vs. Lvl 47 Rhydon: 6-8 (3.2 - 4.3%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rapidash",
+              "level": 42,
+              "moves": [
+                "tailwhip",
+                "stomp",
+                "growl",
+                "firespin"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 157.5,
+              "maxPercent": 185.8,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 47 Rhydon Dig vs. Lvl 42 Rapidash: 178-210 (128 - 151%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 5.2,
+              "maxPercent": 6.5,
+              "ko": "",
+              "description": "Lvl 42 Rapidash Stomp vs. Lvl 47 Rhydon: 8-10 (4.3 - 5.4%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "arcanine",
+              "level": 47,
+              "moves": [
+                "roar",
+                "ember",
+                "fireblast",
+                "takedown"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 99.3,
+              "maxPercent": 116.8,
+              "ko": "94.9% chance to OHKO",
+              "description": "Lvl 47 Rhydon Dig vs. Lvl 47 Arcanine: 148-174 (83.1 - 97.7%) -- 94.9% chance to OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "fireblast",
+              "minPercent": 27.7,
+              "maxPercent": 32.9,
+              "ko": "guaranteed 4HKO",
+              "description": "Lvl 47 Arcanine Fire Blast vs. Lvl 47 Rhydon: 43-51 (23.2 - 27.5%) -- guaranteed 4HKO"
+            }
+          }
+        ],
+        "lead": "rhydon",
+        "warnings": []
+      },
+      {
+        "boss": "giovanni-gym",
+        "name": "Giovanni",
+        "location": "Viridian City",
+        "stage": 7,
+        "level": 50,
+        "usable": [
+          {
+            "member": "sandslash",
+            "form": "sandslash",
+            "moves": [
+              "earthquake",
+              "rest",
+              "submission",
+              "slash"
+            ]
+          },
+          {
+            "member": "golem",
+            "form": "golem",
+            "moves": [
+              "rockslide",
+              "earthquake",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "dugtrio",
+            "form": "dugtrio",
+            "moves": [
+              "earthquake",
+              "slash",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "marowak",
+            "form": "marowak",
+            "moves": [
+              "boneclub",
+              "submission",
+              "megakick",
+              "thrash"
+            ]
+          },
+          {
+            "member": "nidoqueen",
+            "form": "nidoqueen",
+            "moves": [
+              "blizzard",
+              "submission",
+              "surf",
+              "megakick"
+            ]
+          },
+          {
+            "member": "rhydon",
+            "form": "rhydon",
+            "moves": [
+              "dig",
+              "submission",
+              "surf",
+              "megakick"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "rhyhorn",
+              "level": 45,
+              "moves": [
+                "stomp",
+                "tailwhip",
+                "furyattack",
+                "horndrill"
+              ]
+            },
+            "answer": {
+              "move": "surf",
+              "member": "nidoqueen",
+              "form": "nidoqueen",
+              "minPercent": 192.5,
+              "maxPercent": 226.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 50 Nidoqueen Surf vs. Lvl 45 Rhyhorn: 258-304 (159.2 - 187.6%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 14,
+              "maxPercent": 16.7,
+              "ko": "possible 6HKO",
+              "description": "Lvl 45 Rhyhorn Stomp vs. Lvl 50 Nidoqueen: 21-25 (11.6 - 13.8%) -- possible 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "dugtrio",
+              "level": 42,
+              "moves": [
+                "growl",
+                "dig",
+                "sandattack",
+                "slash"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 139.8,
+              "maxPercent": 164.8,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 50 Rhydon Dig vs. Lvl 42 Dugtrio: 123-145 (107.8 - 127.1%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "dig",
+              "minPercent": 37.6,
+              "maxPercent": 44.8,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 42 Dugtrio Dig vs. Lvl 50 Rhydon: 62-74 (31.6 - 37.7%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "nidoqueen",
+              "level": 44,
+              "moves": [
+                "scratch",
+                "tailwhip",
+                "bodyslam",
+                "poisonsting"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 123.6,
+              "maxPercent": 145.7,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 50 Rhydon Dig vs. Lvl 44 Nidoqueen: 173-204 (103.5 - 122.1%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "bodyslam",
+              "minPercent": 6.1,
+              "maxPercent": 7.3,
+              "ko": "",
+              "description": "Lvl 44 Nidoqueen Body Slam vs. Lvl 50 Rhydon: 10-12 (5.1 - 6.1%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "nidoking",
+              "level": 45,
+              "moves": [
+                "tackle",
+                "hornattack",
+                "poisonsting",
+                "thrash"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 135.6,
+              "maxPercent": 160,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 50 Rhydon Dig vs. Lvl 45 Nidoking: 183-216 (112.2 - 132.5%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "thrash",
+              "minPercent": 6.7,
+              "maxPercent": 8.5,
+              "ko": "",
+              "description": "Lvl 45 Nidoking Thrash vs. Lvl 50 Rhydon: 11-14 (5.6 - 7.1%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rhydon",
+              "level": 50,
+              "moves": [
+                "stomp",
+                "tailwhip",
+                "fissure",
+                "horndrill"
+              ]
+            },
+            "answer": {
+              "move": "surf",
+              "member": "nidoqueen",
+              "form": "nidoqueen",
+              "minPercent": 112.1,
+              "maxPercent": 131.8,
+              "ko": "guaranteed OHKO",
+              "description": "Nidoqueen Surf vs. Rhydon: 194-228 (95 - 111.7%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 22.7,
+              "maxPercent": 26.7,
+              "ko": "18% chance to 4HKO",
+              "description": "Rhydon Stomp vs. Nidoqueen: 34-40 (18.7 - 22%) -- 18% chance to 4HKO"
+            }
+          }
+        ],
+        "lead": "nidoqueen",
+        "warnings": []
+      },
+      {
+        "boss": "rival-route22-late",
+        "name": "Rival",
+        "location": "Route 22",
+        "stage": 8,
+        "level": 53,
+        "rivalStarter": "charmander",
+        "usable": [
+          {
+            "member": "sandslash",
+            "form": "sandslash",
+            "moves": [
+              "earthquake",
+              "rest",
+              "submission",
+              "slash"
+            ]
+          },
+          {
+            "member": "golem",
+            "form": "golem",
+            "moves": [
+              "rockslide",
+              "earthquake",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "dugtrio",
+            "form": "dugtrio",
+            "moves": [
+              "earthquake",
+              "slash",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "marowak",
+            "form": "marowak",
+            "moves": [
+              "boneclub",
+              "submission",
+              "megakick",
+              "thrash"
+            ]
+          },
+          {
+            "member": "nidoqueen",
+            "form": "nidoqueen",
+            "moves": [
+              "blizzard",
+              "submission",
+              "surf",
+              "megakick"
+            ]
+          },
+          {
+            "member": "rhydon",
+            "form": "rhydon",
+            "moves": [
+              "dig",
+              "submission",
+              "surf",
+              "megakick"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeot",
+              "level": 47,
+              "moves": [
+                "quickattack",
+                "whirlwind",
+                "wingattack",
+                "agility"
+              ]
+            },
+            "answer": {
+              "move": "rockslide",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 93,
+              "maxPercent": 109.9,
+              "ko": "59% chance to OHKO",
+              "description": "Lvl 53 Golem Rock Slide vs. Lvl 47 Pidgeot: 132-156 (76.7 - 90.6%) -- 59% chance to OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "quickattack",
+              "minPercent": 4.8,
+              "maxPercent": 6.1,
+              "ko": "",
+              "description": "Lvl 47 Pidgeot Quick Attack vs. Lvl 53 Golem: 7-9 (3.8 - 4.9%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rhyhorn",
+              "level": 45,
+              "moves": [
+                "stomp",
+                "tailwhip",
+                "furyattack",
+                "horndrill"
+              ]
+            },
+            "answer": {
+              "move": "surf",
+              "member": "nidoqueen",
+              "form": "nidoqueen",
+              "minPercent": 212.7,
+              "maxPercent": 250.7,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 53 Nidoqueen Surf vs. Lvl 45 Rhyhorn: 285-336 (175.9 - 207.4%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 12,
+              "maxPercent": 14.6,
+              "ko": "possible 7HKO",
+              "description": "Lvl 45 Rhyhorn Stomp vs. Lvl 53 Nidoqueen: 19-23 (9.9 - 12%) -- possible 7HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "exeggcute",
+              "level": 45,
+              "moves": [
+                "leechseed",
+                "stunspore",
+                "poisonpowder",
+                "solarbeam"
+              ]
+            },
+            "answer": {
+              "move": "blizzard",
+              "member": "nidoqueen",
+              "form": "nidoqueen",
+              "minPercent": 109.5,
+              "maxPercent": 129.3,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 53 Nidoqueen Blizzard vs. Lvl 45 Exeggcute: 127-150 (88.1 - 104.1%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "solarbeam",
+              "minPercent": 28.5,
+              "maxPercent": 34.2,
+              "ko": "1.2% chance to 3HKO",
+              "description": "Lvl 45 Exeggcute Solar Beam vs. Lvl 53 Nidoqueen: 45-54 (23.5 - 28.2%) -- 1.2% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "gyarados",
+              "level": 47,
+              "moves": [
+                "bite",
+                "dragonrage",
+                "leer",
+                "hydropump"
+              ]
+            },
+            "answer": {
+              "move": "rockslide",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 83,
+              "maxPercent": 98,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 53 Golem Rock Slide vs. Lvl 47 Gyarados: 127-150 (69.3 - 81.9%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "hydropump",
+              "minPercent": 221.8,
+              "maxPercent": 261.2,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 47 Gyarados Hydro Pump vs. Lvl 53 Golem: 326-384 (180.1 - 212.1%) -- guaranteed OHKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "alakazam",
+              "level": 50,
+              "moves": [
+                "psybeam",
+                "recover",
+                "psychic",
+                "reflect"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 100,
+              "maxPercent": 117.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 53 Rhydon Dig vs. Lvl 50 Alakazam: 123-145 (79.8 - 94.1%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "psychic",
+              "minPercent": 55.7,
+              "maxPercent": 66.1,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 50 Alakazam Psychic vs. Lvl 53 Rhydon: 97-115 (46.8 - 55.5%) -- guaranteed 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charizard",
+              "level": 53,
+              "moves": [
+                "leer",
+                "rage",
+                "slash",
+                "flamethrower"
+              ]
+            },
+            "answer": {
+              "move": "rockslide",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 148.1,
+              "maxPercent": 174,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 53 Golem Rock Slide vs. Lvl 53 Charizard: 228-268 (121.9 - 143.3%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "flamethrower",
+              "minPercent": 24.5,
+              "maxPercent": 29.3,
+              "ko": "99.9% chance to 4HKO",
+              "description": "Lvl 53 Charizard Flamethrower vs. Lvl 53 Golem: 36-43 (19.8 - 23.7%) -- 99.9% chance to 4HKO"
+            }
+          }
+        ],
+        "lead": "golem",
+        "warnings": [
+          "Gyarados can KO Golem with Hydro Pump."
+        ]
+      },
+      {
+        "boss": "lorelei",
+        "name": "Lorelei",
+        "location": "Indigo Plateau",
+        "stage": 8,
+        "level": 56,
+        "usable": [
+          {
+            "member": "sandslash",
+            "form": "sandslash",
+            "moves": [
+              "earthquake",
+              "rest",
+              "submission",
+              "slash"
+            ]
+          },
+          {
+            "member": "golem",
+            "form": "golem",
+            "moves": [
+              "rockslide",
+              "earthquake",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "dugtrio",
+            "form": "dugtrio",
+            "moves": [
+              "earthquake",
+              "slash",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "marowak",
+            "form": "marowak",
+            "moves": [
+              "boneclub",
+              "submission",
+              "megakick",
+              "thrash"
+            ]
+          },
+          {
+            "member": "nidoqueen",
+            "form": "nidoqueen",
+            "moves": [
+              "blizzard",
+              "submission",
+              "surf",
+              "megakick"
+            ]
+          },
+          {
+            "member": "rhydon",
+            "form": "rhydon",
+            "moves": [
+              "dig",
+              "submission",
+              "surf",
+              "megakick"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "dewgong",
+              "level": 54,
+              "moves": [
+                "growl",
+                "aurorabeam",
+                "rest",
+                "takedown"
+              ]
+            },
+            "answer": {
+              "move": "rockslide",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 72.2,
+              "maxPercent": 85.2,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 56 Golem Rock Slide vs. Lvl 54 Dewgong: 122-144 (60 - 70.9%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "aurorabeam",
+              "minPercent": 69,
+              "maxPercent": 81.3,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 54 Dewgong Aurora Beam vs. Lvl 56 Golem: 107-126 (56.3 - 66.3%) -- guaranteed 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "cloyster",
+              "level": 53,
+              "moves": [
+                "supersonic",
+                "clamp",
+                "aurorabeam",
+                "spikecannon"
+              ]
+            },
+            "answer": {
+              "move": "rockslide",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 57.3,
+              "maxPercent": 67.7,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 56 Golem Rock Slide vs. Lvl 53 Cloyster: 71-84 (45.2 - 53.5%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "clamp",
+              "minPercent": 67.7,
+              "maxPercent": 80,
+              "ko": "guaranteed 2HKO after trapping damage",
+              "description": "Lvl 53 Cloyster Clamp vs. Lvl 56 Golem: 105-124 (55.2 - 65.2%) -- guaranteed 2HKO after trapping damage"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "slowbro",
+              "level": 54,
+              "moves": [
+                "growl",
+                "watergun",
+                "withdraw",
+                "amnesia"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 42.3,
+              "maxPercent": 49.7,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 56 Rhydon Dig vs. Lvl 54 Slowbro: 74-87 (35.4 - 41.6%) -- guaranteed 3HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "watergun",
+              "minPercent": 72.1,
+              "maxPercent": 85.2,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 54 Slowbro Water Gun vs. Lvl 56 Rhydon: 132-156 (60.5 - 71.5%) -- guaranteed 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "jynx",
+              "level": 56,
+              "moves": [
+                "doubleslap",
+                "icepunch",
+                "bodyslam",
+                "thrash"
+              ]
+            },
+            "answer": {
+              "move": "rockslide",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 124.5,
+              "maxPercent": 146.9,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 56 Golem Rock Slide vs. Lvl 56 Jynx: 183-216 (100 - 118%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "icepunch",
+              "minPercent": 85.2,
+              "maxPercent": 100.6,
+              "ko": "5.1% chance to OHKO",
+              "description": "Lvl 56 Jynx Ice Punch vs. Lvl 56 Golem: 132-156 (69.4 - 82.1%) -- 5.1% chance to OHKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "lapras",
+              "level": 56,
+              "moves": [
+                "bodyslam",
+                "confuseray",
+                "blizzard",
+                "hydropump"
+              ]
+            },
+            "answer": {
+              "move": "rockslide",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 53.2,
+              "maxPercent": 62.7,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 56 Golem Rock Slide vs. Lvl 56 Lapras: 117-138 (45.8 - 54.1%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "hydropump",
+              "minPercent": 272.3,
+              "maxPercent": 320,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 56 Lapras Hydro Pump vs. Lvl 56 Golem: 422-496 (222.1 - 261%) -- guaranteed OHKO"
+            }
+          }
+        ],
+        "lead": "golem",
+        "warnings": [
+          "Weak against Slowbro: best is Lvl 56 Rhydon Dig vs. Lvl 54 Slowbro: 74-87 (35.4 - 41.6%) -- guaranteed 3HKO.",
+          "Jynx can KO Golem with Ice Punch.",
+          "Lapras can KO Golem with Hydro Pump."
+        ]
+      },
+      {
+        "boss": "bruno",
+        "name": "Bruno",
+        "location": "Indigo Plateau",
+        "stage": 8,
+        "level": 58,
+        "usable": [
+          {
+            "member": "sandslash",
+            "form": "sandslash",
+            "moves": [
+              "earthquake",
+              "rest",
+              "submission",
+              "slash"
+            ]
+          },
+          {
+            "member": "golem",
+            "form": "golem",
+            "moves": [
+              "rockslide",
+              "earthquake",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "dugtrio",
+            "form": "dugtrio",
+            "moves": [
+              "earthquake",
+              "slash",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "marowak",
+            "form": "marowak",
+            "moves": [
+              "boneclub",
+              "submission",
+              "megakick",
+              "thrash"
+            ]
+          },
+          {
+            "member": "nidoqueen",
+            "form": "nidoqueen",
+            "moves": [
+              "blizzard",
+              "submission",
+              "surf",
+              "megakick"
+            ]
+          },
+          {
+            "member": "rhydon",
+            "form": "rhydon",
+            "moves": [
+              "dig",
+              "submission",
+              "surf",
+              "megakick"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "onix",
+              "level": 53,
+              "moves": [
+                "rockthrow",
+                "rage",
+                "slam",
+                "harden"
+              ]
+            },
+            "answer": {
+              "move": "surf",
+              "member": "nidoqueen",
+              "form": "nidoqueen",
+              "minPercent": 267.6,
+              "maxPercent": 314.8,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 58 Nidoqueen Surf vs. Lvl 53 Onix: 289-340 (204.9 - 241.1%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "slam",
+              "minPercent": 12.2,
+              "maxPercent": 14.5,
+              "ko": "possible 7HKO",
+              "description": "Lvl 53 Onix Slam vs. Lvl 58 Nidoqueen: 21-25 (10 - 12%) -- possible 7HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "hitmonchan",
+              "level": 55,
+              "moves": [
+                "icepunch",
+                "thunderpunch",
+                "megapunch",
+                "counter"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 75.8,
+              "maxPercent": 89.1,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 58 Rhydon Dig vs. Lvl 55 Hitmonchan: 97-114 (59.5 - 69.9%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "icepunch",
+              "minPercent": 28.6,
+              "maxPercent": 33.9,
+              "ko": "0.3% chance to 3HKO",
+              "description": "Lvl 55 Hitmonchan Ice Punch vs. Lvl 58 Rhydon: 54-64 (23.8 - 28.3%) -- 0.3% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "hitmonlee",
+              "level": 55,
+              "moves": [
+                "jumpkick",
+                "focusenergy",
+                "highjumpkick",
+                "megakick"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 95.3,
+              "maxPercent": 112.5,
+              "ko": "74.4% chance to OHKO",
+              "description": "Lvl 58 Rhydon Dig vs. Lvl 55 Hitmonlee: 122-144 (74.8 - 88.3%) -- 74.4% chance to OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "highjumpkick",
+              "minPercent": 54,
+              "maxPercent": 63.5,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 55 Hitmonlee High Jump Kick vs. Lvl 58 Rhydon: 102-120 (45.1 - 53%) -- guaranteed 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "onix",
+              "level": 56,
+              "moves": [
+                "rockthrow",
+                "rage",
+                "slam",
+                "harden"
+              ]
+            },
+            "answer": {
+              "move": "surf",
+              "member": "nidoqueen",
+              "form": "nidoqueen",
+              "minPercent": 241.2,
+              "maxPercent": 284.2,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 58 Nidoqueen Surf vs. Lvl 56 Onix: 275-324 (184.5 - 217.4%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "slam",
+              "minPercent": 12.8,
+              "maxPercent": 15.7,
+              "ko": "possible 7HKO",
+              "description": "Lvl 56 Onix Slam vs. Lvl 58 Nidoqueen: 22-27 (10.5 - 12.9%) -- possible 7HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "machamp",
+              "level": 58,
+              "moves": [
+                "leer",
+                "focusenergy",
+                "fissure",
+                "submission"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 50.3,
+              "maxPercent": 59.7,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 58 Rhydon Dig vs. Lvl 58 Machamp: 91-108 (41.7 - 49.5%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "submission",
+              "minPercent": 59.3,
+              "maxPercent": 69.8,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 58 Machamp Submission vs. Lvl 58 Rhydon: 112-132 (49.5 - 58.4%) -- guaranteed 2HKO"
+            }
+          }
+        ],
+        "lead": "nidoqueen",
+        "warnings": []
+      },
+      {
+        "boss": "agatha",
+        "name": "Agatha",
+        "location": "Indigo Plateau",
+        "stage": 8,
+        "level": 60,
+        "usable": [
+          {
+            "member": "sandslash",
+            "form": "sandslash",
+            "moves": [
+              "earthquake",
+              "rest",
+              "submission",
+              "slash"
+            ]
+          },
+          {
+            "member": "golem",
+            "form": "golem",
+            "moves": [
+              "rockslide",
+              "earthquake",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "dugtrio",
+            "form": "dugtrio",
+            "moves": [
+              "earthquake",
+              "slash",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "marowak",
+            "form": "marowak",
+            "moves": [
+              "boneclub",
+              "submission",
+              "megakick",
+              "thrash"
+            ]
+          },
+          {
+            "member": "nidoqueen",
+            "form": "nidoqueen",
+            "moves": [
+              "blizzard",
+              "submission",
+              "surf",
+              "megakick"
+            ]
+          },
+          {
+            "member": "rhydon",
+            "form": "rhydon",
+            "moves": [
+              "dig",
+              "submission",
+              "surf",
+              "megakick"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "gengar",
+              "level": 56,
+              "moves": [
+                "confuseray",
+                "nightshade",
+                "hypnosis",
+                "dreameater"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 169.7,
+              "maxPercent": 200,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 60 Rhydon Dig vs. Lvl 56 Gengar: 241-284 (136.1 - 160.4%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "dreameater",
+              "minPercent": 38.3,
+              "maxPercent": 45.4,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 56 Gengar Dream Eater vs. Lvl 60 Rhydon: 75-89 (32.1 - 38.1%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "golbat",
+              "level": 56,
+              "moves": [
+                "supersonic",
+                "confuseray",
+                "wingattack",
+                "haze"
+              ]
+            },
+            "answer": {
+              "move": "rockslide",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 93.7,
+              "maxPercent": 110.1,
+              "ko": "61.5% chance to OHKO",
+              "description": "Lvl 60 Golem Rock Slide vs. Lvl 56 Golbat: 148-174 (76.2 - 89.6%) -- 61.5% chance to OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "wingattack",
+              "minPercent": 4.2,
+              "maxPercent": 5.4,
+              "ko": "",
+              "description": "Lvl 56 Golbat Wing Attack vs. Lvl 60 Golem: 7-9 (3.4 - 4.4%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "haunter",
+              "level": 55,
+              "moves": [
+                "confuseray",
+                "nightshade",
+                "hypnosis",
+                "dreameater"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 233.3,
+              "maxPercent": 274.8,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 60 Rhydon Dig vs. Lvl 55 Haunter: 287-338 (182.8 - 215.2%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "dreameater",
+              "minPercent": 34.7,
+              "maxPercent": 40.8,
+              "ko": "guaranteed 3HKO",
+              "description": "Lvl 55 Haunter Dream Eater vs. Lvl 60 Rhydon: 68-80 (29.1 - 34.3%) -- guaranteed 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "arbok",
+              "level": 58,
+              "moves": [
+                "bite",
+                "glare",
+                "screech",
+                "acid"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 147.9,
+              "maxPercent": 174,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 60 Rhydon Dig vs. Lvl 58 Arbok: 216-254 (118 - 138.7%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "bite",
+              "minPercent": 5.1,
+              "maxPercent": 6.1,
+              "ko": "",
+              "description": "Lvl 58 Arbok Bite vs. Lvl 60 Rhydon: 10-12 (4.2 - 5.1%)"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "gengar",
+              "level": 60,
+              "moves": [
+                "confuseray",
+                "nightshade",
+                "toxic",
+                "dreameater"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 149.7,
+              "maxPercent": 176.2,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 60 Rhydon Dig vs. Lvl 60 Gengar: 226-266 (119.5 - 140.7%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "dreameater",
+              "minPercent": 44.9,
+              "maxPercent": 53.1,
+              "ko": "28.2% chance to 2HKO",
+              "description": "Lvl 60 Gengar Dream Eater vs. Lvl 60 Rhydon: 88-104 (37.7 - 44.6%) -- 28.2% chance to 2HKO"
+            }
+          }
+        ],
+        "lead": "rhydon",
+        "warnings": []
+      },
+      {
+        "boss": "lance",
+        "name": "Lance",
+        "location": "Indigo Plateau",
+        "stage": 8,
+        "level": 62,
+        "usable": [
+          {
+            "member": "sandslash",
+            "form": "sandslash",
+            "moves": [
+              "earthquake",
+              "rest",
+              "submission",
+              "slash"
+            ]
+          },
+          {
+            "member": "golem",
+            "form": "golem",
+            "moves": [
+              "rockslide",
+              "earthquake",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "dugtrio",
+            "form": "dugtrio",
+            "moves": [
+              "earthquake",
+              "slash",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "marowak",
+            "form": "marowak",
+            "moves": [
+              "boneclub",
+              "submission",
+              "megakick",
+              "thrash"
+            ]
+          },
+          {
+            "member": "nidoqueen",
+            "form": "nidoqueen",
+            "moves": [
+              "blizzard",
+              "submission",
+              "surf",
+              "megakick"
+            ]
+          },
+          {
+            "member": "rhydon",
+            "form": "rhydon",
+            "moves": [
+              "dig",
+              "submission",
+              "surf",
+              "megakick"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "gyarados",
+              "level": 58,
+              "moves": [
+                "dragonrage",
+                "leer",
+                "hydropump",
+                "hyperbeam"
+              ]
+            },
+            "answer": {
+              "move": "rockslide",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 73.3,
+              "maxPercent": 86.6,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 62 Golem Rock Slide vs. Lvl 58 Gyarados: 137-162 (61.1 - 72.3%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "hydropump",
+              "minPercent": 246.8,
+              "maxPercent": 290.1,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 58 Gyarados Hydro Pump vs. Lvl 62 Golem: 422-496 (200.9 - 236.1%) -- guaranteed OHKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "dragonair",
+              "level": 56,
+              "moves": [
+                "agility",
+                "slam",
+                "dragonrage",
+                "hyperbeam"
+              ]
+            },
+            "answer": {
+              "move": "blizzard",
+              "member": "nidoqueen",
+              "form": "nidoqueen",
+              "minPercent": 86.7,
+              "maxPercent": 102.1,
+              "ko": "15.4% chance to OHKO",
+              "description": "Lvl 62 Nidoqueen Blizzard vs. Lvl 56 Dragonair: 124-146 (69.6 - 82%) -- 15.4% chance to OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hyperbeam",
+              "minPercent": 30.6,
+              "maxPercent": 36.1,
+              "ko": "44.6% chance to 3HKO",
+              "description": "Lvl 56 Dragonair Hyper Beam vs. Lvl 62 Nidoqueen: 56-66 (25.2 - 29.7%) -- 44.6% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "dragonair",
+              "level": 56,
+              "moves": [
+                "agility",
+                "slam",
+                "dragonrage",
+                "hyperbeam"
+              ]
+            },
+            "answer": {
+              "move": "blizzard",
+              "member": "nidoqueen",
+              "form": "nidoqueen",
+              "minPercent": 86.7,
+              "maxPercent": 102.1,
+              "ko": "15.4% chance to OHKO",
+              "description": "Lvl 62 Nidoqueen Blizzard vs. Lvl 56 Dragonair: 124-146 (69.6 - 82%) -- 15.4% chance to OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "hyperbeam",
+              "minPercent": 30.6,
+              "maxPercent": 36.1,
+              "ko": "44.6% chance to 3HKO",
+              "description": "Lvl 56 Dragonair Hyper Beam vs. Lvl 62 Nidoqueen: 56-66 (25.2 - 29.7%) -- 44.6% chance to 3HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "aerodactyl",
+              "level": 60,
+              "moves": [
+                "supersonic",
+                "bite",
+                "takedown",
+                "hyperbeam"
+              ]
+            },
+            "answer": {
+              "move": "rockslide",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 85.1,
+              "maxPercent": 100.6,
+              "ko": "5.1% chance to OHKO",
+              "description": "Lvl 62 Golem Rock Slide vs. Lvl 60 Aerodactyl: 149-176 (69.9 - 82.6%) -- 5.1% chance to OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "hyperbeam",
+              "minPercent": 16.4,
+              "maxPercent": 19.3,
+              "ko": "possible 6HKO",
+              "description": "Lvl 60 Aerodactyl Hyper Beam vs. Lvl 62 Golem: 28-33 (13.3 - 15.7%) -- possible 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "dragonite",
+              "level": 62,
+              "moves": [
+                "agility",
+                "slam",
+                "barrier",
+                "hyperbeam"
+              ]
+            },
+            "answer": {
+              "move": "blizzard",
+              "member": "nidoqueen",
+              "form": "nidoqueen",
+              "minPercent": 92.8,
+              "maxPercent": 109.3,
+              "ko": "56.4% chance to OHKO",
+              "description": "Lvl 62 Nidoqueen Blizzard vs. Lvl 62 Dragonite: 180-212 (77.2 - 90.9%) -- 56.4% chance to OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "hyperbeam",
+              "minPercent": 50.3,
+              "maxPercent": 59.6,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 62 Dragonite Hyper Beam vs. Lvl 62 Nidoqueen: 92-109 (41.4 - 49%) -- guaranteed 2HKO"
+            }
+          }
+        ],
+        "lead": "golem",
+        "warnings": [
+          "Gyarados can KO Golem with Hydro Pump."
+        ]
+      },
+      {
+        "boss": "rival-champion",
+        "name": "Rival",
+        "location": "Indigo Plateau (Champion)",
+        "stage": 8,
+        "level": 65,
+        "rivalStarter": "charmander",
+        "usable": [
+          {
+            "member": "sandslash",
+            "form": "sandslash",
+            "moves": [
+              "earthquake",
+              "rest",
+              "submission",
+              "slash"
+            ]
+          },
+          {
+            "member": "golem",
+            "form": "golem",
+            "moves": [
+              "rockslide",
+              "earthquake",
+              "submission",
+              "megakick"
+            ]
+          },
+          {
+            "member": "dugtrio",
+            "form": "dugtrio",
+            "moves": [
+              "earthquake",
+              "slash",
+              "hyperbeam",
+              "takedown"
+            ]
+          },
+          {
+            "member": "marowak",
+            "form": "marowak",
+            "moves": [
+              "boneclub",
+              "submission",
+              "megakick",
+              "thrash"
+            ]
+          },
+          {
+            "member": "nidoqueen",
+            "form": "nidoqueen",
+            "moves": [
+              "blizzard",
+              "submission",
+              "surf",
+              "megakick"
+            ]
+          },
+          {
+            "member": "rhydon",
+            "form": "rhydon",
+            "moves": [
+              "dig",
+              "submission",
+              "surf",
+              "megakick"
+            ]
+          }
+        ],
+        "notYet": [],
+        "matchups": [
+          {
+            "bossMon": {
+              "species": "pidgeot",
+              "level": 61,
+              "moves": [
+                "whirlwind",
+                "wingattack",
+                "skyattack",
+                "mirrormove"
+              ]
+            },
+            "answer": {
+              "move": "rockslide",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 84.1,
+              "maxPercent": 98.9,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 65 Golem Rock Slide vs. Lvl 61 Pidgeot: 153-180 (69.5 - 81.8%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "skyattack",
+              "minPercent": 17.9,
+              "maxPercent": 21.2,
+              "ko": "possible 5HKO",
+              "description": "Lvl 61 Pidgeot Sky Attack vs. Lvl 65 Golem: 32-38 (14.6 - 17.3%) -- possible 5HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "alakazam",
+              "level": 59,
+              "moves": [
+                "psybeam",
+                "recover",
+                "psychic",
+                "reflect"
+              ]
+            },
+            "answer": {
+              "move": "dig",
+              "member": "rhydon",
+              "form": "rhydon",
+              "minPercent": 109.1,
+              "maxPercent": 128.7,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 65 Rhydon Dig vs. Lvl 59 Alakazam: 156-184 (86.6 - 102.2%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "psychic",
+              "minPercent": 50.7,
+              "maxPercent": 59.7,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 59 Alakazam Psychic vs. Lvl 65 Rhydon: 107-126 (42.4 - 50%) -- guaranteed 2HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "rhydon",
+              "level": 61,
+              "moves": [
+                "tailwhip",
+                "furyattack",
+                "horndrill",
+                "leer"
+              ]
+            },
+            "answer": {
+              "move": "surf",
+              "member": "nidoqueen",
+              "form": "nidoqueen",
+              "minPercent": 126,
+              "maxPercent": 148.1,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 65 Nidoqueen Surf vs. Lvl 61 Rhydon: 262-308 (106 - 124.6%) -- guaranteed OHKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "furyattack",
+              "minPercent": 14.1,
+              "maxPercent": 17.2,
+              "ko": "approx. possible 6HKO",
+              "description": "Lvl 61 Rhydon Fury Attack (3 hits) vs. Lvl 65 Nidoqueen: 27-33 (11.6 - 14.2%) -- approx. possible 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "exeggutor",
+              "level": 61,
+              "moves": [
+                "barrage",
+                "hypnosis",
+                "stomp"
+              ]
+            },
+            "answer": {
+              "move": "blizzard",
+              "member": "nidoqueen",
+              "form": "nidoqueen",
+              "minPercent": 44.9,
+              "maxPercent": 53.1,
+              "ko": "28.2% chance to 2HKO",
+              "description": "Lvl 65 Nidoqueen Blizzard vs. Lvl 61 Exeggutor: 88-104 (37.4 - 44.2%) -- 28.2% chance to 2HKO",
+              "outspeeds": true
+            },
+            "threat": {
+              "move": "stomp",
+              "minPercent": 15.6,
+              "maxPercent": 18.8,
+              "ko": "possible 6HKO",
+              "description": "Lvl 61 Exeggutor Stomp vs. Lvl 65 Nidoqueen: 30-36 (12.9 - 15.5%) -- possible 6HKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "gyarados",
+              "level": 63,
+              "moves": [
+                "dragonrage",
+                "leer",
+                "hydropump",
+                "hyperbeam"
+              ]
+            },
+            "answer": {
+              "move": "rockslide",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 70.3,
+              "maxPercent": 83.2,
+              "ko": "guaranteed 2HKO",
+              "description": "Lvl 65 Golem Rock Slide vs. Lvl 63 Gyarados: 142-168 (58.6 - 69.4%) -- guaranteed 2HKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "hydropump",
+              "minPercent": 264.2,
+              "maxPercent": 310.6,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 63 Gyarados Hydro Pump vs. Lvl 65 Golem: 473-556 (215.9 - 253.8%) -- guaranteed OHKO"
+            }
+          },
+          {
+            "bossMon": {
+              "species": "charizard",
+              "level": 65,
+              "moves": [
+                "rage",
+                "slash",
+                "fireblast",
+                "firespin"
+              ]
+            },
+            "answer": {
+              "move": "rockslide",
+              "member": "golem",
+              "form": "golem",
+              "minPercent": 150,
+              "maxPercent": 176.3,
+              "ko": "guaranteed OHKO",
+              "description": "Lvl 65 Golem Rock Slide vs. Lvl 65 Charizard: 279-328 (122.9 - 144.4%) -- guaranteed OHKO",
+              "outspeeds": false
+            },
+            "threat": {
+              "move": "fireblast",
+              "minPercent": 31.3,
+              "maxPercent": 36.9,
+              "ko": "73.1% chance to 3HKO",
+              "description": "Lvl 65 Charizard Fire Blast vs. Lvl 65 Golem: 56-66 (25.5 - 30.1%) -- 73.1% chance to 3HKO"
+            }
+          }
+        ],
+        "lead": "golem",
+        "warnings": [
+          "Gyarados can KO Golem with Hydro Pump."
+        ]
+      }
+    ]
+  }
+}
